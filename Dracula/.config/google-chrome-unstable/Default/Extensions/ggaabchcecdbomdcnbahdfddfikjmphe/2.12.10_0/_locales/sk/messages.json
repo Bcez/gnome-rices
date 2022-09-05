@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Nepodarilo sa spustiť vybranú oblasť zvolenej oblasti na tejto webovej stránke. Použite úplnú obrazovku nahrávania alebo vyskúšajte inú webovú stránku. \n\n (╯ ° □ °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Kliknite na veľkosť animácie a farbu"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "Zavrieť"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "Kurzor Dot Veľkosť a farba"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Uplatniť"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Stiahnite si formát názvu súborov"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "Stiahnuť ▼"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Veľkosť a farba kreslenia"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Pridať ikonu"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Pridaj text"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Skopírovať do schránky"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "Plodina"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Nakreslite šípku"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Čerpať elipsy"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "Kresliť"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Kresliť obdĺžnik"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Bezplatný"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "Zlatý klinec"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Redo"
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "Uložiť"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Vyberte, presuňte, zmeňte veľkosť"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "nastavenie"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Vrátenie späť"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Undo všetko"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "Začnite písanie ..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Prehľadávať súborový systém"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Drag and Drop Image / GIF alebo"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Súbor uložený do priečinka na stiahnutie."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "Aplikujte úpravy na vybrané (VAROVANIE: NEBUDETE ZRUŠENSTVO)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Odstrániť vybraté (Del / Backspace)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Odstráňte každý druhý rám"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Obnoviť vybraté (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Obnoviť všetko"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Odznačiť všetko"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "Image skopírovaný do schránky."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Nepodarilo sa kopírovať obrázok do schránky, môže to byť príliš veľké."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Odkaz skopírovaný na schránku."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Dosiahli ste maximálnu dobu dĺžky záznamu $maxlength$ pre GIF. Premium používatelia to môžu aktualizovať na stránke Nastavenia.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIF sú určené na krátke nahrávky. Ak potrebujete videá v plnej dĺžke, odporúčame náš bezplatný rekordér obrazovky:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "Premium používatelia to môžu aktualizovať na stránke Nastavenia."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Otvorené nastavenia"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "Nahrávanie sa náhle zastavilo?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Farba"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Kresliť veľkosť"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Písmo"
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Rýchlosť prehrávania"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Špeciálny efekt"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Možnosti prémií"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Pozor"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "Pomer aspekt zámku"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Zrušiť"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "Komprimovanie a optimalizácia GIF"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "Aplikujte kompresiu GIF na výraznú zmenu veľkosti súboru GIF av niektorých prípadoch zlepšiť kvalitu. Vrelo odporúčané."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Aplikujte algoritmus na obrázky. Pokúste sa prepnúť túto možnosť, ak máte problémy s kvalitou farby."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Odhadovaná veľkosť GIF:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Snímky:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "V súčasnosti existujú vybrané obrázky, ukladanie bude výstup iba na tieto vybrané rámce -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Kliknite sem a vyberte všetky obrázky"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Rýchlosť prehrávania"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "Spracovanie Toto nahrávanie bude vyžadovať veľa pamäte a výkonu spracovania. Ak nemáte vysoký počítač, odporúča sa vykonať jeden alebo viac z nasledujúcich možností:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Upozorňujeme, či je výsledný GIF prázdny, potom ste došli pamäte."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "Komprimovať a optimalizovať GIF"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Znížte šírku a výšku"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Odstráňte niektoré obrázky"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Znížiť šírku a výšku"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Znížte šírku a výšku/kvalitu GIF, aby ste zlepšili čas spracovania a vytvorili menší súbor."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "Uložiť"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Uložiť"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Stiahnuť súbor"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Nahrajte odkaz na Disk Google a kopírovanie"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "Uložiť"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Spracovanie ..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Nahrávanie ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Otvorený v editore"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Pro Tip: Odstránenie pridaných položiek výberom položky a stlačením tlačidla Delete."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "Pro Tip: Môžete upraviť konkrétne obrázky pomocou „Použiť úpravy na vybranú možnosť“"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "Pro Tip: Posúvajte sa, keď sa vznášate snímku obrazovky / nahrávanie do priblíženia."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "Pro Tip: Pri použití výberu nástroja Podržte Shift, aby ste vybrali viac ako jednu položku."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Pro Tip: Môžete mierku, otáčať, presunúť a vymazať viac položiek naraz."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Pro Tip: Dvakrát kliknite na text, ktorý chcete upraviť."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "Môže sa to vyskytnúť v dôsledku sústredenia okna."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Kopírujte do schránky zlyhala"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "Skopírované do schránky"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Nahrávanie zlyhalo"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Skúste to znova."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Uistite sa, že ste pripojení k internetu a ste akceptovali povolenia Dniv Google."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "Zrušiť a sťahujte súbor"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "Zavrieť"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Skopírovať odkaz"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "Umožnite každému, kto má odkaz na zobrazenie."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "Povoliť výkres"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "Táto možnosť umožňuje používateľom čerpať vo zvolenej oblasti, zatiaľ čo podržaním klávesu CTRL."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Zaznamenajte GIF alebo si snímku obrazovky čokoľvek vo svojom prehliadači - rýchlejšie a jednoduchšie ako kedykoľvek predtým."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture - GIF & Screenshot Tool"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Chrome Capture"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "Prístup k súboru"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Názov súboru"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Obrázky za sekundu (FPS)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "snímky"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Voľné nastavenia"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Zrušiť"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Ste si istý, že chcete pokračovať v plnej obrazovke?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Nezobrazovať to znova"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "Použili ste skratku Chrome Capture Bez orezaného nástroja, čím sa zachytí v režime celej obrazovky."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Otvorený nástroj orezania"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "ALT + C: OPEN / ZATVORENIE CHROME CAPTURE CAPTURNAGE"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "Alt + Shift + S: Full WebPage Screenshot (Beta)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Tu môžete konfigurovať:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "ALT + R: Začiatok / zastavenie nahrávania"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "ALT + S: Viditeľná oblasť Screenshot"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Predvolené skratky sú:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Začiatok plnej obrazovky"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Snímanie celej obrazovky"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Získať prémiu"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Šírka (PX)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Na aktualizáciu na prémiu sa vyžaduje pripojenie na internet."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "Max Resolution Resolution / Quality"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Bez obmedzenia"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "Otvorené"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Predvolená akcia"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 pixelov"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 pixelov (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 pixelov (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 pixelov (4K)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 pixelov (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Povoliť oznámenia"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Zobraziť upozornenia, keď sa zaznamenávajú celé záznamy obrazovky a spracovanie záznamov na pozadí."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Ako použiť"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Otvorte popup"
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Otvorená zvolená oblasť zachytávania"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Skratky"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "podpora"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Kliknutím a ťahaním vyberte vybranú oblasť. \n Kliknite pravým tlačidlom myši na prvok, podržte posun pre viac."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Zachytiť"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Otvorený editor"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Posúvanie webovej stránky"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "Váš prehliadač neumožňuje spúšťať skripty na tejto webovej stránke, bohužiaľ to robí vybranú oblasť a plnú webovú stránku zachytenie nemožné pre túto stránku."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Záznam"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Zaznamenajte až do $SECONDS$ sekundy na gif. Premium používatelia to môžu aktualizovať z",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Stránka nastavení."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Celá obrazovka alebo aplikácia"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Vybraná oblasť"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Otvorte nastavenia"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "Táto karta"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Premium Nastavenia"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Získajte prémiu!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Momentálne ste na voľnom pláne. Upgrade na prémiu odomknúť všetky prémiové funkcie."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Ak chcete pokračovať, prihláste sa do spoločnosti Google."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Chcete upgrade na prémiu?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Už užívateľ prémií?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "Kvalitné GIF kompresia"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Počas nahrávania"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Upraviť zachytenie"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "Základné úpravy"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Editácia rámu"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "Hodnotiť rýchlosť"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Neobmedzené screenshoty na úplné stránky."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "Kliknite a indikáciu myši"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "Porovnať plány"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "Vyladenie rýchlosti prehrávania prehrávania"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Neobmedzené nahrávky GIF."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "10SEC limit na gif"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "Vysoko kvalitné Gify"
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 pixelov max"
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Neobmedzené screenshoty."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "Zaznamenávanie špeciálnych efektov"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "zadarmo"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Používať"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Základné úpravy"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "Základné nahrávanie GIF"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Neobmedzené screenshots"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Prémia"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "Začať"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "Kvalitné GIF kompresia"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Funkcie bohatý úprav"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Všetko zdarma"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Neobmedzený vysoko kvalitný GIF nahrávanie"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "Plne vratné"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "jednorazový poplatok"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Prihláste sa tu"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Kvalita nahrávania (10 = najlepšie)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Sme neustále sa snažíme zlepšiť snímanie Chrome, podeľte sa o to, čo potrebuje zlepšenie e-mailom"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Je nám ľúto!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "Zavrieť"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "Potvrdiť"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Ak ste našli toto rozšírenie užitočné, zanechajte si hodnotenie alebo recenziu. \n\n Odchodom z ratingu nám môžete pomôcť dosiahnuť viac používateľov, ktorí pomôžu financovať neustále zlepšovanie a udržiavať všeobecné používanie zadarmo."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Veľmi si ceníme vás zakúpením prémie a rád by sme počuli akúkoľvek spätnú väzbu, ktorú nám musíte pomôcť zlepšiť produkt a dosiahnuť viac používateľov."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Vaše recenzie Udržujte náš malý tím motivovaný, aby sa Chrome Capture ešte lepšie!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Veľmi si ceníme vás zakúpením prémie a rád by sme počuli akúkoľvek spätnú väzbu, ktorú nám musíte pomôcť zlepšiť produkt a dosiahnuť viac používateľov."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Review In Web Store?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Možno neskôr"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Nie ďakujem"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Poslať email"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Ďakujem! 😍"
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "Ako sa máme?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "OK, jasné"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Maximálna dĺžka záznamu"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Logika rekordéra"
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Performant V2 - spracovanie trvá dlhšie, ale funguje to pre 4K obrazovky a viac monitorov"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Vedúci - Upozornenie nefunguje pre 4K obrazovky alebo viac monitorov"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Normálne - ak sa vyskytnú problémy s výkonom"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Uložiť screenshot as"
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Uložiť nahrávanie ako"
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "sekunda"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "Zobraziť kliknutím na animáciu"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "Táto možnosť nakreslí animáciu kruhu okolo miesta kliknutia."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Zobraziť bodku na umiestnenie kurzora"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "Táto možnosť čerpá malý kruh, ktorý označuje, kde sa nachádza myš."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Nie je možné zachytiť túto webovú stránku. Použite celú obrazovku/zachytenie aplikácií alebo skúste zachytiť inú webovú stránku. \n\n (╯ ° □ °） ┻━┻ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Výška (px)"
+   }
+}

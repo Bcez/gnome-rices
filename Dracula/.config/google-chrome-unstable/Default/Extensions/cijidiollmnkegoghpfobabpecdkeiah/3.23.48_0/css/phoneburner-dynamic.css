@@ -1,0 +1,56 @@
+#hippo_video_button{
+    margin: 0;
+    border: 0;
+    padding: 7px 15px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#hippo_video_button:hover{
+    background-color: #ececec;
+}
+
+.hv-embed-main-container {
+    position: relative;
+    margin: 0px;
+    margin-right: 5px;
+    float: right;
+}
+    
+.hv-embed-main-container .tooltiptext {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    z-index: 8001;
+    height: 16px;
+    padding: 2px 8px;
+    color: rgba(255,255,255,0.85);
+    font-size: 13px;
+    white-space: nowrap;
+    line-height: initial;
+    background: rgba(0,0,0,0.85);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    opacity: 0;
+    transform: translateX(-50%) translateY(0);
+    transition: opacity 0.2s linear, transform 0.2s linear;
+    pointer-events: none;
+    font-family: "Trebuchet MS","Helvetica Neue",Helvetica,Tahoma,sans-serif;
+}
+
+.hv-embed-main-container .tooltiptext:before{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border-bottom: 4px solid rgba(0,0,0,0.85);
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    transform: translateX(-50%);
+}
+    
+.hv-embed-main-container:hover .tooltiptext {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+}

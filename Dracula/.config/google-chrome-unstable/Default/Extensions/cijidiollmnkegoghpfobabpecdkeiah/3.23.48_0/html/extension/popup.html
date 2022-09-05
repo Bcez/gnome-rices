@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/popup.css">
+	<link rel="stylesheet" type="text/css" href="/css/upload-status.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script src="/js/common/jquery-3.1.1.min.js"></script>
+	<script src="/js/common/volume-meter.js"></script>
+	<script src="/js/common/clipboard.min.js"></script>
+	<script src="/js/extensionpages/popup.js"></script>
+	<script src="/js/extensionpages/upload-status.js"></script>
+	<script src="/js/extensionpages/upload-error-warning.js"></script>
+	<script src="/js/extensionpages/permissionback.js"></script>
+</head>
+
+<body>
+	<input type="hidden" id="recordinguuid" />
+	<div id="initialLoading">
+		<center>
+			<div id="loading" class="loading-ico">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</center>
+	</div>
+	<div class="hippo-login-container" id="loginPage">
+		<br>
+		<br>
+		<center><img class="main-logo" src="/images/injected/hippo-video-logo.svg" width="120"></center>
+		<br>
+		<p>__MSG_one_step_away_from_creating_videos__</p>
+		<br>
+		<center>
+			<a class="sign-up-btn" id="wiz-signup">__MSG_signUp__</a>
+			<a class="sign-in-google" id="wiz-google-signup"><img
+					src="/images/extension/btn_google_signin_light_normal_web@2x.png"></a>
+		</center>
+		</br>
+		<br>
+		<center>
+			<h4 class="tc-pp">__MSG_by_signing_up_agree__ <a href="https://www.hippovideo.io/terms_of_service.html"
+					target="_blank">__MSG_terms__</a> __MSG_and_text__ <a
+					href="https://www.hippovideo.io/privacy_policy.html" target="_black">__MSG_privacy_policy__</a></h4>
+		</center>
+		<center>
+			<a href="#" id="guest_signup" class="guest-signin-link">__MSG_try_before_signing_up__</a>
+		</center>
+		<div class="sign-in-box">
+			<p class="sign-in-title">__MSG_already_got_hippo_account__</p>
+			<center><a class="sign-in-btn" id="wiz-signin"><img src="/images/extension/sign-in.png"> __MSG_signIn__</a>
+			</center>
+		</div>
+	</div>
+	<div class="hippo-extension-container tabcontent disp-none" id="recording-tab-content">
+		<div id="recording-tab-content-cover" class="disp-none"></div>
+		<div class="hippo-menu-container">
+			<img class="main-logo disp-none" src="/images/injected/hippo-video-logo.svg" width="90">
+			<div class="hv-menutab-container">
+				<ul>
+					<li class="hv-menutab-active">__MSG_record__</li>
+					<li id="library-tab">__MSG_recent_videos__</li>
+				</ul>
+			</div>
+			<span class="notification-bell"><img src="/images/extension/notification-bell.png" width="14"><sup
+					class="notification_count"></sup></span>
+			<img class="main-menu more-option" src="/images/extension/menu-icon-new.svg" width="23">
+		</div>
+		<div class="error-msg allow-permission hide">
+			<center><span>__MSG_allow_webcam_audio_permission__</span></center>
+		</div>
+		<div class="record-warning recording-not-allowed hide">
+			<div class="recording-not-allowed-inner">
+				<img class="info-icon" src="/images/extension/icon-info-blue.svg" width="50">
+				<span class="record-waring-msg">__MSG_recording_not_allowed_in_current_plan__</span>
+				<a class="get-add-on">__MSG_get_add_on__</a>
+			</div>
+		</div>
+		<div class="record-warning recording-not-possible hide">
+			<div class="recording-not-possible-inner">
+				<img class="info-icon" src="/images/extension/icon-info-blue.svg" width="50">
+				<span class="record-waring-msg">__MSG_recording_not_possible__ <a id="hippourl" target="_blank" href="https://hippovideo.io">__MSG_hippovideo__</a> __MSG_recording_not_possible_part_2__</span>
+				<a class="okay-btn">__MSG_okay_button__</a>
+			</div>
+		</div>
+		<div class="hippo-extension-record-box">
+			<div class="warning-div hide" id="fiveMinWarnning">
+				<img src="/images/extension/extension-error.png" class="image">
+				<div class="content">__MSG_video_duration_is_limited__ <span class="record-time-limit"></span>
+					__MSG_minutes_in_free_plan__ <a class="upgrade-link">__MSG_upgrade__</a> <span
+						class="referral-link-div hide"> __MSG_or_text__ <a class="referral-link">
+							__MSG_refer__</a></span> __MSG_to_record_longer_videos__</div>
+			</div>
+			<div class="warning-div hide" id="recordLimitExceed">
+				<img src="/images/extension/extension-error.png" class="image">
+				<div class="content">__MSG_record_limit_exceeded__<a class="upgrade-link">__MSG_upgrade__</a>
+					__MSG_your_account__ </div>
+			</div>
+			<div class="internet-warning-div hide" id="connection-slow">
+				<img src="/images/extension/warning-icon.png" class="image">
+				<div class="content">__MSG_connection_slow__</div>
+			</div>
+			<div class="record-option-warning hide" id="recordOptionWarning">
+				<div class="content"><img src="/images/extension/icon-info-grey.svg" class="image" />__MSG_select_at_least_one_option__</div>
+			</div>
+			<div class="recording-options">
+				<div class="screen-record option-btn" id="screenRecord">
+					<img class="opt-disable" src="/images/extension/screen-record-off.svg" height="36">
+					<img class="opt-enable hide" src="/images/extension/screen-record-on.svg" height="36">
+					<p>__MSG_screen_record__</p>
+					<span class="grey-round screen-unselected disp-none"></span>
+					<div class="selected-tick disp-none screen-selected-tick"><img class="tick-img"
+							src="/images/injected/tick.png"></div>
+				</div>
+				<div class="webcam-record option-btn" id="webcamRecord">
+					<span class="webcam-box">
+						<img class="opt-disable" src="/images/extension/web-cam-off.svg" height="36">
+					</span>
+					<span class="webcam-box-live hide">
+						<video id="webcam-test-preview" muted style="height: 56px;top: 10px;position: relative;">
+							<source>__MSG_browser_not_support_the_video__
+						</video>
+					</span>
+					<img class="webcam-selected-img hide" src="/images/extension/web-cam-on.svg" height="36">
+					<p>__MSG_webcam__</p>
+					<span class="grey-round webcam-unselected disp-none"></span>
+					<div class="selected-tick disp-none webcam-selected-tick"><img class="tick-img"
+							src="/images/injected/tick.png"></div>
+				</div>
+				<div class="audio-record option-btn" id="audioRecord">
+					<span class="audio-box">
+						<img class="opt-disable" src="/images/extension/audio-off.svg" height="36">
+					</span>
+					<span class="audio-box-live hide">
+						<canvas id="audio-test-preview" class="hide"></canvas>
+						<img class="opt-enable hide" src="/images/extension/audio-on.svg" height="36">
+					</span>
+					<p>__MSG_mic__</p>
+					<span class="grey-round audio-unselected disp-none"></span>
+					<div class="selected-tick disp-none audio-selected-tick"><img class="tick-img"
+							src="/images/injected/tick.png"></div>
+				</div>
+			</div>
+			<div class="toggleWrapper">
+				<input type="checkbox" id="recordScreen" />
+				<label for="recordScreen" class="toggle">
+					<span class="toggle__handler"></span>
+				</label>
+			</div>
+			<div id="mirroWebCamDiv">
+				<div class="advanced-settings-mirror-container">
+					<div class="large-12 columns advanced-settings-mirror">
+						<input type="checkbox" id="mirrorWebCamCheckBox" checked />
+						<label for="mirrorWebCamCheckBox"><span></span>__MSG_mirror_webcam_video__</label>
+					</div>
+				</div>
+			</div>
+			<div class="g-tips video-tips" id="videoTipsWithImg">
+				<a>
+					<img src="/images/extension/gitomer-answertoques.png">
+					<h5>Exclusive Video Sales Guide</h5>
+					<h6>"By " <span>Jeffrey Gitomer</span>", King of Sales"</h6>
+				</a>
+			</div>
+			<div class="g-tips video-tips g-tips-noimg hide" id="videoTipsWithOutImg">
+				<a>
+					<h5>Exclusive Video Sales Guide</h5>
+					<h6>"By "<span>Jeffrey Gitomer</span>", King of Sales"</h6>
+					<i>Learn More</i>
+				</a>
+			</div>
+			<div class="edit-record-box" id="advancedSettingDiv">
+				<center><a class="advanced-settings"><img src="/images/extension/video-settings-icon.svg"><img
+							class="ad-orange"
+							src="/images/extension/video-settings-icon-orange.svg">__MSG_advanced_settings__</a>
+				</center>
+				<div class="record-btn-container" data-warning-msg="Select at-least one option to start recording">
+					<h2 class="record-btn" id="record-btn">
+						<img src="/images/extension/round-dot-white.svg" width="13">__MSG_record__</h2>
+				</div>
+			</div>
+		</div>
+		<div id="networkHtml" class="pop-retry-container disp-none"></div>
+		<div id="uploadWarning" class="pop-retry-container disp-none"></div>
+	</div>
+	<div class="profile-settings-menu">
+		<div class="menu-container">
+			<div class="name-box">
+				<img class="profile-close" src="/images/injected/close.svg" width="20">
+				<img class="user-pic hide" src="/images/extension/logo-48.png" width="48" height="48"
+					id="userProfilePic">
+				<h4 class="user-first-letter" id="userFirstLetter">A</h4>
+				<h5 class="user-full-name"></h5>
+				<h6 class="user-mail-id"></h6>
+			</div>
+			<div class="settings-items">
+				<!-- <a class="recent-cover" id="library-tab">
+					<img src="/images/extension/recent-videos.svg" class="recent" width="20"><h4 class="recent-vdo-btn">Recent Videos</h4>
+				</a> -->
+				<!--<a class="profile-set-cover" id="profileSettings">
+					<img src="/images/profile-settings.svg" class="profile-set" width="20"><h4 class="profile-settings-btn">Profile Settings</h4>
+				</a>-->
+				<a class="profile-set-cover" id="integrationSettings">
+					<img src="/images/extension/profile-settings.svg" class="profile-set" width="20">
+					<h4 class="profile-settings-btn">__MSG_integration_settings__</h4>
+				</a>
+				<a class="users-cover" id="manageUsers">
+					<img src="/images/extension/manage-users.svg" class="users" width="20">
+					<h4 class="users-btn">__MSG_manage_users__</h4>
+				</a>
+				<a class="sign-cover" id="signout">
+					<img src="/images/extension/sign-out.svg" class="sign-out" width="20">
+					<h4 class="sign-out-btn">__MSG_sign_out__</h4>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="recent-videos-container">
+		<div class="hippo-menu-container">
+			<img class="main-logo disp-none" src="/images/injected/hippo-video-logo.svg" width="90">
+			<div class="hv-menutab-container">
+				<ul>
+					<li id="createNewVideo">__MSG_record__</li>
+					<li class="hv-menutab-active">__MSG_recent_videos__</li>
+				</ul>
+			</div>
+			<span class="notification-bell"><img src="/images/extension/notification-bell.png" width="14"><sup
+					class="notification_count"></sup></span>
+			<img class="main-menu more-option" src="/images/extension/menu-icon-new.svg" width="23">
+		</div>
+		<div class="video-list-box">
+			<!-- <div id="loading" class="loading-ico"><center><img src="/images/loading.gif" width="24" height="24"></center></div> -->
+			<center>
+				<div id="loading" class="loading-ico recent-video-loading disp-none">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</center>
+			<div id="recentVideoList" class="recent-videolists-container">
+				<div id="emptyLib" class="empty-video-list" style="display:none">
+					<center>
+						<img src="/images/injected/empty-hippo.png" />
+					</center>
+					<center>
+						<label>__MSG_no_videos_to_display__</label>
+					</center>
+				</div>
+			</div>
+			<center>
+				<span class="all-videos-link disp-none" id="seeAllVideos">__MSG_go_to_library__</span>
+			</center>
+		</div>
+		<script id="template-list-item" type="text/template">
+			<div class="recent-video-list">
+				<div id="{{id}}" class="urlLink list-view recent-video-id" data-url="{{url}}" data-title="{{title}}">
+					<a href="{{video_url}}" target="_blank">
+					<img class="vdo-thumb" src="{{thumb}}">
+					<h4>{{title}}</h4>
+					</a>
+					<h6>__MSG_recorded_on__ {{created_at}}</h6>
+					<h5 class="total-views" >{{num_played}} __MSG_views__</h5>
+					<div class="share-edit-options">
+
+						<a href="{{edit_url}}" target="_blank" class="hv-recent-options hv-recent-sendmail">
+							<img src="/images/extension/hv-new-edit.svg"><span>__MSG_edit_video__</span>
+						</a>
+						<!-- <a class="rec-ext-export"><img src="/images/export.svg"></a> -->
+						<a class="rec-ext-link copied-success-msg"><img src="/images/extension/hv-new-circletick.svg" />__MSG_link_copied__</a>
+						<a class="rec-ext-link copy-share-link hv-recent-copylink hv-recent-options" id="{{share_url}}">
+							<img src="/images/extension/hv-new-link.svg" />
+							<span>__MSG_copy_link__</span>
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</script>
+
+		<!-- <div class="recent-video-list">
+				<img class="vdo-thumb" src="/images/sample.png">
+				<h4>My recording</h4>
+				<h6>Recorded on 21 july, 9:30 AM</h6>
+				<h5 class="total-views">30 Views</h5>
+				<div class="share-edit-options">
+					<a class="rec-ext-edit"><img src="/images/edit.svg"></a>
+					<a class="rec-ext-export"><img src="/images/export.svg"></a>
+					<a class="rec-ext-link"><img src="/images/link.svg"></a>
+				</div>
+			</div>-->
+	</div>
+
+	<div class="recent-notifications-container">
+		<div class="notificatio-menu">
+			<h5>__MSG_notifications__</h5>
+			<img class="notification-close" src="/images/injected/close.svg" width="20">
+		</div>
+		<div class="notification-empty" hidden>
+			<center><img src="/images/injected/notification-empty-bell.svg" width="320"></center>
+			<h4>__MSG_check_back_again_for_comments_after_sharing__</h4>
+		</div>
+		<div class="msg-list-box">
+			<div id="recentNotificationList">
+			</div>
+
+			<script id="notifications-list-item" type="text/template">
+				<div class="notifications-video-list {{reed}}" id="notification_video_id-{{notification_id}}">
+						<a class="msg-inner-list" href='{{link}}'>
+						<div class="notification-list-box  {{type}}" id="notification_id-{{notification_id}}" notification_id="{{notification_id}}" notification_link="{{link}}">
+							{{avatar_update}}
+							<!-- <div class="initial-box">A</div> -->
+							<div class="msg-box"><p>{{message}}</p></div>
+							<div class="time-box">{{created_at}}</div>
+						</div>
+						</a>
+				</div>
+			</script>
+		</div>
+		<div class="view-all-box">
+			<span id='view-all-notifications' next_start="1">
+				<h3>__MSG_view_all_notifications__</h3>
+			</span>
+		</div>
+		<div class="view-notification-loader" id="view-notification-loader">
+			<div class="bar-loading">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="advanced-setting-options hide">
+		<div class="advanced-setting-menu">
+			<span>__MSG_advanced_settings__</span><img class="advanced-settings-back" src="/images/extension/back.svg"
+				width="15">
+		</div>
+		<div class="settings-cover">
+			<div class="screen-disable-cover"></div>
+			<h4><img src="/images/extension/screen-capture.png">__MSG_screen_capture_settings__</h4>
+			<div class="screen-wrap-box">
+				<span class="line"></span>
+				<input type="checkbox" class="wiz-checkbox-blue" id="highlight-checkbox" /><label class="checkboc-blue"
+					for="highlight-checkbox">__MSG_show_markup_tools__</label>
+			</div>
+			<div class="tab-audio-chk-container">
+				<input type="checkbox" class="wiz-checkbox-blue" id="tab-audio-checkbox" /><label class="checkboc-blue"
+					for="tab-audio-checkbox">__MSG_record_tab_audio__</label><br>
+			</div>
+			<div class="system-audio-chk-container">
+				<input type="checkbox" class="wiz-checkbox-blue" id="system-audio-checkbox" /><label
+					class="checkboc-blue" for="system-audio-checkbox">__MSG_record_system_audio__</label><br>
+			</div>
+			<div class="fullDesktop-default-chk-container">
+				<input type="checkbox" class="wiz-checkbox-blue" id="fullDesktop-default-checkbox" /><label
+					class="checkboc-blue"
+					for="fullDesktop-default-checkbox">__MSG_make_full_desktop_recording__</label><br>
+			</div>
+			<label class="source-label">__MSG_video_resolution__</label>
+			<select class="webcam-select vdo-resolution-list" id="vdo-resolution-list">
+				<option id="resolution1080" value="1080">1080</option>
+				<option id="resolution720" value="720">720</option>
+				<option id="resolution480" value="480">480</option>
+				<option value="360">360</option>
+			</select>
+			<div class="webcam-additionalsettings-wrapper">
+				<div class="webcam-disable-cover"></div>
+				<h4><img src="/images/extension/webcam-settings.png">__MSG_webcam_settings__</h4>
+				<div class="webcam-wrap-box">
+					<span class="line"></span>
+
+					<input type="checkbox" class="wiz-checkbox-blue" id="webcam-preview-checkbox" /><label class="checkboc-blue" for="webcam-preview-checkbox">__MSG_show_webcam_preview__</label><br>
+					<div class="wiz-checkbox-wrapper hv-lowerthird-checkbox">
+						<div class="option-only-disable-cover" id="hv-lowerthird-invisiblity"></div>
+						<input type="checkbox" class="wiz-checkbox-blue" id="lower-Third-checkbox" />
+						<label class="checkboc-blue" for="lower-Third-checkbox">__MSG_enable_lowerthird__</label>
+					</div>
+					<div class="webcam-only-disable-cover" id="hv-makeMyWebcamVisibleCover"></div>
+					<input type="checkbox" class="wiz-checkbox-blue" id="makeMyWebcamVisible" /><label class="checkboc-blue" for="makeMyWebcamVisible">__MSG_webcam_visible_while_recording__</label><br>
+					<label class="source-label">__MSG_webcam_source__</label>
+
+					<select class="webcam-source-list">
+						<option>__MSG_default_webcam__</option>
+					</select>
+					<label class="source-label">__MSG_aspect_ratio__</label>
+					<select class="webcam-aspect-ratio">
+						<option value="Default">__MSG_default__</option>
+						<option value="1.77777778">16:9</option>
+						<option value="1.33333333">4:3</option>
+						<option value="1.22222222">11:9</option>
+					</select>
+					<div class="webcam-only-disable-cover"></div>
+					<label class="source-label">__MSG_webcam_size__</label>
+					<select class="webcam-size">
+						<option value="large">__MSG_large__</option>
+						<option value="medium">__MSG_medium__</option>
+						<option value="small">__MSG_small__</option>
+					</select>
+					<div class="webcam-only-disable-cover"></div>
+					<div class="hv-webcam-position">
+						<label>__MSG_webcam_position__</label>
+						<ul>
+							<li data-webcamposition="bottom-left" class="hv-webcam-btmleft"></li>
+							<li data-webcamposition="top-left" class="hv-webcam-topleft"></li>
+							<li data-webcamposition="top-right" class="hv-webcam-topright"></li>
+							<li data-webcamposition="bottom-right" class="hv-webcam-btmright"></li>
+						</ul>
+					</div>
+					<div class="webcam-only-disable-cover"></div>
+					<div class="hv-webcam-shape hide">
+						<label>__MSG_webcam_shape__</label>
+						<ul>
+							<li data-webcamshape="circle" class="hv-webcam-circle"></li>
+							<li data-webcamshape="rectangle" class="hv-webcam-rectangle"></li>
+						</ul>
+						<div id="hv-webcam-shape-info-container">
+							<img id="webcam_shape_info_icon" class="hide" src="/images/extension/info-orange.png" width="20px" height="20px"></img>
+							<div id="webcam_info_circle" class="webcam_shape_info hide">__MSG_webcam_shape_circle_info__</div>
+							<div id="webcam_info_rectangle" class="webcam_shape_info hide">__MSG_webcam_shape_rectangle_info__</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="audio-disable-cover"></div>
+			<h4><img src="/images/extension/audio-settings.png">__MSG_audio_settings__</h4>
+			<div class="audio-wrap-box">
+				<span class="line"></span>
+				<label class="source-label">__MSG_audio_source__</label>
+				<select class="audio-source-list">
+					<option>__MSG_default_audio__</option>
+				</select>
+			</div>
+			<div class="disp-none">
+				<label class="source-label">__MSG_frame_text__</label>
+				<div class="switch-wrapper">
+					<input id="toggle-on-two" class="toggle-two toggle-left" name="toggle-two" value="false" type="radio" checked>
+					<label for="toggle-on-two" class="btn-two">__MSG_circle__</label>
+					<input id="toggle-off-two" class="toggle-two toggle-right" name="toggle-two" value="true" type="radio">
+					<label for="toggle-off-two" class="btn-two">__MSG_square__</label>
+				</div>
+				<h4><img src="/images/extension/general-settings.png">__MSG_general_settings__</h4>
+				<span class="line"></span>
+				<input type="checkbox" class="wiz-checkbox-blue" id="countDown" /><label class="checkboc-blue" for="countDown">__MSG_recording_countdown__</label>
+				<br>
+				<br>
+				<br>
+				<br>
+			</div>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+	<div class="current-recording-box disp-none" id="stop-recording-tab-content">
+		<h3 class="record-title">
+			<div class="rec"></div><img class="pause hide" src="/images/extension/round-dot-red.svg"
+				width="12">__MSG_recording__
+		</h3>
+		<h3 class="waiting-title hide">
+			<div class="spinner-loading"></div><span id="waiting-msg">__MSG_initializing__</span>
+		</h3>
+		<div class="record-preview class-hippo-record-preview">
+			<span></span>
+			<h5 class="being-created-msg">__MSG_your_video_being_created_with_below_options__</h5>
+			<h5 class="will-be-created-msg hide">__MSG_your_video_created_with_below_options__</h5>
+			<div class="selected-options-container">
+				<a class="selected-recording-options" id="screenCapture"><img
+						src="/images/extension/screen-record-on.svg"
+						height="36"><br><span>__MSG_screen_record__</span></a>
+				<a class="selected-recording-options" id="webcamCapture"><img src="/images/extension/web-cam-on.svg"
+						height="36"><br><span>__MSG_webcam__</span></a>
+				<a class="selected-recording-options" id="audioCapture"><img src="/images/extension/audio-on.svg"
+						height="36"><br><span>__MSG_mic__</span></a>
+			</div>
+			<div class="pause-cancel">
+				<a class="pause-btn class-hippo-pause-record" id="pause-record-btn">__MSG_pause_text__</a>
+				<a class="pause-btn class-hippo-pause-record hide" id="resume-record-btn">__MSG_resume__</a>
+				<a class="cancel-btn"><img src="/images/extension/block.svg"
+						width="12"><span>__MSG_cancel_recording__</span></a>
+			</div>
+		</div>
+		<h2 class="finish-btn class-hippo-finish-record" id="stop-record-btn">__MSG_finish_recording__</h2>
+	</div>
+	<div class="disp-none" id="lessonly-home" style="width: 400px;height: 230px;">
+		<div class="record-title" style="margin: 100px;font-weight: 500;font-size: 21px;">__MSG_lessonly_recording__
+		</div>
+	</div>
+	<div class="pop-outside-click box-sizing-border disp-none">
+		<img src="/images/extension/info-yellow.png" alt="Info" />
+		<div class="waiting-title-text">Waiting for screen permission</div>
+		<p>Not seeing the 'Share your screen' popup? Watch the below video to get the popup back</p>
+		<div class="placeholder">
+			<div class="info-video-container">
+				<video id="windowsSSInstructions" class="disp-none" src="/videos/SSInstructionsWin.mp4" loop></video>
+				<video id="macSSInstructions" class="disp-none" src="/videos/SSInstructionsMac.mp4" loop></video>
+			</div>
+		</div>
+		<a class="cancel-btn">Close 'Share your screen' popup</a>
+	</div>
+</body>
+<script src="/js/common/internationalization.js"></script>
+
+</html>

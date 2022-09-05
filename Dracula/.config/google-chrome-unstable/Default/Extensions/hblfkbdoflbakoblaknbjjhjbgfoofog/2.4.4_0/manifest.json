@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "display.js" ],
+      "matches": [ "*://classroom.google.com/*/not-turned-in/all" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Create your own assignments on Google Classroom.",
+   "icons": {
+      "128": "assets/image/icon128.png",
+      "16": "assets/image/icon16.png",
+      "19": "assets/image/icon19.png",
+      "48": "assets/image/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy0O3xNayBc3gsY1+x3FONi6n5HhMsDbQUlJlqw7QY7lrmAHnfZ72l2O0RNvkrBOw519u9InL0AlM8CVaNte3smLesO0h38aQkCr9JnxKvBKWrX05pLyDMzFr8gync2uipXctXoMUEHknlXdQ+LbNYV6bOYk5wsyCGYAX3dG4KbPs0eQW23gU+JX1+YIsVtbpcazL9ANtvZ3yAsTbaC/93OMUNe6GnW+Ni7IM8Yd6FDTgx/9UuQ+o/1Z/RBgI0myzLinTevdR8+psUORe5EtyXo4c2AsC58vSNXnXeogURFbsYwqWf1uc9NtuVADTePPSMJY88mRLIwlZMKEnMhhliwIDAQAB",
+   "manifest_version": 2,
+   "name": "Classroom Plus",
+   "permissions": [ "tabs", "storage" ],
+   "short_name": "Classroom+",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4.4"
+}

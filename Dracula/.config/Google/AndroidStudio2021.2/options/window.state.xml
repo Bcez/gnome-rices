@@ -1,0 +1,26 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="1432" y="502" />
+  </component>
+  <component name="WindowManager">
+    <frame x="32" y="80" width="1856" height="968" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="960" y="545" width="1856" height="1005" key="WELCOME_SCREEN" timestamp="1662360230826">
+      <screen x="0" y="48" width="1920" height="1032" />
+    </state>
+    <state x="960" y="545" width="1856" height="1005" key="WELCOME_SCREEN/0.48.1920.1032" timestamp="1662360230826" />
+    <state x="446" y="22" width="1017" height="1017" key="new project wizard" timestamp="1662360242047">
+      <screen x="0" y="48" width="1920" height="1032" />
+    </state>
+    <state x="446" y="22" width="1017" height="1017" key="new project wizard/0.48.1920.1032" timestamp="1662360242047" />
+  </component>
+</application>

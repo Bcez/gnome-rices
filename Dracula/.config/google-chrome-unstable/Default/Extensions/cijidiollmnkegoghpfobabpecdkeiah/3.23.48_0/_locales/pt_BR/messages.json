@@ -1,0 +1,914 @@
+{
+   "a_for_click_animation": {
+      "message": "A para animação por clique"
+   },
+   "access_denied": {
+      "message": "Acesso negado!"
+   },
+   "access_your_video_library": {
+      "message": "Também pode aceder à sua biblioteca de vídeo aqui."
+   },
+   "accomplish_more_with_web_app": {
+      "message": "Consiga mais com a nossa aplicação Web. Faça a gestão de Interações, Utilizadores e Biblioteca, Partilhe, Importe/Exporte vídeos através de plataformas como YouTube, GDrive, Google Classroom e muitas mais com a aplicação Web."
+   },
+   "account_text": {
+      "message": "Conta"
+   },
+   "accounts": {
+      "message": "Contas"
+   },
+   "add_account": {
+      "message": "Adicionar conta"
+   },
+   "add_another": {
+      "message": "ADICIONAR OUTRO"
+   },
+   "add_contacts": {
+      "message": "ADICIONAR CONTATOS"
+   },
+   "add_contacts_manually": {
+      "message": "Adicione contatos manualmente para enviar campanhas de email com vídeos personalizados"
+   },
+   "advanced_options_click_on": {
+      "message": "Para opções avançadas, clique em"
+   },
+   "advanced_settings": {
+      "message": "Definições Avançadas"
+   },
+   "all_set_letsgo": {
+      "message": "Tudo pronto. Vamos a isso!!"
+   },
+   "all_videos": {
+      "message": "TODOS OS VÍDEOS"
+   },
+   "allow_permission_for_webcam_mic": {
+      "message": "Dê permissão à Hippo Video para gravar através da webcam e micro."
+   },
+   "allow_permission_to_record_audio": {
+      "message": "Autorize a Hippo Video para gravar áudio."
+   },
+   "allow_permission_to_record_webcam": {
+      "message": "Dê permissões à Hippo Video para gravar vídeos através da webcam."
+   },
+   "allow_webcam_audio_permission": {
+      "message": "Permitir acesso à Webcam e Áudio"
+   },
+   "already_got_hippo_account": {
+      "message": "Já tem uma conta Hippo?"
+   },
+   "alt": {
+      "message": "Alt"
+   },
+   "and_text": {
+      "message": "e"
+   },
+   "any_text": {
+      "message": "QUALQUER"
+   },
+   "appDesc": {
+      "message": "Melhor gravador de ecrã para o Chrome. Crie, edite e partilhe os seus vídeos instantaneamente com aspeto profissional."
+   },
+   "appName": {
+      "message": "Hippo Video: Gravador de vídeo e tela"
+   },
+   "aspect_ratio": {
+      "message": "Proporção"
+   },
+   "audio": {
+      "message": "áudio"
+   },
+   "audio_settings": {
+      "message": "DEFINIÇÕES DE ÁUDIO"
+   },
+   "audio_source": {
+      "message": "Fonte de áudio"
+   },
+   "audio_text": {
+      "message": "ÁUDIO"
+   },
+   "awesome_videos": {
+      "message": "vídeos fantásticos!"
+   },
+   "boost_your_customer_engagement": {
+      "message": "Diga adeus aos emails aborrecidos e fastidiosos. Aumente o seu envolvimento com o cliente e as conversões para vendas com vídeos personalizados."
+   },
+   "bottom_left_corner": {
+      "message": "Canto inferior esquerdo"
+   },
+   "bottom_right_corner": {
+      "message": "Canto inferior direito"
+   },
+   "browser_closed_unexpectedly_text": {
+      "message": "Ocorreu um problema durante a sua gravação anterior. Suspeitamos que o navegador foi fechado inesperadamente. Tente gravar novamente."
+   },
+   "browser_not_support_the_video": {
+      "message": "O seu navegador de Internet não suporta o vídeo."
+   },
+   "browser_not_support_video_tag": {
+      "message": "O seu navegador de Internet não suporta a etiqueta do vídeo."
+   },
+   "browser_text": {
+      "message": "procure"
+   },
+   "by_signing_up_agree": {
+      "message": "Ao inscrever-se, o utilizador concorda com os nossos"
+   },
+   "c_for_close": {
+      "message": "C para Fechar"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "cancel_button": {
+      "message": "Cancelar"
+   },
+   "cancel_recording": {
+      "message": "Cancelar gravação"
+   },
+   "cancel_text": {
+      "message": "CANCELAR"
+   },
+   "cancel_video_text": {
+      "message": "Assim que cancelar, o seu vídeo não poderá ser recuperado. Tem a certeza de que deseja cancelar?"
+   },
+   "capture_your_webcam_audio": {
+      "message": "Capture a sua webcam e áudio para dar um toque pessoal e criar confiança com os seus vídeos."
+   },
+   "check_back_again_for_comments_after_sharing": {
+      "message": "Volte para verificar comentários depois de partilhar um vídeo."
+   },
+   "check_out_the_video": {
+      "message": "Verifique o vídeo"
+   },
+   "checking_your_system_devices": {
+      "message": "A verificar os seus dispositivos de sistema..."
+   },
+   "choose_file": {
+      "message": "Escolher Ficheiro"
+   },
+   "choose_file_from_computer": {
+      "message": "clique para selecionar o ficheiro no seu computador"
+   },
+   "choose_from_library": {
+      "message": "ESCOLHER DA BIBLIOTECA"
+   },
+   "choose_library": {
+      "message": "Escolher da biblioteca"
+   },
+   "circle": {
+      "message": "CÍRCULO"
+   },
+   "click_here_for_info": {
+      "message": "Clique aqui para mais informações"
+   },
+   "complete_your_video_and_email_content_to_add_contacts": {
+      "message": "Complete o seu vídeo e conteúdo de email para adicionar contatos"
+   },
+   "compose_video": {
+      "message": "Compor vídeo"
+   },
+   "connection_slow": {
+      "message": "A sua ligação parece ser lenta"
+   },
+   "contact_support": {
+      "message": "Ocorreu um erro! Entre em contato através de support@hippovideo.io."
+   },
+   "contacts_not_found": {
+      "message": "CONTATOS NÃO ENCONTRADOS"
+   },
+   "contacts_text": {
+      "message": "Contatos"
+   },
+   "content": {
+      "message": "Conteúdo"
+   },
+   "continue": {
+      "message": "CONTINUAR"
+   },
+   "continue_button": {
+      "message": "Continuar"
+   },
+   "copied": {
+      "message": "Copiado"
+   },
+   "copy_link": {
+      "message": "Copiar ligação"
+   },
+   "create": {
+      "message": "Criar"
+   },
+   "create_import_video_to_enable_edit": {
+      "message": "Crie ou importe um vídeo para permitir a edição"
+   },
+   "create_new_landing_page": {
+      "message": "Criar nova Página Inicial"
+   },
+   "create_new_page": {
+      "message": "CRIAR NOVA PÁGINA"
+   },
+   "create_new_video": {
+      "message": "CRIAR NOVO VÍDEO"
+   },
+   "create_not_allowed_in_edit": {
+      "message": "Criação não permitida no modo de edição"
+   },
+   "create_quick_videos": {
+      "message": "Crie vídeos rápidos, escolha o tipo de fonte e ajuste as definições de vídeo, tudo através da extensão para o Chrome."
+   },
+   "create_video": {
+      "message": "Criar vídeo"
+   },
+   "create_videos_beforehand": {
+      "message": "Crie vídeos previamente e armazene-os na sua biblioteca Hippo Video."
+   },
+   "create_videos_from_web_app": {
+      "message": "Também poderá criar vídeos através da nossa aplicação Web"
+   },
+   "current_tab": {
+      "message": "SEPARADOR ATUAL"
+   },
+   "customize": {
+      "message": "Personalizar"
+   },
+   "default": {
+      "message": "Padrão"
+   },
+   "default_audio": {
+      "message": "Áudio padrão"
+   },
+   "default_webcam": {
+      "message": "Webcam padrão"
+   },
+   "download_sample_file": {
+      "message": "Transferir ficheiro de amostra"
+   },
+   "download_screen_recording": {
+      "message": "Transferir Gravação de Ecrã"
+   },
+   "download_webcam_recording": {
+      "message": "Transferir Gravação de Webcam/Micro"
+   },
+   "drag_drop": {
+      "message": "Arraste e solte"
+   },
+   "e_for_eraser": {
+      "message": "E para Apagar"
+   },
+   "edit": {
+      "message": "Editar"
+   },
+   "edit_placeholder_values": {
+      "message": "EDITAR VALORES DO MARCADOR DE POSIÇÃO"
+   },
+   "edit_video": {
+      "message": "EDITAR VÍDEO"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "email_addresses_are_missing_in_sheet": {
+      "message": "Faltam endereços de email na folha que importou. Selecione uma folha diferente."
+   },
+   "enable_webcam_mic_access_in_browser_settings": {
+      "message": "Ative o acesso à webcam/micro nas definições do seu navegador de Internet para continuar."
+   },
+   "enter": {
+      "message": "Introduzir"
+   },
+   "enter_list_name": {
+      "message": "Introduzir nome da Lista"
+   },
+   "enter_video_title": {
+      "message": "Introduza o título do vídeo"
+   },
+   "extension_options": {
+      "message": "Opções da Extensão"
+   },
+   "extension_pin_text": {
+      "message": "Hippo Video for Chrome foi instalado com sucesso. Clique no ícone de quebra-cabeça de extensão acima para fixar o Vídeo Hippo para fácil acesso."
+   },
+   "f_for_focus": {
+      "message": "F para Focar e ESC para o Cursor"
+   },
+   "fill_in_the_placeholder_value": {
+      "message": "Preencha o valor do marcador de posição aqui para personalizar o seu email"
+   },
+   "fill_the_list_name": {
+      "message": "Preencha o nome da Lista"
+   },
+   "finish_recording": {
+      "message": "Terminar gravação"
+   },
+   "frame_text": {
+      "message": "Moldura"
+   },
+   "full_desktop": {
+      "message": "DESKTOP COMPLETO"
+   },
+   "general_settings": {
+      "message": "DEFINIÇÕES GERAIS"
+   },
+   "get_add_on": {
+      "message": "Obter Extensão"
+   },
+   "get_video_reply": {
+      "message": "obter uma resposta de vídeo"
+   },
+   "get_your_video_ready_to_enable_templates": {
+      "message": "Prepare o seu vídeo para permitir Modelos."
+   },
+   "gif": {
+      "message": "GIF"
+   },
+   "go": {
+      "message": "IR"
+   },
+   "go_back": {
+      "message": "Retroceder"
+   },
+   "go_back_button": {
+      "message": "Retroceder"
+   },
+   "go_to_library": {
+      "message": "Ir para a biblioteca"
+   },
+   "go_to_pro_edit": {
+      "message": "IR PARA A EDIÇÃO PROFISSIONAL"
+   },
+   "google_chrome_need_share_permission": {
+      "message": "O Google Chrome precisa de \"Partilhar\" esta permissão para gravar apenas este ecrã."
+   },
+   "got_it": {
+      "message": "ENTENDI"
+   },
+   "grant_access": {
+      "message": "PERMITIR ACESSO"
+   },
+   "grant_access_to_gdrive_account": {
+      "message": "Permita o acesso à sua conta Google Drive para importar conteúdos média diretamente para a Hippo Video"
+   },
+   "grant_access_to_your_google_contacts_account": {
+      "message": "Permita o acesso à sua conta Google Contacts para importar contatos e fundir campos"
+   },
+   "grant_access_to_your_google_drive_account": {
+      "message": "Permita o acesso à sua conta Google Drive para importar contatos e fundir campos do Google Sheet"
+   },
+   "h_for_highlight": {
+      "message": "H para Destacar\n Prima a seta para CIMA / BAIXO para alterar o tamanho\nSeta para ESQUERDA / DIREITA para alterar a cor"
+   },
+   "high_text": {
+      "message": "Alta"
+   },
+   "hippo_extensions": {
+      "message": "Extensão Hippo."
+   },
+   "hippo_video": {
+      "message": "Hippo Video"
+   },
+   "hippo_video_onboard": {
+      "message": "Hippo Video - Integrado"
+   },
+   "hippo_wiz": {
+      "message": "Hippo Wiz"
+   },
+   "hippovideo": {
+      "message": "hippovideo.io"
+   },
+   "import_contacts": {
+      "message": "IMPORTAR CONTATOS"
+   },
+   "import_contacts_from_google_sheet": {
+      "message": "Importe contatos do Google Sheet, Google Contacts e ficheiros locais para enviar campanhas de email com vídeos personalizados"
+   },
+   "import_from_gdrive": {
+      "message": "IMPORTAR DO GDRIVE"
+   },
+   "import_from_google_contacts": {
+      "message": "IMPORTAR DO GOOGLE CONTACTS"
+   },
+   "import_from_google_sheets": {
+      "message": "IMPORTAR DO GOOGLE SHEETS"
+   },
+   "import_from_local": {
+      "message": "IMPORTAR DE FICHEIRO LOCAL"
+   },
+   "import_video": {
+      "message": "IMPORTAR VÍDEO"
+   },
+   "import_video_files": {
+      "message": "Importe ficheiros de vídeo da biblioteca Hippo Video."
+   },
+   "initializing": {
+      "message": "A INICIAR"
+   },
+   "insert_page": {
+      "message": "INSERIR PÁGINA"
+   },
+   "insert_video": {
+      "message": "INSERIR VÍDEO"
+   },
+   "integration_settings": {
+      "message": "Definições de integração"
+   },
+   "issue_during_recording": {
+      "message": "Ocorreu um problema durante a sua gravação anterior. Tente gravar novamente"
+   },
+   "issue_during_recording_source_available": {
+      "message": "Ocorreu um problema ao gravar o vídeo anterior. Agora você pode baixar o vídeo usando o link abaixo. Clique em 'OKAY' para iniciar uma nova gravação"
+   },
+   "landing_page": {
+      "message": "PÁGINA INICIAL"
+   },
+   "large": {
+      "message": "Grande"
+   },
+   "launch_web_app": {
+      "message": "Lançar Aplicação Web"
+   },
+   "lessonly_recording": {
+      "message": "Gravação Lessonly"
+   },
+   "link_copied": {
+      "message": "Ligação copiada para a Área de Transferência"
+   },
+   "low_text": {
+      "message": "Baixa"
+   },
+   "m_for_cursor": {
+      "message": "M para o Cursor"
+   },
+   "mail_templates": {
+      "message": "Modelos de correio"
+   },
+   "make_full_desktop_recording": {
+      "message": "Tornar 'Desktop completo' a minha gravação padrão"
+   },
+   "manage_users": {
+      "message": "Gerir utilizadores"
+   },
+   "medium": {
+      "message": "Média"
+   },
+   "medium_text": {
+      "message": "Média"
+   },
+   "meeting_link": {
+      "message": "LIGAÇÃO DA REUNIÃO"
+   },
+   "merge_field_missing_in_content": {
+      "message": "Os valores para '$merge_field' estão ausentes no Conteúdo. Por favor, preencha-os."
+   },
+   "merge_field_missing_in_subject": {
+      "message": "Os valores para '$merge_field' estão ausentes no Assunto. Por favor, preencha-os."
+   },
+   "mic": {
+      "message": "MICRO"
+   },
+   "mic_text": {
+      "message": "micro"
+   },
+   "minutes_in_free_plan": {
+      "message": "minutos no Plano Livre."
+   },
+   "my_recent_videos": {
+      "message": "Os meus vídeos recentes"
+   },
+   "my_videos": {
+      "message": "OS MEUS VÍDEOS"
+   },
+   "network_failure_upload_failed": {
+      "message": "O carregamento da sua gravação anterior falhou. Isto pode acontecer devido a uma falha de rede ou porque o utilizador cancelou o carregamento. Pode cancelar esta gravação ou tentar fazer o carregamento novamente"
+   },
+   "never_record_text": {
+      "message": "Nunca irei gravar"
+   },
+   "next": {
+      "message": "PRÓXIMA"
+   },
+   "no_landing_page_found": {
+      "message": "Não foi encontrada nenhuma página inicial"
+   },
+   "no_recording_devices": {
+      "message": "Não foram encontrados dispositivos de gravação. Ligue o Microfone ou Webcam e tente novamente."
+   },
+   "no_sheet_found": {
+      "message": "NENHUMA FOLHA ENCONTRADA"
+   },
+   "no_video_landing_pages_found": {
+      "message": "NENHUMA PÁGINA DE VENDAS DE VÍDEO ENCONTRADA"
+   },
+   "no_video_uploaded": {
+      "message": "De momento não está a ser carregado nenhum vídeo"
+   },
+   "no_videos_found": {
+      "message": "NENHUM VÍDEO ENCONTRADO"
+   },
+   "no_videos_to_display": {
+      "message": "Não tem vídeos para exibir"
+   },
+   "none": {
+      "message": "Nenhum"
+   },
+   "notifications": {
+      "message": "Notificações"
+   },
+   "ok_text": {
+      "message": "Ok"
+   },
+   "okay": {
+      "message": "OK"
+   },
+   "okay_button": {
+      "message": "OK"
+   },
+   "okay_text": {
+      "message": "ok"
+   },
+   "onboard_your_customers": {
+      "message": "Integre os seus clientes através de partilhas das melhores práticas, dicas e técnicas. É fácil gravar e partilhar os seus vídeos."
+   },
+   "one_step_away_from_creating": {
+      "message": "Está apenas a um passo de criar"
+   },
+   "one_step_away_from_creating_videos": {
+      "message": "Está apenas a um passo de criar vídeos fantásticos!"
+   },
+   "oops_text": {
+      "message": "Ups!"
+   },
+   "option": {
+      "message": "Opção"
+   },
+   "or_text": {
+      "message": "ou"
+   },
+   "p_for_pause_play": {
+      "message": "P para Pausar e Reproduzir"
+   },
+   "pause_text": {
+      "message": "Pausar"
+   },
+   "paused_text": {
+      "message": "EM PAUSA"
+   },
+   "personalized": {
+      "message": "Personalizado"
+   },
+   "personalized_videos": {
+      "message": "VÍDEOS PERSONALIZADOS"
+   },
+   "please_choose_atleast_one_contact": {
+      "message": "Escolha pelo menos um contato para continuar."
+   },
+   "please_fill_atleast_one_email_address": {
+      "message": "Preencha pelo menos um endereço de email para continuar."
+   },
+   "please_select_sheet_to_continue": {
+      "message": "Selecione uma folha para continuar."
+   },
+   "press": {
+      "message": "Prima"
+   },
+   "preview": {
+      "message": "Pré-visualização"
+   },
+   "previous_video_uploading_text": {
+      "message": "O seu vídeo gravado anteriormente está a ser carregado. Deseja aguardar ou cancelar?"
+   },
+   "privacy_policy": {
+      "message": "Política de Privacidade"
+   },
+   "pro_tip": {
+      "message": "Dica profissional"
+   },
+   "quick_edit_not_supported": {
+      "message": "Oh, não! A Edição Rápida não é suportada neste vídeo. Clique no botão abaixo para avançar com a Edição Profissional. Se não desejar editar, clique em 'CONTINUAR.'"
+   },
+   "recent_videos": {
+      "message": "Vídeos recentes"
+   },
+   "record": {
+      "message": "GRAVAR"
+   },
+   "record_limit_exceeded": {
+      "message": "Limite de gravação excedido."
+   },
+   "record_options": {
+      "message": "Opções de gravação"
+   },
+   "record_or_upload_again": {
+      "message": "A sua gravação anterior foi cancelada. Pode cancelar esta gravação ou tentar fazer o carregamento novamente"
+   },
+   "record_system_audio": {
+      "message": "Gravar áudio do sistema"
+   },
+   "record_tab_audio": {
+      "message": "Gravar áudio do separador"
+   },
+   "record_video": {
+      "message": "Gravar Vídeo"
+   },
+   "record_video_text": {
+      "message": "GRAVAR VÍDEO"
+   },
+   "record_with_screen_recording": {
+      "message": "Grave sua tela"
+   },
+   "recorded_on": {
+      "message": "Gravado em"
+   },
+   "recorded_video_uploaded": {
+      "message": "O seu vídeo gravado anteriormente está a ser carregado."
+   },
+   "recording": {
+      "message": "GRAVAÇÃO"
+   },
+   "recording_countdown": {
+      "message": "Contagem decrescente de gravação"
+   },
+   "recording_error": {
+      "message": "Erro de gravação"
+   },
+   "recording_failed": {
+      "message": "A sua gravação anterior falhou. Isto pode ocorrer porque o navegador foi fechado inesperadamente. Tente gravar novamente"
+   },
+   "recording_failed_mac": {
+      "message": "Sua gravação anterior falhou. Isso pode ser porque o navegador fechou inesperadamente"
+   },
+   "recording_failed_note_mac": {
+      "message": "Nota: Se você deu permissão ao sistema e reiniciou o navegador, clique no botão 'Ok', atualize a página e tente gravar novamente"
+   },
+   "recording_not_allowed_in_current_plan": {
+      "message": "A gravação não é permitida no seu plano atual. Adquira extensões para gravar vídeos."
+   },
+   "recording_not_possible": {
+      "message": "Hippo Video não permite a gravação em uma guia vazia. Vá para"
+   },
+   "recording_not_possible_part_2": {
+      "message": "ou url de página semelhante na barra de endereço para iniciar a gravação"
+   },
+   "recording_text": {
+      "message": "A GRAVAR..."
+   },
+   "recording_uploaded": {
+      "message": "A sua gravação está a ser carregada."
+   },
+   "refer": {
+      "message": "Referir"
+   },
+   "refresh_text": {
+      "message": "ATUALIZAR"
+   },
+   "reload_msg": {
+      "message": "Recarregar extensão"
+   },
+   "reload_the_page": {
+      "message": "Lançámos novas atualizações fantásticas. Recarregue a página para as ver."
+   },
+   "resume": {
+      "message": "Retomar"
+   },
+   "retry_button": {
+      "message": "Repetir"
+   },
+   "retry_msg": {
+      "message": "Repetir Carregamento"
+   },
+   "s_for_stop_recording": {
+      "message": "S para Parar a gravação"
+   },
+   "save": {
+      "message": "Guardar"
+   },
+   "save_as_list": {
+      "message": "Salvar como Lista"
+   },
+   "save_text": {
+      "message": "GUARDAR"
+   },
+   "screen": {
+      "message": "ecrã"
+   },
+   "screen_capture_settings": {
+      "message": "DEFINIÇÕES DE CAPTURA DE ECRÃ"
+   },
+   "screen_record": {
+      "message": "GRAVAÇÃO DE ECRÃ"
+   },
+   "search": {
+      "message": "Pesquisar"
+   },
+   "search_video_here": {
+      "message": "Pesquisar vídeo aqui"
+   },
+   "see_all_videos": {
+      "message": "Ver todos os vídeos"
+   },
+   "select_at_least_one_option": {
+      "message": "Selecione pelo menos uma opção para iniciar a gravação"
+   },
+   "select_page_to_continue": {
+      "message": "Nota: selecione uma página para continuar"
+   },
+   "select_the_screen_want_to_record": {
+      "message": "Selecione o ecrã que deseja gravar"
+   },
+   "select_video_to_continue": {
+      "message": "Nota: selecione um vídeo para continuar"
+   },
+   "selected_file": {
+      "message": "Ficheiro selecionado:"
+   },
+   "set_selected_page_as_default": {
+      "message": "Definir a página selecionada como padrão"
+   },
+   "show_markup_tools": {
+      "message": "Mostrar ferramentas de marcação"
+   },
+   "show_webcam_preview": {
+      "message": "Mostrar pré-visualização da webcam"
+   },
+   "signIn": {
+      "message": "INICIAR SESSÃO"
+   },
+   "signUp": {
+      "message": "INSCREVER-SE"
+   },
+   "sign_in": {
+      "message": "Iniciar sessão"
+   },
+   "sign_out": {
+      "message": "Terminar sessão"
+   },
+   "small": {
+      "message": "Pequena"
+   },
+   "something_went_wrong": {
+      "message": "Ocorreu um erro! Entre em contato através de support@hippovideo.io"
+   },
+   "square": {
+      "message": "QUADRADO"
+   },
+   "start_creating_videos_with_hippo_video_chrome_extension": {
+      "message": "Comece a criar vídeos com a extensão Hippo Video para o Chrome"
+   },
+   "start_recording": {
+      "message": "COMEÇAR A GRAVAR"
+   },
+   "stop_recording": {
+      "message": "Parar a gravação"
+   },
+   "subject": {
+      "message": "Assunto"
+   },
+   "supports_only_xls_xlsx_csv_with_size_5MB": {
+      "message": "Compatível apenas com os formatos XLS, XLSX e CSV com um tamanho máximo de ficheiro de 5 MB"
+   },
+   "sure_button": {
+      "message": "Sim, Cancelar"
+   },
+   "templates": {
+      "message": "Modelos"
+   },
+   "terms": {
+      "message": "Termos"
+   },
+   "thumbnail": {
+      "message": "MINIATURA"
+   },
+   "to_record_longer_videos": {
+      "message": "para gravar vídeos com mais longos."
+   },
+   "top_left_corner": {
+      "message": "Canto superior esquerdo"
+   },
+   "top_right_corner": {
+      "message": "Canto superior direito"
+   },
+   "try_before_signing_up": {
+      "message": "Experimentar antes de se inscrever?"
+   },
+   "upgrade": {
+      "message": "Upgrade"
+   },
+   "upgrade_needed": {
+      "message": "Atualização necessária"
+   },
+   "upload_again": {
+      "message": "Carregar novamente"
+   },
+   "upload_autosaved_recording": {
+      "message": "Carregar gravação guardada automaticamente"
+   },
+   "upload_error_warning": {
+      "message": "Aviso de erro no carregamento do Hippo Video"
+   },
+   "upload_progress": {
+      "message": "Progresso do carregamento do vídeo Hippo"
+   },
+   "use_merge_fields_from_imported_sheet": {
+      "message": "Nota: Digite $ para usar fundir campos da folha importada."
+   },
+   "video_bitrate": {
+      "message": "Qualidade de vídeo"
+   },
+   "video_categories": {
+      "message": "Categorias de vídeo"
+   },
+   "video_duration_is_limited": {
+      "message": "A duração do vídeo está limitada a"
+   },
+   "video_landing_pages": {
+      "message": "PÁGINAS DE VENDAS"
+   },
+   "video_library": {
+      "message": "BIBLIOTECA DE VÍDEO"
+   },
+   "video_not_uploaded": {
+      "message": "As suas gravações anteriores não foram carregadas com sucesso. Recomendamos que verifique a sua ligação à Internet antes de gravar."
+   },
+   "video_resolution": {
+      "message": "Resolução de vídeo"
+   },
+   "video_title": {
+      "message": "Nome do Vídeo"
+   },
+   "video_uploading": {
+      "message": "O SEU VÍDEO ESTÁ A SER CARREGADO"
+   },
+   "view_all_notifications": {
+      "message": "Ver mais notificações"
+   },
+   "view_my_videos": {
+      "message": "Ver os meus vídeos"
+   },
+   "view_videos": {
+      "message": "Ver Vídeos"
+   },
+   "views": {
+      "message": "Visualizações"
+   },
+   "webcam": {
+      "message": "WEBCAM"
+   },
+   "webcam_position": {
+      "message": "Posição da webcam"
+   },
+   "webcam_quality": {
+      "message": "Qualidade da webcam"
+   },
+   "webcam_settings": {
+      "message": "DEFINIÇÕES DA WEBCAM"
+   },
+   "webcam_shape": {
+      "message": "Formato da webcam"
+   },
+   "webcam_shape_circle_info": {
+      "message": "A webcam do círculo se adapta melhor quando você está gravando conteúdo no navegador Chrome. O que você vê é o que aparecerá na gravação final."
+   },
+   "webcam_shape_rectangle_info": {
+      "message": "A webcam retangular é mais adequada para gravar aplicativos que não sejam o navegador Chrome. Mesmo que você não se visualize enquanto grava outros aplicativos, a gravação da sua webcam ficará visível na saída final do vídeo."
+   },
+   "webcam_size": {
+      "message": "Tamanho da webcam"
+   },
+   "webcam_source": {
+      "message": "Fonte da webcam"
+   },
+   "webcam_text": {
+      "message": "webcam"
+   },
+   "webcam_visible_while_recording": {
+      "message": "Tornar a minha webcam visível durante a gravação"
+   },
+   "yes_got_it": {
+      "message": "SIM, ENTENDIDO"
+   },
+   "you_can_create_videos_from_web_app": {
+      "message": "Também pode criar vídeos através da nossa aplicação Web"
+   },
+   "you_have_disabled_microphone_access": {
+      "message": "O utilizador desativou o acesso ao Microfone. Se desejar ativar no futuro, clique aqui e selecione permitir."
+   },
+   "you_have_disabled_webcam_mic_access": {
+      "message": "O utilizador desativou o acesso à webcam e ao micro. Se desejar ativar no futuro, clique aqui e selecione permitir."
+   },
+   "your_account": {
+      "message": "a sua conta"
+   },
+   "your_files_here": {
+      "message": "os seus ficheiros aqui ou "
+   },
+   "your_video_being_created_with_below_options": {
+      "message": "O seu vídeo está a ser criado com as opções abaixo"
+   },
+   "your_video_created_with_below_options": {
+      "message": "O seu vídeo será criado com as opções abaixo"
+   },
+   "your_video_has_been_saved": {
+      "message": "O seu vídeo foi guardado"
+   },
+   "z_for_clear_screen": {
+      "message": "Z para Limpar Ecrã"
+   }
+}

@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>__MSG_extension_options__</title>
+		<link rel="stylesheet" type="text/css" href="/css/optionesnew.css">
+		<script src="/js/common/jquery-3.1.1.min.js"></script>
+		<script src="/js/common/volume-meter.js"></script>
+		<script src="/js/extensionpages/preview-while-recording.js"></script>
+	</head>
+	<body style="overflow: hidden;margin:0;">
+		<div id="hippo-overlay">
+			<center>
+				<video id="hippo-overlay-screenrecord" muted=true style="display: none">
+					<source>__MSG_browser_not_support_the_video__
+				</video>
+				<div class="hvRectLowerthird-Container" id="WebcamPreviewWithLowerthird">
+					<p class="RectLowerThird-UserNameValue" id="lowerThirdUserNameTextSet"></p>
+					<p class="RectLowerThird-UserDesignationValue" id="lowerThirdUserDesignationTextSet"></p>
+				</div>
+			</center>
+			<div id="hv-onlyAudioPreview" style="display:none;">
+                <img id="onlyAudioIcon" src="/images/extension/audio-on.svg" alt="Audio">
+                <div class="audio-meter-container" id="audioMeterContainer">
+                    <canvas id="previewAudioMeter" height="270" width="10">
+                </canvas></div>
+            </div>
+			<div id="hippo-overlay-time">
+				<span id="countdown"></span>
+			</div>
+			
+		</div>
+	</body>
+	<script src="/js/common/internationalization.js"></script>
+</html>

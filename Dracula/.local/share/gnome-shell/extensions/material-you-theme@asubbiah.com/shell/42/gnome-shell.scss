@@ -1,0 +1,14 @@
+$variant: 'dark';
+
+@import "gnome-shell-sass/_colors"; //use gtk colors
+@import "gnome-shell-sass/_drawing";
+@import "gnome-shell-sass/_common";
+@import "gnome-shell-sass/_widgets";
+/*TOP BAR BOX*/
+#panelBox {
+  padding: 0.35em 0.9em;
+  background: transparent; }
+
+#panel {
+  border-radius: 12px; }
+

@@ -1,0 +1,34 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "google-analytics-bundle.js", "background.js" ]
+      }
+   },
+   "description": "A plugin that enables Remote Control in AirDroid Web",
+   "externally_connectable": {
+      "accepts_tls_channel_id": false,
+      "matches": [ "http://*.airdroid.com/*", "https://*.airdroid.com/*" ]
+   },
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ZdryoyeYK619xReD4om4zxi1CdeIpjpX/m5vkDAXcKr1iBcSykjwpfjm8fvXn43gKt7PE9Ws9c5Vjoau0qiYho2BDSgwz3DKkxowAE752iaFXby+LMiFhaHgj9ZreVFk1rNFTNubhFdJPHStKq3dmwbOhtcQWno7zUw5aUmTd0tEEOym9wGamKTKRh+Z+QGsjsrmiNtraCRwORgeyiDrRP3HNWyT6rL3y6OAnm7I+0X3fFgt/Hr2r7/pqslwzlVLd6lOXnlaiaYDoExxE4mKj1TaM0USR95iAIcqynIMHiptcqeYMeQRlgHdgU3FoP/AaC64ZSzJzTz6rCYGYFm0wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "40",
+   "name": "AirDroid Remote Control Plugin",
+   "permissions": [ "nativeMessaging", "unlimitedStorage", "notifications", "https://www.google-analytics.com/", "storage", {
+      "fileSystem": [ "write", "retainEntries", "directory" ]
+   }, "usb", "http://*.airdroid.com/", "https://*.airdroid.com/" ],
+   "sockets": {
+      "tcp": {
+         "connect": "*"
+      },
+      "tcpServer": {
+         "listen": "*"
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.9.8"
+}

@@ -1,0 +1,202 @@
+.hv-webcam-small {
+  /* height: 113px;
+  width: : 150px; */
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-radius: 16px;
+}
+
+.hv-webcam-medium {
+  /* height: 160px;
+  width: : 214px; */
+  display: flex;
+  justify-content: center;
+  width: 75% !important;
+  border-radius: 16px;
+}
+
+.hv-webcam-large {
+  -height: 200px;
+  -width: 266px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.hv-webcam-large.hv-webcam-shape-circle, 
+.hv-webcam-medium.hv-webcam-shape-circle,
+.hv-webcam-small.hv-webcam-shape-circle {
+  height: 100% !important;
+  width: auto !important;
+}
+
+.hv-webcam-bottom-left {
+	bottom: 0px;
+  position: absolute;
+}
+
+
+.hv-webcam-bottom-right {
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.hv-webcam-top-right {
+	float: right;
+}
+
+.hv-webcam-top-left {
+	float: left;
+}
+
+#hv-onlyAudioPreview {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#hv-onlyAudioPreview img {
+  height: 323px;
+}
+
+#hv-onlyAudioPreview  #audioMeterContainer {
+  top: 15px;
+  height: 270px;
+}
+
+#audioMeterContainer {
+  position: absolute;
+  top: 45px;
+  margin-left: 35px;
+  display: inline-block;
+  width: 10px;
+  border: 1px solid #eee;
+  height: 289px;
+}
+.mirror-video-class {
+  transform: rotateY(180deg) scale(1, 1) translateX(-100%) !important;
+  transform-origin: left top !important;
+}
+
+.hv-webcam-medium.hv-webcam-shape-rectangle.hv-webcam-bottom-left + .hvRectLowerthird-Container{
+  width: 75%;
+  font-size: 18px;
+  height: 40%;
+}
+
+.hv-webcam-medium.hv-webcam-shape-rectangle.hv-webcam-bottom-right + .hvRectLowerthird-Container{
+  width: 75%;
+  font-size: 18px;
+  height: 40%;
+  right: 0;
+}
+.hv-webcam-medium.hv-webcam-shape-rectangle.hv-webcam-top-right + .hvRectLowerthird-Container{
+  width: 75%;
+  font-size: 18px;
+  height: 40%;
+  margin-bottom: 10%;
+  right: 0;
+}
+
+.hv-webcam-medium.hv-webcam-shape-rectangle.hv-webcam-top-left + .hvRectLowerthird-Container{
+  width: 75%;
+  font-size: 18px;
+  height: 40%;
+  margin-bottom: 10%;
+ }
+
+
+ .hv-webcam-small.hv-webcam-shape-rectangle.hv-webcam-bottom-right + .hvRectLowerthird-Container{
+  width: 75%;
+  font-size: 18px;
+  height: 40%;
+  right: 0;
+ }
+
+.hv-webcam-small.hv-webcam-shape-rectangle.hv-webcam-bottom-left + .hvRectLowerthird-Container{
+  width: 50%;
+  height: 25%;
+}
+.hv-webcam-small.hv-webcam-shape-rectangle.hv-webcam-top-left + .hvRectLowerthird-Container{
+  width: 50%;
+  height: 25%;
+  margin-bottom: 29%;
+}
+.hv-webcam-small.hv-webcam-shape-rectangle.hv-webcam-top-right + .hvRectLowerthird-Container{
+  width: 50%;
+  height: 25%;
+  right: 0;
+  margin-bottom: 29%;
+}
+
+
+.hv-webcam-large.hv-webcam-shape-circle + .hvRectLowerthird-Container{
+    width: 100%;
+    font-size: 18px; 
+  }
+
+ .hv-webcam-medium.hv-webcam-shape-circle  + .hvRectLowerthird-Container{
+  width: 75%;
+  height: 45%;
+  font-size: 16px;
+  margin-left: 25%;
+
+}
+.hv-webcam-small.hv-webcam-shape-circle  + .hvRectLowerthird-Container{
+  width: 50%;
+  height: 30%;
+  font-size: 14px;
+} 
+
+.hv-webcam-medium + .hvRectLowerthird-Container{
+  font-size: 16px;
+}
+.hv-webcam-small + .hvRectLowerthird-Container{
+  font-size: 14px;
+}
+.hvRectLowerthird-Container{
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 15px;
+  font-size: 18px;
+  bottom: 0;
+  font-family: open sans;
+  background: transparent linear-gradient(
+    180deg, #00000000 0%, #00000043 22%, #0000008B 44%, #000000D6 100%) 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 16px 16px;  
+}
+
+.lowerThirdUserNameText{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 35ch;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.lowerThirdUserDesignationText{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 35ch;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin: 0;
+  margin: 0 auto;
+  
+}
+.hv-webcam-shape-rectangle{
+  border-radius: 0;
+}

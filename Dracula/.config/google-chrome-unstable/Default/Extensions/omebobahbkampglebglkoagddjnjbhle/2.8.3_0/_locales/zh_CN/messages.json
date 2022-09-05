@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "使用Gimp在线创建和编辑图像和照片"
+   },
+   "new_files": {
+      "message": "文件管理器"
+   },
+   "new_png1": {
+      "message": "GIMP应用程序"
+   },
+   "new_png2": {
+      "message": "图像编辑器"
+   },
+   "new_png3": {
+      "message": "照片编辑器"
+   },
+   "new_usersettings": {
+      "message": "设置用户标识"
+   },
+   "title": {
+      "message": "Gimp在线 - 图像编辑器和绘画工具"
+   }
+}

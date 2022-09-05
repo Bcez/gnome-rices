@@ -1,0 +1,86 @@
+{
+   "accessError": {
+      "message": "“ApowerREC” doesn't have access to your microphone or camera. Please refer to the following images to update the media setting on the location panel, close the current window, and retry."
+   },
+   "accessTitle": {
+      "message": "Microphone/Camera Access"
+   },
+   "allowAccessTips": {
+      "message": "Please allow this extension to access your webcam and microphone."
+   },
+   "apowerrec": {
+      "message": "ApowerREC"
+   },
+   "browserTab": {
+      "message": "Browser Tab"
+   },
+   "camera": {
+      "message": "Webcam"
+   },
+   "cameraPreview": {
+      "message": "Preview webcam"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "continue": {
+      "message": "Resume"
+   },
+   "description": {
+      "message": "Record screen, webcam and voice"
+   },
+   "download": {
+      "message": "Download Now"
+   },
+   "downloadSuccess": {
+      "message": "Previewing Video"
+   },
+   "getAccess": {
+      "message": "Apower REC needs access to you microphone or camera to record audio. Please grant access to start recording."
+   },
+   "lackDeviceTips": {
+      "message": "Some functions are not available when webcam or microphone is not plugged in."
+   },
+   "microphone": {
+      "message": "Microphone"
+   },
+   "name": {
+      "message": "ApowerREC - Screen Video Recorder"
+   },
+   "pause": {
+      "message": "Pause"
+   },
+   "recdesc": {
+      "message": "ApowerREC - Easy, quick, HD quality, real-time editing"
+   },
+   "record": {
+      "message": "Record"
+   },
+   "screen": {
+      "message": "Desktop"
+   },
+   "setting": {
+      "message": "Settings"
+   },
+   "shareTips": {
+      "message": "Please choose what you'd like to share from the pop-up window."
+   },
+   "stepOne": {
+      "message": "1. Click on the icon at the top right corner;"
+   },
+   "stepSecond": {
+      "message": "2. Select \"Always allow Chrome-extension to access your microphone\" and hit done."
+   },
+   "stepSecondCamera": {
+      "message": "2. Select \"Always allow Chrome-extension to access your camera\" and hit done."
+   },
+   "stop": {
+      "message": "Stop"
+   },
+   "systemSound": {
+      "message": "System sound"
+   },
+   "systemSoundAndMicrophone": {
+      "message": "Both system sound and microphone"
+   }
+}

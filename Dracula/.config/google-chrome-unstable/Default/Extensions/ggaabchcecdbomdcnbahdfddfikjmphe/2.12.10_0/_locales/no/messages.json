@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Kan ikke kjøre valgt områdeopptak på denne nettsiden. Vennligst bruk fullskjermopptak eller prøv et annet nettsted. \n\n (° ° ° °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Klikk animasjonsstørrelse og farge"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "Lukk"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "Markør Dot Størrelse og farge"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Påfør Dither."
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Last ned filnavnformat"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "nedlasting"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Tegning Størrelse og farge"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Legg til ikon"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Legg til tekst"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Kopiere til utklippstavle"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "Avling"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Tegn pilen"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Tegn Ellipse"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "Tegne linje"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Tegn rektangel"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Gratis tegning"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "Fremheve"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Gjøre om"
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "Lagre"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Velg, Flytt, endre størrelse"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "Innstillinger"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Angre"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Angre alle"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "Begynn å skrive ..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Bla gjennom filsystem"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Dra og slipp bilde / GIF eller"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Filen lagret i nedlastingsmappen."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "Bruk redigeringer til valgt (advarsel: kan ikke fortrykkes)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Slett valgt (DEL / BACKSPACE)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Slett hver andre ramme"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Gjenopprett valgt (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Gjenopprett alt"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Avmarker alt"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "Bildet kopiert til utklippstavlen."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Kunne ikke kopiere bilde til utklippstavlen, det kan være for stort."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Link kopiert til utklippstavle."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Du har nådd den maksimale opptakslengden til $maxlength$ sekunder for GIF -er. Premium -brukere kan oppdatere dette fra innstillingssiden.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIF -er er beregnet på korte opptak. Hvis du trenger videoer i full lengde, anbefaler vi vår gratis skjermopptaker:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "Premium -brukere kan oppdatere dette fra innstillingssiden."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Åpne innstillinger"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "Innspillingen stoppet plutselig?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Farge"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Tegne størrelse"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Font."
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Avspillingshastighet"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Spesialeffekt"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Premium Options."
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Advarsel"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "Lås aspektforhold"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Avbryt"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "Komprimer og optimaliser GIF"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "Bruk GIF -komprimeringsalgorthm for å redusere GIF -filstørrelsen og i noen tilfeller forbedre kvaliteten. Høyt anbefalt."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Bruk dither -algoritmen på bilder. Prøv å slå på dette alternativet hvis du opplever fargekvalitetsproblemer."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Estimert GIF-størrelse:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Bilder:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "Det er for øyeblikket utvalgte bilder, lagring vil bare sende ut disse valgte rammene -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Klikk her for å fjerne alle bilder"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Avspillingshastighet"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "Behandling av dette opptaket krever mye minne og prosessorkraft. Med mindre du har en High Spec PC, anbefales det å gjøre ett eller flere av følgende:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Vær oppmerksom på om den resulterende GIF er tom, så løp du ut av minnet."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "Komprimere og optimalisere gif"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Reduser bredden og høyden"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Fjern noen bilder"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Reduser bredde og høyde"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Reduser GIF -bredde og høyde/kvalitet for å forbedre behandlingstiden og produsere en mindre fil."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "Lagre"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Spar av"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Last ned fil"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Last opp til Google Drive & Copy Link"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "Lagre"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Behandling..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Last opp ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Åpne i redaktør"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Pro Tips: Slett lagt til elementer ved å velge elementet og trykke på Slett-tasten."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "Pro tips: Du kan redigere spesifikke bilder ved å bruke 'Bruk redigeringer på valgt alternativ'"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "Pro Tips: Bla når du svinger skjermbildet / opptaket til Zoom."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "Pro Tips: Når du bruker valgverktøyet, hold nede skiftet for å velge mer enn ett element."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Pro Tips: Du kan skalere, rotere, flytte og slette flere elementer samtidig."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Pro Tips: Dobbeltklikk på tekst for å redigere den."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "Dette kan ha skjedd på grunn av at vinduet ikke var fokusert."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Kopi til utklippstavlen mislyktes"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "Kopiert til utklippstavle"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Opplasting mislyktes"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Prøv igjen."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Forsikre deg om at du er koblet til Internett og har akseptert Google Drive -tillatelser."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "Avbryt og last ned fil"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "Lukk"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Kopier link"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "La alle med lenken se."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "Aktiver tegning"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "Dette alternativet lar brukerne tegne i det valgte området mens du holder nede Ctrl-tasten."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Ta opp GIF eller ta skjermbilde av noe i nettleseren din - raskere og enklere enn noen gang før."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture - Gif & Screenshot Tool"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Krom fangst"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "Fil tilgang til"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Filnavn"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Bilder per sekund (fps)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "Bilder"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Gratis innstillinger"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Avbryt"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Er du sikker på at du vil fortsette med fullskjermopptak?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Ikke vis dette igjen"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "Du har brukt en Chrome Capture-snarvei uten beskjæringsverktøyet, dette vil fange i fullskjermmodus."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Åpent beskjæringsverktøy"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "Alt + C: Åpne / Lukk Chrome Capture Beskjæringsverktøy"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "ALT + SHIFT + S: Full websiden skjermbilde (beta)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Du kan konfigurere disse her:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "Alt + R: Start / Stop Recording"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S: Synlig område Skjermbilde"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Standard snarveier er:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Start full skjermfangst"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Fullskjermopptak"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Få premie"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Bredde (PX)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Internett-tilkobling er nødvendig for å oppgradere til Premium."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "Maks opptak av opptak / kvalitet"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Ingen grense"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "Åpen"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Standardhandling"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 piksler"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 piksler (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 piksler (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 piksler (4k)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 piksler (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Aktiver varsler"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Vis varsler når fullskjermopptak starter og behandler opptak i bakgrunnen."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Hvordan å bruke"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Åpne popup."
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Åpne valgt områdeopptak"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Snarveier"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "Brukerstøtte"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Klikk og dra for å velge ditt valgte område. \n Høyreklikk for å snap til et element, hold skiftet for flere."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Fange"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Åpen redaktør"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Rulle webside"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "Nettleseren din tillater ikke å kjøre skript på denne nettsiden, dessverre gjør dette valgt område og full websideopptak umulig for dette nettstedet."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Ta opp"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Registrer deg opp til $SECONDS$ sekunder per gif. Premium -brukere kan oppdatere dette fra",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Innstillingsside."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Full skjerm eller app"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Utvalgt område"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Åpne innstillinger"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "Denne kategorien"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Premium-innstillinger"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Få premie!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Du er for tiden på den frie planen. Oppgrader til Premium for å låse opp alle premiumfunksjonene."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Logg på Google for å fortsette."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Vil du oppgradere til Premium?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Allerede en premium bruker?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "GIF-komprimering av høy kvalitet"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Tegne mens du registrerer deg"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Rediger fanger"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "Grunnleggende redigering"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Ramme redigering"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "Tune ramme rate"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Ubegrenset full side skjermbilder."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "Klikk og musindikasjon"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "Sammenlign planer"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "Tune Recording Playback Hastighet"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Ubegrenset GIF-opptak."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "10SEC grense per GIF"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "Høy kvalitet GIFS."
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 piksler Max."
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Ubegrenset skjermbilder."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "Opptak av spesialeffekter"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "Gratis"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Gratis å bruke"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Grunnleggende redigering"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "Grunnleggende GIF-opptak"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Ubegrenset skjermbilder"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Premium"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "Kom i gang"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "GIF-komprimering av høy kvalitet"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Funksjonsrik redigering"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Alt fra gratis"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Ubegrenset GIF-opptak av høy kvalitet"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "Fullt refunderes"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "engangs avgift"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Logg inn her"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Opptakskvalitet (10 = best)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Vi prøver kontinuerlig vårt vanskeligste å forbedre kromfangst, vennligst del hva som trenger forbedring ved å sende oss en e-post til"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Vi beklager!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "Lukk"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "Bekrefte"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Hvis du har funnet denne utvidelsen nyttig, vennligst legg igjen en vurdering eller gjennomgang. \n\n Ved å forlate en vurdering kan du hjelpe oss med å nå flere brukere som vil bidra til å finansiere kontinuerlige forbedringer og holde generell brukfri."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Vi setter stor pris på at du kjøper premium og vil gjerne høre noen tilbakemeldinger du må hjelpe oss med å forbedre produktet og nå flere brukere."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Dine vurderinger Hold vårt lille lag motivert for å få Chrome Capture enda bedre!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Vi setter stor pris på at du kjøper premium og vil gjerne høre noen tilbakemeldinger du må hjelpe oss med å forbedre produktet og nå flere brukere."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Review i nettbutikken?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Kanskje senere"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Nei takk"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Send e-post"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Takk skal du ha! 😍."
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "Hvordan har vi det?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "Ok sikkert"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Maks rekordlengde"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Recorder Logic."
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Performant V2-behandling tar lengre tid, men det fungerer for 4k-skjermer og flere skjermer"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Performant - Advarsel virker ikke for 4K-skjermer eller flere skjermer"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Normal - Hvis du opplever ytelsesproblemer, bruk Performant"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Lagre Skjermbilde As."
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Lagre opptak As"
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "sek"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "Vis Klikk Animasjon"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "Dette alternativet trekker en sirkel animasjon rundt klikkstedet."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Vis prikk på markørplassering"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "Dette alternativet trekker en liten sirkel for å indikere hvor musen er plassert."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Kan ikke fange dette nettstedet. Bruk fullskjerm/applikasjonsfangst eller prøv å fange et annet nettsted. \n\n (╯ ° □ ° ╯︵ ┻━┻ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Høyde (PX)"
+   }
+}

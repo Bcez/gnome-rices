@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "এই ওয়েবসাইটে নির্বাচিত এলাকা ক্যাপচার চালাতে অক্ষম। সম্পূর্ণ স্ক্রীন রেকর্ডিং ব্যবহার করুন অথবা অন্য ওয়েবসাইট চেষ্টা করুন। \n\n (╯ ° □ °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "অ্যানিমেশন আকার এবং রঙ ক্লিক করুন"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "বন্ধ"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "কার্সার ডট আকার এবং রঙ"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "ডি.পি."
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "ফাইলের নাম ফরম্যাট ডাউনলোড করুন"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "ডাউনলোড করুন"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "অঙ্কন আকার এবং রঙ"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "আইকন যোগ করুন"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "টেক্সট যোগ করুন"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "ক্লিপবোর্ডে কপি করুন"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "ফসল"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "আঁকা তীর"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Ellipse আঁকা"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "সারি তৈরী কর"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "আয়তক্ষেত্র আঁকা"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "বিনামূল্যে ড্র"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "লক্ষণীয় করা"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Redo."
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "সংরক্ষণ"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "নির্বাচন করুন, সরানো, আকার পরিবর্তন করুন"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "সেটিংস"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "পূর্বাবস্থায় ফেরানো"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "সব পূর্বাবস্থায় ফিরিয়ে আনুন"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "টাইপিং শুরু করুন..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "ফাইল সিস্টেম ব্রাউজ করুন"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "টেনে আনুন এবং ছবি / GIF বা ড্রপ করুন"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "ডাউনলোড ফোল্ডারে ফাইল সংরক্ষণ করা।"
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "নির্বাচিত সম্পাদনাগুলি প্রয়োগ করুন (সতর্কতা: পূর্বাবস্থায় ফেরানো যাবে না)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "নির্বাচিত মুছুন (ডেল / ব্যাকস্পেস)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "প্রতি সেকেন্ড ফ্রেম মুছে ফেলুন"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "নির্বাচিত পুনরুদ্ধার (আর)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "সব পুনরুদ্ধার করুন"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "সরিয়ে ফেলুন সব"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "ছবি ক্লিপবোর্ডে অনুলিপি করা হয়েছে।"
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "ক্লিপবোর্ডে চিত্র অনুলিপি করতে ব্যর্থ হয়েছে, এটি খুব বড় হতে পারে।"
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "লিঙ্কটি ক্লিপবোর্ডে অনুলিপি করা হয়েছে।"
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "আপনি জিআইএফগুলির জন্য $maxlength$ সেকেন্ডের সর্বাধিক রেকর্ডিং দৈর্ঘ্যের সময় পৌঁছেছেন। প্রিমিয়াম ব্যবহারকারীরা সেটিংস পৃষ্ঠা থেকে এটি আপডেট করতে পারেন।",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "জিআইএফগুলি সংক্ষিপ্ত রেকর্ডিংয়ের জন্য উদ্দেশ্যে করা হয়। আপনার যদি পূর্ণ দৈর্ঘ্যের ভিডিওগুলির প্রয়োজন হয় তবে আমরা আমাদের ফ্রি স্ক্রিন রেকর্ডারটি সুপারিশ করি:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "প্রিমিয়াম ব্যবহারকারীরা সেটিংস পৃষ্ঠা থেকে এটি আপডেট করতে পারেন।"
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "ওপেন সেটিংস"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "রেকর্ডিং হঠাৎ থামল?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "রঙ"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "অঙ্কন আকার"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "ফন্ট"
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "প্লেব্যাক গতি"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "বিশেষ প্রভাব"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "প্রিমিয়াম বিকল্প"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "সতর্কতা"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "লক দৃষ্টিপাত অনুপাত"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "বাতিল করুন"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "কম্প্রেস এবং GIF অপ্টিমাইজ করুন"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "জিআইএফ ফাইলের আকার হ্রাস করতে এবং কিছু ক্ষেত্রে মানের উন্নতি করতে জিআইএফ সংক্ষেপণ অ্যালগর্টিএম প্রয়োগ করুন। উচ্চ পুনরুদ্ধার।"
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "চিত্রগুলিতে date অ্যালগরিদম প্রয়োগ করুন। আপনি যদি রঙের মানের সমস্যাগুলি অনুভব করেন তবে এই বিকল্পটি টগল করার চেষ্টা করুন।"
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "আনুমানিক জিআইএফ আকার:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "চিত্র:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "বর্তমানে নির্বাচিত চিত্র রয়েছে, সংরক্ষণ কেবল এই নির্বাচিত ফ্রেমগুলি আউটপুট করবে -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "সমস্ত চিত্র আনলেক্ট করতে এখানে ক্লিক করুন"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "প্লেব্যাক গতি"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "এই রেকর্ডিং প্রক্রিয়াজাতকরণ অনেক মেমরি এবং প্রক্রিয়াকরণ ক্ষমতা প্রয়োজন হবে। আপনার যদি কোনও উচ্চ স্পেস পিসি না থাকে তবে এটি নিম্নলিখিতগুলির মধ্যে একটি বা একাধিক করার জন্য সুপারিশ করা হয়:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "অনুগ্রহ করে নোট করুন যদি GIF ফাঁকা হয় তবে আপনি মেমরির বাইরে দৌড়ে যান।"
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "কম্প্রেস এবং GIF অপ্টিমাইজ"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "প্রস্থ এবং উচ্চতা হ্রাস"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "কিছু চিত্র সরান"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "প্রস্থ ও উচ্চতা হ্রাস করুন"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "প্রসেসিংয়ের সময় উন্নত করতে এবং একটি ছোট ফাইল উত্পাদন করতে জিআইএফ প্রস্থ এবং উচ্চতা/গুণমান হ্রাস করুন।"
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "সংরক্ষণ"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "দ্বারা সংরক্ষণ করুন"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "ডাউনলোড ফাইল"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "গুগল ড্রাইভ এবং অনুলিপি লিঙ্কে আপলোড করুন"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "সংরক্ষণ"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "প্রক্রিয়াকরণ ..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "আপলোড ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "সম্পাদক খোলা"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "প্রো টিপ: আইটেমটি নির্বাচন করে এবং মুছুন কী টিপে যোগ আইটেমগুলি মুছুন।"
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "প্রো টিপ: আপনি 'নির্বাচিত বিকল্পে সম্পাদনা প্রয়োগ করুন' ব্যবহার করে নির্দিষ্ট চিত্রগুলি সম্পাদনা করতে পারেন"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "প্রো টিপ: স্ক্রিনশট / জুমের রেকর্ডিং হোল্ডিং করার সময় স্ক্রোল করুন।"
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "প্রো টিপ: নির্বাচন সরঞ্জামটি ব্যবহার করার সময় একাধিক আইটেম নির্বাচন করতে Shift হোল্ড করুন।"
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "প্রো টিপ: আপনি একবারে একাধিক আইটেম স্কেল, ঘূর্ণায়মান, সরানো এবং মুছতে পারেন।"
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "প্রো টিপ: এটি সম্পাদনা করতে পাঠ্যটিতে ডাবল ক্লিক করুন।"
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "উইন্ডোটি ফোকাস না করার কারণে এটি ঘটতে পারে।"
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "ক্লিপবোর্ডে অনুলিপি ব্যর্থ হয়েছে"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "ক্লিপবোর্ডে অনুলিপি করা হয়েছে"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "আপলোড ব্যর্থ হয়েছে"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "আবার চেষ্টা কর."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "দয়া করে নিশ্চিত করুন যে আপনি ইন্টারনেটে সংযুক্ত আছেন এবং গুগল ড্রাইভের অনুমতি গ্রহণ করেছেন।"
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "ফাইল বাতিল করুন এবং ডাউনলোড করুন"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "বন্ধ"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "লিংক কপি করুন"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "লিঙ্কটি সহ যে কাউকে দেখার অনুমতি দিন।"
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "অঙ্কন সক্রিয় করুন"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "এই বিকল্পটি Ctrl কী ধরে রাখার সময় ব্যবহারকারীদের নির্বাচিত এলাকায় আঁকতে পারবেন।"
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "রেকর্ড GIF বা আপনার ব্রাউজারে কিছু স্ক্রিনশট নিতে - দ্রুত এবং আগের তুলনায় আরও সহজ।"
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "ক্রোম ক্যাপচার - GIF এবং স্ক্রিনশট টুল"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "ক্রোম ক্যাপচার"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "ফাইল এক্সেস দ্বারা"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "ফাইলের নাম"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "প্রতি সেকেন্ডে চিত্র (এফপিএস)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "চিত্র"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "বিনামূল্যে সেটিংস"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "বাতিল করুন"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "আপনি পূর্ণ পর্দা ক্যাপচার সঙ্গে অবিরত করতে চান আপনি কি নিশ্চিত?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "এটা আর দেখাবেন না"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "আপনি ক্রোম টুল ছাড়া একটি ক্রোম ক্যাপচার শর্টকাট ব্যবহার করেছেন, এটি পূর্ণ স্ক্রীন মোডে ক্যাপচার করবে।"
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "ওপেন ফসল টুল"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "Alt + C: ওপেন / বন্ধ Chrome ক্যাপচার ক্রপিং টুল"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "Alt + Shift + S: সম্পূর্ণ ওয়েব পেজ স্ক্রিনশট (বিটা)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "আপনি এখানে এখানে কনফিগার করতে পারেন:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "Alt + R: রেকর্ডিং / স্টপ স্টপ"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S: দৃশ্যমান এলাকা স্ক্রিনশট"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "ডিফল্ট শর্টকাটগুলি হল:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "পূর্ণ পর্দা ক্যাপচার শুরু করুন"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "পূর্ণ পর্দা ক্যাপচার"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "প্রিমিয়াম পান"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "প্রস্থ (পিএক্স)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "ইন্টারনেট সংযোগ প্রিমিয়াম আপগ্রেড করতে হবে।"
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "সর্বোচ্চ রেকর্ডিং রেজল্যুশন / মানের"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "সীমাহীন"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "ওপেন"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "ডিফল্ট ক্রিয়া"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 পিক্সেল"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 পিক্সেল (1080 পি)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 পিক্সেল (480 পি)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 পিক্সেল (4 কে)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 পিক্সেল (720 পি)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "বিজ্ঞপ্তি সক্ষম করুন"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "পুরো স্ক্রিন রেকর্ডিং শুরু এবং পটভূমিতে প্রক্রিয়াকরণ রেকর্ডিং শুরু হলে বিজ্ঞপ্তিগুলি প্রদর্শন করুন।"
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "কিভাবে ব্যবহার করে"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "খোলা পপআপ"
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "নির্বাচিত এলাকা ক্যাপচার খুলুন"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "শর্টকাটস"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "সাপোর্ট"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "ক্লিক করুন এবং আপনার নির্বাচিত এলাকা নির্বাচন করতে টেনে আনুন। \n ডান একটি উপাদান স্ন্যাপ করতে ক্লিক করুন, একাধিক জন্য স্থানান্তর রাখা।"
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "ক্যাপচার"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "ওপেন এডিটর"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "স্ক্রোলিং ওয়েবপৃষ্ঠা"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "আপনার ব্রাউজারটি এই ওয়েব পেজে চলমান স্ক্রিপ্টগুলির অনুমতি দেয় না, দুর্ভাগ্যবশত এটি নির্বাচিত এলাকা এবং সম্পূর্ণ ওয়েব পেজটি এই সাইটের জন্য অসম্ভব করে তোলে।"
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "রেকর্ড"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "জিআইএফ প্রতি $SECONDS$ সেকেন্ড পর্যন্ত রেকর্ড করুন। প্রিমিয়াম ব্যবহারকারীরা এটি থেকে এটি আপডেট করতে পারেন",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "সেটিংস পৃষ্ঠা।"
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "পূর্ণ পর্দা বা অ্যাপ্লিকেশন"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "নির্বাচিত এলাকা"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "ওপেন সেটিংস"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "এই ট্যাব"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "প্রিমিয়াম সেটিংস"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "প্রিমিয়াম পান!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "আপনি বর্তমানে বিনামূল্যে পরিকল্পনা করছেন। সব প্রিমিয়াম বৈশিষ্ট্য আনলক প্রিমিয়াম আপগ্রেড করুন।"
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "চালিয়ে যেতে Google এ সাইন ইন করুন।"
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "আপনি প্রিমিয়াম আপগ্রেড করতে চান?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "ইতিমধ্যে একটি প্রিমিয়াম ব্যবহারকারী?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "উচ্চ মানের জিআইএফ কম্প্রেশন"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "রেকর্ডিং যখন ড্র"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "ক্যাপচার সম্পাদনা করুন"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "বেসিক এডিটিং"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "ফ্রেম এডিটিং"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "টিউন ফ্রেম রেট"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "আনলিমিটেড সম্পূর্ণ পৃষ্ঠা স্ক্রিনশট।"
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "ক্লিক করুন এবং মাউস ইঙ্গিত"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "পরিকল্পনা তুলনা করুন"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "রেকর্ডিং প্লেব্যাক গতি টুন"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "আনলিমিটেড জিআইএফ রেকর্ডিং।"
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "GIF প্রতি 10sec সীমা"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "উচ্চ মানের gifs."
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 পিক্সেল সর্বোচ্চ"
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "আনলিমিটেড স্ক্রিনশট।"
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "বিশেষ প্রভাব রেকর্ডিং"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "বিনামূল্যে"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "ব্যবহার বিনামূল্যে"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "বেসিক এডিটিং"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "বেসিক জিআইএফ রেকর্ডিং"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "আনলিমিটেড স্ক্রিনশটস"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "প্রিমিয়াম"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "এবার শুরু করা যাক"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "উচ্চ মানের জিআইএফ কম্প্রেশন"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "বৈশিষ্ট্য সমৃদ্ধ সম্পাদনা"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "বিনামূল্যে থেকে সবকিছু"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "আনলিমিটেড উচ্চ মানের জিআইএফ রেকর্ডিং"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "সম্পূর্ণরূপে ফেরতযোগ্য"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "একবার বেতনে"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "এখানে সাইন ইন করুন"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "রেকর্ডিং মানের (10 = সেরা)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "আমরা ক্রমাগত ক্রোম ক্যাপচার উন্নত করার জন্য আমাদের কঠোরতম চেষ্টা করছি, আমাদের ইমেল করার মাধ্যমে কী উন্নতি প্রয়োজন তা ভাগ করুন"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 আমরা দুঃখিত!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "বন্ধ"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "নিশ্চিত করুন"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "আপনি এই এক্সটেনশানটি দরকারী খুঁজে পেয়েছেন যদি একটি রেটিং বা পর্যালোচনা ছেড়ে দিন। \n\n একটি রেটিং রেখে আপনি আমাদের আরো ব্যবহারকারীদের কাছে পৌঁছাতে সাহায্য করতে পারেন যা তহবিল ক্রমাগত উন্নতি এবং সাধারণ ব্যবহারের বিনামূল্যে রাখতে সহায়তা করবে।"
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "আমরা আপনাকে প্রিমিয়াম ক্রয় করার জন্য অত্যন্ত প্রশংসা করি এবং কোনও প্রতিক্রিয়া শুনতে চাই যা আপনাকে আমাদের পণ্যটি উন্নত করতে এবং আরো ব্যবহারকারীদের কাছে পৌঁছাতে সহায়তা করতে পারে।"
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "আপনার রিভিউ আমাদের ছোট দলকে ক্রোমটিকে আরও ভাল করে তুলতে অনুপ্রাণিত করে রাখুন!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "আমরা আপনাকে প্রিমিয়াম ক্রয় করার জন্য অত্যন্ত প্রশংসা করি এবং কোনও প্রতিক্রিয়া শুনতে চাই যা আপনাকে আমাদের পণ্যটি উন্নত করতে এবং আরো ব্যবহারকারীদের কাছে পৌঁছাতে সহায়তা করতে পারে।"
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "▪ ওয়েব দোকানের পর্যালোচনা?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "সম্ভবত পরে"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "না ধন্যবাদ"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "ইমেইল পাঠান"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "ধন্যবাদ! 😍."
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "আমরা কিভাবে করছি?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "নিশ্চিত ঠিক আছে"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "সর্বোচ্চ রেকর্ড দৈর্ঘ্য"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "রেকর্ডার যুক্তি"
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "পারফরম্যান্ট ভি 2 - প্রসেসিংটি দীর্ঘ সময় নেয় তবে এটি 4K স্ক্রীন এবং একাধিক মনিটরগুলির জন্য কাজ করে"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "অভিনেতা - সতর্কতা 4k স্ক্রিন বা একাধিক মনিটর জন্য কাজ করে না"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "স্বাভাবিক - যদি আপনি কর্মক্ষমতা বিষয়গুলি সম্পাদনশীল ব্যবহার করেন"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "হিসাবে স্ক্রিনশট সংরক্ষণ করুন"
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "রেকর্ডিং সংরক্ষণ করুন"
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "SECS."
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "ক্লিক করুন অ্যানিমেশন"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "এই বিকল্পটি ক্লিক অবস্থানের চারপাশে একটি বৃত্ত অ্যানিমেশন আঁকুন।"
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "কার্সার অবস্থানে ডট দেখান"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "মাউস অবস্থিত যেখানে নির্দেশ করার জন্য এই বিকল্পটি একটি ছোট বৃত্ত আঁকুন।"
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "এই ওয়েবসাইটটি ক্যাপচার করতে অক্ষম। দয়া করে পূর্ণ স্ক্রিন/অ্যাপ্লিকেশন ক্যাপচার ব্যবহার করুন বা অন্য ওয়েবসাইট ক্যাপচার করার চেষ্টা করুন। \n\n (╯ ° □ °） ╯︵ ┻━┻ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "উচ্চতা (পিএক্স)"
+   }
+}

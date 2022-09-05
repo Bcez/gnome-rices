@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "இந்த வலைத்தளத்தில் தேர்ந்தெடுக்கப்பட்ட பகுதி கைப்பற்ற இயலாது. முழு திரையில் பதிவு பயன்படுத்தவும் அல்லது மற்றொரு வலைத்தளத்தை முயற்சிக்கவும். \n\n (╯ ° ←) ╯"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "அனிமேஷன் அளவு & வண்ணத்தை சொடுக்கவும்"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "நெருக்கமான"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "கர்சர் டாட் அளவு & வண்ணம்"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "பிழி"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "கோப்பு பெயரை பதிவிறக்கவும்"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "பதிவிறக்க Tamil"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "வரைதல் அளவு & வண்ணம்"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "ஐகான் சேர்க்கவும்"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "உரை சேர்க்கவும்"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "கிளிப்போர்டுக்கு நகலெடுக்கவும்"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "பயிர்"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "வரைய அம்புக்குறி"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "நீள்வட்டத்தை வரையவும்"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "வரிக் கோடு"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "செவ்வகத்தை வரையவும்"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "இலவச டிரா"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "முன்னிலைப்படுத்த"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "RETO."
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "சேமிக்கவும்"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "தேர்ந்தெடுக்கவும், நகர்த்தவும், அளவும்"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "அமைப்புகள்"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "செயல்தவிர்க்க"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "அனைத்தையும் செயல்தவிர்க்கவும்"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "தட்டச்சு தொடங்கவும் ..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "கோப்பு முறைமையை உலாவுக"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "இழுத்து படம் / gif அல்லது கைவிட"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "பதிவிறக்க கோப்புறையில் கோப்பு சேமிக்கப்பட்டது."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "தேர்ந்தெடுக்கப்பட்ட திருத்தங்களைப் பயன்படுத்துங்கள் (எச்சரிக்கை: செயலிழக்க முடியாது)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "தேர்ந்தெடுக்கப்பட்ட நீக்கு (டெல் / backspace)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "ஒவ்வொரு இரண்டாவது சட்டத்தை நீக்கவும்"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "தேர்ந்தெடுக்கப்பட்ட (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "அனைத்தையும் மீட்டு கொடு"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "எல்லாவற்றையும் தேர்வுநீக்கவும்"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "படம் கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "கிளிப்போர்டுக்கு படத்தை நகலெடுக்க முடியவில்லை, அது மிகப்பெரியதாக இருக்கலாம்."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "கிளிப்போர்டில் இணைப்பு நகலெடுக்கப்பட்டது."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "GIF களுக்கான $maxlength$ வினாடிகளின் அதிகபட்ச பதிவு நீள நேரத்தை நீங்கள் அடைந்துவிட்டீர்கள். பிரீமியம் பயனர்கள் இதை அமைப்புகள் பக்கத்திலிருந்து புதுப்பிக்க முடியும்.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIF கள் குறுகிய பதிவுகளுக்காக வடிவமைக்கப்பட்டுள்ளன. உங்களுக்கு முழு நீள வீடியோக்கள் தேவைப்பட்டால் எங்கள் இலவச திரை ரெக்கார்டரை பரிந்துரைக்கிறோம்:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "பிரீமியம் பயனர்கள் இதை அமைப்புகள் பக்கத்திலிருந்து புதுப்பிக்க முடியும்."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "திறந்த அமைப்புகள்"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "பதிவு திடீரென்று நிறுத்தப்பட்டதா?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "நிறம்"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "அளவு வரையவும்"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "எழுத்துரு"
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "பின்னணி வேகம்"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "சிறப்பு விளைவு"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "பிரீமியம் விருப்பங்கள்"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "எச்சரிக்கை"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "பூட்ட விகிதம் விகிதம்"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "ரத்துசெய்"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "சுருக்கவும் மற்றும் மேம்படுத்தவும் GIF."
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "GIF கோப்பு அளவைக் பெரிதும் குறைக்க GIF சுருக்க ALGORTHM ஐப் பயன்படுத்துங்கள் மற்றும் சில சந்தர்ப்பங்களில் தரத்தை மேம்படுத்தவும். மிகவும் பரிந்துரைக்கப்பட்ட."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "படங்களுக்கு வழிமுறையைப் பயன்படுத்துங்கள். நீங்கள் வண்ண தர சிக்கல்களை அனுபவித்தால் இந்த விருப்பத்தை மாற்ற முயற்சிக்கவும்."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "மதிப்பிடப்பட்ட GIF அளவு:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "படங்கள்:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "தற்போது தேர்ந்தெடுக்கப்பட்ட படங்கள் உள்ளன, சேமிப்பது இந்த தேர்ந்தெடுக்கப்பட்ட பிரேம்களை மட்டுமே வெளியிடும் -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "எல்லா படங்களையும் அறிய இங்கே கிளிக் செய்க"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "பின்னணி வேகம்"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "இந்த பதிவுகளை செயலாக்குவது நினைவகம் மற்றும் செயலாக்க சக்தி நிறைய தேவைப்படும். நீங்கள் ஒரு உயர் ஸ்பெக் பிசி இல்லையெனில் ஒன்று அல்லது அதற்கு மேற்பட்டவற்றை செய்ய பரிந்துரைக்கப்படுகிறது:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "இதன் விளைவாக GIF வெற்று இருந்தால், நீங்கள் நினைவகத்திலிருந்து வெளியேறினீர்கள் என்பதை நினைவில் கொள்க."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "சுருக்கவும் மற்றும் GIF ஐ அழுத்தவும்"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "அகலம் & உயரம் குறைக்க"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "சில படங்களை அகற்றவும்"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "அகலம் மற்றும் உயரம் குறைக்க"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "செயலாக்க நேரத்தை மேம்படுத்த GIF அகலம் மற்றும் உயரம்/தரத்தை குறைத்து சிறிய கோப்பை உருவாக்கவும்."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "சேமிக்கவும்"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "சேமிக்கவும்"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "பதிவிறக்க கோப்பு"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "கூகிள் டிரைவ் மற்றும் நகலை இணைப்பில் பதிவேற்றவும்"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "சேமிக்கவும்"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "செயலாக்க ..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "பதிவேற்றம் ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "ஆசிரியர் திறக்க"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "ப்ரோ உதவிக்குறிப்பு: உருப்படியைத் தேர்ந்தெடுப்பதன் மூலம் நீக்கப்பட்ட உருப்படிகளை நீக்கவும், நீக்கு விசையை அழுத்தவும்."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "சார்பு உதவிக்குறிப்பு: 'தேர்ந்தெடுக்கப்பட்ட விருப்பத்திற்கு திருத்தங்களைப் பயன்படுத்துங்கள்' என்பதைப் பயன்படுத்தி குறிப்பிட்ட படங்களை திருத்தலாம்"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "ப்ரோ உதவிக்குறிப்பு: ஸ்கிரீன்ஷாட் / ரெக்கார்டிங் பெரிதாக்குகையில் உருட்டும்."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "ப்ரோ உதவிக்குறிப்பு: தேர்ந்தெடுக்கும் கருவியைப் பயன்படுத்தும் போது, ஒன்றுக்கு மேற்பட்ட உருப்படியை தேர்ந்தெடுக்க Shift ஐ அழுத்தவும்."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "புரோ உதவிக்குறிப்பு: நீங்கள் அளவிடலாம், சுழற்றுங்கள், சுழற்றுங்கள், பல உருப்படிகளை ஒரே நேரத்தில் நீக்கலாம்."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "ப்ரோ உதவிக்குறிப்பு: அதை திருத்த உரையில் இரட்டை சொடுக்கவும்."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "சாளரம் கவனம் செலுத்தாததால் இது நிகழ்ந்திருக்கலாம்."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "கிளிப்போர்டுக்கு நகல் தோல்வியடைந்தது"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "பதிவேற்றம் தோல்வியுற்றது"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "மீண்டும் முயற்சி செய்."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "தயவுசெய்து நீங்கள் இணையத்துடன் இணைக்கப்பட்டுள்ளீர்கள் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள் மற்றும் Google இயக்கி அனுமதிகளை ஏற்றுக்கொண்டீர்கள்."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "கோப்பை ரத்து செய்து பதிவிறக்கவும்"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "நெருக்கமான"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "இணைப்பை நகலெடுக்கவும்"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "இணைப்பு உள்ள எவரையும் பார்க்க அனுமதிக்கவும்."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "வரைதல் இயக்கு"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "இந்த விருப்பம் Ctrl விசையை வைத்திருக்கும் போது தேர்ந்தெடுக்கப்பட்ட பகுதியில் பயனர்கள் தேர்ந்தெடுக்க அனுமதிக்கிறது."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "பதிவு GIF அல்லது உங்கள் உலாவியில் எதையும் ஸ்கிரீன்ஷாட்டை எடுத்துக் கொள்ளுங்கள் - விரைவாகவும், முன்னும் பின்னும் விரைவாகவும் எளிதாகவும்."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "குரோம் பிடிப்பு - GIF & ஸ்கிரீன்ஷாட் கருவி"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "குரோம் பிடிக்க"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "கோப்பு அணுகல் மூலம்"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "கோப்பு பெயர்"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "வினாடிக்கு படங்கள் (FPS)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "படங்கள்"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "இலவச அமைப்புகள்"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "ரத்துசெய்"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "நீங்கள் முழு திரை பிடிப்புகளுடன் தொடர விரும்புகிறீர்களா?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "இதை மீண்டும் காட்ட வேண்டாம்"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "பயிர் கருவி இல்லாமல் ஒரு குரோம் பிடிப்பு குறுக்குவழியை நீங்கள் பயன்படுத்தியிருக்கிறீர்கள், இது முழு திரையில் பயன்முறையில் பிடிக்கப்படும்."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "பயிர் கருவி திறக்க"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "Alt + C: திறந்த / மூடு Chrome பயிர் கருவி"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "Alt + Shift + S: முழு வலைப்பக்கம் ஸ்கிரீன்ஷாட் (பீட்டா)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "இங்கே இந்த கட்டமைக்க முடியும்:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "Alt + R: பதிவு தொடங்கு / நிறுத்துதல்"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S: காணக்கூடிய பகுதி ஸ்கிரீன்ஷாட்"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "இயல்புநிலை குறுக்குவழிகள்:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "முழு திரை பிடிப்பு தொடங்க"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "முழு திரை பிடிப்பு"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "பிரீமியம் கிடைக்கும்"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "அகலம் (PX)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "இணைய இணைப்பு பிரீமியம் மேம்படுத்த வேண்டும்."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "அதிகபட்ச பதிவு தீர்மானம் / தரம்"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "எல்லை இல்லாத"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "திறந்த"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "இயல்புநிலை செயல்"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 பிக்சல்கள்"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 பிக்சல்கள் (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 பிக்சல்கள் (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 பிக்சல்கள் (4K)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 பிக்சல்கள் (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "அறிவிப்புகளை இயக்கவும்"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "முழு திரை பதிவு தொடங்கும் போது அறிவிப்புகளைக் காண்பி பின்னணியில் பதிவுகளை செயலாக்குகிறது."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "எப்படி உபயோகிப்பது"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "திறந்த பாப்"
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "தேர்ந்தெடுக்கப்பட்ட பகுதி கைப்பற்றவும்"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "குறுக்குவழிகள்"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "ஆதரவு"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "உங்கள் தேர்ந்தெடுக்கப்பட்ட பகுதியைத் தேர்வுசெய்ய கிளிக் செய்து இழுக்கவும். \n ஒரு உறுப்புக்கு ஒத்துழைப்பதற்கு வலது கிளிக் செய்யவும், பலவற்றை மாற்றவும்."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "பிடிப்பு"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "திறந்த ஆசிரியர்"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "ஸ்க்ரோலிங் வலைப்பக்கம்"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "உங்கள் உலாவி இந்த வலைப்பக்கத்தில் ஸ்கிரிப்டை இயங்குவதை அனுமதிக்காது, துரதிருஷ்டவசமாக இது தேர்ந்தெடுக்கப்பட்ட பகுதி மற்றும் முழு வலைப்பக்கம் கைப்பற்றும் இந்த தளத்திற்கு சாத்தியமற்றது."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "பதிவு"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "ஒரு GIF க்கு $SECONDS$ வினாடிகள் வரை பதிவு செய்யுங்கள். பிரீமியம் பயனர்கள் இதை புதுப்பிக்கலாம்",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "அமைப்புகள் பக்கம்."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "முழு திரை அல்லது பயன்பாட்டை"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "தேர்ந்தெடுக்கப்பட்ட பகுதி"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "திறந்த அமைப்புகள்"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "இந்த தாவல்"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "பிரீமியம் அமைப்புகள்"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "பிரீமியம் கிடைக்கும்!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "நீங்கள் தற்போது இலவச திட்டத்தில் இருக்கிறீர்கள். அனைத்து பிரீமியம் அம்சங்களை திறக்க பிரீமியம் மேம்படுத்த."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "தொடர Google இல் உள்நுழைக."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "பிரீமியம் மேம்படுத்த விரும்புகிறீர்களா?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "ஏற்கனவே ஒரு பிரீமியம் பயனர்?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "உயர் தரமான GIF சுருக்க"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "பதிவு செய்யும் போது வரையவும்"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "கைப்பற்றல்கள் திருத்து"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "அடிப்படை எடிட்டிங்"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "சட்ட எடிட்டிங்"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "ட்யூன் பிரேம் வீதம்"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "வரம்பற்ற முழு பக்கம் திரைக்காட்சிகளுடன்."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "கிளிக் மற்றும் சுட்டி சுட்டிக்காட்டி"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "திட்டங்களை ஒப்பிடுக"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "ரெக்கார்டிங் பிளேபேக் வேகத்தை பதிவு செய்தல்"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "வரம்பற்ற gif பதிவுகள்."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "GIF க்கு 10sec வரம்பு வரம்பு"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "உயர் தரமான gifs."
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 பிக்சல்கள் அதிகபட்சம்"
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "வரம்பற்ற திரைக்காட்சிகளுடன்."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "சிறப்பு விளைவுகளை பதிவு செய்தல்"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "இலவச"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "பயன்படுத்த இலவச"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "அடிப்படை எடிட்டிங்"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "அடிப்படை GIF பதிவு"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "வரம்பற்ற திரைக்காட்சிகளுடன்"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "பிரீமியம்"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "தொடங்கவும்"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "உயர் தரமான GIF சுருக்க"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "பணக்கார எடிட்டிங் அம்சம்"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "இலவசமாக இருந்து எல்லாம்"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "வரம்பற்ற உயர் தரமான GIF பதிவு"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "முழுமையாக திரும்பப்பெற"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "ஒரு முறை கட்டணம்"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "இங்கே உள்நுழைக"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "தரம் (10 = சிறந்த)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "நாம் தொடர்ச்சியாக Chrome பிடிப்பு மேம்படுத்த எங்கள் கடினமான முயற்சி, தயவு செய்து தயவு செய்து எங்களை மின்னஞ்சல் மூலம் முன்னேற்றம் தேவை என்ன பகிர்ந்து"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 நாங்கள் வருந்துகிறோம்!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "நெருக்கமான"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "உறுதி"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "இந்த நீட்டிப்பு பயனுள்ளதாக இருந்தால், ஒரு மதிப்பீட்டை அல்லது மதிப்பாய்வு செய்யுங்கள். \n\n ஒரு மதிப்பீட்டை விட்டு வெளியேறுவதன் மூலம் நீங்கள் தொடர்ந்து பயனர்களைச் செலுத்துவதற்கு உதவலாம், மேலும் பொது பயன்பாடுகளை இலவசமாக வைத்திருக்க உதவுகிறது."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "பிரீமியம் வாங்கும் நீங்கள் மிகவும் பாராட்டுகிறோம் மற்றும் நீங்கள் தயாரிப்பு மேம்படுத்த மற்றும் மேலும் பயனர்கள் அடைய உதவுவதற்கு எந்த கருத்துக்களும் கேட்க விரும்புகிறேன்."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "உங்கள் விமர்சனங்கள் எங்கள் சிறிய குழுவை Chrome பிடிக்க இன்னும் சிறப்பாக செய்ய உந்துதல்!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "பிரீமியம் வாங்கும் நீங்கள் மிகவும் பாராட்டுகிறோம் மற்றும் நீங்கள் தயாரிப்பு மேம்படுத்த மற்றும் மேலும் பயனர்கள் அடைய உதவுவதற்கு எந்த கருத்துக்களும் கேட்க விரும்புகிறேன்."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 வலை அங்காடியில் விமர்சனம்?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "ஒருவேளை பின்னர்"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "நன்றி இல்லை"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "மின்னஞ்சல் அனுப்பு"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "நன்றி! 😍"
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "நாம் எப்படி செய்கிறோம்?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "சரி நிச்சயமாக"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "அதிகபட்ச பதிவு நீளம்"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "ரெக்கார்டர் தர்க்கம்"
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "செயல்திறன் V2 - செயலாக்கம் நீண்ட நேரம் எடுக்கிறது, இருப்பினும் இது 4k திரைகள் மற்றும் பல மானிட்டர்களுக்காக வேலை செய்கிறது"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "செயல்திறன் - எச்சரிக்கை 4K திரைகள் அல்லது பல திரைகள் வேலை செய்யாது"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "இயல்பான - செயல்திறன் சிக்கல்களை நீங்கள் அனுபவித்தால்"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "ஸ்கிரீன் ஷாட்டை சேமிக்கவும்"
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "பதிவு செய்யுங்கள்"
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "வினாடிகள்"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "அனிமேஷன் கிளிக் செய்யவும்"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "இந்த விருப்பம் கிளிக் இடம் சுற்றி ஒரு வட்டம் அனிமேஷன் ஈர்க்கிறது."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "கர்சர் இருப்பிடத்தில் டாட் காட்டு"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "சுட்டி அமைந்துள்ள இடத்தில் ஒரு சிறிய வட்டம் ஈர்க்கிறது."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "இந்த வலைத்தளத்தைப் பிடிக்க முடியவில்லை. முழு திரை/பயன்பாட்டு பிடிப்பைப் பயன்படுத்தவும் அல்லது மற்றொரு வலைத்தளத்தைப் பிடிக்க முயற்சிக்கவும். \n\n (╯ ° □ °）"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "உயரம் (px)"
+   }
+}

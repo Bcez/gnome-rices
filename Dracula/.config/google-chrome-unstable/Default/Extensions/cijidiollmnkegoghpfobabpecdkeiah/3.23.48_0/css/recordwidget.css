@@ -1,0 +1,221 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/***Common css reset***/
+.hv-embed-align-center {text-align: center; margin-top:2%;}
+.hv-embed-block {display: block;}
+.hv-embed-margin-bottom-2{margin-bottom: 20px;}
+.hv-embed-relative {position: relative;}
+/*Chrome extention wrapper*/
+.hv-embed-recordPage {
+  max-width: 45%;
+  height: 50%;
+  padding: 20px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Style the tab content */
+.hv-embed-tabcontent {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    -max-width: 300px;
+    margin: 0 auto;
+    /*-webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;*/
+}
+
+.hv-embed-recording-tab-content .hv-embed-three-options-div {
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 40%;
+  height: 50%;
+  clear: both;
+  text-align: center;
+  padding: 0 19px;
+}
+/*.options-container {margin-top: 20px;}*/
+
+.hv-embed-screen-box,.hv-embed-screen-box-live,.hv-embed-webcam-box,.hv-embed-webcam-box-live,.hv-embed-audio-box,.hv-embed-audio-box-live  {
+    width: 25%;
+    height: 55%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    margin-right: 12px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.hv-embed-audio-box, .hv-embed-audio-box-live {margin-right: 0px;}
+/* Style Record Video with images */
+.hv-embed-rd-option-img-1 {
+    margin-bottom: 9px;
+    margin-top: 2px;
+    width: 50%;
+    height: 65%;
+}
+.hv-embed-rd-option-img-2 {
+    margin-bottom: 9px;
+    margin-top: 2px;
+    width: 50%;
+    height: 65%;
+}
+.hv-embed-rd-option-img-3 {
+    margin-bottom: 9px;
+    margin-top: 2px;
+    width: 50%;
+    height: 65%;
+}
+
+.hv-embed-screen-uns,
+.hv-embed-webcam-uns,
+.hv-embed-audio-uns {
+    display: none;
+}
+/* Style record video with options name */
+.hv-embed-rd-option-name {
+    font-size: 11px;
+    font-weight: 300;
+    color: #9f9f9f;
+    line-height: 11px;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+    top: -10px;
+
+}
+/* Style un-selected record option gray round */
+.hv-embed-grey-round {
+    width: 20px;
+    height: 20px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 42%;
+}
+/* Style selected record option green round with white tick */
+.hv-embed-green-round {
+    width: 20px;
+    height: 20px;
+    background-color: #16ce94;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    /*background-image: url("/images/tick.png");*/
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+}
+.hv-embed-selected-option {
+    background-color: #fafefc;
+    border-color: #16ce94;
+}
+
+/* Style record button */
+.hv-embed-record-btn {
+    width: 50%;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right, #fc6076 0%, #fc6076 10%, #ff9a44 50%, #ff9a44 100%);
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hv-embed-record-btn:hover {background-image: linear-gradient(to right, #ff9a44 0%, #ff9a44 10%, #fc6076 50%, #fc6076 100%);}
+.hv-embed-record-btn img {margin: 0px 5px 0 0;}
+
+/** only for the Library listing page ends**/
+
+/***Login part***/
+.hv-embed-permission-text {
+  padding: 50px;
+}
+
+.hv-embed-loginPage,.hv-embed-permissionsPage {
+    width: 337px;
+    height: 180px;
+    max-height: 258px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /*background: url(/images/rectangle-bg.png) no-repeat;*/
+    padding: 0 20px;
+}
+.hv-embed-loginPage .hv-embed-logo-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hv-embed-loginPage .hv-embed-login-text {
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    letter-spacing: 0.2;
+    line-height: 1.7;
+}
+
+/***Tab/desktop switch***/
+.hv-embed-screen-toggle-container {
+  height: 34px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.hv-embed-hide {display: none;}
+
+.hv-embed-tiny-label {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 2%;
+  color: #616161;
+  letter-spacing: 0.3px;
+}
+
+/*Widget Login page*/
+.hv-embed-loginPage {
+  width: 297px;
+  padding: 20px;
+  text-align: center;
+  /*border-radius: 10px;*/
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.hv-embed-loginPage .hv-embed-logo-img {
+  padding-top: 20px;
+}
+
+/*Widget arrow positions*/
+.hv-embed-widget-top-left-arrow {
+  position: absolute;
+  top: -6px;
+  left: 25px;
+  z-index: 999999;
+}
+
+.hv-embed-widget-top-right-arrow {
+  position: absolute;
+  top: -6px;
+  right: 25px;
+  z-index: 999999;
+}
+
+/**/
+.hv-embed-widget {
+  width: 100%;
+  height: 100%;
+}
+
+.hv-embed-absolute {position: absolute;}

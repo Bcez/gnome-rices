@@ -1,0 +1,18 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "common/settings.js", "background.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_manifest_description__",
+   "icons": {
+      "128": "common/icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAswRhYkZnKiDy4qaRzH4N5N1Wh4YKqUyhOjGTI5Ew0asKpsRx/HOE5A1IwDlg4mRdGzVK48GjK/ts5beaAzE9qKHbY8rWwlc7cMUOcigo8azKplmz8IuWuIo8mAe9kVWccNACTg61j4+TWzY5sWTEuNHiAr2bKiOpfINon9U/2zzdzADdq5dC3E8Y5nUkupowhiuoOuBEFpu5E2+1SMbX4qYF8dwxejwJhtwehoyD5J35m1JADm8WJ7hSIL470DvuPKJm2K2rWdcfsymhx8eOUzGkQ9Ned4oh7DmPFjnne3/YLUtaHCQVYH4Qk8Xl/yCIn9Gu0TVJC0TIBTNh+8CR8wIDAQAB",
+   "name": "__MSG_manifest_name__",
+   "offline_enabled": true,
+   "permissions": [ "app.window.alwaysOnTop", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.12.1"
+}

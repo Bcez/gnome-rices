@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Erstellen und bearbeiten Sie Bilder und Fotos mit Gimp Online"
+   },
+   "new_files": {
+      "message": "Dateimanager"
+   },
+   "new_png1": {
+      "message": "GIMP-App"
+   },
+   "new_png2": {
+      "message": "Bildbearbeiter"
+   },
+   "new_png3": {
+      "message": "Foto Editor"
+   },
+   "new_usersettings": {
+      "message": "Legen Sie Benutzer-ID fest"
+   },
+   "title": {
+      "message": "Gimp online - Bild-Editor und Malwerkzeug"
+   }
+}

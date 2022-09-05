@@ -1,0 +1,96 @@
+#hippo_video_button{
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    width: 32px;
+    height: 32px;
+}
+
+#hippo_video_button:hover{
+    background-color: rgba(207,207,207,.25);
+    border-radius: 50%;
+} 
+
+#hippo_video_button_static{
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+#hippo_video_button_static:hover{
+    background-color: rgba(207,207,207,.25);
+    border-radius: 50%;
+} 
+
+.hv-embed-main-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 32px;
+    height: 36px;
+    margin: 0px 0px -4px 0px;
+}
+
+.hv-embed-main-container-static {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    width: 40px;
+    margin: 0px 0px -4px 0px;
+}
+  
+.hv-embed-main-container .tooltiptext, .hv-embed-main-container-static .tooltiptext{
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+    padding: 2px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 6px);
+    visibility: visible;
+    font-size: 12px;
+    width: auto;
+    white-space: nowrap;
+    left: 2px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.2s linear;
+    pointer-events: none;
+}
+.hv-embed-main-container .tooltiptext:before, .hv-embed-main-container-static .tooltiptext:before{
+    content: "";
+    border-width: 5px 4px 0 4px;
+    border-color: rgba(0,0,0,0.5) transparent transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: 100%;
+    left: 10px;
+}
+  
+.hv-embed-main-container:hover .tooltiptext, .hv-embed-main-container-static:hover .tooltiptext{
+    opacity: 1;
+
+}
+
+.icon_image{
+    height: 18px;
+    width: 18px;
+    margin:0px 0px -3px 0px;
+}
+
+.icon_image_static{
+    height: 22px;
+    width: 22px;
+    margin:0px 0px -3px 0px;
+}
+
+.hv-template-mf-form-input-ele .input-ele input {
+    color: black;
+}
+
+.sidebar-inner__footer div{
+    margin-top: -5px;
+}

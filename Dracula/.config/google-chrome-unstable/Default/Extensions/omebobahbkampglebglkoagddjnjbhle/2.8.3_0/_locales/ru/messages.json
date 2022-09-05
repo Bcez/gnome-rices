@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Создание и редактирование изображений и фотографий с Gimp онлайн"
+   },
+   "new_files": {
+      "message": "Файловый менеджер"
+   },
+   "new_png1": {
+      "message": "Приложение GIMP"
+   },
+   "new_png2": {
+      "message": "Редактор изображений"
+   },
+   "new_png3": {
+      "message": "Редактор фото"
+   },
+   "new_usersettings": {
+      "message": "Установить Userid"
+   },
+   "title": {
+      "message": "Gimp онлайн - редактор изображений и краски инструмент"
+   }
+}

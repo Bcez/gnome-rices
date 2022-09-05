@@ -1,0 +1,23 @@
+{
+   "action": {
+      "default_icon": "sumo128.png"
+   },
+   "author": "Sumo Apps Ltd",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Sumopaint is a full featured painting and image editing application.",
+   "icons": {
+      "128": "sumo128.png",
+      "16": "sumo16.png",
+      "32": "sumo32.png",
+      "48": "sumo48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfR8aHH8XICEwcac6NEGgs8ePtESEEEUXYDEEAu9ZjumyhfdTzHEOWicUw9qnWb91m9VQH3cTXRJRq33hmsdI5vDyNzgLVQ5WNki+EgJ9uYRwlzkJ15MbKzmMIT+acXGinxX7OdhmfUKSqth/cZ1kDv+/s0swzIBCHtCTJZYGv3wIDAQAB",
+   "manifest_version": 3,
+   "name": "Sumopaint - Online Image Editor",
+   "permissions": [ "contextMenus" ],
+   "short_name": "Sumopaint",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "12.4"
+}

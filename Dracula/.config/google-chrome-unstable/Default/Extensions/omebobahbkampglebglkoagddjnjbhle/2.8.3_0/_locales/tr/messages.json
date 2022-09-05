@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Gimp Online ile görüntü ve fotoğraflar oluşturun ve düzenleyin"
+   },
+   "new_files": {
+      "message": "Dosya Yöneticisi"
+   },
+   "new_png1": {
+      "message": "GIMP uygulaması"
+   },
+   "new_png2": {
+      "message": "Resim Editörü"
+   },
+   "new_png3": {
+      "message": "Fotoğraf Editörü"
+   },
+   "new_usersettings": {
+      "message": "Userid Ayarla"
+   },
+   "title": {
+      "message": "Gimp online - resim editörü ve boya aracı"
+   }
+}

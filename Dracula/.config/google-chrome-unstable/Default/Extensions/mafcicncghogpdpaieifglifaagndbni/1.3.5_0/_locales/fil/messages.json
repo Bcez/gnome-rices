@@ -1,0 +1,58 @@
+{
+   "appDesc": {
+      "description": "This is the extension description.",
+      "message": "Ang iyong bago at pinabuting karanasan sa Roblox"
+   },
+   "appMessage": {
+      "description": "This is a small explainer on the settings page.",
+      "message": "Tandaan, ito ay isang extension; Posible lamang ang mga bagay hangga't pinapayagan ito ng Roblox. Ang mga bagay ay maaaring masira anumang oras dahil sa mga pagbabago ng Roblox o iba pang mga kadahilanan."
+   },
+   "appName": {
+      "description": "This is the extension name.",
+      "message": "RoGold - Antas ng Roblox"
+   },
+   "bestFriends": {
+      "description": "Best friends text on home page.",
+      "message": "Matalik na kaibigan"
+   },
+   "pinnedGames": {
+      "description": "Pinned games text on home page.",
+      "message": "Naka -pin na mga laro"
+   },
+   "settingsBasic": {
+      "description": "This is the basic button on the settings page.",
+      "message": "Pangunahing"
+   },
+   "settingsCatalog": {
+      "description": "This is the catalog button on the settings page.",
+      "message": "Catalog"
+   },
+   "settingsCurrency": {
+      "description": "This is the currency button on the settings page.",
+      "message": "Pera"
+   },
+   "settingsDevelopment": {
+      "description": "This is the development button on the settings page.",
+      "message": "Kaunlaran"
+   },
+   "settingsExperimental": {
+      "description": "This is the experimental button on the settings page.",
+      "message": "Eksperimental"
+   },
+   "settingsFriends": {
+      "description": "This is the friends button on the settings page.",
+      "message": "Mga kaibigan"
+   },
+   "settingsGames": {
+      "description": "This is the games button on the settings page.",
+      "message": "Spil"
+   },
+   "settingsInfo": {
+      "description": "This is the info button on the settings page.",
+      "message": "Impormasyon"
+   },
+   "settingsProfiles": {
+      "description": "This is the profiles button on the settings page.",
+      "message": "Mga profile"
+   }
+}

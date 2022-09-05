@@ -1,0 +1,58 @@
+{
+   "appDesc": {
+      "description": "This is the extension description.",
+      "message": "Pengalaman Robloxmu yang baru dan lebih baik"
+   },
+   "appMessage": {
+      "description": "This is a small explainer on the settings page.",
+      "message": "Ingatlah, ini sebuah extensi; hal-hal apapun hanya bisa berfungsi selama Roblox membolehkannya. Hal-hal tersebut mungkin tidak berfungsi lagi kapanpun waktu karena perubahan dari Roblox atau lain-lain."
+   },
+   "appName": {
+      "description": "This is the extension name.",
+      "message": "RoGold - Tingkatkan Roblox"
+   },
+   "bestFriends": {
+      "description": "Best friends text on home page.",
+      "message": "Sahabat"
+   },
+   "pinnedGames": {
+      "description": "Pinned games text on home page.",
+      "message": "Disematkan"
+   },
+   "settingsBasic": {
+      "description": "This is the basic button on the settings page.",
+      "message": "Dasar"
+   },
+   "settingsCatalog": {
+      "description": "This is the catalog button on the settings page.",
+      "message": "Katalog"
+   },
+   "settingsCurrency": {
+      "description": "This is the currency button on the settings page.",
+      "message": "Mata Uang"
+   },
+   "settingsDevelopment": {
+      "description": "This is the development button on the settings page.",
+      "message": "Pengembangan"
+   },
+   "settingsExperimental": {
+      "description": "This is the experimental button on the settings page.",
+      "message": "Eksperimental"
+   },
+   "settingsFriends": {
+      "description": "This is the friends button on the settings page.",
+      "message": "Teman"
+   },
+   "settingsGames": {
+      "description": "This is the games button on the settings page.",
+      "message": "Permainan"
+   },
+   "settingsInfo": {
+      "description": "This is the info button on the settings page.",
+      "message": "Info"
+   },
+   "settingsProfiles": {
+      "description": "This is the profiles button on the settings page.",
+      "message": "Profil"
+   }
+}

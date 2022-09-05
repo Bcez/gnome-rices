@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta rel="icon" href="icon.png">
+    <meta charset="utf-8">
+    <title>Sticky Notes - For Daily work</title>
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body oncontextmenu="return false">
+    <div id="wrap">
+      <div class="drag"></div>
+      <header class="header">
+        <button type="button" class="new">+</button>
+        <div class="title" contenteditable="true" spellcheck="false">Untitle</div>
+        <button type="button" class="menu_bar" oncontextmenu="return false"><img src="menu.png" alt="menu" /></button>
+
+        <ul class="menu">
+          <li id="new">New <span> Ctrl+N</span></li>
+          <li id="copy">Copy <span> Ctrl+C</span></li>
+          <li id="cut">Cut <span> Ctrl+X</span></li>
+          <li id="font">Font Size <span id="in">+</span><span id="de">-</span></li>
+          <label for="bgColor"><li id="bg">Background</li></label>
+          <label for="fontColor"><li id="col">Font Color</li></label>
+          <li id="exit">Exit <span> Esc</span></li>
+        </ul>
+      </header>
+    </div>
+    <input type="color" id="bgColor" value="">
+    <input type="color" id="fontColor" value="">
+    <textarea class="note" contenteditable="true" spellcheck="false"></textarea>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

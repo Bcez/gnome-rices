@@ -1,0 +1,46 @@
+#hippo_video_button{
+background-color: transparent;
+}
+
+#hippo_video_button:hover{
+    background-color:rgba(207,207,207,.25);
+    border-radius: 50%;
+
+}
+
+.hv-embed-main-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.hv-embed-main-container .tooltiptext {
+    white-space: nowrap;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 4px);
+    left: 50%;
+    color: #FFFFFF;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.2s linear;
+    pointer-events: none;
+    font-size: 12px;
+}
+.hv-embed-main-container .tooltiptext:before{
+    content: "";
+    border-width: 5px 4px 0 4px;
+    border-color: rgba(0,0,0,0.5) transparent transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.hv-embed-main-container:hover .tooltiptext {
+    opacity: 1;
+}

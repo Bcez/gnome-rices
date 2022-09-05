@@ -1,0 +1,8 @@
+{
+   "extDescription": {
+      "message": "Esta aplicación meteorológica te avisa en tiempo real de precipitaciones que se estén acercando."
+   },
+   "extName": {
+      "message": "Alarma de Lluvia"
+   }
+}

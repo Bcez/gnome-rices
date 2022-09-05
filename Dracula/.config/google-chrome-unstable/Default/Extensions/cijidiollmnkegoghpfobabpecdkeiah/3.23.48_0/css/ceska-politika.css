@@ -1,0 +1,26 @@
+.hv-video-btn-container {
+    width: 50px;
+    height: 48px;
+    display:  flex; 
+    align-items:  center; 
+    cursor:  pointer; 
+}
+
+.hv-video-btn-container:hover {
+    background-color: #555;
+}
+
+.hv-video-btn-container img {
+    width: 30px; 
+    cursor:  pointer; 
+    padding-left: 10px;
+}
+
+.bg-blue {
+    background-color: #54A0D5 !important;
+}
+
+.hv-checkbox-container {
+  width: 400px !important;
+  margin-top: 15px;
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+ <mime-type type="image/psd">
+  <glob pattern="*.psd"/>
+ </mime-type>
+ <mime-type type="image/jpeg">
+  <glob pattern="*.jpeg"/>
+  <glob pattern="*.jpg"/>
+ </mime-type>
+ <mime-type type="image/png">
+  <glob pattern="*.png"/>
+ </mime-type>
+ <mime-type type="image/webp">
+  <glob pattern="*.webp"/>
+ </mime-type>
+ <mime-type type="image/bmp">
+  <glob pattern="*.bmp"/>
+ </mime-type>
+ <mime-type type="image/gif">
+  <glob pattern="*.gif"/>
+ </mime-type>
+ <mime-type type="image/svg+xml">
+  <glob pattern="*.svg"/>
+ </mime-type>
+ <mime-type type="image/pdf">
+  <glob pattern="*.pdf"/>
+ </mime-type>
+ <mime-type type="image/tiff">
+  <glob pattern="*.tif"/>
+  <glob pattern="*.tiff"/>
+ </mime-type>
+ <mime-type type="image/ai">
+  <glob pattern="*.ai"/>
+ </mime-type>
+ <mime-type type="image/psb">
+  <glob pattern="*.psb"/>
+ </mime-type>
+ <mime-type type="image/xcf">
+  <glob pattern="*.xcf"/>
+ </mime-type>
+ <mime-type type="image/sketch">
+  <glob pattern="*.sketch"/>
+ </mime-type>
+ <mime-type type="image/xd">
+  <glob pattern="*.xd"/>
+ </mime-type>
+ <mime-type type="image/pxd">
+  <glob pattern="*.pxd"/>
+ </mime-type>
+ <mime-type type="image/cdr">
+  <glob pattern="*.cdr"/>
+ </mime-type>
+ <mime-type type="image/eps">
+  <glob pattern="*.eps"/>
+  <glob pattern="*.ps"/>
+ </mime-type>
+ <mime-type type="image/x-icon">
+  <glob pattern="*.ico"/>
+ </mime-type>
+ <mime-type type="image/jpx">
+  <glob pattern="*.jpx"/>
+ </mime-type>
+ <mime-type type="image/jp2">
+  <glob pattern="*.jp2"/>
+ </mime-type>
+ <mime-type type="image/x-tga">
+  <glob pattern="*.tga"/>
+ </mime-type>
+</mime-info>

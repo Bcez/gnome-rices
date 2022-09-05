@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="ca.desrt.dconf-editor.desktop" score="5" last-seen="1662270907"/>
+    <application id="org.remmina.Remmina.desktop" score="1364" last-seen="1662340503"/>
+    <application id="kitty.desktop" score="178" last-seen="1662415572"/>
+    <application id="org.gnome.tweaks.desktop" score="97" last-seen="1662365903"/>
+    <application id="org.gnome.TextEditor.desktop" score="93" last-seen="1662366146"/>
+    <application id="org.gnome.Software.desktop" score="38" last-seen="1662353609"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="233" last-seen="1662365862"/>
+    <application id="terminology.desktop" score="21" last-seen="1662348329"/>
+    <application id="com.raggesilver.BlackBox.desktop" score="669" last-seen="1662414531"/>
+    <application id="org.gnome.Shell.Extensions.GSConnect.Preferences.desktop" score="57" last-seen="1662259285"/>
+    <application id="com.gexperts.Tilix.desktop" score="204" last-seen="1662408584"/>
+    <application id="org.gnome.Calendar.desktop" score="0" last-seen="1662358586"/>
+    <application id="org.freedesktop.GnomeAbrt.desktop" score="3" last-seen="1662326645"/>
+    <application id="android-file-transfer.desktop" score="0" last-seen="1662359890"/>
+    <application id="xdg-desktop-portal-gnome.desktop" score="1" last-seen="1662362394"/>
+    <application id="chrome-haiffjcadagjlijoggckpgfnoeiflnem-Default.desktop" score="0" last-seen="1662404722"/>
+    <application id="google-chrome-unstable.desktop" score="1407" last-seen="1662404724"/>
+    <application id="com.visualstudio.code.desktop" score="216" last-seen="1662408461"/>
+    <application id="firefox.desktop" score="5249" last-seen="1662415409"/>
+    <application id="org.gnome.Terminal.desktop" score="76" last-seen="1662353187"/>
+    <application id="org.gnome.Calculator.desktop" score="3" last-seen="1662331273"/>
+    <application id="com.github.GradienceTeam.Gradience.desktop" score="55" last-seen="1662308293"/>
+    <application id="org.gnome.Nautilus.desktop" score="189" last-seen="1662415572"/>
+    <application id="elementary_config.desktop" score="1" last-seen="1662363415"/>
+    <application id="gnome-system-monitor.desktop" score="0" last-seen="1662319786"/>
+    <application id="yelp.desktop" score="0" last-seen="1662317171"/>
+    <application id="org.gnome.Extensions.desktop" score="114" last-seen="1662414555"/>
+    <application id="org.gnome.Settings.desktop" score="529" last-seen="1662414486"/>
+    <application id="io.gitlab.caveman250.headlines.desktop" score="12" last-seen="1662327864"/>
+  </context>
+</application-state>

@@ -1,0 +1,18 @@
+2022-09-05 00:14:09,826 main.py line 196 __bus_destroy_cb INFO: finalizing:)
+2022-09-05 00:14:09,826 factory.py line 93 do_destroy INFO: Syncing user database(s)
+2022-09-05 00:14:09,826 factory.py line 93 do_destroy INFO: Syncing user database(s)
+2022-09-05 00:14:51,215 main.py line 315 main INFO: ********** STARTING **********
+2022-09-05 04:19:53,282 main.py line 196 __bus_destroy_cb INFO: finalizing:)
+2022-09-05 04:19:53,283 factory.py line 93 do_destroy INFO: Syncing user database(s)
+2022-09-05 04:19:53,283 factory.py line 93 do_destroy INFO: Syncing user database(s)
+2022-09-05 04:20:34,546 main.py line 315 main INFO: ********** STARTING **********
+2022-09-05 13:08:42,538 main.py line 315 main INFO: ********** STARTING **********
+2022-09-05 13:14:11,292 main.py line 196 __bus_destroy_cb INFO: finalizing:)
+2022-09-05 13:14:11,293 factory.py line 93 do_destroy INFO: Syncing user database(s)
+2022-09-05 13:14:11,293 factory.py line 93 do_destroy INFO: Syncing user database(s)
+2022-09-05 13:14:53,533 main.py line 315 main INFO: ********** STARTING **********
+2022-09-05 16:18:36,173 main.py line 196 __bus_destroy_cb INFO: finalizing:)
+2022-09-05 16:18:36,177 factory.py line 93 do_destroy INFO: Syncing user database(s)
+2022-09-05 16:18:36,177 factory.py line 93 do_destroy INFO: Syncing user database(s)
+2022-09-05 16:20:31,280 main.py line 315 main INFO: ********** STARTING **********
+2022-09-05 17:59:39,308 main.py line 315 main INFO: ********** STARTING **********

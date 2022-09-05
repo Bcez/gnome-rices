@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Nie można uruchomić wybranego przechwytywania obszaru na tej stronie. Użyj pełnego ekranu nagrywania lub wypróbuj inną stronę internetową. \n\n (╯ ° □ °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Kliknij rozmiar animacji i kolor"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "Blisko"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "Kursor Dot Size & Color"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Zastosuj Dift."
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Pobierz Format pliku FileName."
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "Pobierać"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Rozmiar rysunku i kolor"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Dodaj ikonę"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Dodaj tekst"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Skopiuj do schowka"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "Przyciąć"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Draw Arrow."
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Narysuj ellipsę"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "Rysować linię"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Rysować prostokąt"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Bezpłatny rysunek"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "Atrakcja"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Przerobić"
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "Zapisać"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Wybierz, przesuń, zmień rozmiar"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "Ustawienia"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Cofnij"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Cofnij wszystko"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "Zacznij pisać..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Przeglądaj system plików."
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Przeciągnij i upuść obraz / gif lub"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Plik zapisany w folderze do pobrania."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "Zastosuj zmiany do wybranych (ostrzeżenie: nie można się cofnąć)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Usuń wybrany (del / backspace)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Usuń co sekundę"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Przywróć wybrane (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Przywrócić wszystkie"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Odznacz wszystko"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "Obraz skopiowany do schowka."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Nie udało się skopiować obrazu do schowka, może być zbyt duży."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Link skopiowany do schowka."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Osiągnąłeś czas rejestrowania MAX w sekund $maxlength$ dla GIFS. Użytkownicy premium mogą to zaktualizować ze strony Ustawienia.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIF są przeznaczone do krótkich nagrań. Jeśli potrzebujesz pełnej długości filmów, zalecamy nasz bezpłatny rejestrator ekranu:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "Użytkownicy premium mogą to zaktualizować ze strony Ustawienia."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Otwórz ustawienia"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "Nagrywanie nagle zatrzymało się?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Kolor"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Rysować rozmiar"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Czcionka"
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Prędkość odtwarzania"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Efekt specjalny"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Opcje premium."
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Ostrzeżenie"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "Współczynnik montażu"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Anulować"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "Kompresuj i optymalizuj GIF"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "Zastosuj algorthm kompresji GIF, aby znacznie zmniejszyć rozmiar pliku GIF, aw niektórych przypadkach poprawia jakość. Gorąco zalecane."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Zastosuj algorytm Dither na obrazy. Spróbuj przełączyć tę opcję, jeśli masz problemy z jakością kolorów."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Szacowany rozmiar GIF:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Obrazy:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "Istnieją obecnie wybrane obrazy, zapisywanie wyświetli tylko te wybrane ramki -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Kliknij tutaj, aby rozsadzić wszystkie obrazy"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Prędkość odtwarzania"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "Przetwarzanie tego nagrywania będzie wymagało dużej mocy pamięci i przetwarzania. Jeśli nie masz wysokiej specyfikacji komputera, zaleca się wykonywanie jednego lub więcej z następujących:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Uwaga Jeśli wynikowy GIF jest pusty, uruchomiłeś się z pamięci."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "Kompresuj i optymalizuj GIF"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Zmniejsz szerokość i wysokość"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Usuń niektóre obrazy"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Zmniejsz szerokość i wysokość"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Zmniejsz szerokość i wysokość/jakość GIF, aby poprawić czas przetwarzania i wytworzyć mniejszy plik."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "Zapisać"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Oszczędzaj"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Pobieranie pliku"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Prześlij link do Dysu Google i skopiuj"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "Zapisać"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Przetwarzanie..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Przesyłanie ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Otwarty w edytorze."
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Pro Wskazówka: Usuń dodane elementy, wybierając element i naciskając klawisz Delete."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "Wskazówka: możesz edytować określone obrazy za pomocą opcji „Zastosuj edycje do wybranej opcji”"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "Pro Wskazówka: Przewiń podczas unoszenia zrzutu ekranu / nagrywania, aby powiększyć."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "Pro Wskazówka: Podczas korzystania z narzędzia wybierającego przytrzymaj Shift Shift, aby wybrać więcej niż jeden element."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Pro Wskazówka: Możesz skalować, obracać, przesuwać i usuwać wiele elementów jednocześnie."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Pro Wskazówka: Kliknij dwukrotnie tekst, aby go edytować."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "Mogło się to zdarzyć, ponieważ okno nie zostało skupione."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Kopiuj do schowka nie powiodło się"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "Skopiowane do schowka"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Przesyłanie nie powiodło się"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Spróbuj ponownie."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Upewnij się, że jesteś podłączony do Internetu i zaakceptowałeś uprawnienia Dysu Google."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "Anuluj i pobierz plik"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "Blisko"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Skopiuj link"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "Pozwól każdemu z linkiem do wyświetlenia."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "Włącz rysunek"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "Ta opcja umożliwia użytkownikom rysowanie w wybranym obszarze przytrzymując klawisz CTRL."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Nagrywaj GIF lub zbierz zrzut ekranu w przeglądarce - szybciej i łatwiej niż kiedykolwiek wcześniej."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture - Gif & Screenshot Narzędzie"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Chrome Capture."
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "Dostęp do plików"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Nazwa pliku"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Obrazy na sekundę (FPS)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "obrazy"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Darmowe ustawienia."
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Anulować"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Czy na pewno chcesz kontynuować przeciągnięcie pełnego ekranu?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Nie pokazuj tego ponownie"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "Użyłeś skrótu Chrome Capture bez narzędzia przycinania, to przechwytuje w trybie pełnoekranowym."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Otwarte narzędzie do uprawy"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "Alt + C: narzędzie do przycinania do przycinania chromowania"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "Alt + Shift + S: Pełna screenshot WebPage (beta)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Możesz je skonfigurować tutaj:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "Alt + R: Start / Stop Nagrywanie"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S: Screenshot obszaru widocznego"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Domyślne skróty to:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Rozpocznij uchwycenie pełnoekranowego"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Full Screen Capture."
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Uzyskaj premię"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Szerokość (px)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Wymagane jest połączenie internetowe do aktualizacji do premii."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "Maksymalna rozdzielczość / jakość"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Bez limitu"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "otwarty"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Akcja domyślna"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 pikseli."
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 pikseli (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 pikseli (480 p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 pikseli (4K)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 pikseli (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Włącz powiadomienia"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Wyświetl powiadomienia, gdy rozpoczyna się nagrywanie pełnego ekranu i przetwarzanie nagrań w tle."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Jak używać"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Otwórz Popup."
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Otwórz wybrane przechwytywanie obszaru"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Skróty"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "Wsparcie"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Kliknij i przeciągnij, aby wybrać wybrany obszar. \n Kliknij prawym przyciskiem myszy, aby przyciągnąć do elementu, przytrzymaj zmianę wielu."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Zdobyć"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Open Editor."
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Przewijanie strony internetowej"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "Twoja przeglądarka nie pozwala na bieżąco skrypty na tej stronie, niestety sprawia, że wybrany obszar i pełna strona przechwytywania dla tej strony."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Nagrywać"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Nagraj do $SECONDS$ sekundy na GIF. Użytkownicy premium mogą to zaktualizować od",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Strona ustawień."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Pełny ekran lub aplikacja"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Wybrany obszar"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Otwórz ustawienia"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "Ta karta"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Ustawienia premium."
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Zdobądź Premium!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Jesteś obecnie w bezpłatnym planu. Uaktualnij do premii, aby odblokować wszystkie funkcje premium."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Zaloguj się do Google, aby kontynuować."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Chcesz uaktualnić do Premium?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Już użytkownik premium?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "Wysokiej jakości kompresja GIF"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Narysuj podczas nagrywania"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Edytuj przechwytywanie"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "Podstawowa edycja"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Edycja ramek."
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "Szybkość klatek na dostrój"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Nieograniczone zrzuty ekranu pełnej strony."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "Kliknij i mysz wskazuje"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "Porównaj plany."
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "TUNE Nagrywanie prędkości odtwarzania"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Nieograniczone nagrania GIF."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "10 sekund limitu na gif"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "Wysokiej jakości gify."
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 pikseli max."
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Nieograniczone zrzuty ekranu."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "Nagrywanie efektów specjalnych"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "Bezpłatny"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Bezpłatny do użycia"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Podstawowa edycja"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "Podstawowe nagrywanie GIF."
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Nieograniczone zrzuty ekranu."
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Premia"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "Zaczynaj"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "Wysokiej jakości kompresja GIF"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Funkcjonuje bogate edycja"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Wszystko od wolnego"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Nieograniczona wysokiej jakości nagrywanie GIF"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "W pełni zwrotny"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "opłata jednorazowa"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Podpisz tutaj"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Jakość nagrywania (10 = najlepsza)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Nieustannie staramy się poprawić chromowane wychwytywanie, podziel się, co wymaga poprawy, e-mailem nas"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Przepraszamy!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "Blisko"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "Potwierdzać"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Jeśli znalazłeś ten rozszerzenie przydatne, zostaw ocenę lub przegląd. \n\n Pozostawiając ocenę, możesz pomóc nam dotrzeć do większej liczby użytkowników, które pomogą sfinansować ciągłe ulepszenia i zachować ogólne wykorzystanie wolne."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Jesteśmy bardzo doceniamy kupując premię i chciałbym usłyszeć wszelkie informacje zwrotne, które musisz pomóc nam ulepszyć produkt i dotrzeć do większej liczby użytkowników."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Twoje recenzje Trzymaj nasz mały zespół zmotywowany, aby chromować Chrome wychwytywanie jeszcze lepiej!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Jesteśmy bardzo doceniamy kupując premię i chciałbym usłyszeć wszelkie informacje zwrotne, które musisz pomóc nam ulepszyć produkt i dotrzeć do większej liczby użytkowników."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Przegląd w sklepie internetowym?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Może później"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Nie, dziękuję"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Wysłać email"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Dziękuję Ci! 😍."
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "Jak nam idzie?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "Ok, oczywiście"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Maksymalna długość rekordu."
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Logika rejestratora."
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Performant V2 - przetwarzanie trwa dłużej jednak działa na ekrany 4K i wielu monitorów"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Performant - Ostrzeżenie nie działa dla ekranów 4K lub wielu monitorów"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Normalny - jeśli wystawiasz problemy z wydajnością, użyj wydajności"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Zapisz zrzut ekranu AS."
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Zapisz nagrywanie AS."
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "SEC."
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "Pokaż animację kliknij"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "Ta opcja rysuje animację koła wokół lokalizacji kliknięć."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Pokaż kropkę w lokalizacji Cursor"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "Ta opcja rysuje małe koło, aby wskazać, gdzie znajduje się mysz."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Nie można uchwycić tej strony internetowej. Użyj pełnego ekranu/przechwytywania aplikacji lub spróbuj przechwycić inną stronę internetową. \n\n (╯ □ °） ┻━┻ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Wysokość (px)"
+   }
+}

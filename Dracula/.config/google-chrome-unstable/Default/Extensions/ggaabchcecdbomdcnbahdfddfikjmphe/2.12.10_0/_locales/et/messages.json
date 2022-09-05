@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Sellel veebisaidil ei saa valitud ala püüdmist käivitada. Palun kasutage täisekraani salvestamist või proovige teist veebisaiti. \n\n (╯ ° □ °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Klõpsake Animatsioon Size & Color"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "Sulge"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "Kursori dot suurus ja värv"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Rakendama"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Lae failinimi formaat"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "Lae alla"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Joonis suurus ja värv"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Lisa ikoon"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Lisa tekst"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Kopeerida lõikelauale"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "Saak"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Joonista nool"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Joonista ellips"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "Liin"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Joonista ristkülik"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Vaba joon"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "Esile tõstma"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Redo"
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "Säästa"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Valige, liigutage, suurust"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "Seaded"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Tagasi võtma"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Tagasi võtma"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "Käivitage kirjutamine ..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Sirvi failisüsteemi"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Lohistage pilt / gif või"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Fail salvestatud kausta allalaadimistesse."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "Rakenda muudatusi valitud (Hoiatus: ei saa tagasi võtta)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Kustuta valitud (del / backspace)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Kustutage iga teine raami"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Valitud (R) taastamine"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Taastada kõik"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Unleta kõik"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "Pilt kopeeritud lõikepuhvrisse."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Pildi kopeerimine lõikepuhvrisse ei õnnestunud, võib see olla liiga suur."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Link kopeeritud lõikelauale."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Olete GIF -ide jaoks jõudnud maksimaalse salvestusajaga $maxlength$ sekundites. Premium -kasutajad saavad seda seadete lehelt värskendada.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIF -id on mõeldud lühikeste salvestuste jaoks. Kui vajate täispikka videoid, soovitame oma tasuta ekraanisalvesti:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "Premium -kasutajad saavad seda seadete lehelt värskendada."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Avatud sätted"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "Salvestamine peatus äkki?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Värv"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Suurus"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Font"
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Taasesituse kiirus"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Eriefekt"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Lisatasu valikud"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Hoiatus"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "Lukusta kuvasuhe"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Tühistama"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "Kompress ja optimeeri gif"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "GIF -faili suuruse vähendamiseks rakendage GIF -i tihendamise ALGORTHM ja mõnel juhul parandage kvaliteeti. Äärmiselt soovitatav."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Kandke piltidele DIT -i algoritm. Proovige seda valikut jätkata, kui teil on värvikvaliteedi probleeme."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Hinnanguline GIF suurus:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Pildid:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "Praegu on valitud pilte, salvestamine väljastab ainult need valitud raamid -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Kõigi piltide valimiseks klõpsake siin"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Taasesituse kiirus"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "Selle salvestamise töötlemine nõuab palju mälu ja töötlemise võimsust. Kui teil pole kõrget spec arvutit, on soovitatav teha üks või mitu järgmistest:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Pange tähele, kas sellest tulenev GIF on tühi, siis sa jooksid mälust välja."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "Tihendada ja optimeerida GIF"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Vähendage laiuse ja kõrguse"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Eemaldage mõned pildid"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Vähendage laiuse ja kõrgus"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Töötlemisaja parandamiseks ja väiksema faili saamiseks vähendage GIF -i laiust ja kõrgust/kvaliteeti."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "Säästa"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Kokku hoidma"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Allalaadimisfail"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Laadige üles Google Drive & Copy Copy lingi"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "Säästa"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Töötlemine ..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Üleslaadimine ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Avage toimetaja"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Pro Näpunäide: Kustuta lisatud üksused, valides objekti ja vajutades kustutamisklahvi."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "Pro näpunäide. Konkreetseid pilte saate redigeerida, kasutades „Rakenda redigeerimist valitud suvandile”"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "Pro Näpunäide: kerige, kui ekraanipilt / salvestamine suurendamiseks suurendamiseks."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "Pro Näpunäide"
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Pro Näpunäide: saate mastaaži, pöörata, liigutada ja kustutada mitu üksust korraga."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Pro Näpunäide: Topeltklõpsake teksti redigeerimiseks."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "See võis toimuda tänu sellele, et akna ei keskendunud."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Kopeeri lõikelauale ebaõnnestus"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "Kopeeritud lõikelauale"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Üleslaadimine ebaõnnestus"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Proovi uuesti."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Veenduge, et olete Internetiga ühendatud ja olete aktsepteerinud Google Drive'i õigusi."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "Tühista ja alla laadida fail"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "Sulge"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Kopeeri link"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "Luba kõigil, kellel on link vaadata."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "Luba joonistus"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "See valik võimaldab kasutajatel valida valitud piirkonnas CTRL-klahvi all hoidmisel."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Salvestage GIF või võtke oma brauseris ekraanipilt - kiirem ja lihtsam kui kunagi varem."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture - GIF & ekraanipilt Tool"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Chrome Capture"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "Faili juurdepääs"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Faili nimi"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Pildid sekundis (FPS)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "pildid"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Tasuta seaded"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Tühistama"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Kas olete kindel, et soovite jätkata täisekraani püüdmise?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Ära näita seda uuesti"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "Olete kasutanud Chrome Capture otsetee ilma kärpimisvahendita, see jäädvustab täisekraanirežiimis."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Avatud kärpimisvahend"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "ALT + C: Avage / sulgege Chrome Capture Cropping Tool"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "Alt + Shift + S: Täielik veebileht Screenshot (BETA)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Te saate neid siin konfigureerida:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "ALT + R: Start / Stop salvestamine"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "ALT + S: nähtav ala ekraanipilt"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Vaikimisi otseteed on järgmised:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Käivitage täisekraani püüdmine"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Täisekraani püüdmine"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Saada lisatasu"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Laius (px)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Lisatasu uuendamiseks on vaja Interneti-ühendust."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "Max Salvestamise eraldusvõime / kvaliteet"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Pole limiiti"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "Avama"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Vaikimisi toiming"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 pikslit"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 pikslit (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 pikslit (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 pikslit (4k)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 pikslit (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Luba teatised"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Kuva teatised, kui täisekraani salvestamine algab ja töötleb salvestusi taustal."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Kuidas kasutada"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Avanev hüpikak"
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Avage valitud ala püüdmine"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Otseteed"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "Toetus"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Valitud ala valimiseks klõpsake ja lohistage. \n Paremklõps elemendiks klõpsamiseks hoidke nihutamist mitu."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Püüdmine"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Avage toimetaja"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Veebilehe kerimine"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "Teie brauser ei võimalda sellel veebilehel skriptide käivitamist, kahjuks muudab selle saidi jaoks võimatuks valitud ala ja täielik veebileht."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Rekord"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Salvestage kuni $SECONDS$ sekundit GIF -i kohta. Premium kasutajad saavad seda värskendada",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Seadete leht."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Täisekraan või rakendus"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Valitud ala"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Avatud seaded"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "See vahekaart"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Premium seaded"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Hangi lisatasu!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Olete praegu vaba plaanis. Uuenda lisatasu avamiseks kõik lisatasu omadused."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Logi sisse Google jätkata."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Kas soovite uuendada lisatasu?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Juba lisatasu kasutaja?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "Kvaliteetne GIF-kompressioon"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Joonista salvestamise ajal"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Muuda salvestamist"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "Põhiredigeerimine"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Raami redigeerimine"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "Tune kaadrisagedus"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Piiramatu täielik lehekülg Screenshots."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "Klõpsake ja hiire näitaja"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "Võrdle plaane"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "Tune salvestamise taasesituse kiirus"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Unlimited GIF-salvestused."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "10seci piiri gifi kohta"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "Kvaliteetsed GIF"
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 pikslit max"
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Unlimited Screenshots."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "Salvestamine eriefektide"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "Vaba"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Tasuta kasutada"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Põhiredigeerimine"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "GIF-salvestus"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Unlimited Screenshots"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Lisatasu"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "Alustama"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "Kvaliteetne GIF-kompressioon"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Funktsioon rikkalik redigeerimine"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Kõik tasuta"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Piiramatu kõrge kvaliteediga GIF-salvestus"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "Täielikult tagastatav"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "Üks ajatasu"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Logi sisse siit"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Salvestamine kvaliteet (10 = parim)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Me püüame pidevalt meie kõige raskemini parandada Chrome'i püüdmise, palun jagage seda, mis vajab meid e-posti teel"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Meil on kahju!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "Sulge"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "Kinnitama"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Kui olete selle laienduse leidnud kasulikud, jätke palun reiting või ülevaade. \n\n Julgudes reitingut saate aidata meil jõuda rohkem kasutajaid, mis aitavad rahastada pidevaid parandusi ja hoida üldist kasutust tasuta."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Me hindame teid kõrgelt ostmise eest ja armastame kuulda tagasisidet, mida sa pead aitama meil toote parandada ja jõuda rohkem kasutajaid."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Teie arvustused Hoidke oma väike meeskond motiveeritud teha Chrome püüdmise veelgi parem!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Me hindame teid kõrgelt ostmise eest ja armastame kuulda tagasisidet, mida sa pead aitama meil toote parandada ja jõuda rohkem kasutajaid."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Ülevaade veebipoest?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Võib-olla hiljem"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Ei aitäh"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Saada email"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Aitäh! 😍"
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "Kuidas me teeme?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "OK, kindel"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Max Record Pikkus"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Salvestaja loogika"
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Esinev V2 - Töötlemine võtab plaane kergesti vastu, kuid töötab 4K ekraanide ja mitme monitoride jaoks"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Esineja - hoiatus ei tööta 4K ekraanide või mitme monitori jaoks"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Tavaline - kui teil tekib tulemuslikkuse küsimused Kasuta toitenti"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Salvesta ekraanipilt AS"
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Salvesta salvestamine nagu"
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "secs"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "Kuva klõpsa animatsioon"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "See valik juhib ringi animatsiooni ümber klõpsamise asukoha ümber."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Näita dot kursori asukohas"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "See valik tõmbab väikese ringi, mis näitab, kus hiir asub."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Ei saa seda veebisaiti jäädvustada. Kasutage täisekraani/rakenduste jäädvustamist või proovige jäädvustada mõni teine veebisait. \n\n (╯ ° □ °） ╯︵ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Kõrgus (px)"
+   }
+}

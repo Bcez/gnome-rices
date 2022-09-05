@@ -1,0 +1,126 @@
+.hv-tool-bar-quill-override {
+    height: 30px !important;
+    width: auto !important;
+    background-color: #5951ff !important;
+    border: 1px solid #5951ff !important;
+}
+
+.hv-tool-bar-quill-override:hover {
+    background-color: #4d3dd0 !important;
+    border: 1px solid #4d3dd0 !important;
+    color: white !important;
+}
+
+.ql-snow.ql-toolbar button{
+    float: right !important;
+}
+
+#hippo_video_button{
+    background-color: transparent;
+}
+
+#hippo_video_button:hover{
+    background-color: rgba(207,207,207,.25);
+    border-radius: 50%;
+} 
+
+.hv-embed-main-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.hv-embed-main-container .tooltiptext {
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+    padding: 2px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 6px);
+    visibility: visible;
+    font-size: 12px;
+    width: auto;
+    white-space: nowrap;
+    left: 2px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.2s linear;
+    pointer-events: none;
+}
+.hv-embed-main-container .tooltiptext:before{
+    content: "";
+    border-width: 5px 4px 0 4px;
+    border-color: rgba(0,0,0,0.5) transparent transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: 100%;
+    left: 10px;
+}
+  
+.hv-embed-main-container:hover .tooltiptext {
+    opacity: 1;
+
+}
+
+#hippo_video_button{
+    padding: 0;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #e2e0e0;
+    transform: translateY(1px);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    outline: none;
+    background-color: #fff;
+}
+#hippo_video_button:hover{
+    background-color: transparent;
+    border-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+#hippo_video_button img{
+    width: 16px;
+    height: auto;
+}
+#hippo_video_button ~ span.tooltiptext{
+    padding: 10px;
+    background-color: #17335d;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#hippo_video_button ~ span.tooltiptext:before{
+    border-width: 10px 8px 0;
+    border-color:  #17335d transparent transparent;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hv-top-error{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    max-width: 90%;
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #F47A58;
+    border-radius: 6px;
+    z-index: 5000;
+}
+
+.hv-top-error img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.hv-top-error a{
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: uppercase;
+}

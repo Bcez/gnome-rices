@@ -1,0 +1,224 @@
+.pano-window {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 380px;
+}
+
+.pano-window .search-entry-container {
+  padding: 10px;
+  padding-bottom: 5px;
+}
+
+.pano-window .search-entry-icon {
+  padding: 0 4px;
+  color: inherit;
+}
+
+.pano-item {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.pano-item:visible:first-child {
+  margin-left: 20px;
+}
+.pano-item:visible:last-child {
+  margin-right: 20px;
+}
+
+.pano-item:selected {
+  box-shadow: none !important;
+}
+
+.pano-item:hover {
+  box-shadow: 0px 0px 5px 2px #89b4fa;
+}
+
+.pano-item-header {
+  border-radius: 10px 10px 0px 0px;
+  height: 80px;
+}
+
+.pano-item-header-link {
+  background-color: #4361ee;
+}
+
+.pano-item-header-text {
+  background-color: #179299;
+}
+
+.pano-item-header-file {
+  background-color: #1e66f5;
+}
+
+.pano-item-header-image {
+  background-color: #e64553;
+}
+
+.pano-item-header-code {
+  background-color: #232634;
+}
+
+.pano-item-header-color {
+  background-color: #8839ef;
+}
+
+.pano-item-body {
+  border-radius: 0px 0px 10px 10px;
+  height: 220px;
+}
+
+.pano-item-body-code {
+  background-color: #303446;
+  color: white;
+}
+
+.pano-item-body-code-content {
+  margin: 12px;
+  font-size: 13px;
+  font-family: monospace;
+}
+
+.pano-item-body-link {
+  padding: 0px;
+  background-color: #afbcf7;
+}
+
+.pano-item-body-text {
+  background-color: #e5c890;
+}
+
+.pano-item-body-text-content {
+  margin: 12px;
+  font-size: 13px;
+  color: #000;
+}
+
+.pano-item-body-color {
+  background-color: #a6da95;
+}
+
+.pano-item-body-image {
+  background-color: #2e2e47;
+}
+
+.pano-item-body-file {
+  background-color: #fafafa;
+}
+
+.pano-item-body-file-name-label {
+  font-size: 13px;
+  color: #000;
+  font-family: sans;
+}
+
+.pano-item-body-file-name-label.has-more {
+  font-weight: bold;
+}
+
+.pano-item-title-container {
+  margin-top: 16px;
+}
+
+.pano-item-title {
+  font-size: 24px;
+  color: white;
+}
+
+.pano-icon-container {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.pano-item-date {
+  font-size: 12px;
+  color: #f7f7f7;
+}
+
+.pano-item-body-file .file-icon {
+  padding: 0 4px;
+  color: #000;
+}
+
+.copied-files-container {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.pano-item-body-file .copied-file-name {
+  margin-bottom: 2px;
+}
+
+.copied-file-name.even {
+  background-color: #fafafa;
+}
+
+.copied-file-name.odd {
+  background-color: rgb(216, 216, 216);
+}
+
+.pano-item-body-meta-container {
+  height: 50px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.pano-item-body-image-resolution-container {
+  border-bottom: 1px solid rgba(229, 229, 229, 0.2);
+  padding-bottom: 5px;
+}
+
+.pano-item-body-image-size-container {
+  border-top: 1px solid rgba(229, 229, 229, 0.2);
+  padding-top: 5px;
+}
+
+.pano-item-body-image-meta-title {
+  font-size: 12px;
+  color: white;
+}
+
+.pano-item-body-image-meta-value {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.pano-item-body-link-meta-container {
+  padding: 0px, 12px, 12px, 12px;
+}
+
+.pano-item-body-link .link-title-label {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.pano-item-body-link .link-description-label {
+  font-size: 12px;
+  color: white;
+}
+
+.pano-item-body-link .link-label {
+  margin-top: 5px;
+  font-size: 10px;
+  color: white;
+}
+
+.pano-item-remove-button {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 99px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.pano-item-remove-button:hover,
+.pano-item-remove-button:active {
+  background-color: #d20f39;
+}

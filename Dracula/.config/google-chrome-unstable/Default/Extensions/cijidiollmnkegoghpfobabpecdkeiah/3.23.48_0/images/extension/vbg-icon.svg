@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Exclusion_1" data-name="Exclusion 1" d="M18.789,24.4h0L0,19.736,4.946,0,23.735,4.662,18.79,24.4ZM11.7,5.432a6.057,6.057,0,1,0,6.089,6.057A6.08,6.08,0,0,0,11.7,5.432Z" transform="translate(0.001 5.742) rotate(-14)" fill="#59b0c2"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1292" data-name="Group 1292" transform="translate(-162 -347)">
+    <g id="Group_1247" data-name="Group 1247" transform="translate(-390.094 144.651)">
+      <g id="Group_950" data-name="Group 950" transform="translate(1.26 4.009)">
+        <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(554.367 201.727)" clip-path="url(#clip-path)">
+          <g id="Group_949" data-name="Group 949" transform="translate(21.342 -0.678) rotate(61)">
+            <line id="Line_43" data-name="Line 43" y2="22.821" transform="translate(3.293 0.269)" fill="none" stroke="#59b0c2" stroke-linecap="round" stroke-width="1.5"/>
+            <line id="Line_51" data-name="Line 51" y2="16.893" transform="translate(0 5.254)" fill="none" stroke="#59b0c2" stroke-linecap="round" stroke-width="1.5"/>
+            <line id="Line_45" data-name="Line 45" y2="24.855" transform="translate(6.609 0)" fill="none" stroke="#59b0c2" stroke-linecap="round" stroke-width="1.5"/>
+            <line id="Line_47" data-name="Line 47" y2="24.437" transform="translate(9.925 0.46)" fill="none" stroke="#59b0c2" stroke-linecap="round" stroke-width="1.5"/>
+            <path id="Path_746" data-name="Path 746" d="M.051,0,0,8.013" transform="translate(13.19 4.949)" fill="none" stroke="#59b0c2" stroke-linecap="round" stroke-width="1.5"/>
+            <line id="Line_50" data-name="Line 50" y2="4.791" transform="translate(16.557 4.95)" fill="none" stroke="#59b0c2" stroke-linecap="round" stroke-width="1.5"/>
+          </g>
+        </g>
+        <g id="Icon_feather-user-check" data-name="Icon feather-user-check" transform="translate(563.224 213.252)">
+          <path id="Path_744" data-name="Path 744" d="M12.18,26.772V25.348A2.848,2.848,0,0,0,9.332,22.5H4.348A2.848,2.848,0,0,0,1.5,25.348v1.424" transform="translate(-1.5 -14.805)" fill="none" stroke="#59b0c2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_745" data-name="Path 745" d="M12.446,7.348A2.848,2.848,0,1,1,9.6,4.5a2.848,2.848,0,0,1,2.848,2.848Z" transform="translate(-4.258 -4.5)" fill="none" stroke="#59b0c2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Line_42" data-name="Line 42" x2="10.442" transform="translate(0.237 12.204)" fill="none" stroke="#59b0c2" stroke-linecap="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_167" data-name="Ellipse 167" transform="translate(162 347)" fill="none" stroke="#59b0c2" stroke-width="1.5">
+      <circle cx="18" cy="18" r="18" stroke="none"/>
+      <circle cx="18" cy="18" r="17.25" fill="none"/>
+    </g>
+  </g>
+</svg>

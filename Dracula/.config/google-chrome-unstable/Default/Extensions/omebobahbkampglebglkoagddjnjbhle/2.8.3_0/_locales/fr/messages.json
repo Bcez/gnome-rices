@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Créer et modifier des images et des photos avec Gimp Online"
+   },
+   "new_files": {
+      "message": "Gestionnaire de fichiers"
+   },
+   "new_png1": {
+      "message": "Application GIMP"
+   },
+   "new_png2": {
+      "message": "Éditeur d'image"
+   },
+   "new_png3": {
+      "message": "Éditeur de photos"
+   },
+   "new_usersettings": {
+      "message": "Définir l'ID utilisateur"
+   },
+   "title": {
+      "message": "Gimp en ligne - éditeur d'image et outil de peinture"
+   }
+}

@@ -1,0 +1,6 @@
+2022/09/05-15:05:06.491 22e3 Reusing MANIFEST /home/eric/.config/google-chrome-unstable/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/09/05-15:05:06.493 22e3 Recovering log #6
+2022/09/05-15:05:06.495 22e3 Reusing old log /home/eric/.config/google-chrome-unstable/Default/Sync Data/LevelDB/000006.log 
+2022/09/05-15:05:07.672 22ee Level-0 table #10: started
+2022/09/05-15:05:07.696 22ee Level-0 table #10: 132517 bytes OK
+2022/09/05-15:05:07.700 22ee Delete type=0 #6

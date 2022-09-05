@@ -1,0 +1,66 @@
+.hv-tool-bar-quill-override {
+    height: 30px !important;
+    width: auto !important;
+    background-color: #5951ff !important;
+    border: 1px solid #5951ff !important;
+}
+
+.hv-tool-bar-quill-override:hover {
+    background-color: #4d3dd0 !important;
+    border: 1px solid #4d3dd0 !important;
+    color: white !important;
+}
+
+.ql-snow.ql-toolbar button{
+    float: right !important;
+}
+
+.hv-embed-main-icon {
+    background-color: #fff;
+    border: none;
+    width: 29px;
+    height: 30px;
+}
+
+.hv-embed-main-icon:hover{
+    background-color: #eeeef0;
+}
+
+.hv-embed-main-container .tooltiptext {
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 13px);
+    opacity: 0;
+    transition: opacity 0.2s linear, transform 0.2s linear;
+    pointer-events: none;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 7px 8px;
+    background-color: #36314c;
+    color: #dfdee3;
+    left: 105%;
+    transform: translateX(-50%);
+    font-weight: 500;
+    pointer-events: none;
+    margin-bottom: 4px;
+}
+
+.hv-embed-main-container .tooltiptext:before {
+    content: "";
+    position: absolute;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 3px;
+    transform: rotate(45deg);
+    background-color: #36314c;
+    left: calc(50% - 21px) !important;
+    width: 12px;
+    height: 12px;
+    top: calc(100% - 7px);
+}
+    
+.hv-embed-main-container:hover .tooltiptext {
+    opacity: 1;
+}

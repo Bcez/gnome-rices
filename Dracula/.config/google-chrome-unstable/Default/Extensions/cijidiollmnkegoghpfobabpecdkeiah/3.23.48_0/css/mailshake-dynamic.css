@@ -1,0 +1,13 @@
+.hv-insert-btn-container {
+    border-right: 1px solid #d9d9d9 !important;
+    padding-right: 0 !important;
+    margin-right: 2px !important;
+}
+
+.hv-insert-btn-container .hv-insert-btn {
+    width: 16px !important;
+}
+
+.hv-insert-btn-container .mce-btn {
+    margin-right: 2px !important;
+}

@@ -1,0 +1,146 @@
+#hippo_video_button{
+    margin: 0;
+    margin-top: 1px;
+    border: 0;
+    padding: 0;
+    width: 30px;
+    height: 33px;
+    padding-top: 3px;
+    outline: none;
+    background-color: #fff;
+}
+
+    
+.hv-embed-main-container {
+    position: relative;
+    display: inline-block;
+    display: inline-block;
+    vertical-align: top;
+    height: 32px;
+    margin: 0px;
+    margin-right: 6px;
+    width: 30px;
+}
+    
+.hv-embed-main-container .tooltiptext {
+    white-space: nowrap;
+    background-color: #425b76;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 16px;
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 13px);
+    left: -4px;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: opacity 0.2s linear, transform 0.2s linear;
+    pointer-events: none;
+    font-size: 13px;
+    line-height: 1.5;
+    transform: scale(0.8);
+}
+.hv-embed-main-container .tooltiptext:before{
+    content: "";
+    position: absolute;
+    top: calc(100% - 8px);
+    left: 13px;
+    width: 16px;
+    height: 16px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 3px;
+    transform: rotate(45deg);
+    background-color: #425b76;
+}
+    
+.hv-embed-main-container:hover .tooltiptext {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.hubspot-report-tooltip{
+    display: none;
+    position: absolute;    
+    right: -10px;
+    bottom: calc(100% + 14px);
+    z-index: 2000;
+    white-space: nowrap;
+    border-radius: 3px;
+    font-size: 13px;
+    background-color: #425b76;
+    color: #fff;
+    box-shadow: 0 3px 8px rgba(0,0,0,.1);
+    line-height: 1.5;
+    padding: 10px 16px;
+    pointer-events: none;
+}
+.hubspot-report-tooltip i{
+    position: absolute;
+    pointer-events: none;
+    clip-path: polygon(100% 100%, 0px 100%, 100% 0px);
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 3px;
+    width: 16px;
+    height: 16px;
+    background-color: inherit;
+    transform: rotate(45deg);
+    top: calc(100% - 9px);
+    right: 15px;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+}
+.hv-integration-reports:hover .hubspot-report-tooltip{
+    display: block;
+}
+
+.hv-top-error{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    max-width: 90%;
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #F47A58;
+    border-radius: 6px;
+    z-index: 5000;
+}
+
+.hv-top-error img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.hv-top-error a{
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#hv-report-icon {
+    text-indent: 0 !important;
+}
+
+.hvworkflow-sidebar-virtualbg-optionslist h5{
+    margin-top: 15px;
+}
+
+.sidebar-inner__footer div{
+    margin-top: -10px;
+}
+
+.categoryContainer__tagsFilter .overlay{
+    position: unset !important;
+    width: unset !important;
+    height: unset !important;
+    top: unset !important;
+    left: unset !important;
+    right: unset !important;
+    bottom: unset !important;
+    background-color: unset !important;
+    z-index: unset !important;
+}

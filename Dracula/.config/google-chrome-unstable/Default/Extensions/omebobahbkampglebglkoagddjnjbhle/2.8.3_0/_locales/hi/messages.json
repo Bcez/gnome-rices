@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "बनाएँ और छवियों और तस्वीरें जिम्प ऑनलाइन के साथ संपादित"
+   },
+   "new_files": {
+      "message": "फ़ाइल प्रबंधक"
+   },
+   "new_png1": {
+      "message": "GIMP"
+   },
+   "new_png2": {
+      "message": "छवि संपादक"
+   },
+   "new_png3": {
+      "message": "तस्वीर संपादक"
+   },
+   "new_usersettings": {
+      "message": "यूजरिड सेट करें"
+   },
+   "title": {
+      "message": "Gimp ऑनलाइन - छवि संपादक"
+   }
+}

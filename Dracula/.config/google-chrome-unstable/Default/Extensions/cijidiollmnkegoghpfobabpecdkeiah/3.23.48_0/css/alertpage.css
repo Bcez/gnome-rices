@@ -1,0 +1,266 @@
+@font-face {
+	font-family: 'proxima-nova';
+    src: url('/fonts/ProximaNova/Proxima-Nova-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/injected/rectangle-bg.png);
+}
+.overlay-div {
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.pop-div,
+.pop-div-1 {
+	background-color: #fff;
+	width: 560px;
+	padding: 20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 10% auto;
+	border-radius: 10px;
+	text-align: center;
+}
+.hv-color {color: #f47a58;}
+#error-message-container {
+	text-align: center;
+	-padding-top: 30px;
+	position: relative;
+}
+#error-message-container .error-title {
+	font-size: 26px;
+	font-weight: 300;
+    margin: 0 0 20px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+#error-message-container img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#error-message-container a {
+	display: block;
+	font-size: 15px;
+	font-weight: normal;
+	color: #58b0c3;
+	text-decoration: none;
+
+}
+#error-message-container a:hover {
+	text-decoration: underline;
+}
+#error-message-container .error-hippo-1,
+#error-message-container .video-permission-gif-1,
+#error-message-container .arrow-right-orange {display: inline-block;}
+#error-message-container .arrow-right-orange {
+	position: relative;
+    margin: 0;
+    top: -110px;
+    margin-left: 30;
+    margin-right: 30px;
+}
+#error-message-container .video-permission-gif-1 {
+	border: 1px solid #e7e7e7;
+    border-radius: 10px;
+}
+.error-message {
+	font-size: 16px;
+	font-weight: 300;
+	color: #292929;
+	margin-bottom: 15px;
+	display: block;
+	letter-spacing: 0.6px;
+}
+.lessonly-video-permission-gif .video-permission-gif-1 {
+	top: 10px !important;
+}
+.lessonly-video-permission-gif .enable-video-audio-arrow {
+	top: 200px !important;
+}
+.lessonly-alertpage {
+	padding: 26px 24px;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+}
+.lessonly-alertpage #error-message-container {
+	text-align: left;
+}
+.lessonly-alertpage #error-message-container .error-title {
+	font-family: 'proxima-nova';
+	font-size: 20px;
+	color: #4a4a4a;
+	line-height: 1;
+	letter-spacing: normal;
+	margin-bottom: 10px;
+}
+.lessonly-alertpage #error-message-container .error-message {
+	font-family: 'proxima-nova';
+	font-size: 14px;
+	color: #4a4a4a;
+	line-height: 1.43;
+	letter-spacing: normal;
+	margin-bottom: 0;
+}
+.lessonly-alertpage #error-message-container .hippo-error-img {
+	display: none !important;
+}
+.lessonly-alertpage #error-message-container .hippo-mic-error-img {
+	display: none !important;
+}
+.lessonly-alertpage #error-message-container .error-link {
+	display: none !important;
+}
+.lessonly-alertpage .button-toolbar {
+	text-align: right;
+}
+.lessonly-alertpage .ok-button {
+	border-radius: 2px;
+	background-image: none;
+	background-color: #f9cf36;
+	color: #4a4a4a;
+	font-size: 14px;
+	font-family: 'proxima-nova';
+	line-height: 1.43;
+	text-transform: capitalize;
+	margin: 0;
+	transition: none;
+}
+.force-hide {
+	display: none !important;
+}
+.web-audio-set {
+	width: 503px;
+	-min-height: 255px;
+	margin: 20px auto;
+	border: 1px solid #e7e7e7;
+    border-radius: 10px;
+}
+.web-audio-set legend {
+	font-size: 15px;
+    font-weight: 400;
+    -color: #58b0c3;
+    margin-bottom: 10px;
+}
+.webcam-source,
+.audio-source {
+	width: 119px;
+	height: 104px;
+	background-color: #fafefc;
+	border: 1px solid #37ce8e;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px 40px;
+}
+.webcam-source .inner,
+.audio-source .inner {
+	width: 119px;
+	height: 75px;
+	border-bottom: 1px solid #37ce8e;
+}
+.webcam-source .inner img,
+.audio-source .inner img {margin: 0 !important;}
+.webcam-source .caption,
+.audio-source .caption {
+	height: 29px;
+    display: block;
+    line-height: 2.4;
+    color: #9f9f9f;
+    text-transform: uppercase;
+}
+.audio-source .inner img,
+.webcam-source .inner img {margin: 0px auto !important; padding-top: 14px;}
+
+.hv-enable-system-settings video{
+	height: 400px;
+	pointer-events: none;
+}
+
+.select-webcam-source,
+.select-audio-source {
+	max-height: 35px;
+	border: 1px solid #e7e7e7;
+	border-radius: 0;
+	background-color: #fff;
+	padding: 8px 10px;
+	-webkit-appearance: unset;
+	align-items: left;
+	text-align: left;
+	margin: 15px 14px;
+    width: 170px;
+    outline: none;
+    font-size: 13px;
+    color: #272727;
+}
+#audio-test-preview-faq {
+  width: 10px;
+  height: 35px;
+  /*margin-bottom: 10px;*/
+  margin-left: 55px;
+  margin-top: -44px;
+}
+button {
+	width: 61px;
+	height: 35px;
+	background-image: -moz-linear-gradient( -20deg, rgb(252,96,118) 0%, rgb(255,154,68) 100%);
+	background-image: -webkit-linear-gradient( -20deg, rgb(252,96,118) 0%, rgb(255,154,68) 100%);
+	background-image: -ms-linear-gradient( -20deg, rgb(252,96,118) 0%, rgb(255,154,68) 100%);
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 10px;
+	cursor: pointer;
+	    transition: all 1000ms linear;
+}
+button:hover {
+	background-image: -moz-linear-gradient( -20deg, rgb(252,96,118) 0%, rgb(255,154,68) 30%);
+	background-image: -webkit-linear-gradient( -20deg, rgb(252,96,118) 0%, rgb(255,154,68) 30%);
+	background-image: -ms-linear-gradient( -20deg, rgb(252,96,118) 0%, rgb(255,154,68) 30%);
+	transition: all 1000ms linear;
+}
+
+.gif-div {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.gif-div img {
+	width: 300px;
+}
+
+.disp-none {
+	display: none !important;
+}
+.orange-pointer {
+	position: absolute;
+    right: 350px;
+    width: 70px;
+    transform: rotate(20deg);
+    top: 300px;
+    -transition: right 300ms linear;
+    animation-name: orange-pointer;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes orange-pointer {
+    0% {right: 350px;}
+    50% {right: 355px;}
+    100% {right: 350px;}
+}
+
+.enable-video-audio-arrow {
+	display: inline-block !important;
+    position: absolute;
+    right: 190px;
+    top: 240px;
+}

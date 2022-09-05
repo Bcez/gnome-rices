@@ -1,0 +1,28 @@
+{
+   "background": {
+      "page": "Background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon38.png"
+   },
+   "content_scripts": [ {
+      "js": [ "/js/screen.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAleuv6oEmz/QMIJ7vG3dH/xWaFM2W5YHQKzYrhhtqbg8bGcNrjdwmNgrayGvGQEEGs6+V29npanlvXhzXKqc6Gszo8tGnQUpOxNaneTg1VXBMy3PvBlFv2Cl/7ogJljfRzzllZkdTNYb2MAJYkHbUSweSqhoZLBFp2drYvNyFRz3bjZdkfwRRTQ9igYqxXRmBjrllmhvh3i3hzcMmf0mKiOKciWzoxVtGfzQA7+73/F4RshrvBC2jsmbaIahuYe2lE83IaqV3pREXhWmIJYI4b7gVn2OoaLoSayMMJfrUju3RLeihzKNB/OFQtw9UQdQY9I2xC9FH/ZJk52pwSNi/PwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "\u003Call_urls>", "storage", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.06",
+   "web_accessible_resources": [ "images/*", "fonts/*" ]
+}

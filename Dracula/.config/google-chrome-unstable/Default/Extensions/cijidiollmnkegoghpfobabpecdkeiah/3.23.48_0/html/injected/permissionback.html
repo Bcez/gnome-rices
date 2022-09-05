@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>__MSG_hippo_wiz__</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <script src="/js/common/jquery-3.1.1.min.js"></script>
+    <script src="/js/extensionpages/permissionback.js"></script>
+    <style type="text/css">
+      .page-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.9);
+        z-index: 1;
+      }
+      .share-help-content-div {
+        width: 240px;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        bottom: 15%;
+        right: 8%;
+        max-width: 30%;
+      }
+      .share-help-content-div .text {
+        position: relative;
+        z-index: 100000000;
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        line-height: 18px;
+        color: #fff;
+      }
+      .shield {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+      .first-step{
+        position: absolute;
+        left: 5%;
+        top: 30%;
+        z-index: 9;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 18px;
+        color: #fff;
+        text-align:center;
+        max-width: 30%;
+      }
+      .first-step div{
+        text-align: left;
+      }
+      .first-step div .text{
+        display: block;
+        background-image: url('/images/injected/star-yellow.png');
+        background-position: left top 2px;
+        background-repeat: no-repeat;
+        background-size: 16px auto;
+        padding-left: 25px;
+        margin-bottom: 16px;
+        font-size: 13px;
+        line-height: 1.69;
+        letter-spacing: 0.13px;
+        text-align: left;
+        color: #ffffff;
+      }
+      .video-info-text {
+        max-width: 65%;
+      }
+      .arrow-right-orange {transform: rotate(10deg);}
+      .sno {
+          display:inline-block;
+          width:25px;
+          height:25px;
+          background-color:#fff;
+          border:1px solid #e9e9e9;
+          border-radius: 50%;
+          text-align:center;
+          line-height:25px;
+          font-size:13px;
+          font-weight:400;
+          color:#000;
+          margin-right:10px;
+      }
+      .placeholder{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        z-index: 9;
+        transform: translateX(-50%);
+        -max-width: 30%;
+        width: 625px;
+        -height: 240px;
+        background-color: #eeeeee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .placeholder p{
+        max-width: 220px;
+        text-align: center;
+      }
+      .info-video-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      .info-video-container video{
+        width: 100%;
+      }
+      .disp-none {
+        display: none;
+      }
+      .text a {
+        color: #34b0c2;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-overlay"></div>
+
+    <div class="first-step">
+        <img src="/images/extension/pointer-down.png" class="arrow-right-orange">
+        <br />
+        <div>
+          <span class="text">Select the screen you want to record</span>
+          <br />
+          <span class="video-info-text text">Not seeing the 'Share your screen' popup? <a id="popupFindVideo">Click here</a> to watch a video to get the popup back.</span>
+        </div>
+    </div>
+
+    <div class="placeholder">
+      <div class="info-video-container">
+        <video id="windowsSSInstructions" class="disp-none" src="/videos/SSInstructionsWin.mp4" loop></video>
+        <video id="macSSInstructions" class="disp-none" src="/videos/SSInstructionsMac.mp4" loop></video>
+      </div>
+    </div>
+
+
+    <div class="share-help-content-div">
+      <img src="/images/extension/shield.png" class="shield">
+      <div class="text"><span class="sno">2</span><img src="/images/extension/chrome.svg" style="width: 13px"> __MSG_google_chrome_need_share_permission__</div>
+      <!--div class="text">We require screen sharing permission to start your recording. Kindly select a screen you want to record and click 'Share'.</div-->
+      <img src="/images/extension/share-zoom-new.png" class="share-zoom">
+      <img src="/images/extension/top-up.png" class="orange-arrow">
+    </div>
+  </body>
+  <script src="/js/common/internationalization.js"></script>
+</html>

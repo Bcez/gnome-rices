@@ -1,0 +1,23 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "jquery-3.3.1.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/suite_38.png",
+      "default_popup": "index.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/suite_128.png",
+      "16": "icons/suite_16.png",
+      "48": "icons/suite_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjhLIF8SzPOSOrCdmowvjH3lXcK9aMLKQFm1aZmRRdvSsaD+f/dqmjKIERw4nBvUsRi4CDUY1S6iUUHqW9+JkYhJFmLHCufz3G0A4xkoxNB/56T6vX9rSy3WdzaavysZLA/dS5ONwGBhxgbKC0NZhcBFyGZ0KaojmYT4cu90HaUJtaUdbQXawP4tA8q38jl0n9I/ZONnV+/9SriczxuRDuOLl0Rg5WELeiz1zu0lhp+N5Pl7dPn38msBFuMrdFNBzvak9qwzVbrC/yIslEeFihhcH9pYOye3lR+LftuG8Iuwrt61qHdbwEFqSDac5oXvI+Bz29a65VBltrqMsrKFsPwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_title__",
+   "options_page": "options.html",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.8.3"
+}

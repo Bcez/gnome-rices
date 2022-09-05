@@ -1,0 +1,58 @@
+{
+   "appDesc": {
+      "description": "This is the extension description.",
+      "message": "Your new and improved Roblox experience"
+   },
+   "appMessage": {
+      "description": "This is a small explainer on the settings page.",
+      "message": "Remember, this is an extension; things are only possible as long as Roblox allows it. Things may break anytime due to Roblox's changes or other reasons."
+   },
+   "appName": {
+      "description": "This is the extension name.",
+      "message": "RoGold - Level Up Roblox"
+   },
+   "bestFriends": {
+      "description": "Best friends text on home page.",
+      "message": "Best Friends"
+   },
+   "pinnedGames": {
+      "description": "Pinned games text on home page.",
+      "message": "Pinned"
+   },
+   "settingsBasic": {
+      "description": "This is the basic button on the settings page.",
+      "message": "Basic"
+   },
+   "settingsCatalog": {
+      "description": "This is the catalog button on the settings page.",
+      "message": "Catalog"
+   },
+   "settingsCurrency": {
+      "description": "This is the currency button on the settings page.",
+      "message": "Currency"
+   },
+   "settingsDevelopment": {
+      "description": "This is the development button on the settings page.",
+      "message": "Development"
+   },
+   "settingsExperimental": {
+      "description": "This is the experimental button on the settings page.",
+      "message": "Experimental"
+   },
+   "settingsFriends": {
+      "description": "This is the friends button on the settings page.",
+      "message": "Friends"
+   },
+   "settingsGames": {
+      "description": "This is the games button on the settings page.",
+      "message": "Games"
+   },
+   "settingsInfo": {
+      "description": "This is the info button on the settings page.",
+      "message": "Info"
+   },
+   "settingsProfiles": {
+      "description": "This is the profiles button on the settings page.",
+      "message": "Profiles"
+   }
+}

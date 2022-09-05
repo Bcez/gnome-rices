@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=eric13aiden@gmail.com
+Enabled=true
+Parent=5cc1aa559381946c1fdf4e08bf1fe800e00a2658
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=5103479f8bef17c137cc5bff18bc092e5673b41e
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=eric13aiden@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

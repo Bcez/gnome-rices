@@ -1,0 +1,65 @@
+{
+   "api_console_project_id": "242262968495",
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "assets/images/icon19.png",
+         "38": "assets/images/icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": ""
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Ctrl+Shift+S",
+            "default": "Alt+Shift+S"
+         }
+      },
+      "toggle-pause": {
+         "description": "Pause/Resume Recording",
+         "suggested_key": {
+            "default": "Alt+Shift+P"
+         }
+      },
+      "toggle-recording": {
+         "description": "Start/Stop Recording",
+         "suggested_key": {
+            "default": "Alt+Shift+R"
+         }
+      }
+   },
+   "container": "GOOGLE_DRIVE",
+   "content_security_policy": "    script-src 'unsafe-inline' 'unsafe-eval' 'self' https://www.google-analytics.com https://apis.google.com https://app.pendo.io https://pendo-io-static.storage.googleapis.com https://cdn.pendo.io https://pendo-static-5576174479474688.storage.googleapis.com https://data.pendo.io;    object-src 'self';    img-src https://*.googleusercontent.com https://cdn.pendo.io https://app.pendo.io https://pendo-static-5576174479474688.storage.googleapis.com https://data.pendo.io;    style-src 'self' 'unsafe-inline' https://app.pendo.io https://cdn.pendo.io https://pendo-static-5576174479474688.storage.googleapis.com;    frame-src https://app.pendo.io;    child-src https://app.pendo.io;    ",
+   "description": "The #1 screen recorder for Chrome. Capture, edit and share videos in seconds.",
+   "externally_connectable": {
+      "matches": [ "https://app.screencastify.com/*", "https://captions.screencastify.com/*", "https://edit.screencastify.com/*", "https://questions.screencastify.com/*", "https://watch.screencastify.com/*", "https://account.screencastify.com/*" ]
+   },
+   "icons": {
+      "128": "assets/images/icon128.png",
+      "16": "assets/images/icon16.png",
+      "48": "assets/images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy6Nhr6FKbqgayQ3nFFiJ758dD1vOsZAfoZFm2A1LetDkf3rEGxTdNmrBaSH9ghfnvwWvIJhwxllg56gsVUbx3umdEpu/iUimezaBHQX1yoAIXFBL3+ojLVTrZJo8U0u/qS2+V9FSYadqDEaBE2fCszAaX9IA0oWmh6w2Q7otIfC37DYfeTpuykG5cJh56Sc10L9PapgOIEg5q908BsQ/SXcXHBbKl0rpUfYyYFzs1zqd6y6ta3dNE4YMwpMK/pGQ9R7lQmuNfGH+uFOIbgbEO8s4HdoVPF0at1H0V8hOxIevnRgbDfo+ekDdwrgRItkXCtKQz+XWYmC6eJEbB7PAywIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "64",
+   "name": "Screencastify - Screen Video Recorder",
+   "oauth2": {
+      "client_id": "242262968495-vam8ele6sc3j5q90mcn3sd29l2bq5m1s.apps.googleusercontent.com",
+      "scopes": [ "profile", "email", "https://www.googleapis.com/auth/drive.file" ]
+   },
+   "offline_enabled": true,
+   "options_page": "app.html#options",
+   "permissions": [ "storage", "alarms", "notifications", "unlimitedStorage", "desktopCapture", "system.cpu", "activeTab", "tabCapture", "\u003Call_urls>", "webNavigation" ],
+   "short_name": "Screencastify",
+   "storage": {
+      "managed_schema": "assets/other/managed_schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.71.0.4532",
+   "version_name": "2.71.0-33a63ea74",
+   "web_accessible_resources": [ "assets/fonts/draw/*.woff2", "cam-frame.html" ]
+}

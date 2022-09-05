@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Nem lehet futtatni a kiválasztott területfelvételt ezen a weboldalon. Kérjük, használja a teljes képernyős felvételt, vagy próbáljon meg egy másik webhelyet. \n\n (╯ ° □ °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Kattintson animáció méretére és színére"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "Bezárás"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "A kurzor dot mérete és színe"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Alkalmazza ezt"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Fájlnév formátum letöltése"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "Letöltés"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Rajz méret és szín"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Ikon hozzáadása"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Szöveg hozzáadása"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Másolja a vágólapra"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "Vág"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Nyíl"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Ellipszis rajzol"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "Vonalas vonal"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Téglalap rajzolása"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Szabad rajzolás"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "Kiemel"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Redo"
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "Megment"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Válassza ki, mozgassa, átméretezze"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "Beállítások"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Visszavonul"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Visszavonja az összeset"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "Kezdje gépelni ..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Böngészési fájlrendszer"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Húzza és dobja a képet / gif-t vagy"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Fájl mentve a letöltési mappába."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "A kiválasztott szerkesztés (Figyelmeztetés: Nem lehet visszavonni)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Kiválasztott törlés (del / backspace)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Minden második keret törlése"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Visszaállítás kiválasztva (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Állítsa vissza az összeset"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Minden kijelölés megszüntetése"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "A kép a vágólapra másol."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Nem sikerült másolni a képet a vágólapra, túl nagy lehet."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Link másolva a vágólapra."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Elérte a $maxlength$ másodperc maximális rögzítési hosszát a GIF -eknél. A prémium felhasználók ezt frissíthetik a Beállítások oldalról.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "A GIF -eket rövid felvételekre szánják. Ha teljes hosszúságú videókra van szüksége, ajánljuk az ingyenes képernyő -rögzítőnket:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "A prémium felhasználók ezt frissíthetik a Beállítások oldalról."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Nyisd meg a beállításokat"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "A felvétel hirtelen megállt?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Szín"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Rajzolási méret"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Betűtípus"
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Lejátszási sebesség"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Speciális effekt"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Prémium opciók"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Figyelem"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "zárolási arány"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Megszünteti"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "A GIF tömörítése és optimalizálása"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "Vigyen fel a GIF kompressziós algorthm -et a GIF fájl méretének jelentős csökkentésére, és bizonyos esetekben javítja a minőséget. Erősen ajánlott."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Alkalmazza a Dither algoritmust a képekre. Próbálja meg váltani ezt a lehetőséget, ha színminőségi problémákat tapasztal."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Becsült GIF mérete:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Képek:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "Jelenleg vannak kiválasztott képek, a mentés csak ezeket a kiválasztott kereteket adja ki -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Kattintson ide az összes kép kiválasztásához"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Lejátszási sebesség"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "A felvétel feldolgozása sok memóriát és feldolgozási teljesítményt igényel. Hacsak nincs nagy specifikus számítógéped, ajánlott egy vagy több a következők:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Kérjük, vegye figyelembe, hogy az így kapott GIF üres, akkor elfogyott a memória."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "A GIF tömörítése és optimalizálása"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Csökkentse a szélességet és a magasságot"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Távolítson el néhány képet"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Csökkentse a szélességet és a magasságot"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Csökkentse a GIF szélességét és magasságát/minőségét a feldolgozási idő javítása és egy kisebb fájl előállítása érdekében."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "Megment"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Megtakarít"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Fájl letöltése"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Töltse fel a Google Drive & Copy linkre"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "Megment"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Feldolgozás..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Feltöltés..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Nyissa meg a szerkesztőt"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Pro Tipp: A hozzáadott elemek törlése az elem kiválasztásával és a Törlés gomb megnyomásával."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "Pro tipp: Az egyes képeket a 'Szerkesztés alkalmazása a kiválasztott opcióhoz' használatával szerkesztheti"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "Pro Tipp: Görgetés közben a képernyőkép / felvétel a nagyításhoz."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "Pro Tipp: Ha a kiválasztó eszközt használja, tartsa lenyomva a SHIFT gombot, hogy válasszon egy elemet."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Pro Tipp: Skálhat, forgathat, mozgathat és törölhet több elemet egyszerre."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Pro Tipp: Kattintson duplán a szövegre, hogy szerkessze."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "Lehetséges, hogy az ablak nem koncentrált."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Másolás a vágólapra sikertelen"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "A vágólapra másolt"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Feltöltés sikertelen"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Próbáld újra."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Kérjük, győződjön meg arról, hogy csatlakozik -e az internethez, és elfogadta a Google Drive engedélyeket."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "A fájl törlése és letöltése"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "Bezárás"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Link másolása"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "Engedje meg, hogy bárki, aki rendelkezik a linkkel, megtekintse."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "A rajz engedélyezése"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "Ez az opció lehetővé teszi a felhasználók számára, hogy a kiválasztott területen húzzák a Ctrl billentyűt."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Rögzítse a GIF-t, vagy vegye be semmit a böngészőben - gyorsabb és könnyebb, mint valaha."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture - Gif & Screenshot eszköz"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Króm rögzítés"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "A fájlhoz való hozzáférés"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Fájl név"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Képek másodpercenként (FPS)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "képek"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Ingyenes beállítások"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Megszünteti"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Biztosan folytatni szeretné a teljes képernyős rögzítést?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Ne mutasd ezt mégegyszer"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "A CHROME CAPTURE parancsot használta a vágóeszköz nélkül, ez teljes képernyős módban fog rögzíteni."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Nyissa meg a vágási eszközt"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "ALT + C: Nyissa meg / zárja be a Chrome Capture vágószerszámot"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "ALT + SHIFT + S: FULL WEBPAGE SCEENSHOT (BETA)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Beállíthatja ezeket itt:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "Alt + R: Start / Stop felvétel"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "ALT + S: Látható terület screenshot"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Az alapértelmezett parancsikonok:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Indítsa el a teljes képernyős rögzítést"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Teljes képernyős rögzítés"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Prémium vásárlása"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Szélesség (px)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Az internetkapcsolatnak a prémium frissítésre van szükség."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "MAX felvételi felbontás / minőség"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Határ nélül"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "Nyisd ki"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Alapértelmezett művelet"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 képpont"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 képpont (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 képpont (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 képpont (4K)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 képpont (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Értesítések engedélyezése"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Jelenítse meg az értesítéseket, amikor a teljes képernyőfelvétel elindul és a feldolgozás a háttérben."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Hogyan kell használni"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Nyílt popup"
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Nyissa meg a kiválasztott terület rögzítését"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Gyorsbillentyűk"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "Támogatás"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Kattintson és húzza a kiválasztott terület kiválasztásához. \n Kattintson a jobb egérgombbal az elemre való felvételhez, tartsa lenyomva a SHIMP gombot."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Képernyőkép"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Nyílt szerkesztő"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Görgető weboldal"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "A böngésző nem engedélyezi a szkriptek futtatását ezen a weboldalon, sajnos ez a kiválasztott terület és a teljes weboldal rögzítése lehetetlenné teszi a webhelyet."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Rekord"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Rögzítse a $SECONDS$ másodpercenkénti másodpercenként. A prémium felhasználók ezt frissíthetik a",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Beállítások oldal."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Teljes képernyő vagy alkalmazás"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Kiválasztott terület"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Nyisd meg a beállításokat"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "Ez a lap"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Prémium beállítások"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Get Premium!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Jelenleg az ingyenes verziót használja. Frissítse a prémiumra az összes prémium funkció feloldásához."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Jelentkezzen be a Google-ba, hogy folytassa."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Szeretne prémiumra frissíteni?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Már egy prémium felhasználó?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "Kiváló minőségű GIF tömörítés"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Rajzolás felvétel közben"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Szerkesztés rögzítése"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "alapszerkesztés"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Keretszerkesztés"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "Összhangban"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Korlátlan teljes oldal képernyőképek."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "Kattintson és egérjelzés"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "A tervek összehasonlítása"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "A felvétel rögzítése lejátszási sebesség"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Korlátlan GIF felvételek."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "10SEC limit / gif"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "Kiváló minőségű gifek"
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 képpont max"
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Korlátlan képernyőképek."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "Különleges hatások rögzítése"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "Ingyenes"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Szabadon használható"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Alapszerkesztés"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "Limitált GIF felvétel"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Korlátlan képernyőképek"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Prémium"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "prémium vásárlása"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "Kiváló minőségű GIF tömörítés"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Korlátlan szerkesztéssel rendelkezik"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Minden ingyenesen"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Korlátlan magas minőségű GIF felvétel"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "Pénzvisszafizetési garancia"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "egyszeri díj"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Jelentkezzen be ide"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Felvétel minőség (10 = legjobb)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Folyamatosan megpróbáljuk a legnehezebb javítani a Chrome Capture-t, kérjük, ossza meg, hogy milyen javulást igényel az e-mailben"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Sajnáljuk!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "Bezárás"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "megerősít"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Ha megtalálta ezt a bővítményt, kérjük, hagyjon minősítést vagy felülvizsgálatot. \n\n A minősítés elhagyásával segíthet nekünk elérni több felhasználót, amelyek segítenek a folyamatos fejlesztések finanszírozásában és az általános használat ingyenesen tartása."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Nagyra értékeljük, hogy megvásárolhassuk a prémiumot, és szeretnék hallani minden visszajelzést, hogy segítsen nekünk javítani a terméket, és eléri a felhasználókat."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Az Ön véleményeink megtartják kis csapatunkat, hogy még jobbá tegye a Chrome Capture-t!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Nagyra értékeljük, hogy megvásárolhassuk a prémiumot, és szeretnék hallani minden visszajelzést, hogy segítsen nekünk javítani a terméket, és eléri a felhasználókat."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Tekintse át az internetes áruházban?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Talán később"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Nem köszönöm"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Küldjön e-mailt"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Köszönöm! 😍"
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "Hogy vagyunk?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "Oké, rendben"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Maximális rekordhossz"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Felvevő logika"
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Az előadói V2-feldolgozás hosszabb ideig tart, de 4K képernyők és több monitor esetében működik"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Előadó - figyelmeztetés nem működik 4K képernyők vagy több monitor esetében"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Normál - Ha teljesítményinformációkat tapasztalnak az előadóval"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Mentse el a képernyőképet"
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Felvétel mentése"
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "secs"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "A kattintási animáció megjelenítése"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "Ez az opció egy kör animációt rajzol a kattintás helyére."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Jelenítse meg a pontot a kurzor helyén"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "Ez az opció egy kis kört rajzol, hogy jelezze, hogy az egér található."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Nem tudja rögzíteni ezt a weboldalt. Kérjük, használja a teljes képernyő/alkalmazás rögzítését, vagy próbáljon meg egy másik weboldal rögzítését. \n\n (╯ ° □ °） ╯︵ ┻━┻ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Magasság (px)"
+   }
+}

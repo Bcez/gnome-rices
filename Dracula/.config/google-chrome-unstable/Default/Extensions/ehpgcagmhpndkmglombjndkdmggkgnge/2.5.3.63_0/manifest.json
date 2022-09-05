@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "./js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/g-suite-icon-48.png"
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.vulcanized.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/g-suite-icon-128.png",
+      "16": "images/g-suite-icon-16.png",
+      "48": "images/g-suite-icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl2zSQpUEYPO4V0hmhJBCaUyG/xMctGnjQNjU3cb6NyS5TgI7coucQpoTgkZkyH4nS3p0g5J9CwKoD1fruwJ0SMIiG7OAtknZh9i7F9k2AHpb96uLNoYfdSTULq9QsjQsP7cvspgXaSRpeVTbfei04IYc9BZsUyK5q5OWb4njBR6Hc+J+6NDRIP9dz/Bz8JfIp/3cRLOta85JNg8fup7rVnSaB7hl1sKglkECRUyXrFbr/kusa5I0G5sDnCma8U8XemBRRiowetPq1tWt21IaK1N2DsDYAJa/qqv0JpxulVtCZU6NCHCvurI1S/fkR5eoK8jdqWlkL59+uScphITiTwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "bookmarks", "management", "storage", "https://gsuite-app.com/", "chrome://favicon/", "history", "topSites" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.3.63"
+}

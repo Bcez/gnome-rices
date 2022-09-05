@@ -1,0 +1,175 @@
+/*
+ * Base structure
+ */
+html,
+body {
+  height: 100%;
+  background-color: white;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+html[lang="zh-cn"] body,
+html[lang="zh-cn"] pre,
+html[lang="zh-cn"] .btn {
+  font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+html[lang="zh-cn"][os="MacOS"] body,
+html[lang="zh-cn"][os="MacOS"] pre,
+html[lang="zh-cn"][os="MacOS"] .btn {
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+  font-weight: lighter;
+}
+html[lang="zh-cn"] .am-tip-nodevice p {
+  padding: 0 144px;
+}
+html[lang="zh-cn"] .am-tip-nodevice ul {
+  padding: 0 140px;
+}
+html[lang="zh-cn"] .bigger .am-tip-nodevice p {
+  padding: 0 204px;
+}
+html[lang="zh-cn"] .bigger .am-tip-nodevice ul {
+  padding: 0 200px;
+}
+html[lang="zh-cn"] .bigger .am-tip-noconnect p,
+html[lang="zh-cn"] .bigger .am-tip-noconnect ul {
+  padding: 0 150px;
+}
+html[lang="en"] .am-tip-nodevice p,
+html[lang="en"] .am-tip-noconnect p,
+html[lang="en"] .am-tip-nodevice ul,
+html[lang="en"] .am-tip-noconnect ul {
+  padding: 0 54px;
+}
+html[lang="en"] .am-tip-auth p {
+  padding: 0 76px;
+}
+html[lang="en"] .bigger .am-tip-nodevice p,
+html[lang="en"] .bigger .am-tip-nodevice ul {
+  padding: 0 130px;
+}
+html[lang="en"] .bigger .am-tip-noconnect p,
+html[lang="en"] .bigger .am-tip-noconnect ul {
+  padding: 0 124px;
+}
+html[lang="zh-tw"] .am-tip-nodevice p {
+  padding: 0 134px;
+}
+html[lang="zh-tw"] .am-tip-nodevice ul {
+  padding: 0 130px;
+}
+html[lang="zh-tw"] .bigger .am-tip-nodevice p {
+  padding: 0 204px;
+}
+html[lang="zh-tw"] .bigger .am-tip-nodevice ul {
+  padding: 0 200px;
+}
+html[lang="zh-tw"] .bigger .am-tip-noconnect p,
+html[lang="zh-tw"] .bigger .am-tip-noconnect ul {
+  padding: 0 150px;
+}
+html[os="Windows"] .am-tip-nodevice .tip_window_driver {
+  display: list-item;
+}
+.am-con {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+.am-con .foot {
+  position: absolute;
+  bottom: 36px;
+  color: #999;
+  color: rgba(25, 25, 25, 0.5);
+  text-align: center;
+  width: 100%;
+}
+.am-con .foot p {
+  display: none;
+  padding: 0 45px;
+  font-weight: normal;
+  margin: 0 0 10px;
+  line-height: 20px;
+}
+.am-con .foot .tip-not-found,
+.am-con .foot .tip-go-pc {
+  display: block;
+}
+.am-con[statu="nodevice"].am-con .foot .tip-not-found,
+.am-con[statu="nodevice"].am-con .foot .tip-go-pc {
+  display: none;
+}
+.am-con .foot .tip-setting {
+  display: none;
+}
+.am-con[statu="nodevice"].am-con .foot .tip-setting {
+  display: block;
+}
+.am-head {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-image: -webkit-linear-gradient(top, #E7EAEF, #F3F4F6);
+  border-bottom: 1px solid #9E9E9E;
+}
+.am-head h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0 24px;
+}
+.am-tip-con {
+  display: none;
+  margin-top: 36px;
+  text-align: center;
+}
+.bigger .am-tip-con {
+  margin-top: 126px;
+}
+.am-tip-con .lead {
+  margin-top: 20px;
+  text-align: center;
+}
+.am-tip-con .am-photo {
+  width: 86px;
+  height: 145px;
+  margin-bottom: 20px;
+}
+.am-tip-con p {
+  padding: 0 30px;
+}
+.am-tip-con .tip-nofind-auth,
+.am-tip-con .tip_window_driver {
+  display: none;
+}
+.am-tip-nodevice,
+.am-tip-noconnect {
+  text-align: left;
+}
+.am-tip-nodevice img,
+.am-tip-noconnect img {
+  display: block;
+  margin: 0 auto;
+}
+.am-tip-nodevice p,
+.am-tip-noconnect p {
+  font-weight: bold;
+  margin-top: 22px;
+  line-height: 26px;
+  padding: 0 80px;
+  margin-bottom: 0;
+}
+.am-tip-nodevice ul,
+.am-tip-noconnect ul {
+  line-height: 26px;
+  margin-left: 20px;
+  padding: 0 80px;
+  list-style-type: decimal;
+  margin-bottom: 0;
+}
+.am-tip-auth p {
+  margin-top: 22px;
+  margin-bottom: 10px;
+  line-height: 26px;
+  padding: 0 80px;
+}

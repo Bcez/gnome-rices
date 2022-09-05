@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Create and edit images and photos with Gimp Online"
+   },
+   "new_files": {
+      "message": "File Manager"
+   },
+   "new_png1": {
+      "message": "Open GIMP app"
+   },
+   "new_png2": {
+      "message": "Image Editor"
+   },
+   "new_png3": {
+      "message": "Photo Editor"
+   },
+   "new_usersettings": {
+      "message": "Set Userid"
+   },
+   "title": {
+      "message": "Gimp online - image editor and paint tool"
+   }
+}

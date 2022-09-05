@@ -1,0 +1,1743 @@
+/*
+    Use the below to insert images in css
+    background: url('chrome-extension://__MSG_@@extension_id__/images/injected/image.png');
+*/
+/* Top Menu */
+.hippo-top-menu-container {
+    position: relative;
+}
+
+.hippo-top-menu-container table {
+    border-spacing: 0;
+}
+
+.hippo-top-menu-container table tr {
+    background: white;
+}
+
+.notifications-td {
+    border: 1px solid #f47a58;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.hippo-notifications-container {
+    width: 20px;
+    height: 19px;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    padding: 4px 7px 4px 7px;
+}
+
+.hippo-notifications-container .hippo_notification_count {
+    position: absolute;
+    margin-top: 2px;
+    right: 5px;
+    font-size: 8px;
+    background-color: #31c6f0;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px;
+}
+
+.hippo-notifications-container .hippo-notification-icon {
+    height: 17px;
+}
+
+.hide-button {
+    display: none !important;
+}
+
+.display-button {
+    display: grid;
+}
+
+.gmail-stats-icon-container {
+    border: 1px solid #f47a58;
+    border-left: none;
+    position: relative;
+}
+
+.gmail-stats-icon-container .gmail-stats-icon-wrapper {
+    width: 20px;
+    height: 19px;
+    padding: 4px 7px 4px 7px;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    cursor: pointer;
+}
+
+.gmail-stats-icon-container .gmail-stats-icon {
+    height: 17px;
+    cursor: pointer;
+}
+
+.hv-camp-reports-icon-td {
+    border: 1px solid #f47a58;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.hv-camp-reports-icon-td .vid-camp-reports-icon-wrapper {
+    width: 20px;
+    height: 19px;
+    padding: 4px 7px 4px 7px;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    cursor: pointer;
+}
+
+.hv-camp-reports-icon-td .vid-camp-reports-icon-img {
+    height: 17px;
+}
+
+/* Notications Pop */
+.recent-notifications-container {
+    display: none;
+    width: 320px;
+    height: 400px;
+    position: absolute;
+    right: -60px;
+    background-color: #fff;
+    top: 40px;
+    box-shadow: 0px 1px 2px 1px rgba(102, 102, 102, 0.3);
+}
+
+.notificatio-menu {
+    width: 320px;
+    height: 40px;
+    background-color: #ee7c56;
+    position: absolute;
+}
+
+.notificatio-menu h5 {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: -27px;
+    text-align: left;
+}
+
+.notification-empty {
+    margin-top: 40px;
+}
+
+.notification-empty img {
+    width: 320px;
+}
+
+.notification-empty h4 {
+    width: 280px;
+    text-align: center;
+    font-size: 13px;
+    color: #0d0d0d;
+    font-weight: 400;
+    padding-left: 14px;
+}
+
+.hv-notifications-right-arrow {
+    position: absolute;
+    width: 15px;
+    transform: rotate(180deg);
+    top: 30px;
+    left: 10px;
+}
+
+.msg-list-box {
+    width: 320px;
+    height: 330px;
+    background-color: #fff;
+    overflow: auto;
+    margin-top: 40px;
+}
+
+.msg-list-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+}
+
+.msg-list-box::-webkit-scrollbar {
+    width: 3px;
+    background-color: #f5f5f5;
+}
+
+.msg-list-box::-webkit-scrollbar-thumb {
+    background-color: #818181;
+}
+
+.notifications-video-list {
+    width: 99%;
+    height: 61px;
+    -max-height: 100px;
+    border-bottom: 1px solid #dfe5e9;
+    position: relative;
+    border-left: 2px solid #30a7ce;
+    background-color: #f3fdff;
+}
+
+.notifications-video-list .thumb-pic {
+    width: 27px;
+    position: absolute;
+    left: 10px;
+    top: 19px;
+}
+
+.notifications-video-list .msg-box {
+    -position: absolute;
+    -left: 50px;
+    -width: 260px;
+    -top: 1px;
+    -text-decoration: none;
+    -color: #6a6a6a;
+    -line-height: 20px;
+    -font-size: 12px;
+
+    display: inline-block;
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    margin-left: 53px;
+    margin-top: 12px;
+    text-align: left;
+}
+
+.notifications-video-list .msg-box p {
+    vertical-align: middle;
+    font-size: 12px;
+    color: #6a6a6a;
+    font-weight: 400;
+    line-height: 21px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 2px;
+}
+
+.notifications-video-list .time-box {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 11px;
+    color: #adadad;
+    text-decoration: none;
+}
+
+.reed {
+    background-color: #fff !important;
+    border-left: 1px solid #dfe5e9 !important;
+}
+
+.view-all-box {
+    position: absolute;
+    bottom: 0;
+    width: 320px;
+    height: 30px;
+    border-top: 1px solid #dfe5e9;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+.view-all-box h3 {
+    text-align: center;
+    font-size: 12px;
+    color: #5aadbe;
+    font-weight: 400;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+/*  Gmail Pop */
+
+
+
+
+/* Banner Alert */
+.hv-banner-alert {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    min-width: 45%;
+    max-width: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.hv-banner-success {
+    background-color: #E9F0FD;
+    color: #286ACB;
+}
+
+.hv-banner-failure {
+    background-color: #FFEBEE;
+    color: #D50000;
+}
+
+/* Gmail Reports */
+.gmail-reports-container {
+    border-left: 1px solid rgba(229, 229, 229, 0.5);
+    background: #ffffff;
+}
+
+.gmail-reports-header {
+    height: 50px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid rgba(229, 229, 229, 0.6);
+}
+
+.gmail-reports-title {
+    font-size: 17px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    padding: 15px 0px 0px 15px;
+    position: absolute;
+    letter-spacing: .2px;
+    color: #202124;
+    text-shadow: none;
+}
+
+.gmail-reports-close-btn {
+    float: right;
+    padding: 15px 25px 0px 0px;
+}
+
+.gmail-reports-close-btn img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.gmail-reports-control-area {
+    display: flex;
+    padding: 20px 0px 10px 0px;
+    font-size: 13px;
+    color: #202124;
+    font-family: sans-serif;
+    left: 0px;
+    right: 0px;
+    position: relative;
+    margin: auto;
+    width: 90%;
+}
+
+.gmail-reports-filter {
+    padding: 0px 25px 0px 0px;
+}
+
+.gmail-reports-filter select {
+    width: 210px;
+}
+
+.gmail-reports-select {
+    font-size: 13px;
+    color: #666666;
+    background-color: #fff;
+    height: 36px;
+    text-indent: 2px;
+    cursor: pointer;
+    border: 1px solid #66666633;
+}
+
+.gmail-reports-date {
+    height: 34px;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    border: 1px solid #66666633;
+    text-indent: 5px;
+    width: 140px;
+    font-size: 13px;
+    color: #666666;
+    padding: 0px;
+}
+
+.gmail-reports-date-range {
+    width: 100px;
+}
+
+.gmail-reports-control-area .filter-by-label {
+    padding: 0px 5px 0px 25px;
+}
+
+.gmail-reports-control-area .from-label {
+    padding: 0px 5px 0px 30px;
+}
+
+.gmail-reports-control-area .to-label {
+    padding: 0px 5px 0px 15px;
+}
+
+.gmail-reports-viewbox-container {
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.gmail-reports-viewbox-container .viewbox {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #66666633;
+    border-radius: 7px;
+}
+
+.gmail-reports-viewbox-container .viewbox .count {
+    font-size: 30px;
+    padding: 5px;
+    color: #4EA6CC;
+}
+
+.gmail-reports-viewbox-container .viewbox .label {
+    font-size: 13px;
+    padding: 0px 10px 10px 10px;
+    color: #666666;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.gmail-reports-table-container {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 90%;
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    max-height: 320px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 1px rgba(0, 0, 0, 0.22);
+}
+
+.gmail-reports-table-container .grtc-table {
+    width: 100%;
+    border-spacing: 0;
+    table-layout: fixed;
+    text-align: center;
+    color: #666666;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:first-child {
+    background-color: #f6f6f6;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr .grtc-td {
+    border-right: 1px solid #66666633;
+    border-bottom: 1px solid #66666633;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:first-child .grtc-td {
+    border-right: none;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:first-child .grtc-td:last-child {
+    border-right: 1px solid #66666633;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr .grtc-td:first-child {
+    border-left: 1px solid #66666633;
+    width: 25%;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:not(:first-child) .grtc-td:nth-of-type(2) {
+    width: 20%;
+    text-align: left;
+    padding-left: 20px;
+    color: #4EA6CC;
+    cursor: pointer;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr .grtc-td:nth-of-type(3),
+.grtc-td:nth-of-type(4),
+.grtc-td:nth-of-type(5) {
+    width: 12%;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr .grtc-td:nth-of-type(6) {
+    width: 9%;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr .grtc-td:nth-of-type(7) {
+    width: 10%;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:first-child .grtc-td {
+    border-top: 1px solid #66666633;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:first-child .grtc-td:first-child {
+    border-top-left-radius: 10px;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:first-child .grtc-td:last-child {
+    border-top-right-radius: 10px;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:last-child .grtc-td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:last-child .grtc-td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:not(:first-child) .grtc-td:last-child {
+    position: relative;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:not(:first-child) .grtc-td:last-child div {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    z-index: 10;
+    height: 100%;
+    background-color: #e6e6e6;
+    align-items: center;
+    text-align: center;
+    color: #4EA6CC;
+    width: 70%;
+    padding-left: 5%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:not(:first-child) .grtc-td:last-child div img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:not(:first-child) .grtc-td:last-child div label {
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.gmail-reports-table-container .grtc-table .grtc-tr:not(:first-child) .grtc-td:last-child:hover div {
+    display: flex;
+}
+
+.gmail-reports-overlay {
+    top: 51px;
+    position: absolute;
+    background: #4c4c4cb3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: sans-serif;
+    z-index: 10;
+}
+
+.gmail-reports-overlay .no-reports-available {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    letter-spacing: 0.5px;
+}
+
+.gmail-reports-overlay .no-reports-image {
+    padding-right: 25px;
+}
+
+.gmail-reports-overlay .no-reports-image img {
+    width: 150px;
+}
+
+.gmail-reports-overlay .no-reports-description {
+    max-width: 500px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    line-height: 30px;
+}
+
+.gmail-reports-msg-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+    padding-right: 100px;
+}
+
+.gmail-reports-msg-area {
+    padding-right: 20px;
+}
+
+.gmail-reports-msg-area .no-reports-image img {
+    width: 150px;
+}
+
+.gmail-reports-msg-area .no-reports-available {
+    padding: 0px 0px 20px 0px;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #f47a58;
+}
+
+.gmail-reports-msg-area .no-reports-description {
+    max-width: 500px;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    line-height: 25px;
+    font-size: 17px;
+    color: #666666;
+}
+
+.reports-open-compose-btn {
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    background-image: linear-gradient(to right, #fc6076 0%, #ff9a44 51%, #ff9a44 100%);
+    padding: 0.5625rem !important;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.gmail-library-icon {
+    padding-left: 10px;
+}
+
+.hv-camp-reports-icon-td {
+    border: 1px solid #f47a58;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+    position: relative;
+}
+
+.hv-camp-reports-icon-td .vid-camp-reports-icon-wrapper {
+    width: 20px;
+    height: 19px;
+    padding: 4px 7px 4px 7px;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    cursor: pointer;
+}
+
+.hv-camp-reports-icon-td .vid-camp-reports-icon-img {
+    height: 17px;
+}
+
+.hv-email-reports {
+    position: absolute;
+    width: 347px;
+    height: 327px;
+    top: 40px;
+    left: -163px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 0 rgba(71, 71, 71, 0.2);
+    border: solid 1px #eaeaea;
+    background-color: #ffffff;
+}
+
+.hv-email-settings{
+    height: 135px;
+}
+
+.campaign-report-heading{
+    padding-left: 0 !important;
+    font-size: 13px;
+}
+
+.campaign-heading-label{
+    padding-left: 5px;
+}
+
+.hv-email-settings .heading{
+    width: 92% !important;
+    color: #f17958 !important;
+    padding-left: 18px !important;
+}
+
+.desc-switch-wrap{
+    height: 43px;
+}
+
+.icon-switch-content{
+    margin-left: 9px;
+    white-space: initial;
+    color: #999;
+}
+
+.hv-email-reports:before {
+    content: "";
+    position: absolute;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 8px solid #ffffff;
+    left: 50%;
+    top: -8px;
+}
+
+.hv-email-reports .heading {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #999;
+    border-bottom: 1px solid #dfe5e9;
+    padding-left: 30px;
+    display: inline-flex;
+    height: 38px;
+    width: 45%;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.2s linear;
+}
+
+.hv-email-reports .heading:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    background-color: #f47a58;
+    transform-origin: 50% 50%;
+    transition: transform 0.2s linear;
+}
+
+.hv-email-reports .heading.active {
+    color: #f47a58;
+}
+.hv-email-reports .heading.active:after {
+    transform: scale(1);
+}
+
+.hv-email-reports .footer {
+    height: 37px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #26a6d0;
+    box-shadow: -0.7px -0.7px 8px 0 rgba(71, 71, 71, 0.1);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.hv-email-reports .footer span {
+    cursor: pointer;
+}
+
+.hv-email-reports .main-area .empty-brief-report {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+}
+
+.hv-email-reports .main-area .empty-brief-report .header {
+    padding-bottom: 20px;
+    color: #f47a58;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+.hv-email-reports .main-area .empty-brief-report .image img {
+    width: 100px;
+}
+
+.hv-email-reports .main-area .empty-brief-report .bottom {
+    padding: 5px 0px 15px 0px;
+    letter-spacing: 0.2px;
+    font-size: 13px;
+}
+
+.hv-email-reports .main-area .error-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #464646;
+    font-weight: 400;
+}
+
+.hv-email-reports .main-area .hv-brief-gmail-report {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    padding-top: 23px;
+}
+
+.hv-email-reports .main-area .hv-brief-gmail-report .viewbox {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid 1px #dddddd;
+}
+
+.hv-email-reports .main-area .hv-brief-gmail-report .viewbox .count {
+    padding-bottom: 2px;
+    font-size: 24px;
+    color: #26a6d0;
+    letter-spacing: 0.5px;
+}
+
+.hv-email-reports .main-area .hv-brief-gmail-report .viewbox .label {
+    font-size: 13.5px;
+    white-space: pre-wrap;
+    color: #4e4e4e;
+    width: 70%;
+    text-align: center;
+}
+
+/* campaign reports */
+
+.hv-vid-camp-reports-pop {
+    position: absolute;
+    width: 347px;
+    height: 360px;
+    top: 38px;
+    left: 0px;
+    border-radius: 5px;
+    border: solid 1px #eaeaea;
+    background-color: #ffffff;
+    cursor: auto;
+}
+
+.hv-vid-camp-reports-pop:before {
+    content: "";
+    position: absolute;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 8px solid #ffffff;
+    left: 50%;
+    top: -8px;
+    display: none;
+}
+
+.minimal-icon-description {
+    float: left;
+    margin-left: 9px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.hv-campaign-list-view {
+    height: 380px;
+}
+
+.hv-campaign-list-view .heading {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dfe5e9;
+}
+
+.hv-campaign-list-view .heading label {
+    color: #f47a58;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    padding-left: 35px;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.hv-email-reports .heading .notification-count {
+    color: #000000;
+    background-color: #26a6d0;
+    margin-left: 5px;
+    border-radius: 3px;
+    padding: 2px 4px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.hv-campaign-list-view .error-msg {
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444444;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    display: none;
+}
+
+.hv-campaign-list-view .empty-report {
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hv-campaign-list-view .empty-report .header {
+    color: #f47a58;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    font-family: OpenSans;
+    padding-bottom: 10px;
+}
+
+.hv-campaign-list-view .empty-report .image img {
+    width: 150px;
+}
+
+.hv-campaign-list-view .empty-report .bottom {
+    color: #444444;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.hv-campaign-list-view .campaign-list {
+    display: none;
+    height: 360px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow-y: scroll;
+}
+
+.hv-campaign-list-view .campaign-list .view-more-campaigns {
+    height: 40px;
+    color: #26a6d0;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 0.3px;
+    font-size: 13px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: -0.7px -0.7px 8px 0 rgba(71, 71, 71, 0.1);
+    border: solid 1px #eaeaea;
+}
+
+.hv-campaign-list-view .campaign-list .view-more-campaigns span {
+    cursor: pointer;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    border-bottom: solid 1px #dfe5e9;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item:hover {
+    background: rgba(233, 233, 233, 0.5);
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item .campaign-type {
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.campaign-type-span {
+    font-size: 9px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.parent-campaign {
+    color: #00ade0;
+    background: #d4f3fa;
+}
+
+.child-campaign {
+    color: #f47956;
+    background: #ffe1d9;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item .title-board {
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item .title-board .title {
+    color: #3c3c3c;
+    padding: 0px 0px 6px 5px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item .title-board .created-at {
+    font-size: 11px;
+    color: #929292;
+    font-weight: 500;
+    padding: 0px 0px 0px 5px;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item .stat-board {
+    width: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item .stat-board .count {
+    font-size: 14px;
+    color: #26a6d0;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item .opened-board img {
+    height: 12px;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item .sent-board img {
+    width: 12px;
+}
+
+.hv-campaign-list-view .campaign-list .campaign-list-item .opened-board .count {
+    padding-bottom: 7px;
+}
+
+.hv-camp-report-view {
+    width: 347px;
+    height: 380px;
+}
+
+.hv-camp-report-view .head-card {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #dfe5e9;
+    align-items: center;
+}
+
+.hv-camp-report-view .hv-video-campaigns-go-back-btn {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hv-camp-report-view .hv-video-campaigns-go-back-btn img {
+    width: 14px;
+}
+
+.hv-camp-report-view .title {
+    font-size: 13px;
+    color: #f47a58;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding-right: 10px;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hv-camp-report-view .hv-camp-error-msg {
+    height: 280px;
+    display: flex;
+    color: #444444;
+    align-items: center;
+    justify-content: center;
+}
+
+.hv-camp-report-view .main-area {
+    height: 340px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hv-camp-report-view .main-area .title-card {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    padding-top: 10px;
+}
+
+.hv-camp-report-view .main-area .title-card .thumbnail {
+    display: flex;
+    align-items: center;
+}
+
+.hv-camp-report-view .main-area .title-card .thumbnail img {
+    height: 50px;
+}
+
+.hv-camp-report-view .main-area .title-card .video-title-panel {
+    padding-left: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.hv-camp-report-view .main-area .title-card .video-title-panel .video-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #929292;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding-bottom: 3px;
+}
+
+.hv-camp-report-view .main-area .title-card .video-title-panel .created-time {
+    color: #929292;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 9px;
+}
+
+.hv-camp-report-view .main-area .title-card .video-title-panel .action-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.hv-camp-report-view .main-area .title-card .video-title-panel .action-panel .wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.hv-camp-report-view .main-area .title-card .video-title-panel .action-panel .wrapper label {
+    color: #262626;
+    font-size: 11px;
+    padding-right: 8px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.hover-blue {
+    color: #52a9be !important;
+}
+
+.hv-camp-report-view .main-area .title-card .video-title-panel .action-panel .wrapper .image {
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.hv-camp-report-view .main-area .title-card .video-title-panel .action-panel .wrapper .image img {
+    height: 12px;
+}
+
+.hv-camp-report-view .main-area .title-card .video-title-panel .action-panel .padding {
+    padding-left: 10px;
+}
+
+.hv-camp-report-view .main-area .stat-card {
+    height: 220px;
+    padding-top: 10px;
+}
+
+.hv-camp-report-view .main-area .stat-card .label {
+    color: #4e4e4e;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    height: 178px;
+    align-items: center;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .stat-box {
+    border-radius: 5px;
+    border: solid 1px #dddddd;
+    width: 75px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .stat-box .stat {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .stat-box .stat .count {
+    font-size: 28px;
+    color: #f47a58;
+    letter-spacing: 0.3px;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .stat-box .stat .label {
+    color: #4e4e4e;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .actions {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .actions .stat-box-action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: normal;
+    cursor: pointer;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .actions .stat-box-action .image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3px 0px 3px;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .actions .stat-box-action .image img {
+    height: 12px;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .actions .stat-box-action label {
+    color: #9c9c9c;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .actions .top {
+    padding-bottom: 3px;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .actions .bottom {
+    padding-top: 3px;
+}
+
+.hv-camp-report-view .main-area .stat-card .stat-container .actions .border {
+    border: 0.5px solid #dddddd;
+    width: 75%;
+}
+
+.hv-camp-report-view .hv-camp-view-detailed-report {
+    height: 35px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -1px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgba(71, 71, 71, 0.2);
+    border: solid 1px #eaeaea;
+}
+
+.hv-camp-report-view .hv-camp-view-detailed-report span {
+    color: #26a6d0;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.flex-display {
+    display: flex !important;
+}
+
+.child-campaign-view {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    height: 250px;
+    bottom: 0px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.child-campaign-view .close-btn {
+    height: 30px;
+    display: flex;
+    color: #52a9be;
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+
+.child-campaign-view .close-btn span {
+    cursor: pointer;
+}
+
+.child-campaign-view .child-campaign-list {
+    height: 220px;
+    overflow-y: scroll;
+    padding: 0px 30px 0px 30px;
+}
+
+.child-campaign-view .empty-child-campaign {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #444444;
+    height: 100%;
+    font-weight: 400;
+}
+
+.child-campaign-view .child-campaign-list-item {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    border-bottom: 1px solid rgba(78, 78, 78, 0.15);
+    cursor: pointer;
+}
+
+.child-campaign-view .child-campaign-list-item:hover {
+    background: rgba(233, 233, 233, 0.5);
+}
+
+.child-campaign-view .child-campaign-list-item .ccl-title-card {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    padding: 0px 7px 0px 10px;
+}
+
+.child-campaign-view .child-campaign-list-item .ccl-title-card .ccl-title {
+    color: #3c3c3c;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    padding-bottom: 7px;
+}
+
+.child-campaign-view .child-campaign-list-item .ccl-title-card .created-at {
+    color: #929292;
+    font-weight: 500;
+    font-size: 11px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    letter-spacing: 0.2px;
+}
+
+.child-campaign-view .child-campaign-list-item .ccl-action-card {
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+}
+
+.child-campaign-view .child-campaign-list-item .ccl-action-card .ccl-image {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2px;
+}
+
+.child-campaign-view .child-campaign-list-item .ccl-action-card .ccl-image img {
+    height: 12px;
+}
+
+.child-campaign-view .child-campaign-list-item .ccl-action-card span {
+    color: #6f6f6f;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    padding-left: 2px;
+}
+
+.child-campaign-view .child-campaign-list-item .ccl-action-card .count {
+    color: #26a6d0 !important;
+}
+
+/* Left Menu */
+.hv-left-menu-drop-down {
+    display: none;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding-left: 5px;
+    width: 30px;
+}
+
+.hv-left-menu-drop-down img {
+    width: 15px;
+    height: auto;
+}
+
+.hv-left-menu-drop-down:before {
+    content: '';
+    border-left: 2px solid #757575;
+    height: 16px;
+    position: relative;
+    top: -3px;
+    left: -10px;
+}
+
+.hv-left-menu-option {
+    position: absolute;
+    width: 155px;
+    border-top: 1px solid #6666664d;
+    left: 14px;
+    display: none;
+    flex-direction: row;
+    height: 48px;
+    align-items: center;
+}
+
+.display-flex {
+    display: flex !important;
+}
+
+.hv-left-menu-option img {
+    width: 20px;
+    padding-left: 3px;
+}
+
+.hv-left-menu-option span {
+    padding-left: 10px;
+    margin-top: -2px;
+}
+
+.hv-sales-option {
+    top: 48px;
+}
+
+.hv-vid-camp-option {
+    top: 96px;
+}
+
+/* BOTTOM MENU */
+.hv-menu-type-one {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.hv-menu-type-one .hv-menu-option-type-one {
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right, #fc6076, #ff9a44), linear-gradient(to bottom, #ff9a44, #ff9a44), linear-gradient(to left, #ff9a44, #fc6076), linear-gradient(to top, #fc6076, #fc6076);
+    background-origin: border-box;
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+    background-position: top left, top right, bottom right, bottom left;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    z-index: 1000;
+}
+
+.hv-menu-type-one .hv-menu-option-type-one:hover {
+    background: linear-gradient(-250deg, #fc6076 0%, #ff9a44 100%);
+}
+
+.hv-menu-type-one .hv-menu-option-type-one:hover span {
+    background: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    color: #fff;
+}
+
+.hv-menu-type-one .hv-menu-option-type-one span {
+    background: linear-gradient(-250deg, #fc6076 0%, #ff9a44 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hv-menu-type-one .hv-menu-option-type-one:not(:last-child) {
+    margin-right: 10px;
+}
+
+.hv-menu-type-one.hv-menu-type-one-reply {
+    margin-left: 16px;
+}
+
+.inboxsdk__composeButton {
+    height: 20px;
+    width: 20px;
+    padding: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    outline: none;
+    position: relative;
+}
+
+.inboxsdk__composeButton::before {
+    content: '';
+    display: block;
+    opacity: 0;
+    position: absolute;
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: none;
+    box-sizing: border-box;
+    transform: scale(0);
+    transition-property: transform, opacity;
+    border-radius: 4px;
+}
+
+.inboxsdk__composeButton:hover::before {
+    background-color: rgba(32, 33, 36, 0.059);
+    border: none;
+    box-shadow: none;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.inboxsdk__button_icon{
+    height: 20px;
+    width: 20px;
+    display: inline-flex;
+    user-select: none;
+}
+
+.inboxsdk__button_iconImg {
+    height: 17px;
+    width: 17px;
+    display: inline-flex;
+    margin: auto;
+}
+
+.hv-send-btn {
+    background-color: #f47a58 !important;
+}
+
+.gmail-access-pop-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail-access-pop-content .img-container {
+    width: 200px;
+    height: 200px;
+}
+
+.gmail-access-pop-content .img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.gmail-access-pop-content .text {
+    color: #8d8d8d;
+}
+
+.import-contacts-outer-btn {
+    position: absolute;
+    color: #f47548;
+    cursor: pointer;
+    letter-spacing: 0.6px;
+    font-size: 13px;
+    left: 15px;
+}
+
+.to-box-ic-btn {
+    position: relative;
+    left: 0px;
+    padding: 2px 4px 0px 4px;
+}
+
+.ic-to-mail-view {
+    position: relative;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-right: 4px;
+}
+
+.ic-to-mail-view-pre {
+    position: relative;
+    padding-right: 10px;
+    padding-top: 2px;
+    left: 0px;
+}
+
+.hv-subject-template-btn {
+    width: 160px;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #5ba9ff;
+    margin-left: 10px;
+}
+
+.nH.w-asV.aiw {
+    z-index: 3;
+}
+
+
+/* view notification loader */
+.view-notification-loader{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 40px);
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.bar-loading {
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar-loading div {
+    display: inline-block;
+    position: absolute;
+    width: 5px;
+    background: #ee7c56;
+    animation: bar-load-animation 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.bar-loading div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.36s;
+}
+
+.bar-loading div:nth-child(2) {
+    left: 18px;
+    animation-delay: -0.24s;
+}
+
+.bar-loading div:nth-child(3) {
+    left: 30px;
+    animation-delay: -0.12s;
+}
+
+.bar-loading div:nth-child(4) {
+    left: 42px;
+    animation-delay: 0s;
+}
+@keyframes bar-load-animation {
+    0% {
+        top: 6px;
+        height: 51px;
+    }
+
+    50% {
+        top: 19px;
+        height: 26px;
+    }
+
+    100% {
+        top: 19px;
+        height: 26px;
+    }
+}
+
+.outer-recipient-box {
+    position: absolute;
+    top: 52px;
+    left: 16px;
+}
+
+.inner-recipient-box {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}

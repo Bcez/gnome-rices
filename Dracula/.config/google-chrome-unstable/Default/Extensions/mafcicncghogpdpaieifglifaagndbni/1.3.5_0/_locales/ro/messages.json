@@ -1,0 +1,58 @@
+{
+   "appDesc": {
+      "description": "This is the extension description.",
+      "message": "O noua experiență pe Roblox pentru tine"
+   },
+   "appMessage": {
+      "description": "This is a small explainer on the settings page.",
+      "message": "Ține minte, aste este o extension; Lucruri sunt posibile atâta timp cât Roblox permite. Lucrurile pot sa nu m-ai functioneze deoarece Roblox schimba lucruri sau din alte motive."
+   },
+   "appName": {
+      "description": "This is the extension name.",
+      "message": "RoGold - Level Up Roblox"
+   },
+   "bestFriends": {
+      "description": "Best friends text on home page.",
+      "message": "Cei Mai Buni Prieteni"
+   },
+   "pinnedGames": {
+      "description": "Pinned games text on home page.",
+      "message": "Pinuri"
+   },
+   "settingsBasic": {
+      "description": "This is the basic button on the settings page.",
+      "message": "Principal"
+   },
+   "settingsCatalog": {
+      "description": "This is the catalog button on the settings page.",
+      "message": "Catalog"
+   },
+   "settingsCurrency": {
+      "description": "This is the currency button on the settings page.",
+      "message": "Moneda"
+   },
+   "settingsDevelopment": {
+      "description": "This is the development button on the settings page.",
+      "message": "Development"
+   },
+   "settingsExperimental": {
+      "description": "This is the experimental button on the settings page.",
+      "message": "Experimental"
+   },
+   "settingsFriends": {
+      "description": "This is the friends button on the settings page.",
+      "message": "Prietenii"
+   },
+   "settingsGames": {
+      "description": "This is the games button on the settings page.",
+      "message": "Jocuri"
+   },
+   "settingsInfo": {
+      "description": "This is the info button on the settings page.",
+      "message": "Informații"
+   },
+   "settingsProfiles": {
+      "description": "This is the profiles button on the settings page.",
+      "message": "Profile"
+   }
+}

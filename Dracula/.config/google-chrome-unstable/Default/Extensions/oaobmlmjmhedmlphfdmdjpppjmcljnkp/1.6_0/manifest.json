@@ -1,0 +1,19 @@
+{
+   "browser_action": {
+      "default_icon": "classroom.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' https://apis.google.com/js/platform.js; object-src 'self'",
+   "description": "This extension adds the current site to Google Classroom",
+   "icons": {
+      "128": "Classroom128.png",
+      "16": "Classroom16.png",
+      "48": "Classroom48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkKc314M6Y+/XDe8QVrzBknt+2TAyCL6tI60K2LQ3I2U/l6JNkqp29QfK7Em3w4R4k0RUdjtaKJsdLPfjxtn51H8evxeo2IldbqEGsg1dQiH6bxUkSylxraDtGCZnfIqjr+CUa/SUMEaAKGL2WN/mFYw6XQd2B479cR2T8ml9q5QF94QDys2ygtXlA4VCZd1SrHvQ/nXmG4oWkWlOlT5R3MTbQgt/dA5dBGjONKDcEjO09Xyb7HxjzMaG8kHwIABJxTR0QhfAyb4QQ2aHocQ93MDsA6IuWzDjMYtHZB63FhzU8mo7GbHSos9XVOeU5900oXvfbdd9yoB2pAN1dOmOLwIDAQAB",
+   "manifest_version": 2,
+   "name": "Add to Google Classroom",
+   "permissions": [ "activeTab", "https://ajax.googleapis.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}

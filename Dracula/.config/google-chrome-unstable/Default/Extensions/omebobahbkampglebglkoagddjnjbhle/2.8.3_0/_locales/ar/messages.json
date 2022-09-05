@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "إنشاء وتحرير الصور والصور مع الأعرج اون لاين"
+   },
+   "new_files": {
+      "message": "مدير الملفات"
+   },
+   "new_png1": {
+      "message": "لتطبيق GIMP"
+   },
+   "new_png2": {
+      "message": "محرر الصور"
+   },
+   "new_png3": {
+      "message": "معدل الصور"
+   },
+   "new_usersettings": {
+      "message": "تعيين Userid"
+   },
+   "title": {
+      "message": "أعرج على الانترنت - محرر الصور وأداة الطلاء"
+   }
+}

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+.hv-clear-float *{
+	zoom: 1;
+}
+.hv-clear-float:before, .hv-clear-float:after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+.hide{
+    display: none;
+}
+.disp-none{
+    display: none !important;
+}
+.hvhub-btn{
+    padding: 10px !important;
+    width: 160px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.26px;
+	color: #fffefe;
+    text-align: center;
+    border: 0;
+	border-radius: 3px;
+	background-image: linear-gradient(to right, #fc6076 0%, #ff9a44 51%, #ff9a44 100%);
+    background-size: 200% auto;
+	cursor: pointer;
+	outline: none;
+	text-transform: uppercase;
+	transition: all 0.3s linear;
+}
+.hvhub-btn:hover{
+	background-position: right center;
+}
+
+/* on board */
+.hvhub-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.hvhub-onboard-wrapper, .hvhub-onboard-wrapper *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+}
+.hvhub-onboard-wrapper{
+    max-width: 580px;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 100001;
+    text-align: center;
+}
+.hvhub-onboard-wrapper h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.hvhub-onboard-wrapper p{
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.hvhub-onboard-gif{
+    width: 500px;
+    margin: 0 auto 10px;
+}
+.hvhub-onboard-gif img{
+    width: 100%;
+    height: 245px;
+    object-fit: contain;
+}
+.hvhub-onbaord-arrowicon{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+.hvhub-onboard-icon{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+.hvhub-onboard-icon img{
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    object-position: center;
+}
+.hvhub-onboard-arrow{
+    width: 83px;
+    margin-right: 10px;
+}
+.hvhub-onboard-arrow img{
+    width: 100%;
+}
+
+.hvhub-onboard-one{
+    transform: translate(calc(-100% + 0px), calc(-100% + 40px));
+}
+
+.hvhub-onboard-one h3,.hvhub-onboard-one p,.hvhub-onboard-one .hvhub-onboard-gif{
+    transform: translateX(200px);
+}
+
+.hvhub-onboard-two{
+    transform: translate(-75px, calc(-100% - 0px));
+}
+.hvhub-onboard-two .hvhub-onbaord-arrowicon{
+    width: 450px;
+    margin: auto;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+.hvhub-onboard-two .hvhub-onboard-arrow{
+    width: 46px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.hvhub-onboard-two .hvhub-onboard-icon{
+    margin-left: 10px;
+}
+
+.testdivone{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.testdivone div{
+    margin-top: 400px;
+    text-align: right;
+    padding-right: 100px;
+}
+.testdivone div span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fc6076;
+}
+
+.testdivtwo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.testdivtwo div{
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 100px;
+}
+.testdivtwo div span{
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fc6076;
+}
+
+.block-hubspot-overflow {
+    overflow: hidden !important;
+}

@@ -1,0 +1,134 @@
+* {
+	font-family:'Roboto', sans-serif;
+}
+#header {
+	background-image:url('/share/logo.png');
+	height:3em;
+	width:100%;
+	background-color:#01579b; 
+	background-repeat:no-repeat;
+	background-size:3em;
+	background-position:0% 50%;
+	color:white;
+}
+
+body {
+	margin:0;
+	background-color:#e1f5fe;
+}
+
+#header .title {
+	margin-left:3.7em;
+	font-weight:bold;
+	height:1.1em;
+	line-height: 1.1em;
+	padding-top:.7em;
+	font-size:.9em;
+}
+
+#header .subtitle {
+	height:1.0em;
+	line-height: 1.0em;
+	font-size:.8em;
+	font-weight:normal;
+}
+
+input[type='button'], input[type='submit']{
+	color:white;
+	font-size:1em;
+	font-weight: bold;
+	border-radius: .2em;
+	text-transform: uppercase;
+	padding:1em;
+	padding-left:2.5em;
+	padding-right:2.5em;
+	-webkit-appearance:none;
+	box-shadow: 0px 1px 3px 1px #aaaaaa;
+	min-width:15em;
+	height:3.4em;
+}
+
+#authcode {
+	top: 0em;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	margin: auto;
+	width: 5em;
+	font-size: 3em;
+	height: 1.4em;
+	text-align: center;
+	border-radius: .2em;
+	border: .05em solid rgb(91, 108, 153);
+	color: #3a6d90;
+	outline: none;
+	display:none;
+}
+
+#bttHolder {
+	top:2.1em; left:0; right:0; bottom:0;
+	position:absolute;
+	margin:auto;
+	height:9em;
+	width:15em;
+	visibility: hidden;
+}
+
+#bttupload {
+	border:1px solid #58953c;
+	background-color:#68a54c;
+	margin:.5em;
+}
+
+
+
+#bttselect {
+	border:1px solid #01579b;
+	background-color:#0091ea;
+	visibility:hidden;
+	pointer-events:none;
+	top:2.1em; left:0; right:0; bottom:0;
+	position:absolute;
+	margin:auto;
+	visibility: hidden;
+}
+
+
+#bttcancel {
+	border:1px solid #313131;
+	background-color:#424242;
+	margin:.5em;
+}
+
+#filechooser {
+	width:100%;
+	opacity:0;
+	position:absolute;
+	left:0px;
+	top:0px;
+	visibility: hidden;
+}
+
+#menuhelp {
+	width:220px;
+	height:220px;
+	background-image:url('/share/menuhelp.png');
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+
+h5, h6 {
+	margin:0;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+h5 {
+	padding-top:15px;
+	color:#9b3d3d;
+}
+
+h6 {
+	font-weight:normal;
+}

@@ -1,0 +1,40 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="Adtui.ZoomInAction">
+      <i c="1" l="1662361081222" />
+    </e>
+    <e n="Adtui.ZoomToFitAction">
+      <i c="1" l="1662361083157" />
+    </e>
+    <e n="Android.RunAndroidAvdManager">
+      <i c="1" l="1662360599257" />
+    </e>
+    <e n="ChooseRunConfiguration">
+      <i c="2" l="1662360395770" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="10" l="1662360217847" />
+    </e>
+    <e n="Exit">
+      <i c="1" l="1662360472896" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1662360418671" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="2" l="1662360243551" />
+    </e>
+    <e n="android.emulator.extended.controls">
+      <i c="10" l="1662361936518" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="2" l="1662360826607" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="1" l="1662360370944" />
+    </e>
+    <e n="flutter.NewProject.welcome">
+      <i c="1" l="1662360238293" />
+    </e>
+  </component>
+</application>

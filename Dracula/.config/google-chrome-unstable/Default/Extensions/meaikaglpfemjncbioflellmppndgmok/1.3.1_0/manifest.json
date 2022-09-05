@@ -1,0 +1,22 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://www.rain-alarm.com/?from=chromebackground"
+      },
+      "urls": [ "https://www.rain-alarm.com/" ]
+   },
+   "background": {
+      "page": "https://www.rain-alarm.com/index_background.html#0"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "launcher.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDv8lwPfVZMSsQXuh1b6tvm+R/lnu4F/4QK7dRZ//ky3yQXBXqBBYOGsTszXwqsD2UKTeRvEpd4035kea/8b0tYC0VA9MocziGh9rIvCh1EELzjG0SPK0pwlXYMUNCSPQXqxbMsnJTf5GnllzRJKBI3paiCrBusafDup/UwS9u15wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "geolocation", "notifications", "background" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.1"
+}

@@ -1,0 +1,21 @@
+{
+   "app": {
+      "launch": {
+         "container": "panel",
+         "height": 600,
+         "web_url": "https://www.rollapp.com/launch/gimp?ref=chrome-app",
+         "width": 900
+      },
+      "urls": [ "*://www.rollapp.com/launch/gimp", "*://www.rollapp.com/app/gimp" ]
+   },
+   "description": "Extremely powerful graphics editor (alternative for Adobe Photoshop). Great for retouching and image authoring. Powered by rollApp.",
+   "icons": {
+      "128": "gimp-128.png",
+      "16": "gimp-16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrAsH1VZ/+A94EALXk16GpMLVCAPH04gli3tkJ29ZH0ErdMVK+OfTpKHZMbllihwFUQT4nvY+1ub+gK3Y+MwI+5bzikuN6pqrbbxrqAaR9nT41j24aBoK2M15Vo70XG0gpdpLTDcrfl2WaIuc5RpANxC54S6Z3b4L5YG0AQbtiyQIDAQAB",
+   "manifest_version": 2,
+   "name": "GIMP on rollApp",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

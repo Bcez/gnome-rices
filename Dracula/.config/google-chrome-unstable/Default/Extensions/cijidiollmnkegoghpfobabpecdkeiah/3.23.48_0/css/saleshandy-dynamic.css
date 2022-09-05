@@ -1,0 +1,106 @@
+.hippo-icon {
+    width: 16px !important;
+    height: 19px !important;
+}
+
+.hv-embed-main-container .hv-saleshandy-tooltiptext, .hv-integration-reports-button .hv-saleshandy-tooltiptext{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 2px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 33px;
+    visibility: visible;
+    font-size: 12px;
+    width: auto;
+    white-space: nowrap;
+    left: 2px;
+    background-color: #333333;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+    pointer-events: none;
+    height: 18px;
+    line-height: 15px;
+}
+.hv-embed-main-container .hv-saleshandy-tooltiptext:before{
+    content: "";
+    border-width: 5px 4px 0 4px;
+    border-color: #333333 transparent transparent transparent;
+    border-style: solid;
+    position: absolute;
+    left: 10px;
+    transform: rotate(180deg);
+    bottom: 22px !important;
+}
+
+.hv-embed-main-container .hv-template-tooltiptext {
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    padding: 2px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 6px);
+    visibility: visible;
+    font-size: 12px;
+    width: auto;
+    white-space: nowrap;
+    left: 2px;
+    background-color: #333333;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+    pointer-events: none;
+}
+
+.hv-embed-main-container .hv-template-tooltiptext:before {
+    content: "";
+    border-width: 5px 4px 0 4px;
+    border-color: #333333 transparent transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: 100%;
+    left: 10px;
+}
+  
+.hv-embed-main-container:hover .hv-template-tooltiptext {
+    opacity: 1;
+}
+  
+.hv-embed-main-container:hover .hv-saleshandy-tooltiptext, .hv-integration-reports-button:hover .hv-saleshandy-tooltiptext{
+    opacity: 1;
+}
+
+.hv-reports-icon {
+    padding-bottom: 10px;
+}
+
+.categoryContainer__tagsFilter .overlay {
+    background: none !important;
+    position: relative !important;
+} 
+
+.hv-integration-reports{
+    position: relative !important;
+}
+
+.hv-report-tooltip{
+    position: absolute;
+    top: 100%;
+    font-size: 10px;
+    white-space: nowrap;
+    right: 5%;
+    color: white;
+    background: #000000a8;
+    padding: 2px 5px;
+    transition: opacity 0.1s linear;
+    opacity: 0;
+}
+
+.hv-integration-reports:hover .hv-report-tooltip{
+    opacity: 1;
+}
+
+.hv-reports-container button{
+    padding: 0px !important;
+}

@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://animoto.com/"
+      },
+      "urls": [ "https://animoto.com/" ]
+   },
+   "description": "Easily turn photos and video clips into powerful, professional videos.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFEx+ORxxgkWcf9fY83jjjJRPPraulH+iVtjnUdudbU3JexsEzfpUF2YfPL473x+S0Zlbuscg1MhbGIBBkRYLmjYamb/SnWbZ4PlJie8deBV8l43ZfQwsoeHadFpNDV9gLjaxHgguhv+iMjln6vcWfU4eQXobfivdZx+g5TiNwQwIDAQAB",
+   "manifest_version": 2,
+   "name": "Animoto Video Maker",
+   "short_name": "Animoto",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.6.15"
+}

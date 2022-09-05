@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".upload-status-inner-wrap").empty().load(chrome.extension.getURL("html/extension/pop-retry.html"),function(){for(var n=$(".upload-status-inner-wrap"),t=0;t<n.length;t++){var e=n[t],r=e.innerHTML.toString(),o=r.replace(/__MSG_(\w+)__/g,function(n,t){return t?chrome.i18n.getMessage(t):""});o!=r&&(e.innerHTML=o)}initUploadStatus()})});

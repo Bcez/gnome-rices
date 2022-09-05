@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Δεν είναι δυνατή η εκτέλεση επιλεγμένης καταγραφής περιοχής σε αυτόν τον ιστότοπο. Χρησιμοποιήστε την εγγραφή πλήρους οθόνης ή δοκιμάστε έναν άλλο ιστότοπο. \n\n (° ° □ °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Κάντε κλικ στο μέγεθος και το χρώμα του κινουμένων σχεδίων"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "Κλείσε"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "Cursor Dot Μέγεθος & χρώμα"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Εφαρμόστε Derh"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Λήψη μορφής αρχείου"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "Κατεβάστε"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Μέγεθος και χρώμα σχεδίασης"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Προσθέστε το εικονίδιο"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Προσθέστε κείμενο"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Αντιγραφή στο πρόχειρο"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "Καλλιέργεια"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Βάλτε το βέλος"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Σχεδιάστε το ELLIPSE"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "Γραμμή κλήρωσης"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Ορθογώνιο"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Ελεύθερη κλήρωση"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "Αποκορύφωμα"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Ξανακάνω"
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "Αποθηκεύσετε"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Επιλέξτε, Μετακινήστε, αλλάξτε το μέγεθος"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "Ρυθμίσεις"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Ξεκάνω"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Αναίρεση όλων"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "Ξεκινήστε την πληκτρολόγηση ..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Περιηγηθείτε στο σύστημα αρχείων"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Σύρετε και ρίψη εικόνας / gif ή"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Αρχείο αποθηκευμένο στο φάκελο λήψεων."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "Εφαρμόστε τις επεξεργασίες σε επιλεγμένες (προειδοποίηση: δεν μπορεί να ανατραπεί)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Διαγραφή επιλεγμένων (del / backspace)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Διαγράψτε κάθε δεύτερο πλαίσιο"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Επαναφορά επιλεγμένων (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Επαναφορά όλων"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Αποσυναρμολογήστε όλα"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "Εικόνα αντιγράφηκε στο πρόχειρο."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Αποτυχία αντιγραφής εικόνας στο πρόχειρο, μπορεί να είναι πολύ μεγάλο."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Ο σύνδεσμος αντιγράφηκε στο πρόχειρο."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Έχετε φτάσει στο μέγιστο χρόνο εγγραφής του χρόνου $maxlength$ δευτερόλεπτα για GIFs. Οι χρήστες premium μπορούν να το ενημερώσουν από τη σελίδα ρυθμίσεων.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "Τα GIF προορίζονται για σύντομες εγγραφές. Εάν χρειάζεστε βίντεο πλήρους μήκους, προτείνουμε τη δωρεάν εγγραφή οθόνης:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "Οι χρήστες premium μπορούν να το ενημερώσουν από τη σελίδα ρυθμίσεων."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Ανοίξτε τις ρυθμίσεις"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "Η εγγραφή ξαφνικά σταμάτησε;"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Χρώμα"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Μεγέθους"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Γραμματοσειρά"
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Ταχύτητα αναπαραγωγής"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Ειδικό εφέ"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Επιλογές Premium"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Προειδοποίηση"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "Αναλογία ασφάλισης κλειδώματος"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Ματαίωση"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "Συμπίεση & βελτιστοποίηση gif"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "Εφαρμόστε το GIF Compression ALGORTER για να μειώσετε σημαντικά το μέγεθος του αρχείου GIF και σε ορισμένες περιπτώσεις βελτιώνουν την ποιότητα. Συνιστούσε ιδιαίτερα."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Εφαρμόστε τον αλγόριθμο Dither σε εικόνες. Δοκιμάστε να ενεργοποιήσετε αυτήν την επιλογή εάν αντιμετωπίζετε προβλήματα ποιότητας χρώματος."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Εκτιμώμενο μέγεθος gif:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Εικόνες:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "Υπάρχουν επί του παρόντος επιλεγμένες εικόνες, η αποθήκευση θα εξάγει μόνο αυτά τα επιλεγμένα πλαίσια -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Κάντε κλικ εδώ για να αποστασιοποιήσετε όλες τις εικόνες"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Ταχύτητα αναπαραγωγής"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "Επεξεργασία αυτής της εγγραφής θα απαιτήσει πολλή μνήμη και δύναμη επεξεργασίας. Εκτός αν έχετε ένα υψηλό PC PC, συνιστάται να κάνετε ένα ή περισσότερα από τα ακόλουθα:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Σημειώστε αν το προκύπτον gif είναι κενό τότε έτρεξε έξω από τη μνήμη."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "Συμπίεση και βελτιστοποίηση gif"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Μειώστε το πλάτος & το ύψος"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Αφαιρέστε μερικές εικόνες"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Μειώστε το πλάτος και το ύψος"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Μειώστε το πλάτος και το ύψος/την ποιότητα του GIF για να βελτιώσετε το χρόνο επεξεργασίας και να παράγετε ένα μικρότερο αρχείο."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "Αποθηκεύσετε"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Αποθηκεύομαι"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Λήψη αρχείου"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Μεταφόρτωση στο Google Drive & Copy Link"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "Αποθηκεύσετε"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Επεξεργασία..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Μεταφόρτωση ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Ανοιχτό στον επεξεργαστή"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Pro Tip: Διαγραφή προστιθέμενων στοιχείων επιλέγοντας το στοιχείο και πατώντας το πλήκτρο DELETE."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "PRO TIP: Μπορείτε να επεξεργαστείτε συγκεκριμένες εικόνες χρησιμοποιώντας τις \"Εφαρμογές Επεξεργασία σε Επιλεγμένη επιλογή\""
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "Pro Συμβουλή: Μετακινηθείτε όταν αιωρείται το στιγμιότυπο οθόνης / εγγραφής για μεγέθυνση."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "Pro Συμβουλή: Όταν χρησιμοποιείτε το εργαλείο επιλογής κρατήστε πατημένο το Shift για να επιλέξετε περισσότερα από ένα στοιχεία."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Pro Συμβουλή: Μπορείτε να κλιμακώσετε, να περιστρέψετε, να μετακινήσετε και να διαγράψετε πολλά στοιχεία ταυτόχρονα."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Pro Tip: Κάντε διπλό κλικ στο κείμενο για να το επεξεργαστείτε."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "Αυτό μπορεί να έχει συμβεί λόγω του παραθύρου που δεν επικεντρώνεται."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Το αντίγραφο στο πρόχειρο απέτυχε"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "Αντιγράφηκε στο πρόχειρο"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Η μεταφόρτωση απέτυχε"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Προσπάθησε ξανά."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Βεβαιωθείτε ότι είστε συνδεδεμένοι στο Διαδίκτυο και έχετε αποδεχθεί τα δικαιώματα Google Drive."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "Ακύρωση και λήψη αρχείου"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "Κλείσε"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Αντιγραφή συνδέσμου"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "Επιτρέψτε σε οποιονδήποτε με τον σύνδεσμο για προβολή."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "Ενεργοποίηση σχεδίου"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "Αυτή η επιλογή επιτρέπει στους χρήστες να σχεδιάζουν την επιλεγμένη περιοχή κρατώντας προς τα κάτω το πλήκτρο CTRL."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Καταγράψτε gif ή πάρτε στιγμιότυπο οθόνης οτιδήποτε στο πρόγραμμα περιήγησής σας - ταχύτερη και ευκολότερη από ποτέ."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome capture - gif & screenshot εργαλείο"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Chrome capture"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "Πρόσβαση στο αρχείο από"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Ονομα αρχείου"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Εικόνες ανά δευτερόλεπτο (FPS)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "εικόνες"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Δωρεάν ρυθμίσεις"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Ματαίωση"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Είστε βέβαιοι ότι θέλετε να συνεχίσετε με την πλήρη λήψη οθόνης;"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Μην το ξαναδείξεις"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "Έχετε χρησιμοποιήσει μια συντόμευση chrome capture χωρίς το εργαλείο περικοπής, αυτό θα καταγράψει σε λειτουργία πλήρους οθόνης."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Ανοίξτε το εργαλείο περικοπής"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "Alt + C: Ανοίξτε / κλείστε το εργαλείο καλλιέργειας Capture Capture"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "Alt + Shift + S: Πλήρης οθόνης ιστοσελίδων (Beta)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Μπορείτε να διαμορφώσετε αυτά εδώ:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "Alt + R: Έναρξη / διακοπή εγγραφής"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S: ορατό οθόνης περιοχής"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Οι προεπιλεγμένες συντομεύσεις είναι:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Ξεκινήστε τη σύλληψη πλήρους οθόνης"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Πλήρης σύλληψη οθόνης"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Πάρτε Premium"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Πλάτος (PX)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Η σύνδεση στο Internet απαιτείται για την αναβάθμιση σε πριμοδότηση."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "Μέγιστη ανάλυση / ποιότητα εγγραφής"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Κανένα όριο"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "Ανοιξε"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Προεπιλεγμένη ενέργεια"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 εικονοστοιχεία"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 pixels (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 pixels (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 pixels (4k)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 pixels (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Ενεργοποίηση ειδοποιήσεων"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Ειδοποιήσεις Εμφάνιση όταν ξεκινά η εγγραφή πλήρους οθόνης και επεξεργασία εγγραφών στο παρασκήνιο."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Πώς να χρησιμοποιήσετε"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Ανοιχτό αναδυόμενο παράθυρο"
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Ανοίξτε την επιλεγμένη καταγραφή της περιοχής"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Συντομεύσεις"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "Υποστήριξη"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Κάντε κλικ και σύρετε για να επιλέξετε την επιλεγμένη περιοχή σας. \n Κάντε δεξί κλικ για να τραβήξετε σε ένα στοιχείο, κρατήστε τη μετατόπιση για πολλούς."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Πιάνω"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Ανοίξτε τον επεξεργαστή"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Ιστοσελίδα κύλισης"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "Το πρόγραμμα περιήγησής σας δεν επιτρέπει σε δέσμες ενεργειών σε αυτή την ιστοσελίδα, δυστυχώς αυτό κάνει την επιλεγμένη περιοχή και την πλήρη συλλογή ιστοσελίδων αδύνατη για αυτόν τον ιστότοπο."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Ρεκόρ"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Καταγράψτε τα δευτερόλεπτα $SECONDS$ ανά gif. Οι χρήστες premium μπορούν να το ενημερώσουν από το",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Σελίδα ρυθμίσεων."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Πλήρης οθόνη ή εφαρμογή"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Επιλεγμένη περιοχή"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Ανοίξτε τις ρυθμίσεις"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "Αυτή η καρτέλα"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Ρυθμίσεις Premium"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Πάρτε Premium!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Αυτή τη στιγμή βρίσκεστε στο δωρεάν σχέδιο. Αναβάθμιση σε πριμοδότηση για να ξεκλειδώσετε όλα τα χαρακτηριστικά premium."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Συνδεθείτε στο Google για να συνεχίσετε."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Θα θέλατε να αναβαθμίσετε σε ασφάλιστρα;"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Ήδη ένας χρήστης premium;"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "Υψηλής ποιότητας συμπίεση gif"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Τραβήξτε κατά την εγγραφή"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Επεξεργασία συλλαμβάνει"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "Βασική επεξεργασία"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Επεξεργασία πλαισίου"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "Ρυθμός πλαισίου"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Απεριόριστα στιγμιότυπα οθόνης πλήρους σελίδας."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "ΚΛΙΚ και ένδειξη ποντικιού"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "Συγκρίνετε τα σχέδια"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "Τοποθετήστε την ταχύτητα αναπαραγωγής"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Απεριόριστες εγγραφές GIF."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "10sec όριο ανά gif"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "Υψηλής ποιότητας gifs"
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 pixels max"
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Απεριόριστα στιγμιότυπα οθόνης."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "Εγγραφή ειδικών εφέ"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "Ελεύθερος"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Δωρεάν χρήση"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Βασική επεξεργασία"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "Βασική εγγραφή GIF"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Απεριόριστα στιγμιότυπα οθόνης"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Ασφάλιστρο"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "Ξεκίνα"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "Υψηλής ποιότητας συμπίεση gif"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Πλούσια επεξεργασία πλούσιων"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Τα πάντα από δωρεάν"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Απεριόριστη εγγραφή GIF υψηλής ποιότητας"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "Πλήρως επιστρέφεται"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "ένα χρόνο χρέωσης"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Συνδεθείτε εδώ"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Ποιότητα εγγραφής (10 = καλύτερη)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Προσπαθούμε συνεχώς περισσότερο να βελτιώσουμε τη σύλληψη του χρώμιο, παρακαλούμε να μοιραστείτε τι χρειάζεται βελτίωση μέσω ηλεκτρονικού ταχυδρομείου στο"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Λυπούμαστε!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "Κλείσε"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "Επιβεβαιώνω"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Εάν έχετε βρει αυτή την επέκταση χρήσιμη παρακαλώ αφήστε μια βαθμολογία ή μια αναθεώρηση. \n\n Αφήνοντας μια αξιολόγηση, μπορείτε να μας βοηθήσετε να προσεγγίσουμε περισσότερους χρήστες που θα βοηθήσουν να χρηματοδοτήσουν συνεχόμενες βελτιώσεις και να διατηρήσουν τη γενική χρήση δωρεάν."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Εκτιμούμε ιδιαίτερα εσείς αγοράζετε ασφάλιστρο και θα ήθελα να ακούσετε τυχόν ανατροφοδότηση, πρέπει να μας βοηθήσετε να βελτιώσουμε το προϊόν και να προσεγγίσουμε περισσότερους χρήστες."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Οι αναθεωρήσεις σας διατηρούν τη μικρή ομάδα μας κίνητρο να κάνει chrome capture ακόμα καλύτερα!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Εκτιμούμε ιδιαίτερα εσείς αγοράζετε ασφάλιστρο και θα ήθελα να ακούσετε τυχόν ανατροφοδότηση, πρέπει να μας βοηθήσετε να βελτιώσουμε το προϊόν και να προσεγγίσουμε περισσότερους χρήστες."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Επανεξέταση στο Web Store;"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Ισως αργότερα"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Οχι ευχαριστώ"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Να στείλετε e-mail"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Ευχαριστώ! 😍"
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "ΠΩΣ ΤΑ ΠΑΜΕ?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "ΕΝΤΑΞΕΙ σίγουρα"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Μέγιστο μήκος εγγραφής"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Λογική εγγραφής"
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Performant V2 - Η επεξεργασία διαρκεί περισσότερο, ωστόσο λειτουργεί για οθόνες 4K και πολλαπλές οθόνες"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Perfortant - Προειδοποίηση δεν λειτουργεί για οθόνες 4K ή πολλαπλές οθόνες"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Κανονική - Εάν αντιμετωπίζετε προβλήματα απόδοσης χρήσης"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Αποθηκεύστε το στιγμιότυπο οθόνης ως"
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Αποθηκεύστε την εγγραφή ως"
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "ακμή"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "Εμφάνιση κινούμενων εικόνων"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "Αυτή η επιλογή αντλεί μια κινούμενη εικόνα γύρω από τη θέση του κλικ."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Εμφάνιση Dot στη θέση του δρομέα"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "Αυτή η επιλογή αντλεί έναν μικρό κύκλο για να υποδείξει πού βρίσκεται το ποντίκι."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Δεν είναι δυνατή η σύλληψη αυτού του ιστότοπου. Χρησιμοποιήστε τη σύλληψη πλήρους οθόνης/εφαρμογής ή δοκιμάστε να καταγράψετε έναν άλλο ιστότοπο. \n\n (╯ ° □ °) ╯︵ ┻━┻ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Ύψος (PX)"
+   }
+}

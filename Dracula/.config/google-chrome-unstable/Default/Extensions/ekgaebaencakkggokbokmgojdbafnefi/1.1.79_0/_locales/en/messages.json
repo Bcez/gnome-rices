@@ -1,0 +1,329 @@
+{
+   "add_folder": {
+      "description": "Text for button used to add a picture folder",
+      "message": "Add Folder"
+   },
+   "add_music": {
+      "description": "Button used to add MP3 files to the playlist",
+      "message": "Add Music"
+   },
+   "advanced_settings": {
+      "description": "Option which shows Advanced Settings dialog",
+      "message": "Advanced Settings"
+   },
+   "appDesc": {
+      "description": "App description as it appears in the Chrome Web Store",
+      "message": "Transform any TV into a Picture Frame Slideshow with Music (MP3) by Streaming Local Photo Albums from PC to Google Cast & Chromecast"
+   },
+   "app_short_name": {
+      "message": "PictaCast"
+   },
+   "auto_fit": {
+      "description": "When this option is 'on' items are automatically cropped to fit the screen",
+      "message": "Crop to Fit"
+   },
+   "automatic_update": {
+      "message": "Automatic Update"
+   },
+   "buy_from_store": {
+      "description": "Button which redirects the user to the Chrome Web Store for eventual purchase",
+      "message": "Buy from Chrome Web Store"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "cast_multiple_photos": {
+      "description": "Button displayed when user selects multiple photos. Please leave the string [total] in place of the digit, this will be replaced programatically. The word 'Cast' is a term used for Chromecast so it should not be translated",
+      "message": "Cast [total] Photos"
+   },
+   "cast_one_photo": {
+      "description": "Button displayed when user selects just 1 photo. The word 'Cast' is a term used for Chromecast so it should not be translated",
+      "message": "Cast 1 Photo"
+   },
+   "check_back_tomorrow": {
+      "description": "Please leave [Chrome Web Store] in brackets as it will be transformed programatically with by a link",
+      "message": "Please come back tomorrow or get the full version from the [Chrome Web Store]"
+   },
+   "check_chromecast_device": {
+      "message": "Please make sure your Chromecast device is switched on and try [reloading this page]"
+   },
+   "chrome_web_store": {
+      "description": "This does not need to be translated, it is here purely for programatic reasons.",
+      "message": "Chrome Web Store"
+   },
+   "chromecast_error_reload": {
+      "message": "An error occurred while connecting to your Chromecast device. Please [reload this page] to try again."
+   },
+   "close_window_warning": {
+      "message": "Closing this window will terminate the slideshow on your Chromecast device"
+   },
+   "contact_support": {
+      "message": "If this does not solve your problem please contact support@pictacast.com with more information about your setup."
+   },
+   "default": {
+      "description": "Generic string used next to several settings to indicate default value",
+      "message": "Default"
+   },
+   "display_filename": {
+      "description": "Option to show picture file name during slideshow",
+      "message": "Display File Name"
+   },
+   "display_time": {
+      "description": "Option to display time during slideshow",
+      "message": "Display Time"
+   },
+   "enable_mobile_uploads": {
+      "message": "Enable Mobile Uploads"
+   },
+   "fancy_buy_url": {
+      "description": "do not translate",
+      "message": "pictacast.com/buy"
+   },
+   "filewall_help_link": {
+      "message": "http://windows.microsoft.com/en-us/windows/communicate-through-windows-firewall#1TC=windows-7"
+   },
+   "firewall_guide_title": {
+      "message": "Allow a program to communicate through Windows Firewall"
+   },
+   "folder_options": {
+      "message": "Folder Options"
+   },
+   "free_limit_notice": {
+      "description": "Inform user that this version is limited to 30 minutes per day usage",
+      "message": "This free version is limited to 30 minutes of casting per day."
+   },
+   "free_postfix": {
+      "description": "This is used when we need to show the app title like 'PictaCast - Free'",
+      "message": "Free"
+   },
+   "good_afternoon": {
+      "message": "Good Afternoon"
+   },
+   "good_evening": {
+      "message": "Good Evening"
+   },
+   "good_morning": {
+      "message": "Good Morning"
+   },
+   "help_send_mail": {
+      "message": "Need help?"
+   },
+   "include_subfolders_quest": {
+      "message": "Include Subfolder Files?"
+   },
+   "install_chromecast_ext": {
+      "description": "Phrases brackets []  should be left intact as they will be transformed to links programatically",
+      "message": "Please install the [Google Cast] extension from the Chrome Web Store and [reload this page]"
+   },
+   "launch_full": {
+      "description": "Button used to start full version of the app",
+      "message": "Launch Full Version"
+   },
+   "limit_reached": {
+      "message": "Your daily 30 minute limit has been reached"
+   },
+   "mobile_link_info": {
+      "message": "Show on-screen Mobile Upload Link during Slideshow"
+   },
+   "mobile_upload": {
+      "message": "Mobile Upload"
+   },
+   "mobile_upload_settings": {
+      "description": "Option which shows Mobile Settings dialog",
+      "message": "Mobile Settings"
+   },
+   "mobile_uploads_help": {
+      "message": "To add photos via mobile open pictacast.com/mobile during a casting session. Your mobile will upload pictures directly to the app so it must be on the same Wi-Fi connection."
+   },
+   "mobile_uploads_info": {
+      "message": "Allow users on your Wi-Fi network to upload photos from their Mobile Device"
+   },
+   "mode_fadein": {
+      "description": "Set slideshow to one fading picture at a time",
+      "message": "Full Screen"
+   },
+   "mode_wall": {
+      "description": "Set slideshow to display multiple pictures at a time",
+      "message": "Picture Wall"
+   },
+   "multi_minutes_left": {
+      "description": "Text used to inform user of remaning day trial minutes. Please leave string [total] in place of digit, this will be replaced programatically.",
+      "message": "[total] minutes left"
+   },
+   "multi_photos": {
+      "description": "Text used to display total number of photos in a specific folder. Please leave the string [total] in place of the digit as this will be replaced programatically",
+      "message": "[total] photos"
+   },
+   "multi_photos_loaded": {
+      "description": "Note that [total] will be replaced by a digit programatically",
+      "message": "[total] photos loaded"
+   },
+   "need_help": {
+      "description": "[supportmail] will be replaced by an e-mail address so please keep intact",
+      "message": "Should you encounter any issue while using the app please contact us on [supportmail]"
+   },
+   "no": {
+      "message": "No"
+   },
+   "no_folders_quest": {
+      "description": "This string continues with the previous string 'no_folders_yet', it asks the user if he/she would like to add a folder now.",
+      "message": "Add Folder ?"
+   },
+   "no_folders_yet": {
+      "description": "Message instructing user that no folders have yet been added",
+      "message": "You have not added any Folders yet"
+   },
+   "no_mobile_chromebook": {
+      "description": "Message informing users that mobile uploads are not supported on Chromebook",
+      "message": "Sorry, Mobile Uploads are currently unavailable on ChromeOS and Chromebook"
+   },
+   "no_music_chromebook": {
+      "description": "Message informing user that Music is not supported on ChromeOS",
+      "message": "Sorry, Music is currently unavailable on ChromeOS"
+   },
+   "no_music_firewall": {
+      "description": "Message informing user that Music is not available due to firewall",
+      "message": "Cannot play music on Chromecast. Please check your firewall settings."
+   },
+   "no_photos": {
+      "message": "No Photos in Folder"
+   },
+   "no_photos_to_cast": {
+      "message": "No Photos to Cast"
+   },
+   "no_tracks": {
+      "message": "No Tracks to Play"
+   },
+   "offer_refund": {
+      "message": "Feel free to request a refund by specifying your Order ID."
+   },
+   "one_minute_left": {
+      "description": "Text displayed when there is one minute left of day trial",
+      "message": "1 minute left"
+   },
+   "one_photo": {
+      "message": "1 photo"
+   },
+   "one_photo_loaded": {
+      "message": "1 photo loaded"
+   },
+   "pause": {
+      "message": "Pause"
+   },
+   "playlist_title": {
+      "message": "Music Playlist"
+   },
+   "problem_with_firewall": {
+      "description": "please try to keep this short ",
+      "message": "There seems to be a problem with your Firewall.."
+   },
+   "purchase_thankyou": {
+      "description": "Message used to thank user for purchasing the app",
+      "message": "Thank You for your Purchase!"
+   },
+   "refresh_interval": {
+      "message": "Refresh interval (minutes)"
+   },
+   "remove_album_prompt": {
+      "message": "Remove this album?"
+   },
+   "remove_trial": {
+      "description": "This will appear next to a checkbox which when checked will remove any previous trial version of the app",
+      "message": "Uninstall Trial Version"
+   },
+   "request_refund": {
+      "description": "Tell user to specify an order id when requesting a refund",
+      "message": "If for any reason you would like to have your order refunded simply specify your Order ID."
+   },
+   "resume": {
+      "message": "Resume"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "screen_orientation": {
+      "description": "Heading used to show monitor orientation (rotation) options",
+      "message": "Rotate Screen"
+   },
+   "select_chromecast_device": {
+      "message": "Select the desired Chromecast device from the above popup menu"
+   },
+   "select_photos": {
+      "description": "Text displayed in button used to select photos",
+      "message": "Select Photos"
+   },
+   "send_usage_info": {
+      "message": "Send usage info"
+   },
+   "settings": {
+      "description": "Title of menu which contains general application settings",
+      "message": "Settings"
+   },
+   "show_mobile_link": {
+      "message": "Display Upload Link"
+   },
+   "shuffle": {
+      "description": "Randomize order in which pictures are displayed",
+      "message": "Shuffle"
+   },
+   "slideshow_mode": {
+      "description": "Title of menu which contains slideshow visualization options",
+      "message": "Mode"
+   },
+   "slideshow_speed": {
+      "description": "Title of menu which allows settings of slideshow speed",
+      "message": "Speed"
+   },
+   "speed_cust_hours": {
+      "message": "Hours"
+   },
+   "speed_cust_minutes": {
+      "message": "Minutes"
+   },
+   "speed_cust_seconds": {
+      "message": "Seconds"
+   },
+   "speed_custom": {
+      "description": "Allows user to set a custom delay between pictures",
+      "message": "Custom"
+   },
+   "speed_fast": {
+      "description": "Sets short interval between each picture",
+      "message": "Fast"
+   },
+   "speed_normal": {
+      "description": "Sets slideshow speed to normal",
+      "message": "Normal"
+   },
+   "speed_slow": {
+      "description": "Sets long interval between each picture",
+      "message": "Slow"
+   },
+   "speed_warning": {
+      "message": "Warning: Long delays may damage your TV"
+   },
+   "stop": {
+      "message": "Stop"
+   },
+   "suggest_browser_restart": {
+      "message": "After you complete the steps in the previous link we also suggest restarting Chrome by typing chrome://restart in the address bar. Make sure you save any current tabs as they might not be re-opened."
+   },
+   "suggest_microsoft_guide": {
+      "message": "This might cause disconnections as well as other issues during a slideshow. We suggest following this guide by Microsoft to allow Google Chrome through your Windows Firewall"
+   },
+   "time_am": {
+      "message": "am"
+   },
+   "time_format": {
+      "message": "Time Format"
+   },
+   "time_pm": {
+      "message": "pm"
+   },
+   "usage_info_notice": {
+      "message": "Help improve quality by sending anonymous data and usage statistics"
+   },
+   "yes": {
+      "message": "Yes"
+   }
+}

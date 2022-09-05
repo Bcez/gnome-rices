@@ -1,0 +1,20 @@
+.hv-container-for-button{
+	z-index: 1;
+	left: 0;
+    top: 40px;
+}
+
+.hv-container-for-icon{
+	z-index: 1;
+}
+.d2l-htmleditor-component-container {
+	position: relative;
+}
+.hv-widget-container {
+	width: 351px;
+	position: absolute;
+    top: 50px;
+}
+.hv-embed-button-container {
+	position: relative;
+}

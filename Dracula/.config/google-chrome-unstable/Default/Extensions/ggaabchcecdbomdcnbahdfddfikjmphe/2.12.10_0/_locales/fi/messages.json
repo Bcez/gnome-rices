@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Valitun alueen kaappaus ei onnistu tällä sivustolla. Käytä koko näytön tallennus tai kokeile toista verkkosivustoa. \n\n (╯ ° □ °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Valitse Animation koko ja väri"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "kiinni"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "Cursor Dot Koko ja väri"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Levitä dhere"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Lataa tiedostonimi"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "ladata"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Piirustus koko ja väri"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Lisää kuvake"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Lisää teksti"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Kopioi leikepöydälle"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "Rajata"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Piirrä arrow"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Piirtää ellipsi"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "Piirtää"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Piirrä suorakulmio"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Vapaa veto"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "Kohokohta"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Redo"
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "Tallentaa"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Valitse, siirrä, kokoa"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "asetukset"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Kumota"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Kumota kaikki"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "Aloita kirjoittaminen ..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Selaa tiedostojärjestelmää"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Vedä ja pudota kuva / GIF tai"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Tiedosto tallennetaan latauskansioon."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "Käytä valittuja muokkauksia (varoitus: ei voi peruuttaa)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Poista valittu (DEL / Backspace)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Poista jokainen toinen kehys"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Palauta valittu (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Palauta kaikki"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Poista kaikki"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "Kuva kopioitu leikepöydälle."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Kuvan kopiointi epäonnistui leikepöydälle, se voi olla liian suuri."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Linkki kopioitu leikepöydälle."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Olet saavuttanut $maxlength$ -sekuntien enimmäismäärän pituuden ajan GIF: ille. Premium -käyttäjät voivat päivittää tämän asetussivulta.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIF: t on tarkoitettu lyhyille tallenteille. Jos tarvitset täysimittaisia videoita, suosittelemme ilmaista näyttörekisteriä:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "Premium -käyttäjät voivat päivittää tämän asetussivulta."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Avaa asetukset"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "Tallennus yhtäkkiä pysähtyi?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Väri"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Piirrä koko"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Fontti"
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Toistonopeus"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Erikoistehoste"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Premium-vaihtoehdot"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Varoitus"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "Lukitse kuvasuhde"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Peruuttaa"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "Pakkaa ja optimoi gif"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "Käytä GIF -pakkausalgorthm: ta pienentämään GIF -tiedoston kokoa huomattavasti ja joissakin tapauksissa parantaa laatua. Erittäin suositeltu."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Levitä dither -algoritmia kuviin. Yritä vaihtaa tämä vaihtoehto, jos koet värin laatuongelmia."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Arvioitu GIF-koko:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Kuvat:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "Tällä hetkellä on valittuja kuvia, tallentaminen tuottaa vain nämä valitut kehykset -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Napsauta tätä poistaaksesi kaikki kuvat"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Toistonopeus"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "Tämän tallennuksen käsittely vaatii paljon muistia ja jalostusvoimaa. Ellei sinulla ole korkeaa Spec PC: tä, on suositeltavaa tehdä yksi tai useampi seuraavista:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Huomaa, jos tuloksena oleva GIF on tyhjä, loppui muistista."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "Pakkaa ja optimoi GIF"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Vähennä leveys ja korkeus"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Poista joitain kuvia"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Vähennä leveä ja korkeus"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Vähennä GIF -leveyttä ja korkeutta/laatua käsittelyajan parantamiseksi ja pienemmän tiedoston tuottamiseksi."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "Tallentaa"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Pelastaa"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Lataa tiedosto"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Lataa Google Drive & Copy -linkkiin"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "Tallentaa"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Käsittely ..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Lataus ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Avaa editori"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Pro Vihje: Poista lisätyt kohteet valitsemalla kohde ja painamalla DELETE-näppäintä."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "Pro -vinkki: Voit muokata tiettyjä kuvia käyttämällä 'Käytä muokkauksia valittuun vaihtoehtoon'"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "Pro Vihje: Selaa, kun kuvataan kuvakaappaus / tallennus zoomataksesi."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "PRO Vihje: Kun käytät valintatyökalua, valitse SHIFT-painiketta valitaksesi useamman kuin yhden kohteen."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Pro Vihje: Voit skaalata, kiertää, siirtää ja poistaa useita kohteita kerralla."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Pro Vihje: Voit muokata sitä kaksoisnapsauttamalla tekstiä."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "Tämä on saattanut tapahtua, koska ikkuna ei ole keskittynyt."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Kopioi leikepöydälle epäonnistunut"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "Kopioitu leikepöydälle"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Lataa epäonnistui"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Yritä uudelleen."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Varmista, että olet yhteydessä Internetiin ja olet hyväksynyt Google Drive -oikeudet."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "Peruuta ja lataa tiedosto"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "kiinni"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Kopioi linkki"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "Anna kenellekään linkki katsella."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "Ota piirustus käyttöön"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "Tämän vaihtoehdon avulla käyttäjät voivat piirtää valitulla alueella pitämällä CTRL-näppäintä alhaalla."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Tallenna GIF tai ota kuvakaappaus mitään selaimessasi - nopeammin ja helpommin kuin koskaan ennen."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture - Gif & Screenshot -työkalu"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Chrome-kaappaus"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "Tiedoston käyttöoikeus"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Tiedoston nimi"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Kuvia sekunnissa (FPS)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "kuvat"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Vapaa asetukset"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Peruuttaa"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Haluatko varmasti jatkaa koko näytön kaappaamista?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Älä näytä tätä uudelleen"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "Olet käyttänyt Chrome Capture-pikavalintaa ilman rajaustyökalua, tämä kaappaa koko näytön tilassa."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Avaa viljelytyökalu"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "Alt + C: Avaa / sulje Chrome Capture Wropping -työkalu"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "Alt + Shift + S: Täysi verkkosivun kuvakaappaus (beta)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Voit määrittää nämä tässä:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "Alt + R: Käynnistys / lopeta tallennus"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S: näkyvä alue kuvakaappaus"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Oletuspikakuvakkeet ovat:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Aloita koko näytön kaappaus"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Koko näytön kaappaus"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Saada palkkio"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Leveys (px)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Internet-yhteys on päivitettävä palkkioon."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "Max Tallennusratkaisu / laatu"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Ei rajoitusta"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "Avata"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Oletustoimenpide"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 pikseliä"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 pikseliä (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 pikseliä (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 pikseliä (4K)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 pikseliä (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Salli ilmoitukset"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Näytä ilmoitukset, kun koko näytön tallennus alkaa ja käsittelee tallenteita taustalla."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Kuinka käyttää"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Avaa ponnahdusikkuna"
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Avaa valittu alue Capture"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Pikavalinnat"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "Tuki"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Valitse valittu alue napsauttamalla ja vetämällä. \n Napsauta hiiren kakkospainikkeella, kun haluat napsauttaa elementtiin, pidä muutosta useita."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Kaapata"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Avoin editori"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Vierata verkkosivua"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "Selaimesi ei salli tämän verkkosivun komentosarjoja, valitettavasti tämä tekee valitun alueen ja täyden verkkosivun kaappauksen mahdottomaksi tällä sivustolla."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Ennätys"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Tallenna jopa $SECONDS$ sekuntia kohti gifiä. Premium -käyttäjät voivat päivittää tämän",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Asetukset -sivu."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Koko näyttö tai sovellus"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Valittu alue"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Avaa asetukset"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "Tämä välilehti"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Premium-asetukset"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Hanki Premium!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Olet tällä hetkellä vapaassa suunnitelmassa. Päivitä palkkioon kaikkien premium-ominaisuuksien avaamiseksi."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Kirjaudu Googleen jatkaaksesi."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Haluatko päivittää palkkioon?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Oletko jo premium-käyttäjä?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "Korkealaatuinen GIF-pakkaus"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Piirrä tallennuksen aikana"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Muokkaa kaappaa"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "Perusmuokkaus"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Kehyksen muokkaus"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "TUNE kehysnopeus"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Rajoittamaton koko sivun kuvakaappauksia."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "Napsauta ja hiiren ilmaisinta"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "Vertaa suunnitelmia"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "Viritä tallennus toistonopeus"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Rajoittamaton GIF-tallenteet."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "10SEC raja per gif"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "Korkealaatuiset gifit"
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 pikseliä max"
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Rajoittamaton kuvakaappaus."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "ERITYISTEN VAIKUTUKSET"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "Vapaa"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Vapaa käyttää"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Perusmuokkaus"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "Perus GIF-tallennus"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Rajoittamaton kuvakaappaus"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Palkkio"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "Aloittaa"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "Korkealaatuinen GIF-pakkaus"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Ominaisuus rikas muokkaaminen"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Kaikki vapaa"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Rajaton korkealaatuinen GIF-tallennus"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "Täysin palauteta"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "kertamaksu"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Kirjaudu sisään"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Tallennuslaatu (10 = paras)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Yritämme jatkuvasti vaikeimmin parantaa Chrome Capture, ja jaa mitä tarvitsee parannusta sähköpostitse meille osoitteessa"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Olemme pahoillamme!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "kiinni"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "Vahvistaa"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Jos olet löytänyt tämän laajennuksen hyödyllisen, jätä luokitus tai tarkistus. \n\n Jättämällä luokitus voi auttaa meitä saavuttamaan enemmän käyttäjiä, jotka auttavat rahoittamaan jatkuvia parannuksia ja pitämään yleisen käytön ilmaiseksi."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Arvostamme sinua ostamaan palkkion ja haluamme kuulla mitään palautetta, jonka sinun täytyy auttaa meitä parantamaan tuotetta ja saavuttamaan enemmän käyttäjiä."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Arvostelut pitävät pientä joukkueemme motivoituneita tekemään Chrome Capture entistä parempaa!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Arvostamme sinua ostamaan palkkion ja haluamme kuulla mitään palautetta, jonka sinun täytyy auttaa meitä parantamaan tuotetta ja saavuttamaan enemmän käyttäjiä."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Tarkastele verkkokaupassa?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Ehkä myöhemmin"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Ei kiitos"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Lähettää sähköpostia"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Kiitos! 😍"
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "Kuinka me voimme?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "OK toki"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Max Record Pituus"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Tallentimen logiikka"
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Esittäjä V2 - käsittely kestää kauemmin, mutta se toimii 4K-näytöillä ja useilla näytöillä"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Esittäjä - Varoitus ei toimi 4k-näytöillä tai useilla näytöillä"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Normaali - jos havaitset suorituskykyongelmia"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Tallenna kuvakaappaus"
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Tallenna tallennus"
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "sekuntia"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "Näytä napsauta Animaatio"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "Tämä vaihtoehto piirtää ympyrän animaation napsautuksen sijainnin ympärille."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Näytä piste Cursor Sijainti"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "Tämä vaihtoehto piirtää pienen ympyrän osoittamaan, missä hiiri sijaitsee."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Tätä verkkosivustoa ei voi kaapata. Käytä koko näytön/sovellusten kaappausta tai kokeile toisen verkkosivuston sieppaamista. \n\n (╯ ° □ °） ╯︵ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Korkeus (px)"
+   }
+}

@@ -1,0 +1,6 @@
+2022/09/04-02:51:02.820 1438 Creating DB /home/eric/.config/google-chrome-unstable/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb since it was missing.
+2022/09/04-02:51:02.825 1438 Reusing MANIFEST /home/eric/.config/google-chrome-unstable/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/04-11:43:11.613 8423 Level-0 table #5: started
+2022/09/04-11:43:11.633 8423 Level-0 table #5: 2465 bytes OK
+2022/09/04-11:43:11.637 8423 Delete type=0 #3
+2022/09/04-11:43:11.638 8423 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,20 @@
+#hippo_video_button{
+    background-color: transparent;
+    margin-left: -2px;
+    color: #080707;
+}
+.hv-embed-main-container{
+    vertical-align: top;
+    height: 32px;
+    margin: 0px;
+}
+.hv-embed-main-container #hippo_video_button{
+    margin: 0px 0px 0px 5px;
+    border: 0;
+    padding: 10px 15px 10px;
+}
+.hv-embed-main-container img{
+    margin: 0 8px 0 0;
+    width: 18px;
+    height: auto;
+}

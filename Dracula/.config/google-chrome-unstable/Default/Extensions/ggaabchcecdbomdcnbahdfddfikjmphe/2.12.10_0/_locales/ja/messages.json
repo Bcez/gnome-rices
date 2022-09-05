@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "このWebサイトで選択されたエリアキャプチャを実行できません。 フルスクリーン記録を使用するか、別のWebサイトを試してください。 \n\n （╯°□°）╯(┻━┻）"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "アニメーションサイズ＆カラーをクリックします"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "選ぶ"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "カーソルドットサイズ＆カラー"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "ディザーを適用する"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "ファイル名形式をダウンロードします"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "ダウンロード"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "描画サイズ＆カラー"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "アイコンを追加します"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "テキストを追加"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "クリップボードにコピー"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "作物"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "矢印を描く"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "ellipseを描く"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "描く"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "四角形を描く"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "無料ドロー"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "ハイライト"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "やり直す"
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "保存"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "選択、移動、サイズ変更"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "設定"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "und"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "元に戻す"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "タイピングを開始..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "ファイルシステムを参照します"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "画像/ GIFをドラッグアンドドロップする"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "ダウンロードフォルダーに保存されたファイル。"
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "選択する編集を適用する（警告：元に戻すことはできません）"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "選択した削除（DEL / Backspace）"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "毎週フレームを削除します"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "選択した復元（R）"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "すべての復元"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "全体の選択を解除します"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "クリップボードにコピーされたイメージ。"
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "画像をクリップボードにコピーできませんでした、大きすぎる可能性があります。"
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "クリップボードにコピーされたリンク。"
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "GIFの$maxlength$秒の最大記録の長さに達しました。 プレミアムユーザーは、これを設定ページから更新できます。",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIFは、短い記録を目的としています。 フルレングスビデオが必要な場合は、無料のスクリーンレコーダーをお勧めします。"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "プレミアムユーザーは、これを設定ページから更新できます。"
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "設定を開く"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "録音は突然停止しましたか？"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "色"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "サイズを描く"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "フォント"
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "再生速度"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "特殊効果"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "プレミアムオプション"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "警告"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "ロックアスペクト比"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "キャンセル"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "圧縮＆最適化GIF"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "GIF圧縮アルグルトを適用して、GIFファイルサイズを大幅に削減し、場合によっては品質を向上させます。 強くお勧めします。"
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "画像にディザーアルゴリズムを適用します。 色の品質の問題が発生した場合は、このオプションを切り替えてみてください。"
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "推定GIFサイズ："
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "画像："
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "現在選択されている画像があり、保存はこれらの選択したフレームのみを出力します - "
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "すべての画像を解除するには、ここをクリックしてください"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "再生速度"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "この記録の処理には、多くのメモリと処理電力が必要になります。 高仕様PCがない限り、次のうち1つ以上を実行することをお勧めします。"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "結果のGIFが空白の場合は、メモリを使い果たしました。"
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "GIFを圧縮して最適化します"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "幅と身長を減らす"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "いくつかの画像を削除します"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "幅と身長を減らす"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "GIFの幅と高さ/品質を削減して、処理時間を改善し、小さなファイルを生成します。"
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "保存"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "保存します"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "ダウンロードファイル"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Google Drive＆Copyリンクにアップロードします"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "保存"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "処理..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "アップロード..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "編集者で開く"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Proヒント：アイテムを選択してDeleteキーを押すと、追加された項目を削除します。"
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "プロのヒント：「選択したオプションに編集を適用する」を使用して、特定の画像を編集できます。"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "PROヒント：スクリーンショット/録画をズームしてスクロールします。"
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "PROヒント：選択ツールを使用する場合は、Shiftを押して複数の項目を選択します。"
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "PROヒント：複数の項目を一度に拡大、回転、移動、移動できます。"
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Proヒント：編集するにはテキストをダブルクリックします。"
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "これは、窓が集中していないために発生した可能性があります。"
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "クリップボードにコピーが失敗しました"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "クリップボードにコピーされました"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "アップロードに失敗しました"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "再試行。"
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "インターネットに接続されており、Googleドライブの許可を受け入れていることを確認してください。"
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "ファイルをキャンセルしてダウンロードします"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "選ぶ"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "リンクをコピーする"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "リンクを持っている人なら誰でも表示します。"
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "図面を有効にします"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "このオプションを使用すると、Ctrlキーを押しながらユーザーが選択した領域に描画できます。"
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "GIFを録音するか、ブラウザに何もスクリーンショットを撮ってください - これまで以上に簡単です。"
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture  -  GIF＆スクリーンショットツール"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "クロームキャプチャー"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "ファイルアクセスによるファイルアクセス"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "ファイル名"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "秒あたりの画像（fps）"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "画像"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "無料設定"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "キャンセル"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "全画面キャプチャを続行しますか？"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "これ、二度とみせないで"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "クロムキャプチャーショートカットをトリミングツールなしで使用しましたが、これは全画面モードでキャプチャします。"
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "オープントリミングツール"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "ALT + C：Chromeキャプチャトリップツールを開く/閉じる"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "ALT + SHIFT + S：フルウェブページスクリーンショット（ベータ版）"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "ここに設定できます。"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "ALT + R：録音を開始/停止します"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S：目に見える領域のスクリーンショット"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "デフォルトのショートカットは次のとおりです。"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "フルスクリーンキャプチャを開始します"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "フルスクリーンキャプチャー"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "プレミアムになる"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "幅（PX）"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "プレミアムにアップグレードするには、インターネット接続が必要です。"
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "最大記録解像度/品質"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "制限なし"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "開ける"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "デフォルトのアクション"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000ピクセル"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920ピクセル（1080p）"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640ピクセル（480p）"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840ピクセル（4K）"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280ピクセル（720p）"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "通知を有効にします"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "フル画面録画が開始され、バックグラウンドで録音を処理するときに通知が表示されます。"
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "使い方"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "ポップアップを開く"
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "選択したエリアキャプチャーを開きます"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "ショートカット"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "サポート"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "クリックしてドラッグして選択した領域を選択します。 \n 右クリックして要素にスナップして、Shiftキーを押します。"
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "キャプチャー"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "オープンエディタ"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Webページのスクロール"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "あなたのブラウザはこのウェブページで実行されているスクリプトを許可しません。残念ながら、このサイトでは選択されたエリアとフルWebページキャプチャを不可能にします。"
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "記録"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "GIFごとに$SECONDS$秒まで記録します。 プレミアムユーザーはこれをから更新できます",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "設定ページ。"
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "全画面またはアプリ"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "選択された領域"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "オープン設定"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "このタブ"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "プレミアム設定"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "プレミアムを入手！"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "あなたは現在無料の計画にあります。 Premiumにアップグレードして、すべてのプレミアム機能のロックを解除します。"
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Googleにサインインして続行します。"
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "プレミアムにアップグレードしますか？"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "すでにプレミアムユーザー？"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "高品質GIF圧縮"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "録音中に描きます"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "キャプチャを編集します"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "基本編集"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "フレーム編集"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "フレームレートの調整"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "無制限のフルページのスクリーンショット。"
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "クリックしてマウスの表示"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "プランを比較してください"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "録音再生スピードを調整します"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "無制限のGIF録音"
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "GIFあたり10秒制限"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "高品質のgifs"
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "最大1000ピクセル"
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "無制限のスクリーンショット。"
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "特殊効果を記録します"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "無料"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "使うことができます"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "基本編集"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "基本的なGIF録音"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "無制限のスクリーンショット"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "保険料"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "始まりました"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "高品質GIF圧縮"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "充実した編集機能"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "無料からのものすべて"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "無制限の高品質GIF録音"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "完全に返金可能です"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "1時間料金"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "ここでサインイン"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "記録品質（10 =ベスト）"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Chrome Captureを改善するために最も難しいことを継続的に試しています。"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "←申し訳ありません。"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "選ぶ"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "確認"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "この拡張機能が役に立つと判断した場合は、評価やレビューを残してください。 \n\n 評価を残すことによって、あなたは私たちが継続的な改善を助けるためにもっと多くのユーザーに到達するのを助けることができ、一般的な使い方を解放するのを助けることができます。"
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "プレミアムを購入して、あなたが私たちが製品を改善し、より多くのユーザーに到達するのを手助けしなければならないフィードバックを聞くのが大好きです。"
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "あなたのレビューは私たちの小さなチームをChrome Captureにすることをやる気にさせ続けています！"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "プレミアムを購入して、あなたが私たちが製品を改善し、より多くのユーザーに到達するのを手助けしなければならないフィードバックを聞くのが大好きです。"
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "✔ウェブストアでレビューしますか？"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "たぶん後で"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "結構です"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "メールを送る"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "ありがとう！ 😍"
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "私たちはどのようにやっています？"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "わかりました"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "最大レコードの長さ"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "レコーダーロジック"
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Performant V2  - 処理は長くなりますが、4K画面と複数のモニターで機能します。"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "performant  -  4K画面や複数のモニタでは機能しません"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "通常 - パフォーマンスの問題を経験した場合はPerformantを使用しています"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "スクリーンショットを保存してください"
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "録音を保存する"
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "秒"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "[アニメーション]をクリックします"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "このオプションはクリックの場所の周囲にサークルアニメーションを描画します。"
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "カーソルの場所でドットを表示します"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "このオプションは、マウスがどこにあるかを示すために小さい円を描きます。"
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "このウェブサイトをキャプチャできません。 フルスクリーン/アプリケーションキャプチャを使用するか、別のWebサイトをキャプチャしてみてください。 \n\n （╯°□°）┻━┻┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "高さ（PX）"
+   }
+}

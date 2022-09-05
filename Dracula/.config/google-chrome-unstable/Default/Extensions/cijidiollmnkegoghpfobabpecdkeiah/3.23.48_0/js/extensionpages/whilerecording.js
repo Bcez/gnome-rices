@@ -1,0 +1,1 @@
+navigator.getUserMedia({audio:!0,video:{width:1280,height:720}},function(e){e.getTracks()[0]&&e.getTracks()[0].stop(),e.getTracks()[1]&&e.getTracks()[1].stop(),$("#whilerecording").hide()},function(e){$("#whilerecording").show(),$(".arrow-white").hide(),$(".arrow-white-right").show(),$(".text-content").html(chrome.i18n.getMessage("you_have_disabled_webcam_mic_access"))});

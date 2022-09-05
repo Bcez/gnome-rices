@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>__MSG_hippo_video_onboard__</title>
+		<script src="/js/common/jquery-3.1.1.min.js"></script>
+		<script src="/js/extensionpages/onboard.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/onboard.css">
+	</head>
+	<body style="overflow: hidden; margin: 0;">
+		<img src="/images/extension/Hippo-Wiz.png" width="100%" height="817" id="hippoWizBackground"/>
+		<!-- <img src="/images/extension/hippo-install-img.gif" width="100%" height="817" id="hippoWizBackground"/> -->
+		<div class="mask-layer"></div>
+		<div class="pin-ext-icon">
+			<img src="/images/extension/hippo-video-logo.svg" class="hippo-video-logo"/>
+			<img src="/images/extension/extension-pin-icon.png" class="extension-pin-icon"/>
+			<div class="extension-pin-text"> __MSG_extension_pin_text__</div>
+			<div class="extension-pin-dismiss">__MSG_got_it__</div>
+		</div>
+		<div class="transparent-bg">
+			<img src="/images/extension/arrow-white.png" class="arrow-white" />
+			<img src="/images/extension/arrow-white-right.png" class="arrow-white-right" style="display:none" />
+			<img src="/images/extension/logo-96.png" width="64" height="64" class="logo-64" />
+			<div class="text-content">__MSG_checking_your_system_devices__</div>
+			<img class="mac-permission-gif" style="display:none" src="/images/injected/mac-webcam-permisson.gif">
+			<div class="button-toolbar">
+				<button class="wiz-primary-btn goi-it-btn" style="display:none;">__MSG_okay__</button>
+				<button class="wiz-seconday-btn never-record-btn" style="display:none;">__MSG_never_record_text__</button>
+				<button class="wiz-primary-btn next-btn" style="display:none;">__MSG_next__</button>
+			</div>
+		</div>
+		<!-- <div class="gif-div">
+			<img src="/images/video-permission-gif-1.gif">
+		</div> -->
+		<h2 id="error-onboard"></h2>
+	</body>
+	<script src="/js/common/internationalization.js"></script>
+</html>

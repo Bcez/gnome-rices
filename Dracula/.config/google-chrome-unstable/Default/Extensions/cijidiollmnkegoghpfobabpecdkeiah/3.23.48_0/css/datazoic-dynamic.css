@@ -1,0 +1,75 @@
+#hippo_video_button{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .hv-embed-main-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 24px;
+    margin: 0px;
+    margin-right: 6px;
+    width: 24px;
+  }
+    
+  .hv-embed-main-container .tooltiptext {
+    position: absolute;
+    top: -21px;
+    left: 50%;
+    z-index: 8001;
+    height: 16px;
+    padding: 4px 8px;
+    color: #fff;
+    font-size: 13px;
+    white-space: nowrap;
+    line-height: initial;
+    background: rgba(0,0,0,0.76);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    opacity: 0;
+    transform: translateX(-50%) translateY(0);
+    transition: opacity 0.2s linear, transform 0.2s linear;
+    pointer-events: none;
+  }
+    
+  .hv-embed-main-container:hover .tooltiptext {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+  
+  #hv_thumbnail{
+    margin: 0px!important;
+  }
+  
+  .video-prompter-container .display-video-prompt .prompt-settings .slider{
+    height: 40px !important;
+    padding-top: 3px !important;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: flex-start !important;
+    width: 150px !important;
+    position: relative !important;
+    cursor:default !important;
+    background-color: #fff !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+
+   .video-prompter-container .display-video-prompt .prompt-settings .slider::before{
+    content: none !important;
+   }
+
+   .video-prompter-container .display-video-prompt .prompt-settings .slider > *{
+    margin: auto 0 !important; 
+   }
+
+   .video-prompter-container .display-video-prompt .prompt-settings .slider h6{
+    margin-top: 0px !important;
+   }

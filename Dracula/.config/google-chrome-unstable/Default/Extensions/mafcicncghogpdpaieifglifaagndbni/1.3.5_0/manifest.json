@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": "icons/grey.png",
+      "default_popup": "popup/popup.html"
+   },
+   "author": "alexop",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "/css/all.css", "css/slider.css" ],
+      "js": [ "/libraries/util.js", "/libraries/pager.js", "/libraries/currencies.js", "/libraries/jscolor.min.js", "/libraries/jquery-3.5.1.min.js", "/libraries/jquery-ui-1.12.1.js", "/libraries/luaparse.js", "/libraries/RBXM/Binary.js", "/libraries/RBXM/LZ4.js", "/libraries/RBXM/Stream.js", "/libraries/RBXM/RBXMReader.js", "/libraries/RBXM/xml.js", "/libraries/resemble.js", "/libraries/modal.js", "/libraries/lzma_worker-min.js", "/js/pages/users/profile.js", "/js/pages/users/avatar.js", "/js/pages/users/friends.js", "/js/pages/settings.js", "/js/pages/games/joinlink.js", "/js/pages/games/game.js", "/js/pages/other/group.js", "/js/pages/other/home.js", "/js/pages/develop/develop.js", "/js/pages/games/discover.js", "/js/pages/develop/library.js", "/js/pages/other/catalog.js", "/js/pages/develop/upload.js", "/js/pages/other/search.js", "/js/pages/all.js", "/js/pages/users/banned.js", "/js/pages/users/messages.js", "/js/pages/other/inventory.js", "/js/pages/develop/outfitcopy.js", "/js/inject.js" ],
+      "matches": [ "*://www.roblox.com/*", "*://web.roblox.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "*://*.roblox.com/*", "*://*.rbxcdn.com/*" ],
+   "icons": {
+      "128": "icons/grey_128x128.png",
+      "16": "icons/grey_16x16.png",
+      "48": "icons/grey_48x48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApsaoepbEMREkGBcg1e+OmanJs+m1ODbhe9qHrm5DSsu1D7tYeU+ps7jLYx8McKfEtpnWqhD2Gl1pRHFdojcFdRnxCQ9baqZCdWqilZVs7WDPKWFLiLoSt3f4mWHFgtt1UiM3S9bODCa611pqAr1c4+g0FDWzeAD0g2GEyrBVm2KJ7TD4NqvNazbdq5tel4xy8EmtYisY/Vba2RD83rR51FOBIcUOs6ZPAk/RyZQgCCXx7a5DeaZqGqD77hvr5AZpJl/TB+UXTNsyjy1EAgKot9u9c8HM93ViwHp1MC6j7ah8/z+P3sCGpm6qUEhTuvue9Mp80/FFvYkBndZPFnJ/ZwIDAQAB",
+   "manifest_version": 3,
+   "name": "RoGold - Level Up Roblox",
+   "permissions": [ "storage", "contextMenus", "clipboardWrite", "notifications" ],
+   "short_name": "RoGold",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.5",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "init.js", "/svg/*", "/images/*", "/css/*", "/js/retrieveGlobal.js", "/js/useAngular.js" ]
+   } ]
+}

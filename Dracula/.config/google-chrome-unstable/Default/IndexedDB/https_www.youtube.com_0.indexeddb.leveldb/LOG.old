@@ -1,0 +1,41 @@
+2022/09/04-02:51:04.151 bc3 Creating DB /home/eric/.config/google-chrome-unstable/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2022/09/04-02:51:04.164 bc3 Reusing MANIFEST /home/eric/.config/google-chrome-unstable/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/04-03:04:03.270 2fc0 Level-0 table #5: started
+2022/09/04-03:04:03.289 2fc0 Level-0 table #5: 940495 bytes OK
+2022/09/04-03:04:03.293 2fc0 Delete type=0 #3
+2022/09/04-03:14:58.118 36b3 Level-0 table #7: started
+2022/09/04-03:14:58.133 36b3 Level-0 table #7: 928707 bytes OK
+2022/09/04-03:14:58.137 36b3 Delete type=0 #4
+2022/09/04-03:20:30.586 3cb8 Compacting 1@1 + 1@2 files
+2022/09/04-03:20:30.596 3cb8 Generated table #8@1: 743 keys, 51646 bytes
+2022/09/04-03:20:30.596 3cb8 Compacted 1@1 + 1@2 files => 51646 bytes
+2022/09/04-03:20:30.599 3cb8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/04-03:20:30.599 3cb8 Delete type=2 #5
+2022/09/04-03:20:30.599 3cb8 Delete type=2 #7
+2022/09/04-03:40:23.887 43ff Level-0 table #10: started
+2022/09/04-03:40:23.901 43ff Level-0 table #10: 942160 bytes OK
+2022/09/04-03:40:23.905 43ff Delete type=0 #6
+2022/09/04-03:42:58.127 4096 Compacting 1@1 + 1@2 files
+2022/09/04-03:42:58.139 4096 Generated table #11@1: 1002 keys, 59691 bytes
+2022/09/04-03:42:58.139 4096 Compacted 1@1 + 1@2 files => 59691 bytes
+2022/09/04-03:42:58.142 4096 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/04-03:42:58.142 4096 Delete type=2 #8
+2022/09/04-03:42:58.142 4096 Delete type=2 #10
+2022/09/04-03:55:34.114 4ab3 Level-0 table #13: started
+2022/09/04-03:55:34.129 4ab3 Level-0 table #13: 766707 bytes OK
+2022/09/04-03:55:34.136 4ab3 Delete type=0 #9
+2022/09/04-03:56:13.165 4c1b Compacting 1@1 + 1@2 files
+2022/09/04-03:56:13.172 4c1b Generated table #14@1: 1148 keys, 61354 bytes
+2022/09/04-03:56:13.172 4c1b Compacted 1@1 + 1@2 files => 61354 bytes
+2022/09/04-03:56:13.175 4c1b compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/04-03:56:13.175 4c1b Delete type=2 #11
+2022/09/04-03:56:13.175 4c1b Delete type=2 #13
+2022/09/04-05:03:14.005 713c Level-0 table #16: started
+2022/09/04-05:03:14.023 713c Level-0 table #16: 830788 bytes OK
+2022/09/04-05:03:14.032 713c Delete type=0 #12
+2022/09/04-05:03:49.338 71a4 Compacting 1@1 + 1@2 files
+2022/09/04-05:03:49.364 71a4 Generated table #17@1: 338 keys, 52016 bytes
+2022/09/04-05:03:49.364 71a4 Compacted 1@1 + 1@2 files => 52016 bytes
+2022/09/04-05:03:49.367 71a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/04-05:03:49.368 71a4 Delete type=2 #14
+2022/09/04-05:03:49.368 71a4 Delete type=2 #16

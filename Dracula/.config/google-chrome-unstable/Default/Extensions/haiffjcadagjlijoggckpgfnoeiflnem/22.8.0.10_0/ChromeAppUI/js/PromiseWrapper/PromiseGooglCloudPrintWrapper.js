@@ -1,0 +1,1 @@
+var EZzUU=(function(){function TI4UD(_EH6e){return new Promise(function(cCleZ,reject){B9MOn.TI4UD(_EH6e,cCleZ,reject);});};function KbqDZ(_EH6e,I1ocu,title,EzMxO,contentType){return new Promise(function(cCleZ,reject){B9MOn.KbqDZ(_EH6e,I1ocu,title,EzMxO,contentType,cCleZ,reject);});};return{TI4UD:TI4UD,KbqDZ:KbqDZ};})();

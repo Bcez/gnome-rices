@@ -1,0 +1,224 @@
+.pop-retry-container{
+	position: absolute;
+	z-index: 2;
+	top: 51px;
+	bottom: 0;
+	width: 100%;
+	background: rgba(255,255,255,0.95);
+}
+.pop-retry{
+	position: relative;
+	padding: 16px 30px;
+	text-align: center;
+	width: 100%;
+	max-width: 680px;
+	margin: 50px auto;
+	background-color: #ffffff;
+	border-radius: 3px;
+}
+.pop-retry, .pop-retry *{
+	box-sizing: border-box;
+}
+.pop-retry-img{
+	width: 60%;
+	min-width: 200px;
+	max-width: 320px;
+}
+.pop-retry button{
+	margin: 0 5px;
+}
+.pop-retry-main > div{
+	margin-bottom: 10px;
+}
+.pop-retry p{
+	margin: 16px auto;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.12px;
+	text-align: center;
+	color: #272727;
+}
+.pop-retry-main .download-video{
+	padding-left: 18px;
+	font-size: 11px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.64;
+	letter-spacing: 0.11px;
+	text-align: center;
+	color: #34b0c2;
+	background-image: url("/images/extension/download-blue.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 12px auto;
+	text-decoration: underline;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.download-video {
+	margin: 0 5px;
+	display: inline-block;
+}
+.pop-retry .link{
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.38;
+	letter-spacing: 0.13px;
+	text-align: center;
+	color: #f47a58;
+	transform: translateX(-50%);
+	cursor: pointer;
+	text-decoration: underline;
+}
+.pop-retry-delete {
+	text-align: center;
+}
+.pop-retry-delete p{
+	margin: 30px auto;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.12px;
+	text-align: center;
+	color: #272727;
+}
+.pop-process{
+	margin-top: 70px;
+}
+.pop-process h4{
+	margin-bottom: 30px;
+	font-size: 13px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.26px;
+	text-align: center;
+	color: #272727;
+}
+.pop-process-loader{
+	position: relative;
+	width: 304px;
+	height: 9px;
+	margin: auto;
+	border-radius: 4.5px;
+	border: solid 1px #c8c8c8;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+.pop-process-loader span{
+	position: absolute;
+	height: 7px;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+	background-color: #34b0c2;
+	transition: width 0.2s linear;
+}
+.pop-process em{
+	display: block;
+	margin-top: 5px;
+	font-size: 11px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.64;
+	letter-spacing: 0.11px;
+	text-align: center;
+	color: #272727;
+}
+.pop-process p{
+	margin: 30px auto 20px;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.12px;
+	text-align: center;
+	color: #272727;
+}
+
+.hide {
+	display: none;
+}
+.upload-status-close {
+	width: 16px;
+    position: absolute;
+    top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+.upload-outside-overlay{
+	background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.hv-button-primary{
+	background-image: linear-gradient(to right, #fc6076 0%, #ff9a44 50%, #ff9a44 100%);
+	background-size: 200% auto;
+	transition: 0.4s;
+	padding: 10px 20px;
+	font-size: 13px;
+	font-weight: 400;
+	cursor: pointer;
+	border-radius: 3px;
+	letter-spacing: 0.26px;
+	text-align: center;
+	color: #fffefe;
+	text-transform: uppercase;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+}
+.hv-button-grey{
+	background-color: #e6e6e6;
+	transition: 0.4s;
+	padding: 10px 20px;
+	font-size: 13px;
+	font-weight: 400;
+	cursor: pointer;
+	border-radius: 3px;
+	letter-spacing: 0.26px;
+	text-align: center;
+	color: #666666;
+	text-transform: uppercase;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+}
+.hv-button-primary:hover, .hv-button-grey:hover{
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.15);
+}
+.hv-button-loading{
+	position: relative;
+	pointer-events: none;
+}
+.hv-button-loading:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255,255,255,0.85);
+	background-image: url(/images/injected/loading-more.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30px auto;
+	z-index: 1;
+}

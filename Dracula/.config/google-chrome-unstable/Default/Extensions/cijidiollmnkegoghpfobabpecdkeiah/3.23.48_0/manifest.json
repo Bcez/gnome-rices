@@ -1,0 +1,38 @@
+{
+   "api_console_project_id": 989612280692.0,
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/bg/mixpanel-2-latest.min.js", "js/common/constants.js", "js/common/volume-meter.js", "js/common/jquery-3.1.1.min.js", "js/bg/aws-sdk.min.js", "js/bg/CommonUtils.js", "js/bg/Firehose.js", "js/bg/LoggingUtils.js", "js/bg/idb.js", "js/bg/IDBUtils.js", "js/bg/APIClient.js", "js/bg/statuspoller.js", "js/bg/FileUploadManager.js", "js/bg/DataStreamer.js", "js/bg/background.js", "js/bg/S3Uploader.js", "js/bg/KinesisUtil.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/extension/main-icon.png",
+      "default_popup": "html/extension/popup.html",
+      "default_title": "Record Screen"
+   },
+   "container": "GOOGLE_DRIVE",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "externally_connectable": {
+      "matches": [ "*://localhost/*", "https://*.hippowiz.com/*", "https://*.hippovideo.io/*" ]
+   },
+   "icons": {
+      "128": "images/injected/logo.png",
+      "16": "images/injected/logo.png",
+      "22": "images/injected/logo.png",
+      "32": "images/injected/logo.png",
+      "48": "images/injected/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAySzKaMIptlUO1De3o10RpzlzpFNIWJF9HUiZNzjN+9+wWg9DeQDmkeQ0aj2Sp+p9LLd9nfpmuzmGOa0Z6tS3iRhdKMylWe8lv4SRGOg04gLbQARLm1kdok1ykJIuKUltlOefKzxRqwCH3boH7jkuUAHTxUObpbNbBRjf7jkvhRL1Iwbm/4zBkvzI/jGTwOVSfRB+iPdYn3uPrn0yNWcdZLUjcQhajDABhqV07fMGGRV9SQILUkHJx0WbxD0amkAf+JsjO1O7On3dmK1SpXsHBP+0mBvmIJePKXpyCpc8jGBNN+yp+hfYVg8hKlR9W/5mwsc81OQgq+B+/kKtKs3YzQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "oauth2": {
+      "client_id": "975749760800-l1851utorkcoretsnpubljpi7u59kmvk.apps.googleusercontent.com",
+      "scopes": [ "profile", "email" ]
+   },
+   "optional_permissions": [ "\u003Call_urls>" ],
+   "permissions": [ "identity", "unlimitedStorage", "desktopCapture", "gcm", "storage", "notifications", "tabs", "https://www.hippovideo.io/", "\u003Call_urls>", "tabCapture", "management" ],
+   "short_name": "Hippo Video",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.23.48",
+   "web_accessible_resources": [ "/images/injected/*", "/images/extension/*", "/html/injected/*" ]
+}

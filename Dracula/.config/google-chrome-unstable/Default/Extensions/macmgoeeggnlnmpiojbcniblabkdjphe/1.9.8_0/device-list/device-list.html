@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remote Control Plugin</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="./css/device-list.css" rel="stylesheet">
+</head>
+<body>
+<div class="am-con">
+    <div class="am-head">
+        <h3 i18n="title"></h3>
+    </div>
+    <div class="am-tip-con am-tip-select">
+        <div>
+            <img class="am-photo" src="../images/default.png"/>
+            <p class="tip-find-auth" i18n="tip_find_auth"></p>
+            <p class="tip-nofind-auth" i18n="tip_nofind_auth"></p>
+            <div class="lead">
+                <a href="#" class="btn btn-lg btn-success" id='connect-android' i18n="auth_btn"></a>
+            </div>
+        </div>
+    </div>
+    <div class="am-tip-con am-tip-auth">
+        <img src="../images/usb.png" />
+        <p i18n="tip_auth_allow"></p>
+    </div>
+    <div class="am-tip-con am-tip-nodevice">
+        <div>
+            <img class="am-photo" src="../images/default.png"/>
+            <p i18n="tip_no_device"></p>
+            <ul>
+                <li i18n="tip_no_device_part1"></li>
+                <li i18n="tip_no_device_part2"></li>
+                <li class="tip_window_driver" i18n="windows_need_driver" i18n_count="2" i18n_param0="<a href='https://adb.clockworkmod.com/' target='_blank'>" i18n_param1="</a>">Windows users need {0}ADB Drivers{1}.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="am-tip-con am-tip-noconnect">
+        <img src="../images/tip.png" />
+        <p i18n="tip_no_airmirror"></p>
+        <ul>
+            <li i18n="tip_no_airmirror_part1"></li>
+            <li i18n="tip_no_airmirror_part2"></li>
+        </ul>
+    </div>
+    <div class="foot">
+        <p class='tip-not-found'><a i18n="faq" href='https://help.airdroid.com/hc/sections/360000918374' target='_blank'></a></p>
+        <p class="tip-go-pc" i18n="msg_go_pc" i18n_count="2" i18n_param0="<a href='https://www.airdroid.com/get.html'  target='_blank'>" i18n_param1="</a>"></p>
+        <p class="tip-setting"><a i18n="no_device_setting" href='https://help.airdroid.com/hc/articles/360005061394' target='_blank'></a></p>
+        <p>Windows users need <a href='https://adb.clockworkmod.com/' target='_blank'>ADB Drivers</a>.</p>
+        <p class='tip-adb-server-status'></p>
+    </div>
+</div>
+
+<script src="./device-list.js"></script>
+</body>
+</html>

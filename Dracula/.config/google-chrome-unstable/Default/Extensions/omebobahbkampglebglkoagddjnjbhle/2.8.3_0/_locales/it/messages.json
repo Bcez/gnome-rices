@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Creare e modificare le immagini e le foto con Gimp online"
+   },
+   "new_files": {
+      "message": "File Manager"
+   },
+   "new_png1": {
+      "message": "App GIMP"
+   },
+   "new_png2": {
+      "message": "Editor di immagini"
+   },
+   "new_png3": {
+      "message": "Editor di foto"
+   },
+   "new_usersettings": {
+      "message": "Imposta Userid"
+   },
+   "title": {
+      "message": "Gimp on-line - editor di immagini e strumento di disegno"
+   }
+}

@@ -1,0 +1,591 @@
+<html>
+	<head>
+		<title>__MSG_extension_options__</title>
+		<style type="text/css">
+			.hv-custom-webcam-container {
+				overflow: hidden;
+				margin:0;
+				display: flex;
+				justify-content: center;
+			}
+			.hv-custom-webcam-container .main-block {
+				position: relative;
+				display: table;
+				height: auto;
+			}
+
+			.hv-custom-webcam-container_circle {
+				display: block;
+			}
+
+			.hv-custom-webcam-container_circle .main-block{
+				display: block;
+			}
+
+            .webcam-video {
+				display: inline-block;
+				/* width: 90%; */
+				height: 320px;
+			}
+			.hv-auto-height {
+				height: auto !important;
+			}
+			.hv-auto-width {
+				width: auto !important;
+			}
+			.hide {
+				display: none;
+			}
+			.hv-center-align {
+				margin: auto 0 !important;
+			}
+			.hv-left-align {
+				text-align: left;
+			}
+			.hv-right-align {
+				text-align: right;
+			}
+			.hv-bottom-align {
+				margin-top: auto !important;
+			}
+			.hv-top-align {
+				margin-bottom: auto !important;
+			}
+			.hv-full-width {
+				width: 100% !important;
+			}
+			.hv-medium-width {
+				width: 75% !important;
+			}
+			.hv-small-width {
+				width: 50% !important;
+			}
+			.hv-full-height {
+				height: 100% !important;
+			}
+
+			 .webcamCircle_objPosition_small {
+				display: block;
+				margin: auto;
+				height: 164px !important;
+				width: 164px !important;
+				border-radius: 50%;
+				object-fit: cover;
+				object-position: top;
+			}
+			.webcamCircle_objPosition_medium {
+				object-fit: cover;
+				object-position: center;
+			}
+			.webcamCircle_objPosition_large {
+				object-fit: cover;
+				object-position: center;
+			}
+            .audio-meter-container {
+				display: inline-block;
+				position: absolute;
+				height: 100%;
+				margin-left: 10px;
+            }
+			.audio-canvas-wrapper {
+				text-align: center;
+			}
+            .audio-canvas {
+                width: 11px;
+    			height: 90%;
+            }
+			.ask-webcam-permission-container {
+				margin-bottom: 20px;
+			    color: blue;
+			}
+			.hv-text-link {
+				text-decoration: underline;
+			    cursor: pointer;
+			}
+            .audio-icon {
+				width: 27px;
+				display: block;
+				height: 10%;
+				margin-top: 1px;
+            }
+			#hippo-overlay-time {
+				position: fixed;
+				text-align: center;
+				top: 8%;
+				left: 25%;
+				width: 250px;
+				height:250px;
+				border-radius: 50%;
+				display: none;
+				background-color: rgba(0, 0, 0, 0.5);
+				border:5px solid #f47a58;
+				font-family: 'Open Sans';
+				background-image: url('/images/injected/hippo-wiz-numberbox.png');
+			    background-repeat: no-repeat;
+			    background-position: 50% 50%;
+				box-sizing: content-box;
+			}
+			#hippo-overlay-time span
+			{
+				font-size: 49px !important;
+				color: #f47a58 !important;
+				margin-top: 125px;
+				position: absolute;
+				margin-left:-11px;
+				line-height: normal;
+			}
+
+			.disp-none {
+				display: none !important;
+			}
+
+			#webcamIcons_container {
+                display: none;
+                position: absolute;
+                width: auto;
+			}
+
+			#webcamIcons_container div {
+				display: inline;
+			}
+
+			.hv-webcam-circle-center-align#webcamIcons_container {
+				left: 170px !important;
+				bottom: 30px !important;
+			}
+
+			.hv-webcam-circle-center-align#webcamIcons_container img {
+                height: 62px;
+                width: 62px;
+			}
+
+			#webcamIcons_container.small {
+				bottom: 15px;
+    			left: 28px;
+			}
+
+			#webcamIcons_container.medium {
+				bottom: 8px;
+				left: 43px;
+			}
+
+			#webcamIcons_container.large {
+				bottom: 17px;
+    			left: 69px;
+			}
+
+            #webcamIcons_container img {
+                height: 55px;
+                width: 55px;
+			}
+
+			#webcamIcons_container.small img {
+				height: 45px;
+                width: 45px;
+			}
+
+            #webcamIcons_container img:hover {
+                cursor: pointer;
+			}
+
+			.active-img {
+				display: none;
+			}
+
+			.hv-icon-hover .active-img {
+				display: inline-block;
+			}
+
+			.hv-icon-hover .inactive-img {
+				display: none;
+			}
+			.mirror-video-class {
+				transform: rotateY(180deg) scale(1, 1) translateX(-100%) !important;
+				transform-origin: left top !important;
+			}
+			.webcamCircle_objPosition_large  + .hvLowerThird-Circle-container{
+				font-size: 18px;
+				padding-bottom: 35px !important;
+				font-size: 18px;
+				height: 40%;
+			}
+			.webcamCircle_objPosition_medium  + .hvLowerThird-Circle-container{
+				font-size: 16px !important;
+				padding-bottom: 30px !important;
+			}
+			.hvLowerThird-CircleWebcam-Style{
+				font-size: 21px !important;
+  				padding-bottom: 70px !important;
+  				height: 30% !important;
+				box-sizing: unset !important;
+				background: transparent linear-gradient(
+    				180deg, #00000000 0%, #00000043 22%, #0000008B 44%, #000000D6 100%) 0% 0% no-repeat padding-box !important;
+  				display: flex;
+  				flex-direction: column;
+  				justify-content: end;
+  				bottom: 0;
+			}
+			 .webcamCircle_objPosition_small + .hvLowerThird-Circle-container{
+				box-sizing: border-box;
+				position: absolute;
+				top: 134px;
+				left: 2px;
+				background: #FFFFFF 0% 0% no-repeat padding-box;
+				box-shadow: 0px 3px 6px #00000029;
+				border-radius: 12px;
+				width: calc(100% - 4px);
+				height: 61px;
+				padding: 0;
+				display: flex;
+    			justify-content: center;
+			}
+			.webcamCircle_objPosition_small + .hvLowerThird-Circle-container p:first-child{
+				text-align: center !important;
+				font-size: 14px;
+				font-weight: 600;
+				letter-spacing: 0px !important;
+				color: #000000 !important;
+				margin: 0 auto !important;
+			    margin-bottom: 5px !important;
+			}
+			.webcamCircle_objPosition_small + .hvLowerThird-Circle-container p{
+				text-align: center;
+				font-size: 13px;
+				font-weight: 400;
+				letter-spacing: 0px;
+				color: #000000;
+				margin: 0 auto;
+			}
+			.webcamCircle_objPosition_small + .hvLowerThird-Circle-container p:nth-child(2){
+				width: 100%;
+				font-size: 12px;
+			}
+			.hvLowerThird-Circle-container{
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 40%;
+				display: flex;
+				flex-direction: column;
+				justify-content: end;
+				bottom: 0;
+				background: transparent linear-gradient(
+					180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 22%, rgba(0, 0, 0, 0.65) 44%, rgba(0, 0, 0, 0.9) 100%) 0% 0% no-repeat padding-box;
+				border-radius: 0px 0px 16px 16px;
+				pointer-events: none;
+			}
+			.circleWebcamPreview-Lowerthird-showHide{
+				visibility: hidden;
+			}
+			.circleLowerThird-UserNameValue{
+				width: 75%;
+				text-align: center;
+				letter-spacing: 0px;
+				word-break: break-all;
+				color: #FFFFFF;
+				margin: 0 auto;
+				margin-bottom: 5px;
+			}
+			.circleLowerThird-UserDesignationValue{
+				width: 60%;
+				font-size: 14px;
+				font-weight: 400;
+				text-align: center;
+				letter-spacing: 0px;
+				word-break: break-word;
+				color: #FFFFFF;
+				margin: 0 auto;
+				-webkit-font-smoothing: antialiased;
+			}
+			.hv-custom-webcam-container_circle .webcamPreview-wrapper.hv-lowerthird-hidden .webcam-video{
+				width: 100% !important;
+				height: 100% !important;
+				object-fit: cover;
+				object-position: center;
+			}
+			.webcamPreview-wrapper.hv-lowerthird-hidden .hvLowerThird-Circle-container{
+				display: none;
+			}
+			.hv-videocircle-small{
+				border-radius: 50%;
+				overflow: hidden;
+				position: relative;
+			}
+			.hv-videocircle-small .webcam-video{
+				object-fit: cover;
+				object-position: center;
+			}
+			.mirror-video-class.webcamCircle_objPosition_small,
+			.mirror-video-class.webcamCircle_objPosition_medium,
+			.mirror-video-class.webcamCircle_objPosition_large{
+				object-fit: cover;
+				object-position: center;
+			}
+
+			.hv-custom-webcam-container:not(.hv-custom-webcam-container_circle) .webcamPreview-wrapper{
+				display: inline-block;
+				/* width: 90%; */
+			}
+			.hvLowerThird-CircleWebcam-Style.circleLowerThirdSmallContainer{
+				font-size: 14px !important;
+				padding-bottom: 20px !important;
+			}
+			.hvLowerThird-CircleWebcam-Style.circleLowerThirdSmallContainer .circleLowerThird-UserDesignationValue{
+				font-size: 11px;
+			}
+			.hvrecorder-newscreen .main-block{
+				display: block;
+				height: 100%;
+				width: 100%;
+			}
+			.hv-custom-webcam-container.hvrecorder-newscreen .main-block .webcamPreview-wrapper{
+				display: block;
+			}
+			.hvrecorder-newscreen .main-block .webcam-video{
+				display: block;
+				height: 100%;
+    			margin: auto;
+			}
+			.hvrecorder-mic-container {
+				position: absolute;
+				height: 185px;
+				bottom: 20%;
+				right: 1%;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				flex-direction: column;
+			}
+			.hvrecorder-micindicator {
+				position: absolute;
+				width: 4px;
+				height: 160px;
+				border: none;
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+			}
+			.hvrecorder-micindicator-container {
+				height: 160px;
+				display: flex;
+				justify-content: center;
+			}
+			.hvrecorder-micindicator .audio-canvas {
+				position: absolute;
+				width: 4px;
+				height: 160px;
+				bottom: 0;
+				border-radius: 16px;
+			}
+			.hvrecorder-micindicator-one {
+				background-color: rgba(100, 94, 111, 0.9);
+				height: 20%;
+				border-radius: 16px 16px 0 0;
+			}
+			.hvrecorder-micindicator-two {
+				background-color: rgba(100, 94, 111, 0.9);
+				height: 28%;
+			}
+			.hvrecorder-micindicator-three {
+				background-color: rgba(100, 94, 111, 0.9);
+				height: 48%;
+				border-radius: 0 0 16px 16px;
+			}
+			.hvrecorder-micicon {
+				position: absolute;
+				margin: auto;
+				padding: 0;
+				height: 15px;
+				width: 11px;
+				border: 0;
+				background-repeat: no-repeat;
+				background-color: transparent;
+				background-image: url("/images/injected/mic-icon.svg");
+				background-size: 8px;
+    			background-position: center;
+				outline: none;
+			}
+			.hvrecorder-micicon-container {
+				position: relative;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 50%;
+				background-color: #43454e;
+				height: 20px;
+				width: 20px;
+			}
+			.hvrecorder-hide{
+				display: none;
+			}
+
+			.hvrecorder-permission-container {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 10;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				padding: 20px;
+				width: 100%;
+				height: 100%;
+				background-color: #ffffff;
+				text-align: center;
+				overflow-y: auto;
+				box-sizing: border-box;
+			}
+			.hvrecorder-permission-container *{
+				font-family: 'Open sans', sans-serif;
+				-webkit-font-smoothing: antialiased;
+				box-sizing: border-box;
+			}
+
+			@media only screen and (max-height: 355px) {
+				.hvrecorder-permission-container {
+					justify-content: flex-start;
+				}
+			}
+
+			.hvrecorder-permission-container h3 {
+				margin: 0 0 34px;
+				font-size: 24px;
+				font-weight: 600;
+				letter-spacing: 0;
+				color: #0e1419;
+			}
+			.hvrecorder-permission-container > p {
+				margin: 0 0 10px;
+				font-size: 14px;
+				font-weight: 400;
+				font-style: italic;
+				letter-spacing: 0;
+				color: #646a6f;
+			}
+			.hvrecorder-permission-content {
+				display: flex;
+				justify-content: center;
+				align-items: flex-start;
+				flex-direction: row;
+				max-width: 920px;
+				min-height: 264px;
+				margin-bottom: 24px;
+				padding: 24px;
+				border: 1px solid #e3e3e3;
+				border-radius: 8px;
+			}
+			.hvrecorder-permission-content div {
+				width: 65%;
+			}
+			.hvrecorder-permission-content div {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+				padding: 0 16px 0 24px;
+			}
+			.hvrecorder-permission-content p {
+				margin: 0 0 24px;
+				font-size: 16px;
+				font-weight: 400;
+				letter-spacing: 0;
+				line-height: normal;
+				text-align: center;
+				color: #373f48;
+			}
+			.hvrecorder-permission-request {
+				margin: 0;
+				padding: 8px 16px;
+				font-size: 14px;
+				color: #FFFFFF;
+				font-weight: 600;
+				letter-spacing: 0;
+				line-height: 1.33;
+				background-color: transparent;
+				background-image: linear-gradient(to right, #fc6076 0%, #ff9a44 35%, #fc6076 100%);
+				background-size: 200% auto;
+				border: 0;
+				border-radius: 3px;
+				text-transform: none;
+				transition: 0.3s linear;
+				outline: none;
+    			cursor: pointer;
+			}
+			.hvrecorder-permission-request:hover, .hvrecorder-permission-request:active {
+				color: #fff;
+				background-color: transparent;
+			}
+
+
+        </style>
+		<link rel="stylesheet" type="text/css" href="/css/optionesnew.css">
+		<script src="/js/common/jquery-3.1.1.min.js"></script>
+		<script src="/js/common/volume-meter.js"></script>
+		<script src="/js/extensionpages/custom-webcam-preview.js"></script>
+	</head>
+	<body class="hv-custom-webcam-container">
+		<div class="ask-webcam-permission-container hv-text-link hide">
+			<center><span>__MSG_allow_webcam_audio_permission__</span></center>
+		</div>
+		<div class="hvrecorder-permission-container disp-none">
+			<h3>To see Hippo Video in action, please turn on your camera</h3>
+			<div class="hvrecorder-permission-content">
+				<div>
+					<p>We cannot access your camera or microphone. Please allow to access your camera and microphone in your browser's settings.</p>
+					<button type="button" class="hv-btn-primary hvrecorder-permission-request">Allow Camera</button>
+				</div>
+			</div>
+		</div>
+		<div class="main-block">
+			<div class="webcamPreview-wrapper">
+				<video id="webcamPreview" class="webcam-video" muted>
+					<source> __MSG_browser_not_support_video_tag__ </source>
+				</video>
+				<div class="hvLowerThird-Circle-container default-CircleWebcamLowerThird-Style circleWebcamPreview-Lowerthird-showHide hvLowerThird-CircleWebcam-Style" id="circleWebcamPreviewWithLowerthird">
+					<p class="circleLowerThird-UserNameValue" id="circleLowerThirdUserNameTextSet"></p>
+					<p class="circleLowerThird-UserDesignationValue" id="circleLowerThirdUserDesignationTextSet"></p>
+				</div>
+
+			</div>
+
+			<div class="audio-meter-container">
+				<div class="audio-canvas-wrapper">
+					<canvas id="previewAudioMeter" class="audio-canvas"></canvas>
+				</div>
+				<img src="/images/extension/audio-on.svg" alt="Mic" class="audio-icon" />
+			</div>
+			<div class="hvrecorder-mic-container hvrecorder-hide">
+                <div class="hvrecorder-micindicator-container">
+                    <div class="hvrecorder-micindicator">
+                        <canvas id="previewAudioMeter" class="audio-canvas"></canvas>
+                        <div class="hvrecorder-micindicator-one"></div>
+                        <div class="hvrecorder-micindicator-two"></div>
+                        <div class="hvrecorder-micindicator-three"></div>
+                    </div>
+                </div>
+                <div class="hvrecorder-micicon-container">
+                    <button class="hvrecorder-micicon"></button>
+                </div>
+            </div>
+			<div id="webcamIcons_container">
+				<div class="hv-webcampause">
+					<img class="inactive-img" src="/images/injected/webcam-icons/hv-pause-icon.png" alt="pause"/>
+					<img class="active-img" src="/images/injected/webcam-icons/hv-pause-icon-active.png" alt="pause"/>
+				</div>
+				<div class="hv-webcamplay disp-none">
+					<img class="inactive-img" src="/images/injected/webcam-icons/hv-play-icon.png" alt="play"/>
+					<img class="active-img" src="/images/injected/webcam-icons/hv-play-icon-active.png" alt="play"/>
+				</div>
+				<div class="hv-stoprecording">
+					<img class="inactive-img" src="/images/injected/webcam-icons/hv-stop-icon.png" alt="stop"/>
+					<img class="active-img" src="/images/injected/webcam-icons/hv-stop-icon-active.png" alt="stop"/>
+				</div>
+			</div>
+		</div>
+		<canvas id="hvBrightnessCanvas" class="hide" style="position: absolute;opacity: 0;"></canvas>
+		<div id="hippo-overlay-time"> <span id="countdown"> </span> </div>
+	</body>
+	<script src="/js/common/internationalization.js"></script>
+</html>

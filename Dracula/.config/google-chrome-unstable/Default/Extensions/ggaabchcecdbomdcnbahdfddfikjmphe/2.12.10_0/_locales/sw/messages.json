@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Haiwezi kukimbia eneo la kuchaguliwa kwenye tovuti hii. Tafadhali tumia rekodi kamili ya skrini au jaribu tovuti nyingine. \n\n (╯ ° □ °) ╯( ┻━┻."
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Bonyeza Ukubwa wa Uhuishaji & Rangi"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "Karibu"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "Cursor dot ukubwa & rangi."
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Omba dither"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Pakua Format Filename."
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "Pakua"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Kuchora ukubwa & rangi."
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Ongeza icon."
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Ongeza Nakala"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Nakili kwenye clipboard."
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "Mazao"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Chora mshale"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Chora Ellipse."
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "Chora Line."
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Chora mstatili."
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Chombo cha bure"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "Kuonyesha"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Redo."
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "Hifadhi"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Chagua, hoja, resize"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "Mipangilio"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Tengeneza"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Tengeneza yote"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "Anza kuandika ..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Vinjari mfumo wa faili."
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Drag na kuacha picha / gif au"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Faili iliyohifadhiwa ili kupakua folda."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "Tumia mabadiliko ya kuchaguliwa (Onyo: Haiwezi kufutwa)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Futa Chagua (DEL / BACKSPACE)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Futa kila sura ya pili"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Rejesha kuchaguliwa (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Rejesha Wote"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Futa wote"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "Picha imechapishwa kwenye clipboard."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Imeshindwa nakala ya picha kwenye clipboard, inaweza kuwa kubwa mno."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Kiunga kilinakiliwa kwa clipboard."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Umefikia urefu wa kurekodi wa muda wa sekunde za $maxlength$ kwa GIFs. Watumiaji wa premium wanaweza kusasisha hii kutoka kwa ukurasa wa Mipangilio.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIF zimekusudiwa kwa rekodi fupi. Ikiwa unahitaji video za urefu kamili tunapendekeza rekodi yetu ya bure ya skrini:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "Watumiaji wa premium wanaweza kusasisha hii kutoka kwa ukurasa wa Mipangilio."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Mipangilio ya Fungua"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "Kurekodi ghafla kulisimama?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Rangi"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Kuteka ukubwa"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Font."
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Kasi ya kucheza"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Athari maalum"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Chaguzi za kwanza"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Onyo."
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "Funga uwiano wa kipengele"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Futa."
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "Compress & Optimize Gif."
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "Omba algorthm ya compression ya GIF kupunguza sana saizi ya faili ya GIF na katika hali zingine kuboresha ubora. Imependekezwa sana."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Omba algorithm ya dither kwa picha. Jaribu kuweka chaguo hili ikiwa unapata maswala ya ubora wa rangi."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Inakadiriwa ukubwa wa GIF:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Picha:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "Hivi sasa kuna picha zilizochaguliwa, kuokoa kutatoa tu muafaka huu uliochaguliwa -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Bonyeza hapa kufungua picha zote"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Kasi ya kucheza"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "Usindikaji kurekodi hii itahitaji mengi ya kumbukumbu na usindikaji nguvu. Isipokuwa una PC maalum inashauriwa kufanya moja au zaidi ya yafuatayo:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Tafadhali kumbuka ikiwa gif inayotokana ni tupu basi ulipoteza kumbukumbu."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "Compress na kuongeza GIF."
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Kupunguza upana & urefu"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Ondoa picha kadhaa"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Kupunguza upana & urefu"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Punguza upana wa GIF na urefu/ubora ili kuboresha wakati wa usindikaji na kutoa faili ndogo."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "Hifadhi"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Okoa na"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Pakua faili"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Pakia kwenye Hifadhi ya Google na Kiunga cha Nakili"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "Hifadhi"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Usindikaji ..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Kupakia ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Fungua mhariri."
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Pro Tip: Futa vitu vilivyoongezwa kwa kuchagua kipengee na kushinikiza ufunguo wa kufuta."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "Kidokezo cha Pro: Unaweza kuhariri picha maalum kwa kutumia 'Maombi ya Matumizi kwa Chaguo Iliyochaguliwa'"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "PRO TIP: SCROLL wakati unapozunguka skrini / kurekodi ili kuvuta."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "TIP ya PRE: Wakati wa kutumia chombo cha kuchagua cha kushikilia chini ya kuchagua chaguo zaidi ya moja."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Pro Tip: Unaweza kupanua, kuzunguka, kusonga na kufuta vitu vingi mara moja."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Pro Tip: Bonyeza mara mbili kwenye maandishi ili uhariri."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "Hii inaweza kuwa ilitokea kwa sababu ya dirisha halijalenga."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Nakala ya clipboard ilishindwa"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "Kunakiliwa kwa clipboard"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Upakiaji umeshindwa"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Jaribu tena."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Tafadhali hakikisha umeunganishwa kwenye mtandao na umekubali ruhusa za Hifadhi ya Google."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "Ghairi na upakue faili"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "Karibu"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Nakili kiunga"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "Ruhusu mtu yeyote aliye na kiunga cha kutazama."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "Wezesha kuchora"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "Chaguo hili linaruhusu watumiaji kuteka kwenye eneo lililochaguliwa wakati wa kushikilia ufunguo wa CTRL."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Rekodi GIF au kuchukua skrini ya kitu chochote katika kivinjari chako - haraka na rahisi zaidi kuliko hapo awali."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture - GIF & Screenshot Tool."
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Chrome Capture."
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "Fungua faili na"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Jina la faili"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Picha kwa sekunde (fps)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "Picha"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Mipangilio ya bure."
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Futa."
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Una uhakika unataka kuendelea na kukamata skrini kamili?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Usionyeshe tena"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "Umetumia njia ya mkato ya chrome bila chombo cha kukuza, hii itachukua katika hali kamili ya skrini."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Fungua chombo cha kukuza."
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "Alt + C: Open / Funga Chrome Capture Chombo cha Cropping"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "Alt + Shift + S: Full Webpage Screenshot (Beta)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Unaweza kusanidi hapa:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "Alt + R: Kuanza / Kuacha Kurekodi."
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S: Eneo la Eneo la Visivyoonekana"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Njia za mkato za msingi ni:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Anza skrini kamili"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Screen kamili kukamata."
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Pata Premium."
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Upana (px)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Uunganisho wa intaneti unahitajika kuboresha kwa premium."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "Max kurekodi azimio / ubora."
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Hakuna kikomo."
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "Fungua"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Kitendo cha chaguo -msingi"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "Pixels 1000."
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "Pixels 1920 (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 pixels (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "Pixels 3840 (4k)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 saizi (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Wezesha arifa"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Onyesha arifa wakati rekodi kamili ya skrini inapoanza na rekodi za usindikaji nyuma."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Jinsi ya kutumia"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Fungua Popup."
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Fungua eneo lililochaguliwa"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Shortcuts."
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "Msaada"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Bofya na Drag ili kuchagua eneo lako lililochaguliwa. \n Bonyeza kubonyeza kwenye kipengele, ushikilie mabadiliko kwa nyingi."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Kukamata"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Mhariri wa wazi"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Kurasa za wavuti"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "Kivinjari chako haruhusu maandiko ya kuendesha kwenye ukurasa huu wa wavuti, kwa bahati mbaya hii inafanya eneo lililochaguliwa na ukurasa kamili wa wavuti hauwezekani kwa tovuti hii."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Rekodi"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Rekodi hadi sekunde za $SECONDS$ kwa kila zawadi. Watumiaji wa premium wanaweza kusasisha hii kutoka kwa",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Ukurasa wa Mipangilio."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Skrini kamili au programu"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Eneo lililochaguliwa"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Fungua mipangilio"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "Tab hii"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Mipangilio ya Premium."
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Pata Premium!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Kwa sasa una mpango wa bure. Kuboresha kwa Premium kufungua vipengele vyote vya premium."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Ingia kwenye Google ili uendelee."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Ungependa kuboresha hadi premium?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Tayari mtumiaji wa premium?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "Ubora wa juu wa gif."
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Chora wakati wa kurekodi."
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Badilisha captures."
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "Uhariri wa msingi"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Uhariri wa sura"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "Tune kiwango cha Frame."
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Viwambo vya skrini kamili vya ukurasa."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "Bonyeza na panya dalili"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "Linganisha mipango"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "Tune kurekodi kasi ya kucheza"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Rekodi za gif zisizo na ukomo."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "10sec kikomo kwa gif."
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "High quality gifs."
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "Pixels 1000 max."
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Viwambo vya skrini usio na kikomo."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "Kurekodi madhara maalum."
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "Huru"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Huru ya kutumia"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Uhariri wa msingi"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "Kurekodi msingi wa GIF."
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Viwambo vya Unlimited."
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Premium."
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "Fungua"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "Ubora wa juu wa gif."
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Kipengele cha uhariri wa tajiri"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Kila kitu kutoka kwa bure."
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Ukosefu wa ubora wa juu wa gif"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "Kurejeshwa kikamilifu"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "ada ya wakati mmoja."
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Ingia hapa"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Kurekodi ubora (10 = bora)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Tunaendelea kujaribu ngumu zaidi kuboresha Chrome Capture, tafadhali shiriki kile kinachohitaji kuboresha kwa barua pepe"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Tuna huruma!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "Karibu"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "Thibitisha"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Ikiwa umepata ugani huu unaofaa tafadhali tafadhali uondoe alama au ukaguzi. \n\n Kwa kuacha rating unaweza kutusaidia kufikia watumiaji zaidi ambayo itasaidia kufadhili maboresho ya daima na kuweka matumizi ya jumla ya bure."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Tunathamini sana ununuzi wa premium na ungependa kusikia maoni yoyote unapaswa kutusaidia kuboresha bidhaa na kufikia watumiaji zaidi."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Mapitio yako yanaweka timu yetu ndogo inayohamasishwa kufanya chrome kukamata hata bora zaidi!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Tunathamini sana ununuzi wa premium na ungependa kusikia maoni yoyote unapaswa kutusaidia kuboresha bidhaa na kufikia watumiaji zaidi."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Mapitio katika duka la wavuti?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Labda baadae"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Hapana shukrani"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Kutuma barua pepe"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Asante! 😍."
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "Tunafanyaje?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "Sawa, hakika."
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Urefu wa rekodi ya max."
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Rekodi ya mantiki."
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Usindikaji v2 - usindikaji inachukua muda mrefu hata hivyo inafanya kazi kwa skrini 4k na wachunguzi wengi"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Onyo - Onyo haifanyi kazi kwa skrini 4k au wachunguzi wengi"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Kawaida - ikiwa unapata masuala ya utendaji kutumia utendaji"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Hifadhi Screenshot AS."
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Hifadhi kurekodi AS."
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "SEC"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "Onyesha Click Uhuishaji."
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "Chaguo hili huchota uhuishaji wa mzunguko karibu na eneo la click."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Onyesha DOT katika eneo la mshale."
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "Chaguo hili huchota mduara mdogo kuonyesha ambapo panya iko."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Haiwezi kukamata tovuti hii. Tafadhali tumia kukamata skrini kamili/programu au jaribu kukamata tovuti nyingine. \n\n (╯ ° □ °） ╯︵ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Urefu (px)"
+   }
+}

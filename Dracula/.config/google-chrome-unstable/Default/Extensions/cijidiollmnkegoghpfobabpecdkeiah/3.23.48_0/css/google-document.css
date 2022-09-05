@@ -1,0 +1,38 @@
+.hv-gd-widget-block {
+	width: 335px;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+}
+.hv-gd-widget-block .hv-embed-recording-tab-content {
+	margin-left: -40px;
+}
+.hv-gd-widget-block .hv-embed-three-options-div {width: 335px;}
+
+.hv-embed-icon-img {
+	cursor: pointer;
+}
+
+#hv-embed-main-container {
+	position: relative;
+  right: 10px;
+	margin-left: 10px;
+  padding: 0px 6px;
+  top: 0px;
+  border-radius: 2px;
+	background: #fff;
+  box-shadow: none;
+  border: none;
+}
+
+.hv-embed-icon-img {
+	top: 2px;
+	right: 2px;
+}
+
+#hv-embed-main-btn {
+	margin-right: 10px;
+  user-select: none;
+  top: 2px;
+  height: 30px;
+}

@@ -1,0 +1,17 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "Simple and light weight Sticky Notes App. To remind your works",
+   "icons": {
+      "256": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnCyn2He+qiopX+76mokxIjfCS+Xnb5evjs6YwjEMUg62vGfK5T5WLbIlBT1W4/C7kHpElgwJkl1qMN+3Apk23Q6BHfJuRN/Yyonv5AR18uJtRt4gKLri9jyaHPGpjXCUmMhy0W3CK27IfvJpXHzqWSrHnnHSzQjOPUXf5paJ1ojcSTsEEE7eB4kMOwMyq6RyuXZqPGu03PfWVyjwdlzq4PwNDvZOcZveJvsOboXrWUoLKVPgJqT/RlWyLodjMuhEsSH/SyjgpHk76/ntb6IS39pP1FDO54NAERELKia4MyCRa5//VX9FRqPwge71m21rBugS4HVYUzj/Y5lX6r4IxQIDAQAB",
+   "manifest_version": 2,
+   "name": "Sticky Notes",
+   "short_name": "Sticky",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.2"
+}

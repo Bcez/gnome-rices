@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Gimp Onlineで画像と写真を作成、編集する"
+   },
+   "new_files": {
+      "message": "ファイルマネージャー"
+   },
+   "new_png1": {
+      "message": "GIMPアプリ"
+   },
+   "new_png2": {
+      "message": "イメージエディタ"
+   },
+   "new_png3": {
+      "message": "写真編集者"
+   },
+   "new_usersettings": {
+      "message": "ユーザーIDを設定する"
+   },
+   "title": {
+      "message": "Gimpオンライン - 画像エディタとペイントツール"
+   }
+}

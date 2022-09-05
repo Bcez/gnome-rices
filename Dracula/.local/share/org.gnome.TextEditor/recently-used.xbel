@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/eric/.themes/Ivory/gnome-shell/gnome-shell.css" added="2022-09-03T17:00:38.634675Z" modified="2022-09-03T17:08:04.322758Z" visited="2022-09-03T17:00:38.634676Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-03T17:08:04.322756Z" count="25"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/widgets@aylur.shell-extension/stylesheet.css" added="2022-09-03T17:18:07.916657Z" modified="2022-09-03T17:18:07.916668Z" visited="2022-09-03T17:18:07.916659Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-03T17:18:07.916661Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.themes/adw-gtk3-dark/gtk-3.0/gtk.css" added="2022-09-03T17:37:02.574708Z" modified="2022-09-03T18:15:19.919705Z" visited="2022-09-03T17:37:02.574709Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-03T18:15:19.919703Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.config/gtk-4.0/gtk.css" added="2022-09-03T17:37:34.578156Z" modified="2022-09-03T18:16:42.896849Z" visited="2022-09-03T17:37:34.578158Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-03T18:16:42.896847Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.themes/adw-gtk3-dark/gtk-3.0/gtk-dark.css" added="2022-09-03T18:15:24.574687Z" modified="2022-09-03T18:15:26.530977Z" visited="2022-09-03T18:15:24.574688Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-03T18:15:26.530975Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/adwaita.xml.in" added="2022-09-04T16:45:08.280832Z" modified="2022-09-04T16:48:06.799004Z" visited="2022-09-04T16:45:08.280832Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-04T16:48:06.799003Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell.scss" added="2022-09-05T04:39:04.574459Z" modified="2022-09-05T04:45:00.800422Z" visited="2022-09-05T04:39:04.574460Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T04:45:00.800421Z" count="30"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/Floating%20top%20bar%20code" added="2022-09-05T04:40:44.573880Z" modified="2022-09-05T04:45:00.800419Z" visited="2022-09-05T04:40:44.573881Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T04:45:00.800418Z" count="22"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/gnome-shell-sass.doap" added="2022-09-05T04:42:02.573742Z" modified="2022-09-05T04:45:00.800428Z" visited="2022-09-05T04:42:02.573742Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T04:45:00.800427Z" count="16"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/_widgets.scss" added="2022-09-05T04:42:09.574207Z" modified="2022-09-05T04:45:00.800417Z" visited="2022-09-05T04:42:09.574208Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T04:45:00.800417Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/widgets/_dash.scss" added="2022-09-05T04:42:30.574229Z" modified="2022-09-05T04:45:00.800425Z" visited="2022-09-05T04:42:30.574229Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T04:45:00.800424Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/widgets/_base.scss" added="2022-09-05T04:43:04.574024Z" modified="2022-09-05T04:45:00.800414Z" visited="2022-09-05T04:43:04.574025Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T04:45:00.800413Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/widgets/_panel.scss" added="2022-09-05T04:43:23.594540Z" modified="2022-09-05T04:45:00.800416Z" visited="2022-09-05T04:43:23.594540Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T04:45:00.800415Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/extension.js" added="2022-09-05T08:21:31.618414Z" modified="2022-09-05T08:21:41.794311Z" visited="2022-09-05T08:21:31.618414Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T08:21:41.794293Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/prefs.js" added="2022-09-05T08:21:46.620455Z" modified="2022-09-05T08:21:58.409422Z" visited="2022-09-05T08:21:46.620456Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T08:21:58.409420Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/utils/isValidEmail.js" added="2022-09-05T08:22:07.502691Z" modified="2022-09-05T08:22:07.502694Z" visited="2022-09-05T08:22:07.502691Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T08:22:07.502692Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/lib/convenience.js" added="2022-09-05T08:22:16.391920Z" modified="2022-09-05T08:22:16.391923Z" visited="2022-09-05T08:22:16.391921Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T08:22:16.391922Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/metadata.json" added="2022-09-05T08:22:21.614773Z" modified="2022-09-05T08:22:22.479006Z" visited="2022-09-05T08:22:21.614774Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T08:22:22.479004Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/prefs.css" added="2022-09-05T08:22:26.761659Z" modified="2022-09-05T08:22:26.761662Z" visited="2022-09-05T08:22:26.761660Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-05T08:22:26.761660Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

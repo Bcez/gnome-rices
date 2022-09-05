@@ -1,0 +1,65 @@
+.hv-reports-container {
+    display: inline;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.hv-integration-reports {
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+button.hv-integration-reports{
+    position: relative;
+}
+
+.hv-report-tooltip {
+    font-size: 12px;
+    position: absolute;
+    top: calc(100% + 3px);
+    left: 50%;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    background-color: #242e3e;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s linear;
+}
+
+button.hv-integration-reports:hover div {
+    opacity: 1 !important;
+}
+
+img.hippo-record-icon {
+    margin-top: 4px;
+}
+
+.hv-wf-pop-footer .right-btn-container .primary-btn,
+.hv-post-edit-btn-wrapper .primary-btn
+{
+    padding: 0 !important;
+    border: none !important;
+}
+
+.customize-component .headers .header{
+    height: auto !important;
+    border-bottom: none !important;
+    background-color: none !important;
+    position: relative !important;
+    width: fit-content !important;
+}
+
+.hv-post-edit-btn-wrapper .hv-close-edit-btn-container button,
+.hv-post-edit-btn-wrapper .hv-save-edit-btn-container button,
+.hv-post-edit-btn-wrapper .hv-close-edit-btn-container button:hover,
+.hv-post-edit-btn-wrapper .hv-save-edit-btn-container button:hover
+{
+  box-shadow: none !important;
+  border-radius: 3px !important;
+}

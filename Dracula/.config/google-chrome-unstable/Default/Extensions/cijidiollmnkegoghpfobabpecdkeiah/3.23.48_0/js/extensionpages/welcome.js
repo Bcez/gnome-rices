@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".yes-got").click(function(){window.close()})});

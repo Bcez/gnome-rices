@@ -1,0 +1,80 @@
+.hippo-recorder-button .tooltiptext {
+    white-space: nowrap;
+    background-color: black;
+    text-align: center;
+    border-radius: 3px;
+    padding: 3px;
+    position: absolute;
+    bottom: calc(100% + 40px);
+    z-index: 1;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: opacity 0.2s linear, transform 0.2s linear;
+    pointer-events: none;
+    font-size: 13px;
+    line-height: 1.5;
+    top: calc(100% - 73px);
+    height: 23px;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    width: 76px;
+}
+
+.hippo-recorder-button .tooltiptext:before {
+    content: "";
+    position: absolute;
+    top: calc(100% - 8px);
+    width: 15px;
+    height: 13px;
+    left: 28px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 3px;
+    transform: rotate(45deg);
+    background-color: black;
+}
+    
+.hippo-recorder-button:hover .tooltiptext {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.hv-integration-reports .tooltiptext {
+    white-space: nowrap;
+    background-color: black;
+    text-align: center;
+    border-radius: 3px;
+    padding: 3px;
+    position: absolute;
+    bottom: calc(100% + 40px);
+    z-index: 1;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: opacity 0.2s linear, transform 0.2s linear;
+    pointer-events: none;
+    font-size: 13px;
+    line-height: 1.5;
+    top: calc(100% - 153px);
+    height: 23px;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    left: 7px;
+    width: 80px;
+}
+
+.hv-integration-reports .tooltiptext:before {
+    content: "";
+    position: absolute;
+    top: calc(100% - 8px);
+    width: 15px;
+    height: 13px;
+    left: 23px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 3px;
+    transform: rotate(45deg);
+    background-color: black;
+}
+
+.hv-integration-reports:hover .tooltiptext {
+    opacity: 1;
+    transform: scale(1);
+}

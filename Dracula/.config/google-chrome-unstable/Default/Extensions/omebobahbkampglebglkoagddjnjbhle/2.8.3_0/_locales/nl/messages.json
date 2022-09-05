@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Maak en afbeeldingen en foto's te bewerken met Gimp Online"
+   },
+   "new_files": {
+      "message": "Bestandsbeheer"
+   },
+   "new_png1": {
+      "message": "GIMP-app"
+   },
+   "new_png2": {
+      "message": "Foto-editor"
+   },
+   "new_png3": {
+      "message": "Fotobewerker"
+   },
+   "new_usersettings": {
+      "message": "Stel Userid in"
+   },
+   "title": {
+      "message": "Gimp online - beeldredacteur en gereedschap verf"
+   }
+}

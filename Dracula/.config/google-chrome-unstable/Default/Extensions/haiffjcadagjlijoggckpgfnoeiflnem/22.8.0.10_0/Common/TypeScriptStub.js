@@ -1,0 +1,1 @@
+var qukoG={extends:function(d,b){for(var bKSi3 in b)if(b.hasOwnProperty(bKSi3))d[bKSi3]=b[bKSi3];function pKlBK(){this.constructor=d;}d.prototype=b===null?Object.create(b):(pKlBK.prototype=b.prototype,new pKlBK());}};

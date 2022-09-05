@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Imposibil de rulat captarea zonei selectate pe acest site web. Utilizați înregistrarea completă a ecranului sau încercați un alt site web. \n\n (╯ ° □ °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Faceți clic pe Dimensiune și culoare Animație"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "Închide"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "Cursor Dotare Dimensiune și culoare"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Aplicați dither"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Descărcați formatul fișierului"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "Descarca"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Dimensiunea și culoarea desenului"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Adăugați pictograma."
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Adaugă text"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Copiați în clipboard"
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "A decupa"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Trage săgeată"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Desenați elipse"
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "Trageți linia"
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Trageți dreptunghiul"
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Desen gratuit"
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "A sublinia"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "A reface"
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "salva"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Selectați, mutați, redimensionați"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "Setări."
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Anula"
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Anulați toate"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "începe să tastezi..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Răsfoiți sistemul de fișiere"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Trageți și dați imaginea / gif sau"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Fișier salvat în folderul Descărcări."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "Aplicați editări la selectate (avertizare: nu poate fi anulată)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Ștergeți selectat (Del / Backspace)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Ștergeți fiecare al doilea cadru"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Restaurați selectați (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Restabileste tot"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Deselectează tot"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "Imagine copiată în clipboard."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Nu a reușit să copiați imaginea în clipboard, poate fi prea mare."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Link copiat în clipboard."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Ați atins perioada maximă de înregistrare a $maxlength$ secunde pentru GIF -uri. Utilizatorii premium pot actualiza acest lucru din pagina Setări.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIF -urile sunt destinate înregistrărilor scurte. Dacă aveți nevoie de videoclipuri cu lungime completă, vă recomandăm înregistratorul nostru de ecran gratuit:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "Utilizatorii premium pot actualiza acest lucru din pagina Setări."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Deschide setările"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "Înregistrarea s -a oprit brusc?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Culoare"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Desenați dimensiunea"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Font."
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Viteza de redare"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Efect special"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Opțiuni premium"
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Avertizare"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "Blocarea raportului de aspect"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Anulare"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "Comprimați și optimizați giful"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "Aplicați GIF Compression Algorthm pentru a reduce foarte mult dimensiunea fișierului GIF și, în unele cazuri, îmbunătățirea calității. Foarte recomandat."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Aplicați algoritmul Dither pe imagini. Încercați să comutați această opțiune dacă întâmpinați probleme de calitate a culorilor."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Dimensiunea GIF estimată:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Imagini:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "În prezent, există imagini selectate, salvarea va ieși doar aceste cadre selectate -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Faceți clic aici pentru a delecta toate imaginile"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Viteza de redare"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "Procesarea Această înregistrare va necesita o mulțime de memorie și putere de procesare. Dacă nu aveți un PC High SPEC, se recomandă efectuarea uneia sau mai multora dintre următoarele:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Vă rugăm să rețineți dacă giful rezultat este gol, atunci ați fugit din memorie."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "Comprimați și optimizați giful"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Reduceți lățimea și înălțimea"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Eliminați câteva imagini"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Reduceți lățimea și înălțimea"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Reduceți lățimea GIF și înălțimea/calitatea pentru a îmbunătăți timpul de procesare și a produce un fișier mai mic."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "salva"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Salvați"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Descărcare fișier"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Încărcați pe Google Drive și Copiați linkul"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "salva"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Prelucrare..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Încărcarea ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Deschis în editor"
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Pro Sfat: Ștergeți elementele adăugate selectând elementul și apăsând tasta Ștergere."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "Sfat Pro: Puteți edita imagini specifice utilizând „Aplicați modificări la opțiunea selectată”"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "PRO Sfat: Derulați când faceți clic pe ecranul / înregistrarea la zoom."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "Pro Sfat: Când utilizați instrumentul de selectare, țineți apăsată Schimbare pentru a selecta mai mult de un element."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Pro Sfat: Puteți scala, roti, muta și șterge mai multe elemente simultan."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Pro Sfat: Faceți dublu clic pe text pentru ao edita."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "Este posibil să se fi produs din cauza faptului că fereastra nu a fost concentrată."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Copiați în clipboard a eșuat"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "Copiat în clipboard"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Încărcare eșuată"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Încearcă din nou."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Vă rugăm să vă asigurați că sunteți conectat la Internet și ați acceptat permisiunile Google Drive."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "Anulați și descărcați fișierul"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "Închide"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Copiază legătură"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "Permiteți oricui cu linkul de vizualizat."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "Activați desenul"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "Această opțiune permite utilizatorilor să tragă în zona selectată în timp ce țineți apăsată tasta CTRL."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Înregistrați GIF sau faceți screenshot de orice în browserul dvs. - mai repede și mai ușor decât oricând înainte."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture - Instrumentul GIF și screenshot"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Chrome Capture"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "Accesul la fișiere BY."
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Nume de fișier"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Imagini pe secundă (FPS)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "imagini"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Setări gratuite"
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Anulare"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Sigur doriți să continuați cu capturarea completă a ecranului?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Nu îmi mai arăta asta"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "Ați folosit o comandă rapidă de captare Chrome fără instrumentul de decupare, aceasta va capta în modul ecran complet."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Deschideți instrumentul de recoltare"
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "Alt + C: Deschideți / închideți captura de captare cromată"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "ALT + SHIFT + S: Full Web PPAGE screenshot (beta)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Puteți configura aceste aici:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "Alt + R: Începeți / opriți înregistrarea"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S: ecranul vizibil al zonei"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Comenzile rapide sunt:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Începeți capturarea ecranului complet"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Captura ecranului complet"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Obțineți premium."
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Lățime (Px)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Conexiunea la Internet este necesară pentru a face upgrade la Premium."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "Rezoluția / calitatea înregistrării max"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Fara limita"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "Deschis"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Acțiune implicită"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 pixeli"
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 pixeli (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 pixeli (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 pixeli (4k)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 pixeli (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Activați notificări"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Afișați notificări atunci când înregistrarea completă a ecranului începe și procesarea înregistrărilor în fundal."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Cum se utilizează"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Deschideți popup."
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Deschideți captarea zonei selectate"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Comenzi rapide"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "A sustine"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Faceți clic și trageți pentru a alege zona selectată. \n Faceți clic dreapta pentru a fixa la un element, țineți o schimbare pentru mai multe."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Captură"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Editor deschis"
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Pagina web de defilare"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "Browserul dvs. nu permite scripturile de rulare pe această pagină web, din păcate, acest lucru face ca zona selectată și capturarea completă a paginii web să fie imposibilă pentru acest site."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Record"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Înregistrați până la $SECONDS$ secunde pe gif. Utilizatorii premium pot actualiza acest lucru din",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Pagina Setări."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Ecran complet sau aplicație"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Zona selectată"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Deschide setările"
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "Această filă"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Setări premium"
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Obțineți premium!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Sunteți în prezent în planul liber. Upgrade la Premium pentru a debloca toate caracteristicile premium."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Conectați-vă la Google pentru a continua."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Doriți să faceți upgrade la Premium?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Deja un utilizator premium?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "Compresie GIF de înaltă calitate"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Trageți în timpul înregistrării"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Editați capturile"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "Editare de bază"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Editarea cadrului"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "Tune rata cadrului"
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Imagini nelimitate de ecran complete."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "Faceți clic pe și indicarea mouse-ului"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "Comparați planurile"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "Tunerea vitezei de redare a înregistrării"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Înregistrări GIF nelimitate."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "Limita 10SEC pe gif"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "GIF-uri de înaltă calitate"
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 pixeli Max."
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Imagini nelimitate."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "Înregistrarea efectelor speciale"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "Gratuit"
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Liber de utilizat"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Editare de bază"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "Înregistrarea GIF de bază"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Imagini nelimitate"
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Premium."
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "Incepe"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "Compresie GIF de înaltă calitate"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Funcționează editare bogată"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Totul de la libertate"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Înregistrare GIF nelimitată de înaltă calitate"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "Complet rambursabil"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "o taxă de timp"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Conectați-vă aici"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Calitate de înregistrare (10 = cel mai bun)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Ne încercăm în mod continuu să îmbunătățim capturarea cromului, vă rugăm să împărtășiți ceea ce necesită îmbunătățirea prin trimiterea prin e-mail la"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Ne pare rău!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "Închide"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "A confirma"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Dacă ați găsit această extensie util, vă rugăm să lăsați o evaluare sau o recenzie. \n\n Lăsând un rating, ne puteți ajuta să ajungem la mai mulți utilizatori care vor contribui la finanțarea continuuală a îmbunătățirilor și vor păstra gratuit utilizarea generală."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Vă mulțumim foarte mult la achiziționarea de premium și vă place să auziți orice feedback pe care trebuie să-l ajutați să îmbunătățim produsul și să ajungem mai mulți utilizatori."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Comentariile dvs. păstrează echipa noastră mică motivată pentru a face captarea Chrome chiar mai bună!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Vă mulțumim foarte mult la achiziționarea de premium și vă place să auziți orice feedback pe care trebuie să-l ajutați să îmbunătățim produsul și să ajungem mai mulți utilizatori."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Revizuirea în magazinul web?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Poate mai târziu"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Nu, mulțumesc"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Trimite email"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Mulțumesc! 😍."
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "Cum facem?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "OK sigur"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Lungimea înregistrată maximă"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Înregistrator logic."
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Performanța V2 - procesarea durează mai mult, totuși funcționează pentru ecrane de 4k și mai multe monitoare"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Performant - AVERTISMENT nu funcționează pentru ecrane de 4k sau pentru mai multe monitoare"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Normal - Dacă aveți probleme de performanță, utilizați performanțe"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Salvați screenshot ca."
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Salvați înregistrarea ca."
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "Secs"
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "Afișați animația click pe clic."
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "Această opțiune atrage o animație cerc în jurul locației clicurilor."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Afișați punctul la locația cursorului"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "Această opțiune atrage un cerc mic pentru a indica locul unde se află mouse-ul."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Incapabil să surprindă acest site web. Vă rugăm să utilizați ecranul complet/capturarea aplicațiilor sau încercați să capturați un alt site web. \n\n (╯ ° □ °） ╯︵ ┻━┻ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Înălțime (px)"
+   }
+}

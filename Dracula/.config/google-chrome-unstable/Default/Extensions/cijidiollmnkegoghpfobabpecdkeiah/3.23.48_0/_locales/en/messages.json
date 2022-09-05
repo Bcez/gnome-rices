@@ -1,0 +1,926 @@
+{
+   "a_for_click_animation": {
+      "message": "A for Click Animation"
+   },
+   "access_denied": {
+      "message": "Access Denied!"
+   },
+   "access_your_video_library": {
+      "message": "You can also access your video library here."
+   },
+   "accomplish_more_with_web_app": {
+      "message": "Accomplish more with our Web app. Manage Integrations, Users, Library, Share, Import/Export videos across platforms like YouTube, GDrive, Google Classroom and more with the Web app."
+   },
+   "account_text": {
+      "message": "Account"
+   },
+   "accounts": {
+      "message": "Accounts"
+   },
+   "add_account": {
+      "message": "Add Account"
+   },
+   "add_another": {
+      "message": "ADD ANOTHER"
+   },
+   "add_contacts": {
+      "message": "ADD CONTACTS"
+   },
+   "add_contacts_manually": {
+      "message": "Add contacts manually to send personalized video email campaign"
+   },
+   "advanced_options_click_on": {
+      "message": "For advanced options, click on the"
+   },
+   "advanced_settings": {
+      "message": "Advanced Settings"
+   },
+   "all_set_letsgo": {
+      "message": "All set. Lets go!!"
+   },
+   "all_videos": {
+      "message": "ALL VIDEOS"
+   },
+   "allow_permission_for_webcam_mic": {
+      "message": "Allow permission for Hippo Video to record webcam and mic."
+   },
+   "allow_permission_to_record_audio": {
+      "message": "Allow permission for Hippo Video to record audio."
+   },
+   "allow_permission_to_record_webcam": {
+      "message": "Allow permission for Hippo Video to record webcam videos."
+   },
+   "allow_webcam_audio_permission": {
+      "message": "Allow Webcam & Audio Permission"
+   },
+   "already_got_hippo_account": {
+      "message": "Already got a Hippo account?"
+   },
+   "alt": {
+      "message": "Alt"
+   },
+   "and_text": {
+      "message": "and"
+   },
+   "any_text": {
+      "message": "ANY"
+   },
+   "appDesc": {
+      "message": "Best screen recorder for Chrome. Create, edit, and share your professional looking videos instantly."
+   },
+   "appName": {
+      "message": "Hippo Video: Video and Screen Recorder"
+   },
+   "aspect_ratio": {
+      "message": "Aspect Ratio"
+   },
+   "audio": {
+      "message": "audio"
+   },
+   "audio_settings": {
+      "message": "AUDIO SETTINGS"
+   },
+   "audio_source": {
+      "message": "Audio source"
+   },
+   "audio_text": {
+      "message": "AUDIO"
+   },
+   "awesome_videos": {
+      "message": "awesome videos!"
+   },
+   "boost_your_customer_engagement": {
+      "message": "Take a shift from boring to mind-blowing emails. Boost your customer engagement and sales conversions with personalized videos."
+   },
+   "bottom_left_corner": {
+      "message": "Bottom left corner"
+   },
+   "bottom_right_corner": {
+      "message": "Bottom right corner"
+   },
+   "browser_closed_unexpectedly_text": {
+      "message": "There was some issue during your previous recording. We suspect the browser was closed unexpectedly. Please try recording again."
+   },
+   "browser_not_support_the_video": {
+      "message": "Your browser does not support the video."
+   },
+   "browser_not_support_video_tag": {
+      "message": "Your browser does not support video tag."
+   },
+   "browser_text": {
+      "message": "browse"
+   },
+   "by_signing_up_agree": {
+      "message": "By signing up, you agree to our"
+   },
+   "c_for_close": {
+      "message": "C for Close"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "cancel_button": {
+      "message": "Cancel"
+   },
+   "cancel_recording": {
+      "message": "Cancel recording"
+   },
+   "cancel_text": {
+      "message": "CANCEL"
+   },
+   "cancel_video_text": {
+      "message": "Once you cancel, your video cannot be recovered. Are you sure you want to cancel?"
+   },
+   "capture_your_webcam_audio": {
+      "message": "Capture your webcam and audio to add a personal touch and build trust with your videos."
+   },
+   "check_back_again_for_comments_after_sharing": {
+      "message": "Check back again for comments after sharing a video."
+   },
+   "check_out_the_video": {
+      "message": "Check out the video"
+   },
+   "checking_your_system_devices": {
+      "message": "Checking you system devices..."
+   },
+   "choose_file": {
+      "message": "Choose File"
+   },
+   "choose_file_from_computer": {
+      "message": "click to choose file from computer"
+   },
+   "choose_from_library": {
+      "message": "CHOOSE FROM LIBRARY"
+   },
+   "choose_library": {
+      "message": "Choose from library"
+   },
+   "circle": {
+      "message": "CIRCLE"
+   },
+   "click_here_for_info": {
+      "message": "Click here for more info"
+   },
+   "complete_your_video_and_email_content_to_add_contacts": {
+      "message": "Complete your video and email content to add contacts"
+   },
+   "compose_video": {
+      "message": "Compose Video"
+   },
+   "connection_slow": {
+      "message": "Your connection seems to be slow"
+   },
+   "contact_support": {
+      "message": "Something went wrong! Please contact support@hippovideo.io."
+   },
+   "contacts_not_found": {
+      "message": "CONTACTS NOT FOUND"
+   },
+   "contacts_text": {
+      "message": "Contacts"
+   },
+   "content": {
+      "message": "Content"
+   },
+   "continue": {
+      "message": "CONTINUE"
+   },
+   "continue_button": {
+      "message": "Continue"
+   },
+   "copied": {
+      "message": "Copied"
+   },
+   "copy_link": {
+      "message": "Copy Link"
+   },
+   "create": {
+      "message": "Create"
+   },
+   "create_import_video_to_enable_edit": {
+      "message": "Create or import a video to enable editing"
+   },
+   "create_new_landing_page": {
+      "message": "Create New Sales Page"
+   },
+   "create_new_page": {
+      "message": "CREATE NEW PAGE"
+   },
+   "create_new_video": {
+      "message": "CREATE NEW VIDEO"
+   },
+   "create_not_allowed_in_edit": {
+      "message": "Create not allowed in edit mode"
+   },
+   "create_quick_videos": {
+      "message": "Create quick videos, choose source as and adjust video settings all from the chrome extension."
+   },
+   "create_video": {
+      "message": "Create Video"
+   },
+   "create_videos_beforehand": {
+      "message": "Create videos beforehand and store them in your Hippo Video library."
+   },
+   "create_videos_from_web_app": {
+      "message": "You may also create videos from our web app"
+   },
+   "current_tab": {
+      "message": "CURRENT TAB"
+   },
+   "customize": {
+      "message": "Customize"
+   },
+   "default": {
+      "message": "Default"
+   },
+   "default_audio": {
+      "message": "Default audio"
+   },
+   "default_webcam": {
+      "message": "Default webcam"
+   },
+   "download_sample_file": {
+      "message": "Download Sample File"
+   },
+   "download_screen_recording": {
+      "message": "Download Screen Recording"
+   },
+   "download_webcam_recording": {
+      "message": "Download Webcam/Mic Recording"
+   },
+   "drag_drop": {
+      "message": "Drag and drop"
+   },
+   "e_for_eraser": {
+      "message": "E for Eraser \n Hit UP / DOWN arrow to change size"
+   },
+   "edit": {
+      "message": "Edit"
+   },
+   "edit_placeholder_values": {
+      "message": "EDIT PLACEHOLDER VALUES"
+   },
+   "edit_video": {
+      "message": "EDIT VIDEO"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "email_addresses_are_exceeded_in_sheet": {
+      "message": "Total number of contacts in the sheet cannot be more than 500"
+   },
+   "email_addresses_are_missing_in_sheet": {
+      "message": "Email addresses are missing in the sheet you imported. Please select a different sheet."
+   },
+   "enable_lowerthird": {
+      "message": "Enable lower third"
+   },
+   "enable_webcam_mic_access_in_browser_settings": {
+      "message": "Pease enable webcam/mic access in your browser settings to continue."
+   },
+   "enter": {
+      "message": "Enter"
+   },
+   "enter_list_name": {
+      "message": "Enter List Name"
+   },
+   "enter_video_title": {
+      "message": "Enter Video Title"
+   },
+   "extension_options": {
+      "message": "Extension Options"
+   },
+   "extension_pin_text": {
+      "message": "Hippo Video for chrome has successfully installed. Click the extension puzzle icon above to pin Hippo Video for easy access."
+   },
+   "f_for_focus": {
+      "message": "F for Focus and ESC for Cursor"
+   },
+   "fill_in_the_placeholder_value": {
+      "message": "Fill in the placeholder value here to personalize your email"
+   },
+   "fill_the_list_name": {
+      "message": "Fill the List Name"
+   },
+   "finish_recording": {
+      "message": "Finish Recording"
+   },
+   "frame_text": {
+      "message": "Frame"
+   },
+   "full_desktop": {
+      "message": "FULL DESKTOP"
+   },
+   "general_settings": {
+      "message": "GENERAL SETTINGS"
+   },
+   "get_add_on": {
+      "message": "Get Add-on"
+   },
+   "get_video_reply": {
+      "message": "get a video reply"
+   },
+   "get_your_video_ready_to_enable_templates": {
+      "message": "Get your video ready to enable Templates."
+   },
+   "gif": {
+      "message": "GIF"
+   },
+   "go": {
+      "message": "GO"
+   },
+   "go_back": {
+      "message": "Go Back"
+   },
+   "go_back_button": {
+      "message": "Go Back"
+   },
+   "go_to_library": {
+      "message": "Go to library"
+   },
+   "go_to_pro_edit": {
+      "message": "GO TO PRO EDIT"
+   },
+   "google_chrome_need_share_permission": {
+      "message": "Google Chrome needs this 'Share' permission to record only this screen."
+   },
+   "got_it": {
+      "message": "GOT IT"
+   },
+   "grant_access": {
+      "message": "GRANT ACCESS"
+   },
+   "grant_access_to_gdrive_account": {
+      "message": "Grant access to your Google Drive account to import media directly into Hippo Video"
+   },
+   "grant_access_to_your_google_contacts_account": {
+      "message": "Grant access to your Google Contacts account to import contacts and merge fields"
+   },
+   "grant_access_to_your_google_drive_account": {
+      "message": "Grant access to your Google Drive account to import contacts and merge fields from Google Sheet"
+   },
+   "h_for_highlight": {
+      "message": "H for Highlight \n Hit UP / DOWN arrow to change size \n LEFT / RIGHT arrow to change color"
+   },
+   "high_text": {
+      "message": "High"
+   },
+   "hippo_extensions": {
+      "message": "Hippo extension."
+   },
+   "hippo_video": {
+      "message": "Hippo Video"
+   },
+   "hippo_video_onboard": {
+      "message": "Hippo Video - Onboard"
+   },
+   "hippo_wiz": {
+      "message": "Hippo Wiz"
+   },
+   "hippovideo": {
+      "message": "hippovideo.io"
+   },
+   "import_contacts": {
+      "message": "IMPORT CONTACTS"
+   },
+   "import_contacts_from_google_sheet": {
+      "message": "Import contacts from Google Sheet, Google Contacts and Local files to send personalized video email campaign"
+   },
+   "import_from_gdrive": {
+      "message": "IMPORT FROM GDRIVE"
+   },
+   "import_from_google_contacts": {
+      "message": "IMPORT FROM GOOGLE CONTACTS"
+   },
+   "import_from_google_sheets": {
+      "message": "IMPORT FROM GOOGLE SHEETS"
+   },
+   "import_from_local": {
+      "message": "IMPORT FROM LOCAL"
+   },
+   "import_video": {
+      "message": "IMPORT VIDEO"
+   },
+   "import_video_files": {
+      "message": "Import video files from Hippo Video library."
+   },
+   "initializing": {
+      "message": "INITIALIZING"
+   },
+   "insert_page": {
+      "message": "INSERT PAGE"
+   },
+   "insert_video": {
+      "message": "INSERT VIDEO"
+   },
+   "integration_settings": {
+      "message": "Integration Settings"
+   },
+   "issue_during_recording": {
+      "message": "There was some issue during your previous recording. Please try recording again"
+   },
+   "issue_during_recording_source_available": {
+      "message": "There was an issue while recording the previous video. You can now download the video using the link below. Click on 'OKAY' to start a new recording"
+   },
+   "landing_page": {
+      "message": "SALES PAGE"
+   },
+   "large": {
+      "message": "Large"
+   },
+   "launch_web_app": {
+      "message": "Launch Web App"
+   },
+   "lessonly_recording": {
+      "message": "Lessonly Recording"
+   },
+   "link_copied": {
+      "message": "Link Copied To Clipboard"
+   },
+   "low_text": {
+      "message": "Low"
+   },
+   "m_for_cursor": {
+      "message": "M for Cursor"
+   },
+   "mail_templates": {
+      "message": "Mail Templates"
+   },
+   "make_full_desktop_recording": {
+      "message": "Make 'Full Desktop' my default recording"
+   },
+   "manage_users": {
+      "message": "Manage Users"
+   },
+   "medium": {
+      "message": "Medium"
+   },
+   "medium_text": {
+      "message": "Medium"
+   },
+   "meeting_link": {
+      "message": "MEETING LINK"
+   },
+   "merge_field_missing_in_content": {
+      "message": "Values for ‘$merge_field’ are missing in Content. Please fill them."
+   },
+   "merge_field_missing_in_subject": {
+      "message": "Values for ‘$merge_field’ are missing in Subject. Please fill them."
+   },
+   "mic": {
+      "message": "MIC"
+   },
+   "mic_text": {
+      "message": "mic"
+   },
+   "minutes_in_free_plan": {
+      "message": "minutes in the Free plan."
+   },
+   "mirror_webcam_video": {
+      "message": "Mirror Webcam Video"
+   },
+   "my_recent_videos": {
+      "message": "My Recent Videos"
+   },
+   "my_videos": {
+      "message": "MY VIDEOS"
+   },
+   "network_failure_upload_failed": {
+      "message": "Your previous recording upload has failed. This might be because of a network failure or you have cancelled the upload. You can either cancel this recording or try uploading again"
+   },
+   "never_record_text": {
+      "message": "I'll never record"
+   },
+   "next": {
+      "message": "NEXT"
+   },
+   "no_landing_page_found": {
+      "message": "No sales page found"
+   },
+   "no_recording_devices": {
+      "message": "No recording devices found.. Pluging Microphone or Webcam and try again."
+   },
+   "no_sheet_found": {
+      "message": "NO SHEETS FOUND"
+   },
+   "no_video_landing_pages_found": {
+      "message": "NO VIDEO SALES PAGE FOUND"
+   },
+   "no_video_uploaded": {
+      "message": "No video is being uploaded right now"
+   },
+   "no_videos_found": {
+      "message": "NO VIDEOS FOUND"
+   },
+   "no_videos_to_display": {
+      "message": "You have no videos to display"
+   },
+   "none": {
+      "message": "None"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "ok_text": {
+      "message": "Ok"
+   },
+   "okay": {
+      "message": "OKAY"
+   },
+   "okay_button": {
+      "message": "Okay"
+   },
+   "okay_text": {
+      "message": "okay"
+   },
+   "onboard_your_customers": {
+      "message": "Onboard your customers by sharing the best practices, tips, and techniques. Easy to record and share your videos."
+   },
+   "one_step_away_from_creating": {
+      "message": "You are just one step away from creating"
+   },
+   "one_step_away_from_creating_videos": {
+      "message": "You are just one step away from creating awesome videos!"
+   },
+   "oops_text": {
+      "message": "Oops!"
+   },
+   "option": {
+      "message": "Option"
+   },
+   "or_text": {
+      "message": "or"
+   },
+   "p_for_pause_play": {
+      "message": "P for Pause and Play"
+   },
+   "pause_text": {
+      "message": "Pause"
+   },
+   "paused_text": {
+      "message": "PAUSED"
+   },
+   "personalized": {
+      "message": "Personalized"
+   },
+   "personalized_videos": {
+      "message": "PERSONALIZED VIDEOS"
+   },
+   "please_choose_atleast_one_contact": {
+      "message": "Please choose at least one contact to continue."
+   },
+   "please_fill_atleast_one_email_address": {
+      "message": "Please fill at least one email address to continue."
+   },
+   "please_select_sheet_to_continue": {
+      "message": "Please select a sheet to continue."
+   },
+   "press": {
+      "message": "Press"
+   },
+   "preview": {
+      "message": "Preview"
+   },
+   "previous_video_uploading_text": {
+      "message": "Your previously recorded video is being uploaded. Do you want to wait or cancel?"
+   },
+   "privacy_policy": {
+      "message": "Privacy policy"
+   },
+   "pro_tip": {
+      "message": "Pro tip"
+   },
+   "quick_edit_not_supported": {
+      "message": "Uh Oh! Quick Edit is not supported for this video. Click the button below to proceed with Pro Edit. If you do not wish to edit, click 'CONTINUE.'"
+   },
+   "recent_videos": {
+      "message": "Recent Videos"
+   },
+   "record": {
+      "message": "RECORD"
+   },
+   "record_limit_exceeded": {
+      "message": "Record limit exceeded."
+   },
+   "record_options": {
+      "message": "Record options"
+   },
+   "record_or_upload_again": {
+      "message": "Your previous upload was canceled. You can either cancel this recording or try uploading again"
+   },
+   "record_system_audio": {
+      "message": "Record system audio"
+   },
+   "record_tab_audio": {
+      "message": "Record tab audio"
+   },
+   "record_video": {
+      "message": "Record Video"
+   },
+   "record_video_text": {
+      "message": "RECORD VIDEO"
+   },
+   "record_with_screen_recording": {
+      "message": "Record your screen"
+   },
+   "recorded_on": {
+      "message": "Recorded on"
+   },
+   "recorded_video_uploaded": {
+      "message": "Your previously recorded video is being uploaded."
+   },
+   "recording": {
+      "message": "RECORDING"
+   },
+   "recording_countdown": {
+      "message": "Recording countdown"
+   },
+   "recording_error": {
+      "message": "Recording Error"
+   },
+   "recording_failed": {
+      "message": "Your previous recording has failed. This could be because the browser closed unexpectedly. Please try recording again"
+   },
+   "recording_failed_mac": {
+      "message": "Your previous recording has failed. This could be because the browser closed unexpectedly."
+   },
+   "recording_failed_note_mac": {
+      "message": "Note: If you had given system permission and restarted the browser please click on 'Okay' button, refresh the page and try recording again"
+   },
+   "recording_not_allowed_in_current_plan": {
+      "message": "Recording is not allowed in your current plan. Please purchase add-ons to record videos."
+   },
+   "recording_not_possible": {
+      "message": "Hippo Video doesn't allow recording on an empty tab. Go to"
+   },
+   "recording_not_possible_part_2": {
+      "message": "or similar page url in your address bar to start recording"
+   },
+   "recording_text": {
+      "message": "RECORDING..."
+   },
+   "recording_uploaded": {
+      "message": "Your recording is being uploaded."
+   },
+   "refer": {
+      "message": "Refer"
+   },
+   "refresh_text": {
+      "message": "REFRESH"
+   },
+   "reload_msg": {
+      "message": "Reload Extension"
+   },
+   "reload_the_page": {
+      "message": "We've released cool new updates. Please reload the page to view them."
+   },
+   "resume": {
+      "message": "Resume"
+   },
+   "retry_button": {
+      "message": "Retry"
+   },
+   "retry_msg": {
+      "message": "Retry Upload"
+   },
+   "s_for_stop_recording": {
+      "message": "S for Stop recording"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "save_as_list": {
+      "message": "Save as List"
+   },
+   "save_text": {
+      "message": "SAVE"
+   },
+   "screen": {
+      "message": "screen"
+   },
+   "screen_capture_settings": {
+      "message": "SCREEN CAPTURE SETTINGS"
+   },
+   "screen_record": {
+      "message": "SCREEN RECORD"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "search_video_here": {
+      "message": "Search video here"
+   },
+   "see_all_videos": {
+      "message": "See all videos"
+   },
+   "select_at_least_one_option": {
+      "message": "Select at-least one option to start recording"
+   },
+   "select_page_to_continue": {
+      "message": "Note: Select a page to continue"
+   },
+   "select_the_screen_want_to_record": {
+      "message": "Select the screen you want to record"
+   },
+   "select_video_to_continue": {
+      "message": "Note: Select a video to continue"
+   },
+   "selected_file": {
+      "message": "Selected File:"
+   },
+   "set_selected_page_as_default": {
+      "message": "Set selected page as default"
+   },
+   "show_markup_tools": {
+      "message": "Show markup tools"
+   },
+   "show_webcam_preview": {
+      "message": "Show webcam preview"
+   },
+   "signIn": {
+      "message": "SIGN IN"
+   },
+   "signUp": {
+      "message": "SIGN UP"
+   },
+   "sign_in": {
+      "message": "Sign in"
+   },
+   "sign_out": {
+      "message": "Sign Out"
+   },
+   "small": {
+      "message": "Small"
+   },
+   "something_went_wrong": {
+      "message": "Something went wrong! Please contact support@hippovideo.io"
+   },
+   "square": {
+      "message": "SQUARE"
+   },
+   "start_creating_videos_with_hippo_video_chrome_extension": {
+      "message": "Start creating videos with Hippo Video Chrome extension"
+   },
+   "start_recording": {
+      "message": "START RECORDING"
+   },
+   "stop_recording": {
+      "message": "Stop Recording"
+   },
+   "subject": {
+      "message": "Subject"
+   },
+   "supports_only_xls_xlsx_csv_with_size_5MB": {
+      "message": "Supports only XLS, XLSX, CSV formats with a maximum file size of 5 MB"
+   },
+   "sure_button": {
+      "message": "Sure, Cancel"
+   },
+   "templates": {
+      "message": "Templates"
+   },
+   "terms": {
+      "message": "Terms"
+   },
+   "thumbnail": {
+      "message": "THUMBNAIL"
+   },
+   "to_record_longer_videos": {
+      "message": "to record longer videos."
+   },
+   "top_left_corner": {
+      "message": "Top left corner"
+   },
+   "top_right_corner": {
+      "message": "Top right corner"
+   },
+   "try_before_signing_up": {
+      "message": "Try before signing up?"
+   },
+   "upgrade": {
+      "message": "Upgrade"
+   },
+   "upgrade_needed": {
+      "message": "Upgrade needed"
+   },
+   "upload_again": {
+      "message": "Upload Again"
+   },
+   "upload_autosaved_recording": {
+      "message": "Upload Autosaved Recording"
+   },
+   "upload_error_warning": {
+      "message": "Hippo Video Upload Error Warning"
+   },
+   "upload_progress": {
+      "message": "Hippo Video Upload Progress"
+   },
+   "use_merge_fields_from_imported_sheet": {
+      "message": "Note: Type $ to use merge fields from imported sheet."
+   },
+   "video_bitrate": {
+      "message": "Video quality"
+   },
+   "video_categories": {
+      "message": "Video Categories"
+   },
+   "video_duration_is_limited": {
+      "message": "Video duration is limited to"
+   },
+   "video_landing_pages": {
+      "message": "SALES PAGES"
+   },
+   "video_library": {
+      "message": "VIDEO LIBRARY"
+   },
+   "video_not_uploaded": {
+      "message": "Your previous recordings were not uploaded successfully. It is recommended to check your internet connection before recording."
+   },
+   "video_resolution": {
+      "message": "Video resolution"
+   },
+   "video_title": {
+      "message": "Video Title"
+   },
+   "video_uploading": {
+      "message": "YOUR VIDEO IS BEING UPLOADED"
+   },
+   "view_all_notifications": {
+      "message": "View More Notifications"
+   },
+   "view_my_videos": {
+      "message": "View my videos"
+   },
+   "view_videos": {
+      "message": "View Videos"
+   },
+   "views": {
+      "message": "Views"
+   },
+   "virtual_bg": {
+      "message": "VIRTUAL BACKGROUND"
+   },
+   "webcam": {
+      "message": "WEBCAM"
+   },
+   "webcam_position": {
+      "message": "Webcam position"
+   },
+   "webcam_quality": {
+      "message": "Webcam quality"
+   },
+   "webcam_settings": {
+      "message": "WEBCAM SETTINGS"
+   },
+   "webcam_shape": {
+      "message": "Webcam shape"
+   },
+   "webcam_shape_circle_info": {
+      "message": "Circle webcam suits best when you are recording content inside the Chrome browser. What you see is what will appear in the final recording."
+   },
+   "webcam_shape_rectangle_info": {
+      "message": "Rectangle webcam suits best when you are recording applications other than the Chrome browser. Even though you don't preview yourself while recording other applications, your webcam recording will be visible in the final output throughout the video."
+   },
+   "webcam_size": {
+      "message": "Webcam size"
+   },
+   "webcam_source": {
+      "message": "Webcam source"
+   },
+   "webcam_text": {
+      "message": "webcam"
+   },
+   "webcam_visible_while_recording": {
+      "message": "Make my webcam visible while recording"
+   },
+   "yes_got_it": {
+      "message": "YES, GOT IT"
+   },
+   "you_can_create_videos_from_web_app": {
+      "message": "You can also create videos from our Web app"
+   },
+   "you_have_disabled_microphone_access": {
+      "message": "You have disabled Microphone access. If you want to enable in future, click here and select allow."
+   },
+   "you_have_disabled_webcam_mic_access": {
+      "message": "You have disabled webcam and mic access. If you want to enable in future, click here and select allow."
+   },
+   "your_account": {
+      "message": "your account"
+   },
+   "your_files_here": {
+      "message": "your files here, or "
+   },
+   "your_video_being_created_with_below_options": {
+      "message": "Your video is being created with the below options"
+   },
+   "your_video_created_with_below_options": {
+      "message": "Your video will be created with the below options"
+   },
+   "your_video_has_been_saved": {
+      "message": "Your video has been saved"
+   },
+   "z_for_clear_screen": {
+      "message": "Z for Clear screen"
+   }
+}

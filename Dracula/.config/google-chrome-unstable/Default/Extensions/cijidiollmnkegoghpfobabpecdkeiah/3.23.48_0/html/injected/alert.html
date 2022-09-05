@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>__MSG_hippo_video__</title>
+		<script src="/js/common/jquery-3.1.1.min.js"></script>
+		<script src="/js/bg/APIClient.js"></script>
+		<script src="/js/common/volume-meter.js"></script>
+		<script src="/js/extensionpages/alertpage.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/alertpage.css">
+	</head>
+	<body>
+		<div class="overlay-div"></div>
+		<div class="enable-video-permission-gif disp-none">
+			<img src="/images/extension/enable-video.gif" width="270" class="video-permission-gif-1" style="position:absolute; right: 30px; top: 30px;border: 1px solid #e7e7e7;border-radius: 10px;">
+			<img src="/images/extension/top-up.png" class="enable-video-audio-arrow" />
+		</div>
+		<div class="pop-div disp-none" id="aletMsgPopupDiv">
+			<div id="error-message-container">
+				<h6 class="hv-color error-title" id="errorTitle">__MSG_oops_text__</h6>
+				<label class="error-message">__MSG_enable_webcam_mic_access_in_browser_settings__</label>
+				<a href="" target="_blank" class="error-link"></a>
+				<br>
+				<div id="enableSystemSettings" class="hv-enable-system-settings">
+					<video src="/videos/SystemPermissionError.mp4" playsinline loop></video>
+				</div>
+				<div class="hippo-mic-error-img">
+					<img src="/images/extension/error-hippo-1.png" style="padding-right:50px;" />
+				</div>
+				<div class="hippo-error-img">
+					<img src="/images/extension/extension-error.png" />
+				</div>
+			</div>
+			<div class="button-toolbar"><button class="ok-button">__MSG_okay_text__</button></div>
+		</div>
+		<div id="testYourDevise" class="disp-none">
+			<img src="/images/extension/enable-video.gif" width="270" class="video-permission-gif-1 hide" style="position:absolute; right: 30px; top: 30px;border: 1px solid #e7e7e7;border-radius: 10px; display:none;">
+			<img src="/images/extension/top-up.png" class="enable-video-audio-arrow hide" style="display:none !important;" />
+			<div class="pop-div-1">
+				<label class="error-message"></label>
+				<a href="" target="_blank" class="error-link"></a>
+				<fieldset class="web-audio-set">
+					<legend>__MSG_create_videos_from_web_app__</legend>
+					<div class="webcam-source">
+						<div class="inner">
+							<img class="webcam-image" src="/images/extension/cam-disabled.png">
+							<video id="webcam-test-preview" muted style="height: 76px;">
+							<source>__MSG_browser_not_support_the_video__
+						</video>
+						</div>
+						<span class="caption">__MSG_webcam_text__</span>
+					</div>
+
+					<div class="audio-source">
+						<div class="inner">
+							<img src="/images/injected/audio-mic.png">
+							<canvas id="audio-test-preview-faq" class="hide"></canvas>
+						</div>
+						<span class="caption">__MSG_audio__</span>
+					</div>
+
+					<select class="select-webcam-source webcam-source-list">
+					</select>
+
+					<select class="select-audio-source audio-source-list">
+			            <option>__MSG_default_audio__</option>
+					</select>
+				</fieldset>
+				<div><button class="ok-button">__MSG_okay_text__</button></div>
+			</div>
+		</div>
+	</body>
+	<script src="/js/common/internationalization.js"></script>
+</html>

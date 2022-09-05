@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "support.js", "jquery-3.3.1.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/app_38.png",
+      "default_popup": "index.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/app_128.png",
+      "16": "icons/app_16.png",
+      "48": "icons/app_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmQpy030+o9SRgilx0vqSC6luHvjLeVbDvcP7mwVrNIFUQR3p5hDP6yjkr+R9n0j/Xw54rmC06jHpQCkaiKeKz+pT1FEZIhba8z2ptHgsGyO+3edFI1pufYGgkFsqp9qEVDzIMmVB4rym4A7jAS51b6WY1cfu429Tk1RmZItLEUNL0AeWaLEqjfZ7k6gc1kUzuTvhoe63qbDPVlsi8rRmMogwc3F9h/6cew+JA6f8d2IIHY0Q/AUnaUj74A99HZMfTaQFvZ+HwbVTfhvFBmi8wXv3JYlHcpOP0RDlFzU1q5rLa24/v+r4p68qAweJw/bzpHrMxzKfgBMuramRb0oHtwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_title__",
+   "options_page": "settings.html",
+   "permissions": [ "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.4"
+}

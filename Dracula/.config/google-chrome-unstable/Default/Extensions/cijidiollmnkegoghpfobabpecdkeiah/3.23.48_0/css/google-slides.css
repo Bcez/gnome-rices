@@ -1,0 +1,80 @@
+.hv-embed-orange-button {
+  position: absolute;
+  top:45%;
+  left:0;
+  right:0;
+  margin: 0 auto;
+  width: 200px;
+  max-height: 35px;
+  padding: 8px 0;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #fc6076 0%, #fc6076 10%, #ff9a44 50%, #ff9a44 100%);
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.hv-embed-orange-button:hover {
+  background-image: linear-gradient(to right, #ff9a44 0%, #ff9a44 10%, #fc6076 50%, #fc6076 100%);
+}
+
+.hv-embed-look-exten-icon {
+  margin-top: 0px;
+  position: relative;
+  top: 4px;
+}
+
+#hv-embed-present-start {
+  z-index: 9999999;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 39%;
+    cursor: pointer;
+}
+#hv-embed-present-start:hover {
+  background-color: #000000;
+  border-color: #ff9a44;
+}
+#hv-embed-present-start img {
+    width:44px;
+    height: 40px;
+  z-index: 999999;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+#hv-embed-present-start span {
+    position: absolute;
+    top: 56%;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 12%;
+}
+
+.hv-embed-overlay {
+  position:fixed;
+  background-color: rgba(0, 0, 0, 0.5); 
+  top:0; 
+  bottom:0; 
+  left:0; 
+  right:0;
+}
+
+.hv-gs-widget-block {
+  top: 52px;
+  position: absolute;
+}

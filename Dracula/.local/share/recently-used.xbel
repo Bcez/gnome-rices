@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/eric/Downloads/widgets@aylur.shell-extension.zip" added="2022-09-03T16:55:04.491438Z" modified="2022-09-03T16:55:04.491443Z" visited="2022-09-03T16:55:04.491439Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-03T16:55:04.491440Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.themes" added="2022-09-03T16:57:19.524645Z" modified="2022-09-03T16:57:19.524648Z" visited="2022-09-03T16:57:19.524645Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-09-03T16:57:19.524647Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.themes/Ivory/gnome-shell/gnome-shell.css" added="2022-09-03T17:00:35.358837Z" modified="2022-09-03T17:00:35.358841Z" visited="2022-09-03T17:00:35.358837Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-03T17:00:35.358839Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/widgets@aylur.shell-extension/stylesheet.css" added="2022-09-03T17:18:06.069164Z" modified="2022-09-03T17:18:06.069176Z" visited="2022-09-03T17:18:06.069165Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-03T17:18:06.069170Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/adw-gtk3v3-6.tar.xz" added="2022-09-03T17:35:02.772337Z" modified="2022-09-03T17:35:02.772342Z" visited="2022-09-03T17:35:02.772337Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-03T17:35:02.772339Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.themes/adw-gtk3-dark/gtk-3.0/gtk.css" added="2022-09-03T17:36:59.473028Z" modified="2022-09-03T18:15:15.132174Z" visited="2022-09-03T17:36:59.473030Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-03T18:15:15.132172Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.config/gtk-4.0/gtk.css" added="2022-09-03T17:37:30.759310Z" modified="2022-09-03T18:15:34.660387Z" visited="2022-09-03T17:37:30.759312Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-03T18:15:34.660385Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/com.github.GradienceTeam.Gradience.flatpakref" added="2022-09-03T17:47:06.759503Z" modified="2022-09-03T17:47:06.759510Z" visited="2022-09-03T17:47:06.759505Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.flatpak.ref"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-03T17:47:06.759506Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/Nordic-v40.tar.xz" added="2022-09-03T17:57:11.889289Z" modified="2022-09-03T17:57:11.889293Z" visited="2022-09-03T17:57:11.889290Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-03T17:57:11.889292Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/stacked-waves-haikei.png" added="2022-09-03T18:06:42.782783Z" modified="2022-09-04T06:01:40.525917Z" visited="2022-09-03T18:06:42.782784Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-03T18:06:42.782786Z" count="1"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-09-03T18:06:52.585078Z" count="1"/>
+          <bookmark:application name="com.github.GradienceTeam.Gradience" exec="&apos;gio open %u&apos;" modified="2022-09-04T06:01:40.524477Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2022-09-04T06:01:40.525915Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/wave-haikei.png" added="2022-09-03T18:09:37.241012Z" modified="2022-09-03T18:09:54.126727Z" visited="2022-09-03T18:09:37.241013Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-03T18:09:37.241014Z" count="1"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-09-03T18:09:54.126726Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/cfe14jehi3991.webp" added="2022-09-03T18:11:09.335548Z" modified="2022-09-03T18:11:09.676102Z" visited="2022-09-03T18:11:09.335549Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-03T18:11:09.676099Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/cfe14jehi3991.png" added="2022-09-03T18:11:37.006227Z" modified="2022-09-04T06:01:36.274240Z" visited="2022-09-03T18:11:37.006228Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-03T18:11:37.351442Z" count="2"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-09-03T18:11:45.400958Z" count="1"/>
+          <bookmark:application name="com.github.GradienceTeam.Gradience" exec="&apos;gio open %u&apos;" modified="2022-09-04T06:01:36.272119Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2022-09-04T06:01:36.274235Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Firefox_wallpaper.png" added="2022-09-03T18:14:26.236609Z" modified="2022-09-03T18:16:11.455733Z" visited="2022-09-03T18:14:26.236610Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-09-03T18:14:26.236611Z" count="1"/>
+          <bookmark:application name="com.github.GradienceTeam.Gradience" exec="&apos;gio open %u&apos;" modified="2022-09-03T18:16:11.446741Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2022-09-03T18:16:11.455731Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.themes/adw-gtk3-dark/gtk-3.0/gtk-dark.css" added="2022-09-03T18:15:21.450949Z" modified="2022-09-03T18:15:21.450954Z" visited="2022-09-03T18:15:21.450950Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-03T18:15:21.450951Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/FiraMono.zip" added="2022-09-03T18:29:15.148498Z" modified="2022-09-03T18:29:15.148502Z" visited="2022-09-03T18:29:15.148499Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-03T18:29:15.148500Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.fonts" added="2022-09-03T18:29:34.177633Z" modified="2022-09-03T18:29:34.177647Z" visited="2022-09-03T18:29:34.177635Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-09-03T18:29:34.177640Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/gtk-master.zip" added="2022-09-04T03:31:40.487481Z" modified="2022-09-04T03:31:40.487489Z" visited="2022-09-04T03:31:40.487483Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T03:31:40.487485Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Pictures/Screenshots/Screenshot%20from%202022-09-04%2002-12-37.png" added="2022-09-04T06:12:37.053872Z" modified="2022-09-04T06:17:36.980380Z" visited="2022-09-04T06:12:37.053873Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2022-09-04T06:12:37.053875Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T06:17:36.980378Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/Dell%20(Light%20Blue).png" added="2022-09-04T16:29:54.544750Z" modified="2022-09-04T16:30:50.815666Z" visited="2022-09-04T16:29:54.544751Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T16:29:54.878462Z" count="2"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-09-04T16:30:50.815665Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/5120x1440-light-apple.png" added="2022-09-04T16:30:40.069289Z" modified="2022-09-04T16:30:40.069292Z" visited="2022-09-04T16:30:40.069290Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-09-04T16:30:40.069290Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/Waves%201.png" added="2022-09-04T16:32:53.129890Z" modified="2022-09-04T16:40:36.260519Z" visited="2022-09-04T16:32:53.129891Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T16:40:36.260517Z" count="5"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-09-04T16:33:13.145343Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/Waves%201(1).png" added="2022-09-04T16:43:04.528815Z" modified="2022-09-04T16:43:04.528822Z" visited="2022-09-04T16:43:04.528816Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T16:43:04.528818Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/adwaita.xml.in" added="2022-09-04T16:44:34.172529Z" modified="2022-09-04T16:45:05.099267Z" visited="2022-09-04T16:44:34.172530Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T16:44:34.172533Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-04T16:45:05.099266Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-backgrounds-properties/adwaita.xml.in.txt" added="2022-09-04T16:47:40.852604Z" modified="2022-09-04T16:47:40.852608Z" visited="2022-09-04T16:47:40.852605Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-04T16:47:40.852607Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-backgrounds-properties/dracwaves.xml" added="2022-09-04T16:52:03.320587Z" modified="2022-09-04T16:52:03.320591Z" visited="2022-09-04T16:52:03.320588Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2022-09-04T16:52:03.320589Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Pictures/Screenshots/Screenshot%20from%202022-09-04%2014-46-00.png" added="2022-09-04T18:46:00.265943Z" modified="2022-09-04T18:51:28.381446Z" visited="2022-09-04T18:46:00.265943Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2022-09-04T18:46:00.265945Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T18:51:28.381442Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Pictures/Screenshots/Screenshot%20from%202022-09-04%2014-48-59.png" added="2022-09-04T18:48:59.605415Z" modified="2022-09-04T18:51:42.189313Z" visited="2022-09-04T18:48:59.605415Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2022-09-04T18:48:59.605417Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T18:51:42.189309Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/3d.png" added="2022-09-04T18:58:08.457263Z" modified="2022-09-04T18:59:40.313472Z" visited="2022-09-04T18:58:08.457264Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T18:59:40.313470Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/profile-pic.png" added="2022-09-04T18:59:26.759957Z" modified="2022-09-05T08:23:28.446628Z" visited="2022-09-04T18:59:26.759958Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-05T08:16:01.565192Z" count="3"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2022-09-05T08:23:28.446626Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/wavesdark.png" added="2022-09-04T19:00:01.919026Z" modified="2022-09-04T19:00:01.919031Z" visited="2022-09-04T19:00:01.919027Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T19:00:01.919028Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/firefox-105.0b6.tar.bz2" added="2022-09-04T21:24:22.944766Z" modified="2022-09-04T21:24:22.944785Z" visited="2022-09-04T21:24:22.944768Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-04T21:24:22.944783Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/theme.xpi" added="2022-09-05T03:39:16.366875Z" modified="2022-09-05T03:42:27.092970Z" visited="2022-09-05T03:39:16.366876Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xpinstall"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-05T03:42:27.092968Z" count="3"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nautilus --new-window %U&apos;" modified="2022-09-05T03:39:21.627439Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/Gnome-Global-AppMenu-master.zip" added="2022-09-05T04:19:48.837039Z" modified="2022-09-05T04:19:48.837046Z" visited="2022-09-05T04:19:48.837040Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-05T04:19:48.837043Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/Gnome-Global-AppMenu-master(1).zip" added="2022-09-05T04:23:25.618257Z" modified="2022-09-05T04:23:25.618263Z" visited="2022-09-05T04:23:25.618257Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-05T04:23:25.618259Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/handman" added="2022-09-05T04:33:42.632794Z" modified="2022-09-05T04:33:42.633830Z" visited="2022-09-05T04:33:42.632795Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="com.visualstudio.code" exec="&apos;gio open %u&apos;" modified="2022-09-05T04:33:42.632796Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2022-09-05T04:33:42.633829Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.themes/MaterialYou" added="2022-09-05T04:38:06.152450Z" modified="2022-09-05T04:38:06.152455Z" visited="2022-09-05T04:38:06.152451Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-09-05T04:38:06.152453Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell.scss" added="2022-09-05T04:39:01.301889Z" modified="2022-09-05T04:39:01.301894Z" visited="2022-09-05T04:39:01.301890Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T04:39:01.301891Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/Floating%20top%20bar%20code" added="2022-09-05T04:40:40.428556Z" modified="2022-09-05T04:40:40.428569Z" visited="2022-09-05T04:40:40.428557Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-05T04:40:40.428558Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/gnome-shell-sass.doap" added="2022-09-05T04:41:59.346119Z" modified="2022-09-05T04:41:59.346123Z" visited="2022-09-05T04:41:59.346120Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T04:41:59.346122Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/_widgets.scss" added="2022-09-05T04:42:06.469277Z" modified="2022-09-05T04:42:06.469282Z" visited="2022-09-05T04:42:06.469278Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T04:42:06.469280Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/widgets/_dash.scss" added="2022-09-05T04:42:27.443181Z" modified="2022-09-05T04:42:27.443185Z" visited="2022-09-05T04:42:27.443182Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T04:42:27.443183Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/widgets/_base.scss" added="2022-09-05T04:43:01.760483Z" modified="2022-09-05T04:43:01.760488Z" visited="2022-09-05T04:43:01.760484Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T04:43:01.760486Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/material-you-theme@asubbiah.com/shell/42/gnome-shell-sass/widgets/_panel.scss" added="2022-09-05T04:43:20.448871Z" modified="2022-09-05T04:43:20.448877Z" visited="2022-09-05T04:43:20.448872Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T04:43:20.448875Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/android-studio-2021.2.1.16-linux.tar.gz" added="2022-09-05T06:39:01.538388Z" modified="2022-09-05T06:39:01.538412Z" visited="2022-09-05T06:39:01.538389Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-05T06:39:01.538409Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/android-studio/android-studio/bin/studio.sh" added="2022-09-05T06:41:22.816603Z" modified="2022-09-05T06:49:16.269207Z" visited="2022-09-05T06:41:22.816606Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;kitty +open %U&apos;" modified="2022-09-05T06:49:16.269201Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/AndroidStudioProjects/MyApplication" added="2022-09-05T07:19:54.853910Z" modified="2022-09-05T07:19:54.854914Z" visited="2022-09-05T07:19:54.853911Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="com.visualstudio.code" exec="&apos;gio open %u&apos;" modified="2022-09-05T07:19:54.853912Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2022-09-05T07:19:54.854912Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Downloads/flutter_linux_3.3.0-stable.tar.xz" added="2022-09-05T07:22:59.943389Z" modified="2022-09-05T07:22:59.943406Z" visited="2022-09-05T07:22:59.943389Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-09-05T07:22:59.943402Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Pictures/Screenshots/Screenshot%20from%202022-09-05%2003-44-25.png" added="2022-09-05T07:44:25.841336Z" modified="2022-09-05T07:44:25.841340Z" visited="2022-09-05T07:44:25.841337Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2022-09-05T07:44:25.841338Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/extension.js" added="2022-09-05T08:21:27.998131Z" modified="2022-09-05T08:21:27.998134Z" visited="2022-09-05T08:21:27.998132Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T08:21:27.998133Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/prefs.js" added="2022-09-05T08:21:43.638361Z" modified="2022-09-05T08:21:43.638365Z" visited="2022-09-05T08:21:43.638362Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T08:21:43.638363Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/utils/isValidEmail.js" added="2022-09-05T08:22:03.953809Z" modified="2022-09-05T08:22:03.953813Z" visited="2022-09-05T08:22:03.953810Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T08:22:03.953811Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/lib/convenience.js" added="2022-09-05T08:22:13.585952Z" modified="2022-09-05T08:22:13.585957Z" visited="2022-09-05T08:22:13.585953Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T08:22:13.585955Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/metadata.json" added="2022-09-05T08:22:18.392104Z" modified="2022-09-05T08:22:18.392108Z" visited="2022-09-05T08:22:18.392105Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T08:22:18.392106Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/.local/share/gnome-shell/extensions/gravatar@jr.rlabs.io/prefs.css" added="2022-09-05T08:22:24.836724Z" modified="2022-09-05T08:22:24.836730Z" visited="2022-09-05T08:22:24.836725Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2022-09-05T08:22:24.836727Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eric/Pictures/Screenshots/Screenshot%20from%202022-09-05%2016-03-13.png" added="2022-09-05T20:03:13.594520Z" modified="2022-09-05T20:03:13.594523Z" visited="2022-09-05T20:03:13.594520Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2022-09-05T20:03:13.594522Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

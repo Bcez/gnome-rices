@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.956" height="26.956" viewBox="0 0 26.956 26.956">
+  <g id="Icon_feather-minimize-2" data-name="Icon feather-minimize-2" transform="translate(-2.732 -2.732)">
+    <path id="Path_1600" data-name="Path 1600" d="M6,21h7.472v7.472" transform="translate(-0.255 -1.798)" fill="none" stroke="#bebebe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Path_1601" data-name="Path 1601" d="M28.472,13.472H21V6" transform="translate(-1.798 -0.255)" fill="none" stroke="#bebebe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Path_1602" data-name="Path 1602" d="M21,13.218,29.718,4.5" transform="translate(-1.798 0)" fill="none" stroke="#bebebe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Path_1603" data-name="Path 1603" d="M4.5,29.718,13.218,21" transform="translate(0 -1.798)" fill="none" stroke="#bebebe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  </g>
+</svg>

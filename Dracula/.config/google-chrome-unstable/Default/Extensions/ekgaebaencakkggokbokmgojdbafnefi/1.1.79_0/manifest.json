@@ -1,0 +1,31 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "min.js", "/scripts/obj/min.js", "/scripts/3rdparty/min.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkWBD3MalsvR7HRyIasg6lSpH23/YECbMiUu2R3jQ/fCl6vxI/N3GUmLUJlBm8HqhQBE4G+201vneLyxecEbaUWARkzcwT2EFODXZbLV6esWAEB+BDbMUiRcsgsiuzXfKZWu2AKbVtWNWVm22txCrnU3osn+K+krg5pmZFvYLl2Z0m7XyjrqG/v1YDP7YRJ9H6MWX/1s8fa2sYQHo6PVPfNaIQ7RuEla4POZ7n/UfFrCBKRZfRDtEdz5QDUeg1xEYcoP3a5bdysAxJPiM3QNOxaEy0v01EhF6pvcLLuqfAqJlEoRpLd/7XoQLGmuRQWlhZESPkIGi1JF5GtTrQojTMQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "33",
+   "name": "PictaCast for Chromecast® - Trial",
+   "permissions": [ {
+      "fileSystem": [ "retainEntries", "directory" ]
+   }, "storage", "system.network", "power", "https://www.google-analytics.com/" ],
+   "short_name": "PictaCast - Trial",
+   "sockets": {
+      "tcp": {
+         "connect": ""
+      },
+      "tcpServer": {
+         "listen": ":*"
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.79"
+}

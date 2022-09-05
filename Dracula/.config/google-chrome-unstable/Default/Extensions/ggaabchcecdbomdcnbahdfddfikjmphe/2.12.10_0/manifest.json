@@ -1,0 +1,58 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "libs/gif/gif.worker.js", "libs/whammy/whammy.js", "libs/Google/ga.js", "dist/background/bundle.js" ]
+   },
+   "browser_action": {
+      "default_popup": "./layout/popup.html",
+      "default_title": "__MSG_extension_name__"
+   },
+   "commands": {
+      "full_webpage_screenshot": {
+         "description": "Take a full webpage screenshot.",
+         "suggested_key": {
+            "default": "Alt+Shift+S"
+         }
+      },
+      "open_snipping_tool": {
+         "description": "Open snipping tool.",
+         "suggested_key": {
+            "default": "Alt+C"
+         }
+      },
+      "record_tab": {
+         "description": "Start/stop recording.",
+         "suggested_key": {
+            "default": "Alt+R"
+         }
+      },
+      "screenshot": {
+         "description": "Take a screenshot.",
+         "suggested_key": {
+            "default": "Alt+S"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self' 'wasm-eval' https://*.clarity.ms https://cdn.paddle.com https://checkout.paddle.com https://apis.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "images/ic_128.png",
+      "16": "images/ic_16.png",
+      "48": "images/ic_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuCrlddfGIQ586KY5oU39pfTgcPKKKNdBEUzwj2IM3baL/rpBpQWR7rXSUXFHSgrzDHD5NiKcHYNJ/pJcovHtgddpQsRakYGxBvTLgHb95hxAnJ0roB0JvbMir8DucaJ0VX2AjQGETjVIPuUI2y03eV867rbdLQZVGxO9Z+ZGl2f8WKWmk14yCtN3Ah64YqS3NErp7TjfFf9eqOII1fALPlsTQ9ZO9kVITr56GS53HdMNUUFLL/MKenyuWtNHUFhp+l8p5JHhX5gITrdsKwu4poGJ+1833IKgT4n86eywAUaTbFMgvDZityzDQOOyNZSTjwvUNeXWPUh4RUypPAdLZQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "5",
+   "name": "__MSG_extension_name__",
+   "oauth2": {
+      "client_id": "810313614138-69mb125rarnqt5sc570aid5j6dn86ur3.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive.file" ]
+   },
+   "optional_permissions": [ "tabs", "notifications" ],
+   "options_page": "./layout/options.html",
+   "permissions": [ "activeTab", "storage", "tabCapture", "contextMenus", "desktopCapture", "identity", "*://us-central1-chrome-capture.cloudfunctions.net/*", "https://www.googleapis.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.12.10",
+   "web_accessible_resources": [ "images/*.svg" ]
+}

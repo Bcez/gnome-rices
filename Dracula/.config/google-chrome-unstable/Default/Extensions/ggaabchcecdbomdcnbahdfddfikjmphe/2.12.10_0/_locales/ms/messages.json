@@ -1,0 +1,852 @@
+{
+   "alert_text": {
+      "description": "Unable to run selected area capture on this website. Please use full screen recording or try another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Tidak dapat menjalankan penangkapan kawasan terpilih di laman web ini. Sila gunakan rakaman skrin penuh atau cuba laman web lain. \n\n (╯ ° □ °) ╯( ┻━┻"
+   },
+   "click_indicator_size_color_text": {
+      "description": "Click animation size & color",
+      "message": "Klik Saiz Animasi & Warna"
+   },
+   "close_btn_text": {
+      "description": "Close",
+      "message": "Tutup"
+   },
+   "cursor_size_and_color_text": {
+      "description": "Cursor dot size & color",
+      "message": "Saiz & Warna Dot Kursor"
+   },
+   "dither_text": {
+      "description": "Apply dither",
+      "message": "Sapukan dimana"
+   },
+   "download_filename_text": {
+      "description": "Download filename format",
+      "message": "Muat turun format nama fail"
+   },
+   "download_text": {
+      "description": "Download",
+      "message": "Muat turun"
+   },
+   "draw_size_and_color_text": {
+      "description": "Drawing size & color",
+      "message": "Lukisan Saiz & Warna"
+   },
+   "editor_action_add_icon": {
+      "description": "Add icon",
+      "message": "Tambah ikon"
+   },
+   "editor_action_add_text": {
+      "description": "Add text",
+      "message": "Tambah teks"
+   },
+   "editor_action_copy": {
+      "description": "Copy to clipboard",
+      "message": "Salin ke Clipboard."
+   },
+   "editor_action_crop": {
+      "description": "Crop",
+      "message": "Potong"
+   },
+   "editor_action_draw_arrow": {
+      "description": "Draw arrow",
+      "message": "Menarik anak panah"
+   },
+   "editor_action_draw_ellipse": {
+      "description": "Draw ellipse",
+      "message": "Lukis Ellipse."
+   },
+   "editor_action_draw_line": {
+      "description": "Draw line",
+      "message": "LOGE LINE."
+   },
+   "editor_action_draw_rectangle": {
+      "description": "Draw rectangle",
+      "message": "Lukis segi empat tepat."
+   },
+   "editor_action_free_draw": {
+      "description": "Free draw",
+      "message": "Lukisan percuma."
+   },
+   "editor_action_highlight": {
+      "description": "Highlight",
+      "message": "Menyerlahkan"
+   },
+   "editor_action_redo": {
+      "description": "Redo",
+      "message": "Redo."
+   },
+   "editor_action_save": {
+      "description": "Save",
+      "message": "JIMAT"
+   },
+   "editor_action_select": {
+      "description": "Select, move, resize",
+      "message": "Pilih, bergerak, saiz semula"
+   },
+   "editor_action_settings": {
+      "description": "Settings",
+      "message": "Tetapan"
+   },
+   "editor_action_undo": {
+      "description": "Undo",
+      "message": "Undo."
+   },
+   "editor_action_undo_all": {
+      "description": "Undo all",
+      "message": "Batalkan semua"
+   },
+   "editor_add_text_default": {
+      "description": "start typing...",
+      "message": "Mula menaip ..."
+   },
+   "editor_browse_file_system": {
+      "description": "Browse file system",
+      "message": "Semak imbas sistem fail"
+   },
+   "editor_drag_and_drop": {
+      "description": "Drag and drop image/GIF or ",
+      "message": "Seret dan lepas imej / gif atau"
+   },
+   "editor_file_downloaded": {
+      "description": "File saved to downloads folder.",
+      "message": "Fail yang disimpan ke folder muat turun."
+   },
+   "editor_frame_selector_apply_edits": {
+      "description": "Apply Edits to Selected (WARNING: Can not be undone)",
+      "message": "Sapukan suntingan untuk dipilih (amaran: tidak boleh dibatalkan)"
+   },
+   "editor_frame_selector_delete": {
+      "description": "Delete Selected (del/backspace)",
+      "message": "Padam Dipilih (Del / Backspace)"
+   },
+   "editor_frame_selector_delete_every_second": {
+      "description": "Delete every second frame",
+      "message": "Padam setiap bingkai kedua"
+   },
+   "editor_frame_selector_restore": {
+      "description": "Restore Selected (r)",
+      "message": "Pulihkan Terpilih (R)"
+   },
+   "editor_frame_selector_restore_all": {
+      "description": "Restore All",
+      "message": "Pulihkan semua"
+   },
+   "editor_frame_selector_unselect_all": {
+      "description": "Unselect All",
+      "message": "Unselect semua"
+   },
+   "editor_image_copied": {
+      "description": "Image copied to clipboard.",
+      "message": "Imej disalin ke papan klip."
+   },
+   "editor_image_copied_failed": {
+      "description": "Failed to copy image to clipboard, it may be too large.",
+      "message": "Gagal menyalin imej ke papan klip, mungkin terlalu besar."
+   },
+   "editor_link_copied": {
+      "description": "Link copied to clipboard.",
+      "message": "Pautan disalin ke Clipboard."
+   },
+   "editor_max_time_reached_dialog_description1": {
+      "description": "You have reached the max recording length time of $maxlength$ seconds for GIFs. Premium users can update this from the settings page.",
+      "message": "Anda telah mencapai masa rakaman maksimum $maxlength$ saat untuk GIF. Pengguna premium boleh mengemas kini ini dari halaman Tetapan.",
+      "placeholders": {
+         "maxlength": {
+            "content": "$1"
+         }
+      }
+   },
+   "editor_max_time_reached_dialog_description2": {
+      "description": "GIFs are intended for short recordings. If you require full length videos we recommend our free screen recorder: ",
+      "message": "GIF dimaksudkan untuk rakaman pendek. Sekiranya anda memerlukan video panjang penuh, kami mengesyorkan perakam skrin percuma kami:"
+   },
+   "editor_max_time_reached_dialog_description3": {
+      "description": "Premium users can update this from the settings page.",
+      "message": "Pengguna premium boleh mengemas kini ini dari halaman Tetapan."
+   },
+   "editor_max_time_reached_dialog_settings_button": {
+      "description": "Open settings",
+      "message": "Buka Tetapan"
+   },
+   "editor_max_time_reached_dialog_title": {
+      "description": "Recording suddenly stopped?",
+      "message": "Rakaman tiba -tiba berhenti?"
+   },
+   "editor_premium_options_color": {
+      "description": "Color",
+      "message": "Warna"
+   },
+   "editor_premium_options_draw_size": {
+      "description": "Draw Size",
+      "message": "Lukis saiz"
+   },
+   "editor_premium_options_font": {
+      "description": "Font",
+      "message": "Font."
+   },
+   "editor_premium_options_playback_speed": {
+      "description": "Playback Speed",
+      "message": "Kelajuan main balik"
+   },
+   "editor_premium_options_special_effect": {
+      "description": "Special Effect",
+      "message": "Kesan istimewa"
+   },
+   "editor_premium_options_title": {
+      "description": "Premium Options",
+      "message": "Pilihan Premium."
+   },
+   "editor_save_dialog_alert_title": {
+      "description": "Warning",
+      "message": "Amaran"
+   },
+   "editor_save_dialog_aspect_ratio": {
+      "description": "lock aspect ratio",
+      "message": "Nisbah aspek kunci"
+   },
+   "editor_save_dialog_cancel": {
+      "description": "Cancel",
+      "message": "Membatalkan"
+   },
+   "editor_save_dialog_compress": {
+      "description": "Compress & optimize GIF",
+      "message": "Memampatkan & mengoptimumkan gif"
+   },
+   "editor_save_dialog_compress_tooltip": {
+      "description": "Apply GIF compression algorthm to greatly reduce GIF file size and in some cases improve quality. Highly recommeded.",
+      "message": "Memohon algorthm mampatan GIF untuk mengurangkan saiz fail GIF dan dalam beberapa kes meningkatkan kualiti. Sangat disarankan."
+   },
+   "editor_save_dialog_dither_tooltip": {
+      "description": "Apply dither algorithm to frames. Try toggling this option if you experience color quality issues.",
+      "message": "Sapukan algoritma ke dalam imej. Cuba togol pilihan ini jika anda mengalami masalah kualiti warna."
+   },
+   "editor_save_dialog_estimated_size": {
+      "description": "Estimated GIF Size: ",
+      "message": "Anggaran saiz GIF:"
+   },
+   "editor_save_dialog_frames": {
+      "description": "Frames: ",
+      "message": "Imej:"
+   },
+   "editor_save_dialog_frames_alert": {
+      "description": "There are currently selected frames, saving will only output these selected frames - ",
+      "message": "Pada masa ini terdapat imej yang dipilih, penjimatan hanya akan mengeluarkan bingkai yang dipilih -"
+   },
+   "editor_save_dialog_frames_alert_button": {
+      "description": "Click here to unselect all frames",
+      "message": "Klik di sini untuk membuka semua gambar"
+   },
+   "editor_save_dialog_frames_alert_title": {
+      "description": "Playback Speed",
+      "message": "Kelajuan main balik"
+   },
+   "editor_save_dialog_processing_alert": {
+      "description": "Processing this recording will require a lot of memory and processing power. Unless you have a high spec PC it is recommended to do one or more of the following:",
+      "message": "Memproses rakaman ini memerlukan banyak memori dan kuasa pemprosesan. Kecuali anda mempunyai PC spec tinggi yang disyorkan untuk melakukan satu atau lebih daripada yang berikut:"
+   },
+   "editor_save_dialog_processing_alert_memory": {
+      "description": "Please note if the resulting GIF is blank then you ran out of memory.",
+      "message": "Sila ambil perhatian jika GIF yang dihasilkan kosong maka anda kehabisan ingatan."
+   },
+   "editor_save_dialog_processing_alert_point_1": {
+      "description": "Compress and optimize GIF",
+      "message": "Memampatkan dan mengoptimumkan gif"
+   },
+   "editor_save_dialog_processing_alert_point_2": {
+      "description": "Reduce the width & height",
+      "message": "Kurangkan lebar & ketinggian"
+   },
+   "editor_save_dialog_processing_alert_point_3": {
+      "description": "Remove some frames",
+      "message": "Keluarkan beberapa imej"
+   },
+   "editor_save_dialog_reduce_width": {
+      "description": "Reduce width & height",
+      "message": "Kurangkan lebar & ketinggian"
+   },
+   "editor_save_dialog_reduce_width_tooltip": {
+      "description": "Reduce GIF width and height/quality to improve processing time and produce a smaller file.",
+      "message": "Kurangkan lebar GIF dan ketinggian/kualiti untuk meningkatkan masa pemprosesan dan menghasilkan fail yang lebih kecil."
+   },
+   "editor_save_dialog_save": {
+      "description": "Save",
+      "message": "JIMAT"
+   },
+   "editor_save_dialog_save_by": {
+      "description": "Save by",
+      "message": "Jimat oleh"
+   },
+   "editor_save_dialog_save_by_download": {
+      "description": "Download file",
+      "message": "Muat turun fail"
+   },
+   "editor_save_dialog_save_by_google_drive": {
+      "description": "Upload to Google Drive & copy link",
+      "message": "Muat naik ke Google Drive & Salin Pautan"
+   },
+   "editor_save_dialog_title": {
+      "description": "Save",
+      "message": "JIMAT"
+   },
+   "editor_save_dialog_title_processing": {
+      "description": "Processing...",
+      "message": "Pemprosesan ..."
+   },
+   "editor_save_dialog_title_uploading": {
+      "description": "Uploading...",
+      "message": "Memuat naik ..."
+   },
+   "editor_text": {
+      "description": "Open in editor",
+      "message": "Terbuka di Editor."
+   },
+   "editor_tip_delete_items": {
+      "description": "Pro tip: Delete added items by selecting the item and pressing the delete key.",
+      "message": "Petua Pro: Padam item tambah dengan memilih item dan tekan kekunci Padam."
+   },
+   "editor_tip_edit_specific_frames": {
+      "description": "Pro tip: You can edit specific frames by using the 'Apply edits to selected option'",
+      "message": "Petua Pro: Anda boleh mengedit imej tertentu dengan menggunakan 'Guna Edit ke Pilihan Terpilih'"
+   },
+   "editor_tip_scroll": {
+      "description": "Pro tip: Scroll when hovering the screenshot/recording to zoom.",
+      "message": "Petua PRO: Tatal apabila melayang tangkapan skrin / rakaman untuk zum."
+   },
+   "editor_tip_shift_multiple_items": {
+      "description": "Pro tip: When using the selecting tool hold down shift to select more than one item.",
+      "message": "Petua PRO: Apabila menggunakan alat pemilihan tahan pergantian untuk memilih lebih daripada satu item."
+   },
+   "editor_tip_update_multiple_items": {
+      "description": "Pro tip: You can scale, rotate, move and delete multiple items at once.",
+      "message": "Petua Pro: Anda boleh skala, putar, bergerak dan memadam berbilang item sekaligus."
+   },
+   "editor_tip_update_text": {
+      "description": "Pro tip: Double click on text to edit it.",
+      "message": "Petua PRO: Klik dua kali pada teks untuk mengeditnya."
+   },
+   "editor_upload_dialog_alert_copy_failed_message": {
+      "description": "This may have occurred due to the window not being focused.",
+      "message": "Ini mungkin berlaku kerana tetingkap tidak terfokus."
+   },
+   "editor_upload_dialog_alert_copy_failed_title": {
+      "description": "Copy to clipboard failed",
+      "message": "Salin ke papan klip gagal"
+   },
+   "editor_upload_dialog_alert_copy_success_title": {
+      "description": "Copied to clipboard",
+      "message": "Disalin ke papan klip"
+   },
+   "editor_upload_dialog_alert_upload_failed": {
+      "description": "Upload Failed",
+      "message": "Muatnaik gagal"
+   },
+   "editor_upload_dialog_alert_upload_failed_link": {
+      "description": "Try again.",
+      "message": "Cuba lagi."
+   },
+   "editor_upload_dialog_alert_upload_failed_message": {
+      "description": "Please make sure you are connected to the internet and have accepted Google Drive permissions.",
+      "message": "Sila pastikan anda disambungkan ke Internet dan telah menerima kebenaran Google Drive."
+   },
+   "editor_upload_dialog_cancel_and_download": {
+      "description": "Cancel and download file",
+      "message": "Batalkan dan muat turun fail"
+   },
+   "editor_upload_dialog_close": {
+      "description": "Close",
+      "message": "Tutup"
+   },
+   "editor_upload_dialog_copy_link": {
+      "description": "Copy link",
+      "message": "Salin pautan"
+   },
+   "editor_upload_dialog_link_public": {
+      "description": "Allow anyone with the link to view.",
+      "message": "Benarkan sesiapa yang mempunyai pautan untuk dilihat."
+   },
+   "enable_drawing_text": {
+      "description": "Enable drawing",
+      "message": "Dayakan Lukisan"
+   },
+   "enable_drawing_tooltip_text": {
+      "description": "This option allows users to draw in the selected area while holding down the ctrl key.",
+      "message": "Pilihan ini membolehkan pengguna untuk menarik di kawasan yang dipilih sambil menahan kekunci CTRL."
+   },
+   "extension_description": {
+      "description": "Record gif or take screenshot of anything in your browser - quicker & easier than ever before.",
+      "message": "Rekod GIF atau ambil screenshot apa-apa dalam pelayar anda - lebih cepat & lebih mudah daripada sebelumnya."
+   },
+   "extension_name": {
+      "description": "Chrome Capture - Gif & Screenshot tool",
+      "message": "Chrome Capture - Alat GIF & Screenshot"
+   },
+   "extension_short_name": {
+      "description": "Chrome Capture",
+      "message": "Chrome menangkap"
+   },
+   "file_access_text": {
+      "description": "File access by",
+      "message": "Akses fail oleh"
+   },
+   "filename_text": {
+      "description": "Filename",
+      "message": "Nama fail"
+   },
+   "frames_per_sec_text": {
+      "description": "Frames per second (fps)",
+      "message": "Imej sesaat (FPS)"
+   },
+   "frames_text": {
+      "description": "frames",
+      "message": "imej"
+   },
+   "free_settings_text": {
+      "description": "Free Settings",
+      "message": "Tetapan percuma."
+   },
+   "fullscreen_info_modal_cancel": {
+      "description": "Cancel",
+      "message": "Membatalkan"
+   },
+   "fullscreen_info_modal_continue": {
+      "description": "Are you sure you want to continue with full screen capture?",
+      "message": "Adakah anda pasti mahu meneruskan dengan penangkapan skrin penuh?"
+   },
+   "fullscreen_info_modal_do_not_show": {
+      "description": "Do not show this again",
+      "message": "Jangan tunjukkan lagi ini"
+   },
+   "fullscreen_info_modal_message": {
+      "description": "You have used a Chrome Capture shortcut without the cropping tool, this will capture in full screen mode.",
+      "message": "Anda telah menggunakan pintasan menangkap Chrome tanpa alat penanaman, ini akan menangkap dalam mod skrin penuh."
+   },
+   "fullscreen_info_modal_open_cropping": {
+      "description": "Open cropping tool",
+      "message": "Buka Troopping Tool."
+   },
+   "fullscreen_info_modal_shortcut_cropping_tool": {
+      "description": "Alt + C: Open/close Chrome Capture cropping tool",
+      "message": "Alt + C: Buka / Tutup Chrome Tangkap Alat Penangkapan"
+   },
+   "fullscreen_info_modal_shortcut_fullpage_screenshot": {
+      "description": "Alt + Shift + S: Full webpage screenshot (beta)",
+      "message": "Alt + Shift + S: Skrin WebPage Penuh (BETA)"
+   },
+   "fullscreen_info_modal_shortcut_linkt": {
+      "description": "You can configure these here: ",
+      "message": "Anda boleh mengkonfigurasi ini di sini:"
+   },
+   "fullscreen_info_modal_shortcut_recording": {
+      "description": "Alt + R: Start/stop recording",
+      "message": "ALT + R: Mula / Stop Recording"
+   },
+   "fullscreen_info_modal_shortcut_screenshot": {
+      "description": "Alt + S: Visible area screenshot",
+      "message": "Alt + S: Skrin Kawasan Terlihat"
+   },
+   "fullscreen_info_modal_shortcuts": {
+      "description": "Default shortcuts are: ",
+      "message": "Pintasan lalai adalah:"
+   },
+   "fullscreen_info_modal_start": {
+      "description": "Start full screen capture",
+      "message": "Mulakan Penangkapan Skrin Penuh"
+   },
+   "fullscreen_info_modal_title": {
+      "description": "Full screen capture",
+      "message": "Penangkapan skrin penuh"
+   },
+   "get_premium": {
+      "description": "Get Premium",
+      "message": "Dapatkan Premium"
+   },
+   "height_text": {
+      "description": "Width (px)",
+      "message": "Lebar (PX)"
+   },
+   "internet_connection_required": {
+      "description": "Internet connection is required to upgrade to premium.",
+      "message": "Sambungan internet diperlukan untuk menaik taraf ke premium."
+   },
+   "max_recording_dimension_size_text": {
+      "description": "Max recording resolution/quality",
+      "message": "Resolusi / Kualiti Rakaman Max"
+   },
+   "no_limit_text": {
+      "description": "No limit",
+      "message": "Tiada had"
+   },
+   "open_text": {
+      "description": "Open",
+      "message": "Buka"
+   },
+   "options_default_action": {
+      "description": "Default action",
+      "message": "Tindakan lalai"
+   },
+   "options_dimension_size_1000": {
+      "description": "1000 pixels",
+      "message": "1000 piksel."
+   },
+   "options_dimension_size_1080p": {
+      "description": "1920 pixels (1080p)",
+      "message": "1920 piksel (1080p)"
+   },
+   "options_dimension_size_480p": {
+      "description": "640 pixels (480p)",
+      "message": "640 piksel (480p)"
+   },
+   "options_dimension_size_4k": {
+      "description": "3840 pixels (4K)",
+      "message": "3840 piksel (4k)"
+   },
+   "options_dimension_size_720p": {
+      "description": "1280 pixels (720p)",
+      "message": "1280 piksel (720p)"
+   },
+   "options_enable_notifications": {
+      "description": "Enable notifications",
+      "message": "Membolehkan pemberitahuan"
+   },
+   "options_enable_notifications_tooltip": {
+      "description": "Display notifications when full screen recording starts and processing recordings in the background.",
+      "message": "Pemberitahuan paparan apabila rakaman skrin penuh bermula dan memproses rakaman di latar belakang."
+   },
+   "options_how_to_use_btn": {
+      "description": "How to use",
+      "message": "Bagaimana nak guna"
+   },
+   "options_open_popup": {
+      "description": "Open popup",
+      "message": "Buka popup."
+   },
+   "options_open_selected_area": {
+      "description": "Open selected area capture",
+      "message": "Buka penangkapan kawasan yang dipilih"
+   },
+   "options_shortcuts_btn": {
+      "description": "Shortcuts",
+      "message": "Pintasan"
+   },
+   "options_support_btn": {
+      "description": "Support",
+      "message": "Sokongan"
+   },
+   "overlay_help_text": {
+      "description": "Click and drag to choose your selected area. \nRight click to snap to an element, hold shift for multiple.",
+      "message": "Klik dan seret untuk memilih kawasan yang anda pilih. \n Klik kanan untuk snap ke elemen, tahan peralihan untuk pelbagai."
+   },
+   "popup_capture_tab": {
+      "description": "Capture",
+      "message": "Tangkap"
+   },
+   "popup_editor_icon_tooltip": {
+      "description": "Open Editor",
+      "message": "Open Editor."
+   },
+   "popup_full_webpage": {
+      "description": "Scrolling webpage",
+      "message": "Menatal laman web"
+   },
+   "popup_no_scripts_alert": {
+      "description": "Your browser does not allow running scripts on this webpage, unfortunately this makes selected area and full webpage capture impossible for this site.",
+      "message": "Penyemak imbas anda tidak membenarkan skrip berjalan di laman web ini, malangnya ini menjadikan kawasan yang dipilih dan penangkapan laman web penuh tidak mungkin untuk laman web ini."
+   },
+   "popup_record_tab": {
+      "description": "Record",
+      "message": "Rekod"
+   },
+   "popup_recording_limit_alert": {
+      "description": "Record up to $SECONDS$ seconds per GIF. Premium users can update this from the ",
+      "message": "Rakam sehingga $SECONDS$ saat setiap gif. Pengguna premium boleh mengemas kini ini dari",
+      "placeholders": {
+         "SECONDS": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_recording_limit_settings_link": {
+      "description": "settings page.",
+      "message": "Halaman Tetapan."
+   },
+   "popup_screen_or_app": {
+      "description": "Full screen or app",
+      "message": "Skrin penuh atau aplikasi"
+   },
+   "popup_selected_area": {
+      "description": "Selected area",
+      "message": "Kawasan yang dipilih"
+   },
+   "popup_settings_icon_tooltip": {
+      "description": "Open Settings",
+      "message": "Tetapan terbuka."
+   },
+   "popup_this_tab": {
+      "description": "This tab",
+      "message": "Tab ini"
+   },
+   "premium_settings_text": {
+      "description": "Premium Settings",
+      "message": "Tetapan Premium."
+   },
+   "purchase_btn_text": {
+      "description": "Get Premium!",
+      "message": "Dapatkan Premium!"
+   },
+   "purchase_description_text": {
+      "description": "You are currently on the free plan. Upgrade to Premium to unlock all premium features.",
+      "message": "Anda sedang dalam rancangan percuma. Naik taraf ke premium untuk membuka kunci semua ciri premium."
+   },
+   "purchase_login_text": {
+      "description": "Sign into Google to continue.",
+      "message": "Masuk ke Google untuk meneruskan."
+   },
+   "purchase_title_text": {
+      "description": "Would you like to upgrade to premium?",
+      "message": "Adakah anda ingin menaik taraf ke premium?"
+   },
+   "purchases_already_premium_user": {
+      "description": "Already a premium user?",
+      "message": "Sudah menjadi pengguna premium?"
+   },
+   "purchases_compare_compression": {
+      "description": "High quality GIF compression",
+      "message": "Mampatan GIF berkualiti tinggi"
+   },
+   "purchases_compare_drawing": {
+      "description": "Draw while recording",
+      "message": "Lukis semasa merakam"
+   },
+   "purchases_compare_editing": {
+      "description": "Edit captures",
+      "message": "Edit tangkapan"
+   },
+   "purchases_compare_editing_free": {
+      "description": "basic editing",
+      "message": "pengeditan asas"
+   },
+   "purchases_compare_frame_editing": {
+      "description": "Frame editing",
+      "message": "Penyuntingan bingkai"
+   },
+   "purchases_compare_frame_rate": {
+      "description": "Tune frame rate",
+      "message": "Tune Frame Rate."
+   },
+   "purchases_compare_full_webpage_screenshots": {
+      "description": "Unlimited full page screenshots.",
+      "message": "Tangkapan skrin penuh tanpa had."
+   },
+   "purchases_compare_mouse": {
+      "description": "Click and mouse indication",
+      "message": "Klik dan petunjuk tetikus"
+   },
+   "purchases_compare_plans": {
+      "description": "Compare plans",
+      "message": "Bandingkan rancangan"
+   },
+   "purchases_compare_playback_speed": {
+      "description": "Tune recording playback speed",
+      "message": "Tune merakam kelajuan main balik"
+   },
+   "purchases_compare_recording": {
+      "description": "Unlimited GIF recordings.",
+      "message": "Rakaman GIF yang tidak terhad."
+   },
+   "purchases_compare_recording_free": {
+      "description": "10sec limit per GIF",
+      "message": "Had 10sec setiap gif"
+   },
+   "purchases_compare_recording_quality": {
+      "description": "High quality GIFs",
+      "message": "GIF berkualiti tinggi."
+   },
+   "purchases_compare_recording_quality_free": {
+      "description": "1000 pixels max",
+      "message": "1000 piksel MAX."
+   },
+   "purchases_compare_screenshots": {
+      "description": "Unlimited screenshots.",
+      "message": "Tangkapan skrin yang tidak terhad."
+   },
+   "purchases_compare_special_effects": {
+      "description": "Recording special effects",
+      "message": "Merakam Kesan Khas"
+   },
+   "purchases_free": {
+      "description": "Free",
+      "message": "Percuma."
+   },
+   "purchases_free_button": {
+      "description": "Free to use",
+      "message": "Percuma untuk digunakan"
+   },
+   "purchases_free_feature_editing": {
+      "description": "Basic editing",
+      "message": "Pengeditan asas"
+   },
+   "purchases_free_feature_recording": {
+      "description": "Basic GIF recording",
+      "message": "Rakaman GIF asas"
+   },
+   "purchases_free_feature_screenshots": {
+      "description": "Unlimited screenshots",
+      "message": "Screenshot tanpa had."
+   },
+   "purchases_premium": {
+      "description": "Premium",
+      "message": "Premium"
+   },
+   "purchases_premium_button": {
+      "description": "Get started",
+      "message": "Bermula"
+   },
+   "purchases_premium_feature_compression": {
+      "description": "High quality GIF compression",
+      "message": "Mampatan GIF berkualiti tinggi"
+   },
+   "purchases_premium_feature_editing": {
+      "description": "Feature rich editing",
+      "message": "Ciri pengeditan yang kaya"
+   },
+   "purchases_premium_feature_free": {
+      "description": "Everything from free",
+      "message": "Semuanya dari percuma"
+   },
+   "purchases_premium_feature_recording": {
+      "description": "Unlimited high quality GIF recording",
+      "message": "Rakaman GIF berkualiti tinggi tanpa had"
+   },
+   "purchases_premium_feature_refundable": {
+      "description": "Fully refundable",
+      "message": "Sepenuhnya dikembalikan"
+   },
+   "purchases_premium_price_info": {
+      "description": "one time fee",
+      "message": "satu yuran masa"
+   },
+   "purchases_sign_in_here": {
+      "description": "Sign in here",
+      "message": "Masuk di sini"
+   },
+   "quality_text": {
+      "description": "Recording quality (10 = best)",
+      "message": "Rakaman Kualiti (10 = Best)"
+   },
+   "rate_bad_rating_text": {
+      "description": "We are continuously trying our hardest to improve Chrome Capture, please share what needs improvement by emailing us at ",
+      "message": "Kami terus mencuba yang paling sukar untuk meningkatkan penangkapan krom, sila berkongsi apa yang memerlukan peningkatan dengan menghantar e-mel kepada kami"
+   },
+   "rate_bad_title_text": {
+      "description": "😞 We are sorry!",
+      "message": "😞 Kami minta maaf!"
+   },
+   "rate_close_btn_text": {
+      "description": "Close",
+      "message": "Tutup"
+   },
+   "rate_confirm_btn_text": {
+      "description": "Confirm",
+      "message": "Sahkan"
+   },
+   "rate_description_text": {
+      "description": "If you've found this extension useful please leave a rating or review. \n\nBy leaving a rating you can help us reach more users which will help fund continual improvements and keep general usage free.",
+      "message": "Jika anda telah menemui sambungan ini berguna sila tinggalkan penarafan atau ulasan. \n\n Dengan meninggalkan rating, anda boleh membantu kami menjangkau lebih banyak pengguna yang akan membantu membiayai penambahbaikan berterusan dan mengekalkan penggunaan umum secara percuma."
+   },
+   "rate_description_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Kami sangat menghargai anda membeli premium dan ingin mendengar apa-apa maklum balas yang anda perlu membantu kami memperbaiki produk dan menjangkau lebih banyak pengguna."
+   },
+   "rate_good_rating_text": {
+      "description": "Your reviews keep our small team motivated to make Chrome Capture even better!",
+      "message": "Ulasan anda Pastikan pasukan kecil kami bermotivasi untuk membuat Chrome menangkap lebih baik!"
+   },
+   "rate_good_rating_text_purchased": {
+      "description": "We highly appreciate you purchasing premium and would love to hear any feedback you have to help us improve the product and reach more users.",
+      "message": "Kami sangat menghargai anda membeli premium dan ingin mendengar apa-apa maklum balas yang anda perlu membantu kami memperbaiki produk dan menjangkau lebih banyak pengguna."
+   },
+   "rate_good_title_text": {
+      "description": "😍 Review in the web store?",
+      "message": "😍 Semakan di kedai web?"
+   },
+   "rate_maybe_later_btn_text": {
+      "description": "Maybe later",
+      "message": "Mungkin kemudian"
+   },
+   "rate_no_btn_text": {
+      "description": "No thanks",
+      "message": "Tidak, Terima kasih"
+   },
+   "rate_send_email_btn_text": {
+      "description": "Send Email",
+      "message": "Menghantar e-mel"
+   },
+   "rate_thank_you_title_text": {
+      "description": "Thank you! 😍",
+      "message": "Terima kasih! 😍."
+   },
+   "rate_title_text": {
+      "description": "How are we doing?",
+      "message": "Bagaimana keadaan kita?"
+   },
+   "rate_yes_btn_text": {
+      "description": "Ok, sure",
+      "message": "Baiklah"
+   },
+   "record_length_text": {
+      "description": "Max record length",
+      "message": "Panjang rekod maksima"
+   },
+   "recorder_logic_text": {
+      "description": "Recorder logic",
+      "message": "Perakam Logik"
+   },
+   "recorder_option_experimental_slow_text": {
+      "description": "Performant v2 - processing takes longer however it works for 4k screens and multiple monitors",
+      "message": "Persembahan V2 - Pemprosesan mengambil masa lebih lama tetapi ia berfungsi untuk skrin 4K dan pelbagai monitor"
+   },
+   "recorder_option_experimental_text": {
+      "description": "Performant - WARNING does not work for 4k screens or multiple monitors",
+      "message": "Performant - Amaran tidak berfungsi untuk skrin 4K atau pelbagai monitor"
+   },
+   "recorder_option_normal_text": {
+      "description": "Normal - if you experience performance issues use Performant",
+      "message": "Normal - jika anda mengalami masalah prestasi menggunakan persembahan"
+   },
+   "save_as_screenshot_text": {
+      "description": "Save screenshot as",
+      "message": "Simpan screenshot as."
+   },
+   "save_as_text": {
+      "description": "Save recording as",
+      "message": "Simpan rakaman as."
+   },
+   "seconds_text": {
+      "description": "secs",
+      "message": "secs."
+   },
+   "show_click_indicator_text": {
+      "description": "Show click animation",
+      "message": "Tunjukkan Animasi Klik"
+   },
+   "show_click_indicator_tooltip_text": {
+      "description": "This option draws a circle animation around the click location.",
+      "message": "Pilihan ini menarik animasi bulatan di sekitar lokasi klik."
+   },
+   "show_cursor_text": {
+      "description": "Show dot at cursor location",
+      "message": "Tunjukkan titik di lokasi kursor"
+   },
+   "show_cursor_tooltip_text": {
+      "description": "This option draws a small circle to indicate where the mouse is located.",
+      "message": "Pilihan ini menarik bulatan kecil untuk menunjukkan di mana tetikus terletak."
+   },
+   "unable_to_capture_website_alert": {
+      "description": "Unable to capture this website. Please use full screen/application capture or try capture another website.\n\n(╯°□°）╯︵ ┻━┻",
+      "message": "Tidak dapat menangkap laman web ini. Sila gunakan tangkapan skrin/aplikasi penuh atau cuba menangkap laman web lain. \n\n (╯ ° □ °) ╯︵ ┻━┻"
+   },
+   "width_text": {
+      "description": "Height (px)",
+      "message": "Ketinggian (px)"
+   }
+}

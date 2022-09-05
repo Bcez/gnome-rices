@@ -1,0 +1,48 @@
+.hv-report-icon-wrapper {
+    margin-bottom: 10px;
+    margin-top: 4px;
+    font-size: 14px;
+    flex: 1 1 auto;
+    display: block;
+}
+
+.hv-report-content {
+    flex-direction: row;
+}
+
+.hv-integration-reports {
+    cursor: pointer;
+}
+
+.hv-reports-icon-container {
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    line-height: 20px;
+}
+
+.hv-reports-text {    
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    line-height: 16px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-size: 12px;
+}
+
+.inner-separator {
+    background-color: rgb(221, 221, 221);
+    width: 1px;
+    height: 100%;
+}
+
+.outer-separator {
+    margin: 6px 12px;
+    flex: 0 0 auto;
+    display: block;
+}
+
+.report-icon {
+    margin: 0px 0px 1px 15px;
+}
